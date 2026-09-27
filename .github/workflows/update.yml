@@ -1,5 +1,3 @@
-mkdir -p .github/workflows
-cat > .github/workflows/update.yml << 'EOF'
 name: Update job feed
 
 on:
