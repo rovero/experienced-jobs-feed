@@ -99,6 +99,54 @@ def apply_h1b_tag(job, description_text, known_sponsors):
     return job
 
 
+# --------------------------------------------------------- YOE (years) tagging
+# Also best-effort text parsing — same caveat as H1B: many postings state no
+# number at all, and that's tagged years_min/years_max = null (unknown), not
+# forced into a bucket.
+YOE_RANGE_PATTERNS = [
+    # "3-5 years", "3 to 5 years"
+    (re.compile(r"\b(\d{1,2})\s*(?:-|–|to)\s*(\d{1,2})\s*\+?\s*years?\b"), "range"),
+    # "5+ years"
+    (re.compile(r"\b(\d{1,2})\s*\+\s*years?\b"), "plus"),
+    # "minimum of 5 years", "at least 5 years", "min. 5 years"
+    (re.compile(r"\b(?:minimum(?: of)?|at least|min\.?)\s*(\d{1,2})\s*years?\b"), "plus"),
+    # plain "5 years of experience" / "5 years experience"
+    (re.compile(r"\b(\d{1,2})\s*years?(?:\s*of)?\s*(?:relevant\s*|professional\s*|industry\s*)?experience\b"), "plus"),
+]
+
+
+def extract_years(text):
+    """Returns (min_years, max_years) as ints, or (None, None) if no
+    experience figure was found. A '+' or 'minimum'/'at least' phrasing has
+    no stated upper bound, so max_years stays None for those."""
+    if not text:
+        return None, None
+    t = re.sub("<[^<]+?>", " ", text).lower()
+    for pattern, kind in YOE_RANGE_PATTERNS:
+        m = pattern.search(t)
+        if not m:
+            continue
+        if kind == "range":
+            lo, hi = int(m.group(1)), int(m.group(2))
+            return min(lo, hi), max(lo, hi)
+        else:
+            return int(m.group(1)), None
+    return None, None
+
+
+def apply_years_tag(job, description_text):
+    lo, hi = extract_years(description_text)
+    job["years_min"] = lo
+    job["years_max"] = hi
+    return job
+
+
+def enrich_job(job, description_text, known_sponsors):
+    apply_h1b_tag(job, description_text, known_sponsors)
+    apply_years_tag(job, description_text)
+    return job
+
+
 def h1b_filter(jobs, h1b_cfg):
     mode = (h1b_cfg or {}).get("mode", "off")
     if not (h1b_cfg or {}).get("enabled", False) or mode == "off":
@@ -140,7 +188,7 @@ def fetch_greenhouse(slug, include_kw, exclude_kw, known_sponsors):
                 "source": "Greenhouse",
                 "posted": job.get("updated_at"),
             }
-            apply_h1b_tag(record, job.get("content", ""), known_sponsors)
+            enrich_job(record, job.get("content", ""), known_sponsors)
             out.append(record)
     except requests.RequestException as e:
         print(f"[greenhouse:{slug}] error: {e}", file=sys.stderr)
@@ -174,7 +222,7 @@ def fetch_lever(slug, include_kw, exclude_kw, known_sponsors):
                 "source": "Lever",
                 "posted": job.get("createdAt"),
             }
-            apply_h1b_tag(record, f"{description} {lists_text}", known_sponsors)
+            enrich_job(record, f"{description} {lists_text}", known_sponsors)
             out.append(record)
     except requests.RequestException as e:
         print(f"[lever:{slug}] error: {e}", file=sys.stderr)
@@ -206,7 +254,7 @@ def fetch_ashby(slug, include_kw, exclude_kw, known_sponsors):
                 "source": "Ashby",
                 "posted": job.get("publishedAt"),
             }
-            apply_h1b_tag(record, description, known_sponsors)
+            enrich_job(record, description, known_sponsors)
             out.append(record)
     except requests.RequestException as e:
         print(f"[ashby:{slug}] error: {e}", file=sys.stderr)
@@ -238,7 +286,7 @@ def fetch_remoteok(include_kw, exclude_kw, known_sponsors):
                 "source": "RemoteOK",
                 "posted": job.get("date"),
             }
-            apply_h1b_tag(record, job.get("description", ""), known_sponsors)
+            enrich_job(record, job.get("description", ""), known_sponsors)
             out.append(record)
     except requests.RequestException as e:
         print(f"[remoteok] error: {e}", file=sys.stderr)
@@ -283,7 +331,7 @@ def fetch_hn_whoishiring(include_kw, exclude_kw, known_sponsors):
                 "posted": datetime.fromtimestamp(c.get("created_at_i", 0), tz=timezone.utc).isoformat()
                 if c.get("created_at_i") else None,
             }
-            apply_h1b_tag(record, plain, known_sponsors)
+            enrich_job(record, plain, known_sponsors)
             out.append(record)
     except requests.RequestException as e:
         print(f"[hn] error: {e}", file=sys.stderr)

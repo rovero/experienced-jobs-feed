@@ -1,54 +1,19 @@
-"""Renders README.md from listings.json in the SimplifyJobs New-Grad-Positions
-style: emoji category headers, one markdown table per category, a legend,
-and a last-updated timestamp. GitHub renders these tables responsively
-(they scroll horizontally on narrow/mobile viewports) with no extra CSS."""
-import json
-from datetime import datetime, timezone
-from pathlib import Path
+"""Renders one README.md per feed profile, in the SimplifyJobs
+New-Grad-Positions style: emoji category headers, one markdown table per
+category, a legend, a last-updated timestamp. GitHub renders these tables
+responsively (they scroll horizontally on narrow/mobile viewports) with no
+extra CSS.
 
-ROOT = Path(__file__).resolve().parent.parent
-LISTINGS_PATH = ROOT / "listings.json"
-README_PATH = ROOT / "README.md"
-
-CATEGORIES = [
-    ("💻 Software Engineering", ["software engineer", "swe", "backend", "frontend",
-                                  "full stack", "fullstack", "mobile", "ios", "android"]),
-    ("🤖 Data, AI & Machine Learning", ["machine learning", "ml engineer", "ai engineer",
-                                         "data scientist", "data engineer", "applied scientist",
-                                         "research engineer"]),
-    ("🛠️ Infrastructure, Platform & DevOps", ["infrastructure", "platform engineer", "devops",
-                                                "sre", "site reliability", "security engineer",
-                                                "cloud engineer"]),
-    ("🧭 Engineering Management & Leadership", ["engineering manager", "eng manager",
-                                                  "director of engineering", "vp of engineering",
-                                                  "head of engineering"]),
-]
-OTHER_LABEL = "💼 Other Engineering Roles"
-
-
-def categorize(title):
-    t = title.lower()
-    for label, keywords in CATEGORIES:
-        if any(k in t for k in keywords):
-            return label
-    return OTHER_LABEL
-
-
-def age_str(posted_iso):
-    if not posted_iso:
-        return "—"
-    try:
-        posted = datetime.fromisoformat(posted_iso.replace("Z", "+00:00"))
-    except ValueError:
-        return "—"
-    delta = datetime.now(timezone.utc) - posted
-    days = delta.days
-    if days < 1:
-        return "0d"
-    return f"{days}d"
-
-
-H1B_ICON = {"yes": "🟢", "no": "🔴", "unknown": "❔"}
+The "all experience levels" profile is written to the repo root as before.
+Each configured years-of-experience feed (companies.yaml -> feeds:) gets its
+own README at feeds/<slug>/README.md — GitHub auto-displays a folder's
+README.md when you browse into that folder, so each is a real landing page.
+"""
+from common import (
+    CATEGORIES, OTHER_LABEL, H1B_ICON, ROOT,
+    load_listings, load_feed_config, categorize, age_str,
+    filter_for_profile, output_dir,
+)
 
 
 def build_table(jobs):
@@ -69,53 +34,79 @@ def build_table(jobs):
     return "\n".join(lines)
 
 
-def main():
-    data = json.loads(LISTINGS_PATH.read_text()) if LISTINGS_PATH.exists() else {
-        "generated_at": None, "count": 0, "jobs": []
-    }
-    jobs = data.get("jobs", [])
-
+def render_readme(jobs, profile, all_profiles, generated_at):
     grouped = {}
     for j in jobs:
         grouped.setdefault(categorize(j.get("title", "")), []).append(j)
 
-    generated_at = data.get("generated_at")
+    is_root = not profile["slug"]
+    heading = "Experienced Engineer Job Feed" if is_root else f"Experienced Engineer Job Feed — {profile['label']}"
     ts_display = generated_at or "never — run the workflow"
 
     lines = []
-    lines.append("# Experienced Engineer Job Feed")
+    lines.append(f"# {heading}")
     lines.append("")
     lines.append(
-        "Auto-updated list of open roles for experienced (senior/staff/principal+) "
-        "engineers, pulled directly from public Greenhouse, Lever, and Ashby job-board "
-        "APIs, plus RemoteOK and the Hacker News \"Who is Hiring?\" thread. No email, "
-        "LinkedIn, or Microsoft account access is used anywhere in this pipeline."
+        "Auto-updated list of open roles for experienced engineers, pulled "
+        "directly from public Greenhouse, Lever, and Ashby job-board APIs, "
+        "plus RemoteOK and the Hacker News \"Who is Hiring?\" thread. No "
+        "email, LinkedIn, or Microsoft account access is used anywhere in "
+        "this pipeline."
     )
     lines.append("")
-    lines.append(f"**Last updated:** {ts_display} · **Total open roles:** {data.get('count', 0)}")
+    if not is_root:
+        lines.append(
+            f"Filtered to roles whose stated experience range overlaps "
+            f"**{profile['label']}**"
+            + (" (postings with no stated number are included)." if profile["keep_unknown"]
+               else " (postings with no stated number are excluded from this feed).")
+        )
+        lines.append("")
+        lines.append("[⬅️ Back to all experience levels](../../README.md)")
+        lines.append("")
+    lines.append(f"**Last updated:** {ts_display} · **Open roles in this feed:** {len(jobs)}")
     lines.append("")
     lines.append(
         "🛂 H1B column: 🟢 posting explicitly mentions sponsorship, or the "
         "company is on your known-sponsors list · 🔴 posting explicitly says "
         "no sponsorship · ❔ not stated — this is a best-effort heuristic on "
         "text that companies often don't specify, not a guarantee. See "
-        "`companies.yaml` to tune it, including switching on filtering "
-        "(currently controlled by the `h1b.mode` setting there)."
+        "`companies.yaml` to tune it."
     )
     lines.append("")
+    feed_json_path = "./feed.json" if is_root else "./feed.json"
+    feed_xml_path = "./feed.xml" if is_root else "./feed.xml"
     lines.append(
-        "🤖 **Agents/scripts:** don't scrape this README — read "
-        "[`feed.json`](./feed.json) or [`feed.xml`](./feed.xml) instead. "
-        "See [Consuming this feed](#consuming-this-feed) below."
+        f"🤖 **Agents/scripts:** don't scrape this README — read "
+        f"[`feed.json`]({feed_json_path}) or [`feed.xml`]({feed_xml_path}) "
+        f"instead. See [Consuming this feed](#consuming-this-feed) below."
     )
     lines.append("")
+
+    if is_root:
+        lines.append("## Feeds by years of experience")
+        lines.append("")
+        lines.append(
+            "Each link below is a separate, independently-updated feed "
+            "filtered to that experience band — useful if you want to share "
+            "just one with someone, or point an agent at a specific level."
+        )
+        lines.append("")
+        for p in all_profiles:
+            if not p["slug"]:
+                continue
+            lines.append(f"- **{p['label']}** — [README](./feeds/{p['slug']}/README.md) · "
+                          f"[feed.json](./feeds/{p['slug']}/feed.json) · "
+                          f"[feed.xml](./feeds/{p['slug']}/feed.xml)")
+        lines.append("")
+        lines.append("---")
+        lines.append("")
 
     # Table of contents
     lines.append("## Browse roles by category")
     lines.append("")
     for label, _ in CATEGORIES:
         count = len(grouped.get(label, []))
-        anchor = label.split(" ", 1)[1].lower().replace(" ", "-").replace(",", "").replace("&", "").replace("--", "-")
         lines.append(f"- {label} ({count})")
     other_count = len(grouped.get(OTHER_LABEL, []))
     lines.append(f"- {OTHER_LABEL} ({other_count})")
@@ -123,6 +114,7 @@ def main():
     lines.append("---")
     lines.append("")
 
+    anchor_base = heading.lower().replace(" ", "-").replace("—", "").replace("--", "-")
     for label, _ in CATEGORIES + [(OTHER_LABEL, [])]:
         cat_jobs = grouped.get(label, [])
         lines.append(f"## {label}")
@@ -132,37 +124,54 @@ def main():
         else:
             lines.append("*No open roles matched this category right now.*")
         lines.append("")
-        lines.append("[⬆️ Back to top](#experienced-engineer-job-feed)")
+        lines.append(f"[⬆️ Back to top](#{anchor_base})")
         lines.append("")
 
     lines.append("---")
     lines.append("")
     lines.append("## Consuming this feed")
     lines.append("")
-    lines.append("This repo publishes two machine-readable files, regenerated on every run:")
+    lines.append("This directory publishes two machine-readable files, regenerated on every run:")
     lines.append("")
     lines.append("- `feed.json` — flat JSON array, easiest for a script or agent to parse")
     lines.append("- `feed.xml` — standard RSS 2.0, works with any feed reader")
     lines.append("")
+    rel = "" if is_root else f"feeds/{profile['slug']}/"
     lines.append(
-        "If this repo is public, both are reachable without auth at:\n"
+        "If this repo is public, reachable without auth at:\n"
         "```\n"
-        "https://raw.githubusercontent.com/<your-username>/<your-repo>/main/feed.json\n"
-        "https://raw.githubusercontent.com/<your-username>/<your-repo>/main/feed.xml\n"
+        f"https://raw.githubusercontent.com/<your-username>/<your-repo>/main/{rel}feed.json\n"
+        f"https://raw.githubusercontent.com/<your-username>/<your-repo>/main/{rel}feed.xml\n"
         "```"
     )
     lines.append("")
     lines.append("## Configuring what gets tracked")
     lines.append("")
     lines.append(
-        "Edit [`companies.yaml`](./companies.yaml) — add Greenhouse/Lever/Ashby company "
-        "slugs and tweak the seniority/exclude keyword lists. The next scheduled run "
-        "picks up your changes automatically."
+        "Edit [`companies.yaml`](" + ("./companies.yaml" if is_root else "../../companies.yaml") + ") — "
+        "add Greenhouse/Lever/Ashby company slugs, tweak seniority/exclude "
+        "keywords, adjust the H1B settings, or add/edit years-of-experience "
+        "feeds under `feeds:`. The next scheduled run picks up your changes "
+        "automatically."
     )
     lines.append("")
 
-    README_PATH.write_text("\n".join(lines))
-    print(f"Wrote {README_PATH}")
+    return "\n".join(lines)
+
+
+def main():
+    data = load_listings()
+    all_jobs = data.get("jobs", [])
+    generated_at = data.get("generated_at")
+    profiles = load_feed_config()
+
+    for profile in profiles:
+        jobs = filter_for_profile(all_jobs, profile)
+        content = render_readme(jobs, profile, profiles, generated_at)
+        out_dir = output_dir(profile)
+        readme_path = out_dir / "README.md"
+        readme_path.write_text(content)
+        print(f"Wrote {readme_path} ({len(jobs)} roles)")
 
 
 if __name__ == "__main__":

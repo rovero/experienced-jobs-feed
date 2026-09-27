@@ -1,27 +1,20 @@
-"""Writes feed.json (flat, agent-friendly) and feed.xml (RSS 2.0) from
-listings.json. These are the files an agent or feed reader should consume —
-not the README, which is for humans."""
+"""Writes feed.json (flat, agent-friendly) and feed.xml (RSS 2.0) for every
+feed profile: the unfiltered "all levels" feed at the repo root, plus one
+per configured years-of-experience band under feeds/<slug>/. These are the
+files an agent or feed reader should consume — not the READMEs, which are
+for humans."""
 import json
 from datetime import datetime, timezone
-from pathlib import Path
 from xml.sax.saxutils import escape
 
-ROOT = Path(__file__).resolve().parent.parent
-LISTINGS_PATH = ROOT / "listings.json"
-FEED_JSON_PATH = ROOT / "feed.json"
-FEED_XML_PATH = ROOT / "feed.xml"
+from common import load_listings, load_feed_config, filter_for_profile, output_dir
 
 
-def main():
-    data = json.loads(LISTINGS_PATH.read_text()) if LISTINGS_PATH.exists() else {
-        "generated_at": None, "count": 0, "jobs": []
-    }
-    jobs = data.get("jobs", [])
-
-    # --- feed.json: simple, stable shape for scripts/agents ---
-    FEED_JSON_PATH.write_text(json.dumps({
+def write_feed_json(jobs, generated_at, out_dir):
+    path = out_dir / "feed.json"
+    path.write_text(json.dumps({
         "version": "1.0",
-        "generated_at": data.get("generated_at"),
+        "generated_at": generated_at,
         "count": len(jobs),
         "jobs": [
             {
@@ -32,12 +25,16 @@ def main():
                 "source": j.get("source"),
                 "posted": j.get("posted"),
                 "h1b_sponsor": j.get("h1b_sponsor", "unknown"),
+                "years_min": j.get("years_min"),
+                "years_max": j.get("years_max"),
             }
             for j in jobs
         ],
     }, indent=2))
+    return path
 
-    # --- feed.xml: RSS 2.0 ---
+
+def write_feed_xml(jobs, profile, out_dir):
     now_rfc822 = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S %z")
     items = []
     for j in jobs:
@@ -46,6 +43,13 @@ def main():
         location = escape(j.get("location") or "")
         source = escape(j.get("source") or "")
         h1b = escape(j.get("h1b_sponsor", "unknown"))
+        ymin, ymax = j.get("years_min"), j.get("years_max")
+        if ymin is None and ymax is None:
+            yoe = "unspecified"
+        elif ymax is None:
+            yoe = f"{ymin}+ years"
+        else:
+            yoe = f"{ymin}-{ymax} years"
         pub_date = now_rfc822
         if j.get("posted"):
             try:
@@ -58,14 +62,18 @@ def main():
       <title>{title}</title>
       <link>{link}</link>
       <guid isPermaLink="false">{guid}</guid>
-      <description>{location} · via {source} · h1b_sponsor: {h1b}</description>
+      <description>{location} · via {source} · h1b_sponsor: {h1b} · experience: {yoe}</description>
       <pubDate>{pub_date}</pubDate>
     </item>""")
+
+    channel_title = "Experienced Engineer Job Feed"
+    if profile["slug"]:
+        channel_title += f" — {profile['label']}"
 
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Experienced Engineer Job Feed</title>
+    <title>{escape(channel_title)}</title>
     <link>https://github.com/</link>
     <description>Open roles for experienced engineers, pulled from public job-board APIs.</description>
     <lastBuildDate>{now_rfc822}</lastBuildDate>
@@ -73,8 +81,23 @@ def main():
   </channel>
 </rss>
 """
-    FEED_XML_PATH.write_text(rss)
-    print(f"Wrote {FEED_JSON_PATH} and {FEED_XML_PATH}")
+    path = out_dir / "feed.xml"
+    path.write_text(rss)
+    return path
+
+
+def main():
+    data = load_listings()
+    all_jobs = data.get("jobs", [])
+    generated_at = data.get("generated_at")
+    profiles = load_feed_config()
+
+    for profile in profiles:
+        jobs = filter_for_profile(all_jobs, profile)
+        out_dir = output_dir(profile)
+        json_path = write_feed_json(jobs, generated_at, out_dir)
+        xml_path = write_feed_xml(jobs, profile, out_dir)
+        print(f"Wrote {json_path} and {xml_path} ({len(jobs)} roles)")
 
 
 if __name__ == "__main__":

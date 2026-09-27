@@ -87,3 +87,44 @@ h1b:
     # Add more — match against the "company" field however it shows up
     # (case-insensitive substring match), e.g. from Greenhouse/Lever/Ashby
     # slugs or RemoteOK/HN company names.
+
+# --------------------------------------------------------------------------
+# Years-of-experience feeds
+# --------------------------------------------------------------------------
+# Every job is tagged with years_min/years_max by parsing phrases like
+# "5+ years", "3-5 years of experience", "minimum 8 years" out of the actual
+# posting text. Many postings state no number at all — those are tagged
+# years_min: null, years_max: null (unknown), not forced into a bucket.
+#
+# keep_unknown_years: true  -> unknown-experience postings appear in every
+#                               feed below (recommended default: many good,
+#                               relevant roles just don't state a number)
+# keep_unknown_years: false -> unknown-experience postings are dropped from
+#                               every feed below except "all" at the repo root
+keep_unknown_years: true
+
+# Add/remove/edit freely — one full feed is generated per entry, at
+# feeds/<slug>/README.md, feeds/<slug>/feed.json, feeds/<slug>/feed.xml.
+# max_years: null means "and up" (no upper bound).
+# A job matches a feed if its detected range OVERLAPS [min_years, max_years]
+# at all — e.g. a posting saying "3+ years" overlaps both the 3-5 and 6-9
+# feeds below, since "3+" could mean anything from 3 up.
+# The unfiltered combined feed (every level) is always generated too, at the
+# repo root: README.md, feed.json, feed.xml.
+feeds:
+  - slug: entry
+    label: "0-2 years"
+    min_years: 0
+    max_years: 2
+  - slug: mid
+    label: "3-5 years"
+    min_years: 3
+    max_years: 5
+  - slug: senior
+    label: "6-9 years"
+    min_years: 6
+    max_years: 9
+  - slug: staff-plus
+    label: "10+ years"
+    min_years: 10
+    max_years: null
