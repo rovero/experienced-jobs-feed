@@ -38,7 +38,3 @@ jobs:
           git add listings.json README.md feed.json feed.xml
           git diff --cached --quiet || git commit -m "Update job feed [automated]"
           git push
-EOF
-git add .github
-git commit -m "Add workflow"
-git push
