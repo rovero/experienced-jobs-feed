@@ -1,0 +1,46 @@
+# Add companies whose public job-board API you want polled.
+# No login/API key needed for any of these — they're public endpoints.
+#
+# HOW TO FIND YOUR "slug":
+#   Greenhouse -> visit boards.greenhouse.io/<slug>            (their careers page URL)
+#   Lever      -> visit jobs.lever.co/<slug>
+#   Ashby      -> visit jobs.ashbyhq.com/<slug>
+#
+# Open the company's careers page, check the URL, copy the slug. That's it.
+# The examples below are placeholders — verify each slug still resolves
+# before relying on it (companies migrate ATS providers over time).
+
+greenhouse:
+  - airbnb
+  - doordash
+  - robinhood
+  - coinbase
+
+lever:
+  - notion
+  - netlify
+
+ashby:
+  - ramp
+  - linear
+
+# Free-text keywords used everywhere (HN, RemoteOK, and to tag/categorize
+# roles pulled from the companies above). Edit freely.
+seniority_keywords:
+  - senior
+  - staff
+  - principal
+  - lead
+  - "sr."
+  - "sr "
+  - iv
+  - v
+  - "l5"
+  - "l6"
+
+exclude_keywords:
+  - intern
+  - "new grad"
+  - graduate
+  - junior
+  - entry level
