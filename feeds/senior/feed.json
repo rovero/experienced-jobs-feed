@@ -1,29 +1,8 @@
 {
+  "version": "1.0",
   "generated_at": "2026-09-27T22:06:56.898353+00:00",
-  "count": 661,
+  "count": 575,
   "jobs": [
-    {
-      "company": "SIHO Insurance Services ",
-      "title": "Director Payment Integrity",
-      "location": "SIHO - Columbus, IN",
-      "url": "https://remoteOK.com/remote-jobs/remote-director-payment-integrity-siho-insurance-services-1137434",
-      "source": "RemoteOK",
-      "posted": "2026-09-26T16:00:26+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 3,
-      "years_max": 5
-    },
-    {
-      "company": "Coinbase",
-      "title": "Group Product Manager, Money Movement",
-      "location": "Remote - USA",
-      "url": "https://www.coinbase.com/careers/positions/8234060?gh_jid=8234060",
-      "source": "Greenhouse",
-      "posted": "2026-09-26T13:37:56-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
     {
       "company": "Ramp",
       "title": "Senior Corporate Paralegal",
@@ -125,17 +104,6 @@
     },
     {
       "company": "Robinhood",
-      "title": "Staff Machine Learning Engineer, AI Platform & Agentic Apps",
-      "location": "Menlo Park, CA",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8107212?t=gh_src=&gh_jid=8107212",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T17:47:55-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Robinhood",
       "title": "Fraud Investigator - Customer Protection",
       "location": "Denver, CO; Lake Mary, FL",
       "url": "https://boards.greenhouse.io/robinhood/jobs/8186282?t=gh_src=&gh_jid=8186282",
@@ -143,17 +111,6 @@
       "posted": "2026-09-25T17:03:51-04:00",
       "h1b_sponsor": "unknown",
       "years_min": 2,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Host Communications Strategy Lead",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/8201750?gh_jid=8201750",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T15:59:16-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
       "years_max": null
     },
     {
@@ -334,39 +291,6 @@
     },
     {
       "company": "Robinhood",
-      "title": "Finance & Strategy Senior Analyst",
-      "location": "Menlo Park, CA",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/7456663?t=gh_src=&gh_jid=7456663",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 4,
-      "years_max": 5
-    },
-    {
-      "company": "Robinhood",
-      "title": "Finance & Strategy Senior Analyst",
-      "location": "Chicago, IL; Menlo Park, CA; New York, NY",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8211233?t=gh_src=&gh_jid=8211233",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 4,
-      "years_max": 5
-    },
-    {
-      "company": "Robinhood",
-      "title": "Fraud Investigator",
-      "location": "Chicago, IL; Denver, CO; Westlake, TX",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8214553?t=gh_src=&gh_jid=8214553",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 1,
-      "years_max": 2
-    },
-    {
-      "company": "Robinhood",
       "title": "ICT Risk Oversight Lead",
       "location": "Luxembourg, Luxembourg",
       "url": "https://boards.greenhouse.io/robinhood/jobs/8105960?t=gh_src=&gh_jid=8105960",
@@ -386,17 +310,6 @@
       "h1b_sponsor": "unknown",
       "years_min": 3,
       "years_max": null
-    },
-    {
-      "company": "Robinhood",
-      "title": "Knowledge & Operational Readiness Lead",
-      "location": "Denver, CO; Westlake, TX",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8112333?t=gh_src=&gh_jid=8112333",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 4,
-      "years_max": 5
     },
     {
       "company": "Robinhood",
@@ -518,17 +431,6 @@
       "h1b_sponsor": "unknown",
       "years_min": 5,
       "years_max": null
-    },
-    {
-      "company": "Robinhood",
-      "title": "Senior Data Science Manager, Algorithms",
-      "location": "Menlo Park, CA",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8097597?t=gh_src=&gh_jid=8097597",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 3,
-      "years_max": 4
     },
     {
       "company": "Robinhood",
@@ -829,17 +731,6 @@
     },
     {
       "company": "Robinhood",
-      "title": "Senior Staff Software Developer, Developer Infrastructure",
-      "location": "Toronto, Canada",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8189869?t=gh_src=&gh_jid=8189869",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Robinhood",
       "title": "Senior Staff Software Engineer, Core Infrastructure",
       "location": "Bellevue, WA",
       "url": "https://boards.greenhouse.io/robinhood/jobs/8147341?t=gh_src=&gh_jid=8147341",
@@ -862,17 +753,6 @@
     },
     {
       "company": "Robinhood",
-      "title": "Senior Staff Software Engineer, Developer Infrastructure",
-      "location": "Menlo Park, CA; New York, NY",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8189867?t=gh_src=&gh_jid=8189867",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Robinhood",
       "title": "Senior Staff Software Security Engineer",
       "location": "Bellevue, WA; Menlo Park, CA",
       "url": "https://boards.greenhouse.io/robinhood/jobs/8167616?t=gh_src=&gh_jid=8167616",
@@ -881,17 +761,6 @@
       "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
-    },
-    {
-      "company": "Robinhood",
-      "title": "Senior Tax Operations Analyst",
-      "location": "Menlo Park, CA; New York, NY",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8048650?t=gh_src=&gh_jid=8048650",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 3,
-      "years_max": 5
     },
     {
       "company": "Robinhood",
@@ -957,17 +826,6 @@
       "posted": "2026-09-25T13:03:21-04:00",
       "h1b_sponsor": "unknown",
       "years_min": 7,
-      "years_max": null
-    },
-    {
-      "company": "Robinhood",
-      "title": "Staff Machine Learning Engineer, AI R&D",
-      "location": "Bellevue, WA; Menlo Park, CA",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8082579?t=gh_src=&gh_jid=8082579",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 10,
       "years_max": null
     },
     {
@@ -1071,17 +929,6 @@
     },
     {
       "company": "Robinhood",
-      "title": "Staff Software Engineer, Event Contracts",
-      "location": "Menlo Park, CA; New York, NY",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8167194?t=gh_src=&gh_jid=8167194",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Robinhood",
       "title": "Staff Software Engineer, Observability ",
       "location": "Menlo Park, CA",
       "url": "https://boards.greenhouse.io/robinhood/jobs/7489707?t=gh_src=&gh_jid=7489707",
@@ -1104,28 +951,6 @@
     },
     {
       "company": "Robinhood",
-      "title": "Staff Software Engineer, Web3",
-      "location": "Toronto, Canada",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&gh_jid=7489952",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Robinhood",
-      "title": "Staff Software Engineer, Web3",
-      "location": "Menlo Park, CA; New York, NY",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&gh_jid=7489950",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T13:03:21-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Robinhood",
       "title": "Staff Web Engineer, Legend",
       "location": "Menlo Park, CA; New York, NY",
       "url": "https://boards.greenhouse.io/robinhood/jobs/8003233?t=gh_src=&gh_jid=8003233",
@@ -1144,17 +969,6 @@
       "posted": "2026-09-25T12:11:39-04:00",
       "h1b_sponsor": "yes",
       "years_min": 2,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Host Development Lead, Incentives",
-      "location": "United States ",
-      "url": "https://careers.airbnb.com/positions/8142636?gh_jid=8142636",
-      "source": "Greenhouse",
-      "posted": "2026-09-25T11:55:50-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
       "years_max": null
     },
     {
@@ -1258,28 +1072,6 @@
     },
     {
       "company": "Airbnb",
-      "title": "Business Operations and Growth Lead",
-      "location": "Sydney, Australia",
-      "url": "https://careers.airbnb.com/positions/7999656?gh_jid=7999656",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Community Engagement Lead, Spain and Portugal",
-      "location": "Barcelona, Spain",
-      "url": "https://careers.airbnb.com/positions/7982715?gh_jid=7982715",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
       "title": "Customer Service Partner Operations Manager, Mandarin Speaking (Manila Based) ",
       "location": "Manila, Philippines",
       "url": "https://careers.airbnb.com/positions/8172735?gh_jid=8172735",
@@ -1331,17 +1123,6 @@
       "posted": "2026-09-24T18:49:00-04:00",
       "h1b_sponsor": "yes",
       "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Growth Marketing Lead, Japan ",
-      "location": "Tokyo, Japan",
-      "url": "https://careers.airbnb.com/positions/7590542?gh_jid=7590542",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
       "years_max": null
     },
     {
@@ -1423,28 +1204,6 @@
     },
     {
       "company": "Airbnb",
-      "title": "Lead Platform Manager, Tech Foundations",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/8211765?gh_jid=8211765",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Manager, Quality, AirCover",
-      "location": "Canada",
-      "url": "https://careers.airbnb.com/positions/8114339?gh_jid=8114339",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
       "title": "Market Manager - Vacation Rental",
       "location": "Tokyo, Japan",
       "url": "https://careers.airbnb.com/positions/8000413?gh_jid=8000413",
@@ -1453,61 +1212,6 @@
       "h1b_sponsor": "yes",
       "years_min": 6,
       "years_max": 8
-    },
-    {
-      "company": "Airbnb",
-      "title": "Principal Machine Learning Engineer- LLM Fine-tuning and Optimization ",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/7955579?gh_jid=7955579",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Principal, Strategic Finance & Analytics, Acquisition",
-      "location": "United States ",
-      "url": "https://careers.airbnb.com/positions/8209984?gh_jid=8209984",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Product Manager, Services",
-      "location": "San Francisco, CA, Seattle WA, New York, NY",
-      "url": "https://careers.airbnb.com/positions/8081925?gh_jid=8081925",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Programs and Business Operations Lead",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/8028783?gh_jid=8028783",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Sales Operations Lead",
-      "location": "United States ",
-      "url": "https://careers.airbnb.com/positions/8155005?gh_jid=8155005",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
     },
     {
       "company": "Airbnb",
@@ -1566,28 +1270,6 @@
     },
     {
       "company": "Airbnb",
-      "title": "Senior Compensation Partner, Technology",
-      "location": "San Francisco, United States",
-      "url": "https://careers.airbnb.com/positions/8201136?gh_jid=8201136",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Connectivity Partner Manager, Bangkok (SEA/IN)",
-      "location": "Bangkok, Thailand",
-      "url": "https://careers.airbnb.com/positions/8141377?gh_jid=8141377",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
       "title": "Senior Data Scientist - Payments (Inference)",
       "location": "Remote - USA",
       "url": "https://careers.airbnb.com/positions/8123037?gh_jid=8123037",
@@ -1595,28 +1277,6 @@
       "posted": "2026-09-24T18:49:00-04:00",
       "h1b_sponsor": "yes",
       "years_min": 5,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Demand Strategy Lead, Experiences",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/8196013?gh_jid=8196013",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Engineering Manager, Media Foundation",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/7968034?gh_jid=7968034",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
       "years_max": null
     },
     {
@@ -1687,61 +1347,6 @@
     },
     {
       "company": "Airbnb",
-      "title": "Senior Manager, Field Operations",
-      "location": "Mexico City, Mexico",
-      "url": "https://careers.airbnb.com/positions/8044801?gh_jid=8044801",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 14,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Manager, Machine Learning Engineering - Communication & Connectivity",
-      "location": "Remote - US",
-      "url": "https://careers.airbnb.com/positions/8070121?gh_jid=8070121",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Manager, Platform Management (Payments)",
-      "location": "United States ",
-      "url": "https://careers.airbnb.com/positions/8175521?gh_jid=8175521",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Manager, Quality, Specialty",
-      "location": "United States ",
-      "url": "https://careers.airbnb.com/positions/8114342?gh_jid=8114342",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Manager, Technical Program Management (Search & AI Foundations)",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/8077683?gh_jid=8077683",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 13,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
       "title": "Senior Market Manager",
       "location": "Sao Paulo, Brazil",
       "url": "https://careers.airbnb.com/positions/8138055?gh_jid=8138055",
@@ -1771,28 +1376,6 @@
       "posted": "2026-09-24T18:49:00-04:00",
       "h1b_sponsor": "yes",
       "years_min": 7,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Market Manager, Vietnamese Speaking (Bangkok Based) ",
-      "location": "Vietnam",
-      "url": "https://careers.airbnb.com/positions/8167204?gh_jid=8167204",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Market Manager, Vietnamese Speaking (Bangkok Based) ",
-      "location": "Bangkok, Thailand",
-      "url": "https://careers.airbnb.com/positions/8141266?gh_jid=8141266",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
       "years_max": null
     },
     {
@@ -1830,17 +1413,6 @@
     },
     {
       "company": "Airbnb",
-      "title": "Senior Principal, Competitive Intelligence",
-      "location": "United States ",
-      "url": "https://careers.airbnb.com/positions/8053756?gh_jid=8053756",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
       "title": "Senior Product Manager, Community Support Experience ",
       "location": "Remote USA ",
       "url": "https://careers.airbnb.com/positions/8186787?gh_jid=8186787",
@@ -1848,28 +1420,6 @@
       "posted": "2026-09-24T18:49:00-04:00",
       "h1b_sponsor": "yes",
       "years_min": 5,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Product Program Manager, Roadmap Planning & Program Management ",
-      "location": "San Francisco, United States ",
-      "url": "https://careers.airbnb.com/positions/8094462?gh_jid=8094462",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 13,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Programs & Business Operations Lead",
-      "location": "United States ",
-      "url": "https://careers.airbnb.com/positions/8163221?gh_jid=8163221",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
       "years_max": null
     },
     {
@@ -1940,28 +1490,6 @@
     },
     {
       "company": "Airbnb",
-      "title": "Senior Staff Data Engineer - Data Stewardship",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/7998356?gh_jid=7998356",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Staff Data Engineer, Foundational Data",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/8224032?gh_jid=8224032",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
       "title": "Senior Staff Data Scientist, Guest & Host Marketplace AI",
       "location": "Remote",
       "url": "https://careers.airbnb.com/positions/7107054?gh_jid=7107054",
@@ -1969,116 +1497,6 @@
       "posted": "2026-09-24T18:49:00-04:00",
       "h1b_sponsor": "yes",
       "years_min": 9,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Staff Machine Learning Engineer, Data & Eval",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/6757302?gh_jid=6757302",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Staff Machine Learning Engineer, Growth Platform Engineering",
-      "location": "Remote - USA",
-      "url": "https://careers.airbnb.com/positions/7747259?gh_jid=7747259",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Staff Machine Learning Engineer, Guest & Host",
-      "location": "Remote - USA",
-      "url": "https://careers.airbnb.com/positions/7005605?gh_jid=7005605",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Staff Machine Learning Engineer, Post Training",
-      "location": "Remote - USA",
-      "url": "https://careers.airbnb.com/positions/7858738?gh_jid=7858738",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Staff Machine Learning Engineer, Trust",
-      "location": "Remote - USA",
-      "url": "https://careers.airbnb.com/positions/7592146?gh_jid=7592146",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 2,
-      "years_max": 3
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Staff Software Engineer, Guest & Host",
-      "location": "Remote - USA",
-      "url": "https://careers.airbnb.com/positions/8017277?gh_jid=8017277",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Staff Software Engineer, Host Pricing & Settings",
-      "location": "Remote - USA",
-      "url": "https://careers.airbnb.com/positions/8039723?gh_jid=8039723",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Staff Software Engineer, Payments",
-      "location": "Remote - Bangalore, India",
-      "url": "https://careers.airbnb.com/positions/7525479?gh_jid=7525479",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 15,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Staff Software Engineer, Tech Foundations",
-      "location": "Remote",
-      "url": "https://careers.airbnb.com/positions/8187190?gh_jid=8187190",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Senior Staff Software Engineer, Trust",
-      "location": "Remote - US",
-      "url": "https://careers.airbnb.com/positions/7818982?gh_jid=7818982",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
       "years_max": null
     },
     {
@@ -2112,39 +1530,6 @@
       "posted": "2026-09-24T18:49:00-04:00",
       "h1b_sponsor": "yes",
       "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Sr Social Measurement Lead",
-      "location": "San Francisco, CA",
-      "url": "https://careers.airbnb.com/positions/8042783?gh_jid=8042783",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 15,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Staff Advanced Analytics, Community Blueprint & Quality",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/8207095?gh_jid=8207095",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Staff Advanced Analytics, Guest Product",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/7943874?gh_jid=7943874",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
       "years_max": null
     },
     {
@@ -2204,39 +1589,6 @@
     },
     {
       "company": "Airbnb",
-      "title": "Staff Platform Manager - GTM & Ops Tooling",
-      "location": "United States ",
-      "url": "https://careers.airbnb.com/positions/8163100?gh_jid=8163100",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Staff Platform Manager, Payments Regional Growth",
-      "location": "Mexico",
-      "url": "https://careers.airbnb.com/positions/8120721?gh_jid=8120721",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Staff Platform Manager, Payments Regional Growth",
-      "location": "Brazil",
-      "url": "https://careers.airbnb.com/positions/8120611?gh_jid=8120611",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
       "title": "Staff Software Engineer, Assistance Engineering",
       "location": "Remote - USA",
       "url": "https://careers.airbnb.com/positions/7463421?gh_jid=7463421",
@@ -2255,17 +1607,6 @@
       "posted": "2026-09-24T18:49:00-04:00",
       "h1b_sponsor": "yes",
       "years_min": 9,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Staff Software Engineer, Data Warehouse",
-      "location": "USA",
-      "url": "https://careers.airbnb.com/positions/8197715?gh_jid=8197715",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
       "years_max": null
     },
     {
@@ -2314,17 +1655,6 @@
     },
     {
       "company": "Airbnb",
-      "title": "Staff UX Researcher, Payments Growth (Mixed Methods)",
-      "location": "United States",
-      "url": "https://careers.airbnb.com/positions/8113284?gh_jid=8113284",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Airbnb",
       "title": "Staff Workday Integration Engineer, Tech Foundations",
       "location": "United States",
       "url": "https://careers.airbnb.com/positions/8202878?gh_jid=8202878",
@@ -2336,17 +1666,6 @@
     },
     {
       "company": "Airbnb",
-      "title": "Strategic Partnerships Lead, Central and Eastern Europe",
-      "location": "Berlin, Germany",
-      "url": "https://careers.airbnb.com/positions/7641058?gh_jid=7641058",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": 12
-    },
-    {
-      "company": "Airbnb",
       "title": "Superviseur (-e), Soutien Premium Bilingue (fran\u00e7ais/anglais)",
       "location": "Canada",
       "url": "https://careers.airbnb.com/positions/8080626?gh_jid=8080626",
@@ -2355,17 +1674,6 @@
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
-    },
-    {
-      "company": "Airbnb",
-      "title": "Supervisor, Aircover",
-      "location": "Gurugram, India",
-      "url": "https://careers.airbnb.com/positions/8194590?gh_jid=8194590",
-      "source": "Greenhouse",
-      "posted": "2026-09-24T18:49:00-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 2,
-      "years_max": 3
     },
     {
       "company": "Airbnb",
@@ -2566,17 +1874,6 @@
       "years_max": null
     },
     {
-      "company": "Coinbase",
-      "title": "Senior Engineering Manager, Core AI Automation (Platform)",
-      "location": "Remote - USA",
-      "url": "https://www.coinbase.com/careers/positions/8124224?gh_jid=8124224",
-      "source": "Greenhouse",
-      "posted": "2026-09-22T01:00:15-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
       "company": "Magic Eden",
       "title": "Senior Growth Product Manager AI Native",
       "location": "Melbourne",
@@ -2698,17 +1995,6 @@
       "years_max": null
     },
     {
-      "company": "Delinea",
-      "title": "VP Pricing & Packaging",
-      "location": "Redwood City",
-      "url": "https://remoteOK.com/remote-jobs/remote-vp-pricing-packaging-delinea-1137407",
-      "source": "RemoteOK",
-      "posted": "2026-09-19T00:00:16+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
       "company": "JumpCloud",
       "title": "Customer Success Manager Mexico",
       "location": "Mexico City, Mexico - Remote",
@@ -2761,28 +2047,6 @@
       "posted": "2026-09-18T12:58:32.954+00:00",
       "h1b_sponsor": "unknown",
       "years_min": 2,
-      "years_max": null
-    },
-    {
-      "company": "Coinbase",
-      "title": "Group Product Manager, Developer Infrastructure",
-      "location": "Remote - USA",
-      "url": "https://www.coinbase.com/careers/positions/8017607?gh_jid=8017607",
-      "source": "Greenhouse",
-      "posted": "2026-09-18T03:04:01-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Developer Infrastructure (Test Infrastructure)",
-      "location": "Remote - USA",
-      "url": "https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410",
-      "source": "Greenhouse",
-      "posted": "2026-09-18T03:03:57-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
       "years_max": null
     },
     {
@@ -2937,17 +2201,6 @@
       "posted": "2026-09-15T12:09:09+00:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Coinbase",
-      "title": "Senior Staff Software Engineer, Institutional Exchange",
-      "location": "Remote - USA",
-      "url": "https://www.coinbase.com/careers/positions/8179210?gh_jid=8179210",
-      "source": "Greenhouse",
-      "posted": "2026-09-15T00:18:16-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
       "years_max": null
     },
     {
@@ -3260,17 +2513,6 @@
     },
     {
       "company": "Coinbase",
-      "title": "Senior Staff Software Engineer, Platform - IAM",
-      "location": "Remote - USA",
-      "url": "https://www.coinbase.com/careers/positions/8155366?gh_jid=8155366",
-      "source": "Greenhouse",
-      "posted": "2026-09-09T20:23:49-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Coinbase",
       "title": "Senior Software Engineer, Core Infra Systems",
       "location": "Remote - USA",
       "url": "https://www.coinbase.com/careers/positions/8172100?gh_jid=8172100",
@@ -3411,17 +2653,6 @@
       "h1b_sponsor": "unknown",
       "years_min": 5,
       "years_max": null
-    },
-    {
-      "company": "Libertex Group",
-      "title": "Business Development Manager",
-      "location": "\u00d9\u0085\u00d8\u00b3\u00d9\u0082\u00d8\u00b7, \u00d9\u0085\u00d8\u00b3\u00d9\u0082\u00d8\u00b7 \u00d9\u0085\u00d8\u00b3\u00d9\u0082\u00d8\u00b7 \u00d8\u00b9\u00d9\u0085\u00d8\u00a7\u00d9\u0086",
-      "url": "https://remoteOK.com/remote-jobs/remote-business-development-manager-libertex-group-1137373",
-      "source": "RemoteOK",
-      "posted": "2026-09-08T14:57:50+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 3,
-      "years_max": 5
     },
     {
       "company": "Ramp",
@@ -3700,17 +2931,6 @@
     },
     {
       "company": "See posting",
-      "title": "AiMi | Full Stack AI Engineer | Remote(Everywhere) | Full-time AiMi builds agentic AI infrastructure for capital markets: autonomous agents ",
-      "location": "See posting",
-      "url": "https://news.ycombinator.com/item?id=49552714",
-      "source": "HN Who's Hiring",
-      "posted": "2026-09-03T16:29:17+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 2,
-      "years_max": 3
-    },
-    {
-      "company": "See posting",
       "title": "Confido Legal | Sr. Engineer | REMOTE (US only) | Full-time | $175k\u2013$225k base Confido Legal builds payments infrastructure for the legal in",
       "location": "See posting",
       "url": "https://news.ycombinator.com/item?id=49552564",
@@ -3854,17 +3074,6 @@
     },
     {
       "company": "See posting",
-      "title": "Tecuity | Senior Software Engineer I | Hyde Park, UT (ONSITE preferred; will consider candidates who can commute in 1-2x&#x2F;month) | Full-",
-      "location": "See posting",
-      "url": "https://news.ycombinator.com/item?id=49543040",
-      "source": "HN Who's Hiring",
-      "posted": "2026-09-02T21:49:56+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 20,
-      "years_max": null
-    },
-    {
-      "company": "See posting",
       "title": "Foray Bioscience | Software Engineer, Data &amp; ML | On-Site (Cambridge, MA) | Full Time | $105,000\u2013$130,000 + equity Company:",
       "location": "See posting",
       "url": "https://news.ycombinator.com/item?id=49542805",
@@ -3894,17 +3103,6 @@
       "posted": "2026-09-02T19:44:36+00:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "See posting",
-      "title": "VLM Run ( https:&#x2F;&#x2F;vlm.run ) | 1x Founding Infrastructure Engineer We\u2019re building the inference platform for visual intelligence. W",
-      "location": "See posting",
-      "url": "https://news.ycombinator.com/item?id=49541233",
-      "source": "HN Who's Hiring",
-      "posted": "2026-09-02T19:33:22+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 20,
       "years_max": null
     },
     {
@@ -4609,17 +3807,6 @@
       "posted": "2026-09-01T20:04:13+00:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "See posting",
-      "title": "AREO | Remote (EU) &#x2F; on-site in Bremen, Germany | Full-Time | Equity | Roles: [Engineering Manager (Ruby on Rails), Lead Product Engine",
-      "location": "See posting",
-      "url": "https://news.ycombinator.com/item?id=49527344",
-      "source": "HN Who's Hiring",
-      "posted": "2026-09-01T20:03:19+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 20,
       "years_max": null
     },
     {
@@ -5636,28 +4823,6 @@
     },
     {
       "company": "Coinbase",
-      "title": "Senior Staff Software Engineer, Payments",
-      "location": "Remote - Canada",
-      "url": "https://www.coinbase.com/careers/positions/8060842?gh_jid=8060842",
-      "source": "Greenhouse",
-      "posted": "2026-09-01T11:04:52-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Coinbase",
-      "title": "Senior Staff Software Engineer, Payments",
-      "location": "Remote - USA",
-      "url": "https://www.coinbase.com/careers/positions/8056068?gh_jid=8056068",
-      "source": "Greenhouse",
-      "posted": "2026-09-01T11:04:01-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 10,
-      "years_max": null
-    },
-    {
-      "company": "Coinbase",
       "title": "Senior Software Engineer",
       "location": "Remote - USA",
       "url": "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647",
@@ -5877,17 +5042,6 @@
       "years_max": null
     },
     {
-      "company": "Orca Bio",
-      "title": "Senior Specialist Global QMS",
-      "location": "Remote",
-      "url": "https://remoteOK.com/remote-jobs/remote-senior-specialist-global-qms-orca-bio-1137072",
-      "source": "RemoteOK",
-      "posted": "2026-08-22T16:00:15+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 2,
-      "years_max": 3
-    },
-    {
       "company": "Kruger NearShore LLC - Rekluti",
       "title": "DESARROLLADOR FULL STACK",
       "location": "Remote",
@@ -6031,17 +5185,6 @@
       "years_max": null
     },
     {
-      "company": "Ramp",
-      "title": "Product Operations | AI Revenue Systems",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/4e9886c1-134b-4cc7-9bcf-eb56bd0ca71f",
-      "source": "Ashby",
-      "posted": "2026-08-17T17:52:22.860+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 1,
-      "years_max": 3
-    },
-    {
       "company": "Legal Services NYC",
       "title": "Hotline Paralegal",
       "location": "LSNYC Central Office",
@@ -6083,17 +5226,6 @@
       "posted": "2026-08-16T00:00:23+00:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "FreedomPay",
-      "title": "Strategic Account Executive Lodging",
-      "location": "Select USA Remote Locations",
-      "url": "https://remoteOK.com/remote-jobs/remote-strategic-account-executive-lodging-freedompay-1136797",
-      "source": "RemoteOK",
-      "posted": "2026-08-16T00:00:16+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 10,
       "years_max": null
     },
     {
@@ -6383,17 +5515,6 @@
       "years_max": null
     },
     {
-      "company": "Ramp",
-      "title": "Commercial Account Executive, Canada",
-      "location": "Toronto, ON",
-      "url": "https://jobs.ashbyhq.com/ramp/3f94674f-6af8-4e10-9631-77b1b0a410bf",
-      "source": "Ashby",
-      "posted": "2026-08-06T16:05:16.694+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 1,
-      "years_max": 2
-    },
-    {
       "company": "Coinbase",
       "title": "Senior Manager Product Operations, FCM Ops",
       "location": "Remote - USA",
@@ -6425,17 +5546,6 @@
       "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
-    },
-    {
-      "company": "testacy",
-      "title": "Why do you want this new job",
-      "location": "Posts, ",
-      "url": "https://remoteOK.com/remote-jobs/remote-why-do-you-want-this-new-job-testacy-1136168",
-      "source": "RemoteOK",
-      "posted": "2026-08-05T11:38:20+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 2,
-      "years_max": 4
     },
     {
       "company": "Sophie's Flats Inc.",
@@ -6725,17 +5835,6 @@
     },
     {
       "company": "Coinbase",
-      "title": "Supervisor, Customer Success Team",
-      "location": "Remote - Cyprus",
-      "url": "https://www.coinbase.com/careers/positions/8082829?gh_jid=8082829",
-      "source": "Greenhouse",
-      "posted": "2026-07-24T14:49:43-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 1,
-      "years_max": 2
-    },
-    {
-      "company": "Coinbase",
       "title": "Strategic Program Lead",
       "location": "Remote - USA",
       "url": "https://www.coinbase.com/careers/positions/8083758?gh_jid=8083758",
@@ -6802,28 +5901,6 @@
     },
     {
       "company": "Coinbase",
-      "title": "Senior Staff Software Engineer - Blockchain Platform",
-      "location": "Remote - USA",
-      "url": "https://www.coinbase.com/careers/positions/7366208?gh_jid=7366208",
-      "source": "Greenhouse",
-      "posted": "2026-07-15T16:18:54-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Coinbase",
-      "title": "Senior Staff Software Engineer, Core Automation",
-      "location": "Remote - USA",
-      "url": "https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292",
-      "source": "Greenhouse",
-      "posted": "2026-07-15T16:18:51-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
-    },
-    {
-      "company": "Coinbase",
       "title": "Concierge Specialist IV",
       "location": "Hybrid - London, UK",
       "url": "https://www.coinbase.com/careers/positions/8031308?gh_jid=8031308",
@@ -6843,17 +5920,6 @@
       "h1b_sponsor": "yes",
       "years_min": 4,
       "years_max": null
-    },
-    {
-      "company": "Coinbase",
-      "title": "SAM Compliance Lead Analyst",
-      "location": "Hybrid - Luxembourg",
-      "url": "https://www.coinbase.com/careers/positions/8052192?gh_jid=8052192",
-      "source": "Greenhouse",
-      "posted": "2026-07-08T16:08:39-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 3,
-      "years_max": 5
     },
     {
       "company": "Ramp",
@@ -6953,17 +6019,6 @@
       "h1b_sponsor": "unknown",
       "years_min": 8,
       "years_max": 10
-    },
-    {
-      "company": "Coinbase",
-      "title": "Senior Staff Software Engineer, Data Platform",
-      "location": "Remote - USA",
-      "url": "https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287",
-      "source": "Greenhouse",
-      "posted": "2026-06-23T19:49:36-04:00",
-      "h1b_sponsor": "yes",
-      "years_min": 12,
-      "years_max": null
     },
     {
       "company": "Coinbase",

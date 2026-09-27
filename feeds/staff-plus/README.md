@@ -1,31 +1,24 @@
-# Experienced Engineer Job Feed
+# Experienced Engineer Job Feed — 10+ years
 
 Auto-updated list of open roles for experienced engineers, pulled directly from public Greenhouse, Lever, and Ashby job-board APIs, plus RemoteOK and the Hacker News "Who is Hiring?" thread. No email, LinkedIn, or Microsoft account access is used anywhere in this pipeline.
 
-**Last updated:** 2026-09-27T22:06:56.898353+00:00 · **Open roles in this feed:** 661
+Filtered to roles whose stated experience range overlaps **10+ years** (postings with no stated number are included).
+
+[⬅️ Back to all experience levels](../../README.md)
+
+**Last updated:** 2026-09-27T22:06:56.898353+00:00 · **Open roles in this feed:** 637
 
 🛂 H1B column: 🟢 posting explicitly mentions sponsorship, or the company is on your known-sponsors list · 🔴 posting explicitly says no sponsorship · ❔ not stated — this is a best-effort heuristic on text that companies often don't specify, not a guarantee. See `companies.yaml` to tune it.
 
 🤖 **Agents/scripts:** don't scrape this README — read [`feed.json`](./feed.json) or [`feed.xml`](./feed.xml) instead. See [Consuming this feed](#consuming-this-feed) below.
 
-## Feeds by years of experience
-
-Each link below is a separate, independently-updated feed filtered to that experience band — useful if you want to share just one with someone, or point an agent at a specific level.
-
-- **0-2 years** — [README](./feeds/entry/README.md) · [feed.json](./feeds/entry/feed.json) · [feed.xml](./feeds/entry/feed.xml)
-- **3-5 years** — [README](./feeds/mid/README.md) · [feed.json](./feeds/mid/feed.json) · [feed.xml](./feeds/mid/feed.xml)
-- **6-9 years** — [README](./feeds/senior/README.md) · [feed.json](./feeds/senior/feed.json) · [feed.xml](./feeds/senior/feed.xml)
-- **10+ years** — [README](./feeds/staff-plus/README.md) · [feed.json](./feeds/staff-plus/feed.json) · [feed.xml](./feeds/staff-plus/feed.xml)
-
----
-
 ## Browse roles by category
 
-- 💻 Software Engineering (174)
-- 🤖 Data, AI & Machine Learning (48)
+- 💻 Software Engineering (173)
+- 🤖 Data, AI & Machine Learning (46)
 - 🛠️ Infrastructure, Platform & DevOps (32)
 - 🧭 Engineering Management & Leadership (7)
-- 💼 Other Engineering Roles (400)
+- 💼 Other Engineering Roles (379)
 
 ---
 
@@ -122,7 +115,6 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | See posting | [Akkio - Senior Software Engineers — FDE, Full-Stack, Backend - US (Fully Remote) - Full-time - $160k–$240k + equity -  https:&#x2F;&#x2F;www](https://news.ycombinator.com/item?id=49554223) | See posting | ❔ | HN Who's Hiring | 24d |
 | See posting | [Tandem Health - Engineers, PMs, Designers - On-site in Stockholm, Sweden - Full time At Tandem Health we&#x27;re building a clinician copilo](https://news.ycombinator.com/item?id=49553901) | See posting | ❔ | HN Who's Hiring | 24d |
 | See posting | [Natera - L3 Software Engineer - Full-Time - Remote, USA - 140 - 160k USD - Genomics Tech -  https:&#x2F;&#x2F;natera.com  Natera, the leader](https://news.ycombinator.com/item?id=49553119) | See posting | ❔ | HN Who's Hiring | 24d |
-| See posting | [AiMi - Full Stack AI Engineer - Remote(Everywhere) - Full-time AiMi builds agentic AI infrastructure for capital markets: autonomous agents ](https://news.ycombinator.com/item?id=49552714) | See posting | ❔ | HN Who's Hiring | 24d |
 | See posting | [Hiring: Senior Software Engineers (LATAM&#x2F;US&#x2F;Canada-based) I’m working with a well-established technology company that’s growing it](https://news.ycombinator.com/item?id=49550509) | See posting | ❔ | HN Who's Hiring | 24d |
 | See posting | [lovable - stockholm, london (in-person) - full-stack, frontend, backend, infra design, and ai research we sponsor visas and have very genero](https://news.ycombinator.com/item?id=49546936) | See posting | 🟢 | HN Who's Hiring | 24d |
 | See posting | [Prophet Town LLC - Various Software Engineering Roles - US – Remote and Hybrid - English fluency required - Full-time - $140K-$264K annual t](https://news.ycombinator.com/item?id=49546647) | See posting | ❔ | HN Who's Hiring | 24d |
@@ -208,7 +200,7 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Linear | [Senior / Staff Fullstack Engineer](https://jobs.ashbyhq.com/linear/cd5ae036-0223-427a-b038-ba16ef9dcb32) | North America | ❔ | Ashby | 1866d |
 | Linear | [Senior / Staff Fullstack Engineer](https://jobs.ashbyhq.com/linear/d3bc1ced-3ce4-4086-a050-555055dbb1ff) | Europe | ❔ | Ashby | 1979d |
 
-[⬆️ Back to top](#experienced-engineer-job-feed)
+[⬆️ Back to top](#experienced-engineer-job-feed-10+-years)
 
 ## 🤖 Data, AI & Machine Learning
 
@@ -235,7 +227,6 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Airbnb | [Senior Staff Machine Learning Engineer, Growth Platform Engineering](https://careers.airbnb.com/positions/7747259?gh_jid=7747259) | Remote - USA | 🟢 | Greenhouse | 2d |
 | Airbnb | [Senior Staff Machine Learning Engineer, Guest & Host](https://careers.airbnb.com/positions/7005605?gh_jid=7005605) | Remote - USA | 🟢 | Greenhouse | 2d |
 | Airbnb | [Senior Staff Machine Learning Engineer, Post Training](https://careers.airbnb.com/positions/7858738?gh_jid=7858738) | Remote - USA | 🟢 | Greenhouse | 2d |
-| Airbnb | [Senior Staff Machine Learning Engineer, Trust](https://careers.airbnb.com/positions/7592146?gh_jid=7592146) | Remote - USA | 🟢 | Greenhouse | 2d |
 | Airbnb | [Staff Machine Learning Engineer, Assistance Engineering](https://careers.airbnb.com/positions/8024316?gh_jid=8024316) | San Francisco, CA | 🟢 | Greenhouse | 2d |
 | Airbnb | [Staff Machine Learning Engineer, Traffic Intelligence](https://careers.airbnb.com/positions/8129371?gh_jid=8129371) | United States | 🟢 | Greenhouse | 2d |
 | Coinbase | [Senior Machine Learning Platform Engineer](https://www.coinbase.com/careers/positions/8211490?gh_jid=8211490) | Remote - USA | 🟢 | Greenhouse | 6d |
@@ -250,7 +241,6 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Coinbase | [Senior Data Scientist, CX Analytics](https://www.coinbase.com/careers/positions/8009392?gh_jid=8009392) | Remote - USA | 🟢 | Greenhouse | 24d |
 | See posting | [cloro - Founding Engineer, Data Scientist, Founding Operations, Founding Marketer - REMOTE (EU timezones) - Full-time -  https:&#x2F;&#x2F;c](https://news.ycombinator.com/item?id=49532259) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [ML6 - Senior AI Engineer - Python, TensorFlow, PyTorch, GCP, AWS, Azure - Full-time - Amsterdam, Berlin, Munich, Eindhoven, Ghent (EU) On-si](https://news.ycombinator.com/item?id=49527283) | See posting | ❔ | HN Who's Hiring | 26d |
-| See posting | [Pathos AI - Senior Software&#x2F;AI Engineer + DevSecOps Engineer - NYC, ONSITE 3-4 days&#x2F;wk - Full-time - $180-200K + equity - VISA (tr](https://news.ycombinator.com/item?id=49527113) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [Astoria AI - Founding AI Engineer — Agentic Systems - Remote (async) - Full-time - Equity-only pre-seed, $190k-$280k + equity post-seed Asto](https://news.ycombinator.com/item?id=49525603) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [Balerion AI - Software + FDE + AI Engineers - San Francisco, CA - ONSITE - Full-time - $250k+ base + seed equity - Visa sponsorship availabl](https://news.ycombinator.com/item?id=49525600) | See posting | 🟢 | HN Who's Hiring | 26d |
 | See posting | [PostHog - Full-Time - Technical CSMs, Technical Content Writers, AI Research Engineer - REMOTE (all remote) - Hiring GMT-8 to GMT+2 - PostHo](https://news.ycombinator.com/item?id=49524781) | See posting | ❔ | HN Who's Hiring | 26d |
@@ -263,7 +253,7 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Coinbase | [Senior Data Scientist](https://www.coinbase.com/careers/positions/8147917?gh_jid=8147917) | Remote - Singapore | 🟢 | Greenhouse | 37d |
 | Coinbase | [Staff Machine Learning Engineer(Platform - Identity)](https://www.coinbase.com/careers/positions/7891045?gh_jid=7891045) | Remote - USA | 🟢 | Greenhouse | 107d |
 
-[⬆️ Back to top](#experienced-engineer-job-feed)
+[⬆️ Back to top](#experienced-engineer-job-feed-10+-years)
 
 ## 🛠️ Infrastructure, Platform & DevOps
 
@@ -302,7 +292,7 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Ramp | [Senior Security Engineer, Endpoint](https://jobs.ashbyhq.com/ramp/e5232cce-a23a-4f03-b12e-dac510d08cd3) | New York, NY (HQ) | ❔ | Ashby | 81d |
 | Ramp | [Security Engineer, Privacy](https://jobs.ashbyhq.com/ramp/95f450a1-0d38-4d58-9aac-9d7e655adc36) | New York, NY (HQ) | ❔ | Ashby | 250d |
 
-[⬆️ Back to top](#experienced-engineer-job-feed)
+[⬆️ Back to top](#experienced-engineer-job-feed-10+-years)
 
 ## 🧭 Engineering Management & Leadership
 
@@ -316,13 +306,12 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | See posting | [AREO - Remote (EU) &#x2F; on-site in Bremen, Germany - Full-Time - Equity - Roles: [Engineering Manager (Ruby on Rails), Lead Product Engine](https://news.ycombinator.com/item?id=49527344) | See posting | ❔ | HN Who's Hiring | 26d |
 | Bjak  | [Engineering Manager Thailand](https://remoteOK.com/remote-jobs/remote-engineering-manager-thailand-bjak-1136670) | Bangkok | ❔ | RemoteOK | 44d |
 
-[⬆️ Back to top](#experienced-engineer-job-feed)
+[⬆️ Back to top](#experienced-engineer-job-feed-10+-years)
 
 ## 💼 Other Engineering Roles
 
 | Company | Role | Location | 🛂 H1B | Source | Posted |
 |---|---|---|---|---|---|
-| SIHO Insurance Services  | [Director Payment Integrity](https://remoteOK.com/remote-jobs/remote-director-payment-integrity-siho-insurance-services-1137434) | SIHO - Columbus, IN | ❔ | RemoteOK | 1d |
 | Coinbase | [Group Product Manager, Money Movement](https://www.coinbase.com/careers/positions/8234060?gh_jid=8234060) | Remote - USA | 🟢 | Greenhouse | 1d |
 | Ramp | [Senior Corporate Paralegal](https://jobs.ashbyhq.com/ramp/314d4881-e8f2-4e61-a102-3469f9566759) | New York, NY (HQ) | ❔ | Ashby | 1d |
 | Coinbase | [Senior Product Manager, Help Center (CX Automation)](https://www.coinbase.com/careers/positions/8031208?gh_jid=8031208) | Remote - India | 🟢 | Greenhouse | 1d |
@@ -346,18 +335,13 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Robinhood | [Data Solutions & Analytics Senior Analyst](https://boards.greenhouse.io/robinhood/jobs/8220699?t=gh_src=&gh_jid=8220699) | Westlake, TX | ❔ | Greenhouse | 2d |
 | Robinhood | [Data Solutions & Validation Sr. Specialist](https://boards.greenhouse.io/robinhood/jobs/8120681?t=gh_src=&gh_jid=8120681) | Denver, CO; New York, NY; Westlake, TX | ❔ | Greenhouse | 2d |
 | Robinhood | [Deal Lead, Robinhood Ventures](https://boards.greenhouse.io/robinhood/jobs/7685092?t=gh_src=&gh_jid=7685092) | Menlo Park, CA | ❔ | Greenhouse | 2d |
-| Robinhood | [Finance & Strategy Senior Analyst](https://boards.greenhouse.io/robinhood/jobs/7456663?t=gh_src=&gh_jid=7456663) | Menlo Park, CA | ❔ | Greenhouse | 2d |
-| Robinhood | [Finance & Strategy Senior Analyst](https://boards.greenhouse.io/robinhood/jobs/8211233?t=gh_src=&gh_jid=8211233) | Chicago, IL; Menlo Park, CA; New York, NY | ❔ | Greenhouse | 2d |
-| Robinhood | [Fraud Investigator](https://boards.greenhouse.io/robinhood/jobs/8214553?t=gh_src=&gh_jid=8214553) | Chicago, IL; Denver, CO; Westlake, TX | ❔ | Greenhouse | 2d |
 | Robinhood | [ICT Risk Oversight Lead](https://boards.greenhouse.io/robinhood/jobs/8105960?t=gh_src=&gh_jid=8105960) | Luxembourg, Luxembourg | ❔ | Greenhouse | 2d |
-| Robinhood | [Knowledge & Operational Readiness Lead](https://boards.greenhouse.io/robinhood/jobs/8112333?t=gh_src=&gh_jid=8112333) | Denver, CO; Westlake, TX | ❔ | Greenhouse | 2d |
 | Robinhood | [Overnight Customer Experience Representative, Active Trader ](https://boards.greenhouse.io/robinhood/jobs/8224751?t=gh_src=&gh_jid=8224751) | Chicago, IL; Denver, CO; Westlake, TX | ❔ | Greenhouse | 2d |
 | Robinhood | [Overnight Customer Experience Representative, Advanced Services](https://boards.greenhouse.io/robinhood/jobs/8224813?t=gh_src=&gh_jid=8224813) | Chicago, IL; Denver, CO; Westlake, TX | ❔ | Greenhouse | 2d |
 | Robinhood | [Overnight Customer Experience Representative, Brokerage Services](https://boards.greenhouse.io/robinhood/jobs/8224764?t=gh_src=&gh_jid=8224764) | Chicago, IL; Denver, CO; Westlake, TX | ❔ | Greenhouse | 2d |
 | Robinhood | [Overnight Customer Experience Representative, Concierge  ](https://boards.greenhouse.io/robinhood/jobs/8224805?t=gh_src=&gh_jid=8224805) | Denver, CO; Westlake, TX | ❔ | Greenhouse | 2d |
 | Robinhood | [Overnight Customer Experience Team Lead](https://boards.greenhouse.io/robinhood/jobs/8209840?t=gh_src=&gh_jid=8209840) | Denver, CO | ❔ | Greenhouse | 2d |
 | Robinhood | [Senior Content Designer](https://boards.greenhouse.io/robinhood/jobs/8220730?t=gh_src=&gh_jid=8220730) | Chicago, IL | ❔ | Greenhouse | 2d |
-| Robinhood | [Senior Data Science Manager, Algorithms](https://boards.greenhouse.io/robinhood/jobs/8097597?t=gh_src=&gh_jid=8097597) | Menlo Park, CA | ❔ | Greenhouse | 2d |
 | Robinhood | [Senior Product Designer, Redesign](https://boards.greenhouse.io/robinhood/jobs/6494244?t=gh_src=&gh_jid=6494244) | Menlo Park, CA; New York, NY | ❔ | Greenhouse | 2d |
 | Robinhood | [Senior Product Designer, Trading](https://boards.greenhouse.io/robinhood/jobs/8160668?t=gh_src=&gh_jid=8160668) | Menlo Park, CA; New York, NY | ❔ | Greenhouse | 2d |
 | Robinhood | [Senior Product Manager, Capital Markets](https://boards.greenhouse.io/robinhood/jobs/8204521?t=gh_src=&gh_jid=8204521) | Menlo Park, CA; New York, NY | ❔ | Greenhouse | 2d |
@@ -365,9 +349,7 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Robinhood | [Senior Product Manager, Money Movement](https://boards.greenhouse.io/robinhood/jobs/7747728?t=gh_src=&gh_jid=7747728) | Menlo Park, CA | ❔ | Greenhouse | 2d |
 | Robinhood | [Senior Software Developer, Developer Experience (DevX)](https://boards.greenhouse.io/robinhood/jobs/8083818?t=gh_src=&gh_jid=8083818) | Toronto, Canada | ❔ | Greenhouse | 2d |
 | Robinhood | [Senior Software Developer, Wallet](https://boards.greenhouse.io/robinhood/jobs/8088455?t=gh_src=&gh_jid=8088455) | Toronto, Canada | ❔ | Greenhouse | 2d |
-| Robinhood | [Senior Tax Operations Analyst](https://boards.greenhouse.io/robinhood/jobs/8048650?t=gh_src=&gh_jid=8048650) | Menlo Park, CA; New York, NY | ❔ | Greenhouse | 2d |
 | Robinhood | [Senior Treasury Analyst](https://boards.greenhouse.io/robinhood/jobs/8072892?t=gh_src=&gh_jid=8072892) | Chicago, IL; Menlo Park, CA; New York, NY | ❔ | Greenhouse | 2d |
-| Robinhood | [Senior Underwriting Associate](https://boards.greenhouse.io/robinhood/jobs/7979657?t=gh_src=&gh_jid=7979657) | Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY | ❔ | Greenhouse | 2d |
 | Robinhood | [Software Developer, Ops Platform and Fraud Investigations](https://boards.greenhouse.io/robinhood/jobs/7737164?t=gh_src=&gh_jid=7737164) | Toronto, Canada | ❔ | Greenhouse | 2d |
 | Robinhood | [Staff Product Designer, National Impact](https://boards.greenhouse.io/robinhood/jobs/7804648?t=gh_src=&gh_jid=7804648) | Menlo Park, CA; New York, NY | ❔ | Greenhouse | 2d |
 | Robinhood | [Staff Product Manager, Banking](https://boards.greenhouse.io/robinhood/jobs/8044746?t=gh_src=&gh_jid=8044746) | Menlo Park, CA; New York, NY; Washington, DC | ❔ | Greenhouse | 2d |
@@ -398,7 +380,6 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Airbnb | [Lead Localization Operations Program Manager](https://careers.airbnb.com/positions/8120458?gh_jid=8120458) | United States  | 🟢 | Greenhouse | 2d |
 | Airbnb | [Lead Platform Manager, Tech Foundations](https://careers.airbnb.com/positions/8211765?gh_jid=8211765) | United States | 🟢 | Greenhouse | 2d |
 | Airbnb | [Manager, Quality, AirCover](https://careers.airbnb.com/positions/8114339?gh_jid=8114339) | Canada | 🟢 | Greenhouse | 2d |
-| Airbnb | [Market Manager - Vacation Rental](https://careers.airbnb.com/positions/8000413?gh_jid=8000413) | Tokyo, Japan | 🟢 | Greenhouse | 2d |
 | Airbnb | [Principal, Strategic Finance & Analytics, Acquisition](https://careers.airbnb.com/positions/8209984?gh_jid=8209984) | United States  | 🟢 | Greenhouse | 2d |
 | Airbnb | [Product Manager, Services](https://careers.airbnb.com/positions/8081925?gh_jid=8081925) | San Francisco, CA, Seattle WA, New York, NY | 🟢 | Greenhouse | 2d |
 | Airbnb | [Programs and Business Operations Lead](https://careers.airbnb.com/positions/8028783?gh_jid=8028783) | United States | 🟢 | Greenhouse | 2d |
@@ -430,7 +411,6 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Airbnb | [Senior Product Program Manager, Roadmap Planning & Program Management ](https://careers.airbnb.com/positions/8094462?gh_jid=8094462) | San Francisco, United States  | 🟢 | Greenhouse | 2d |
 | Airbnb | [Senior Programs & Business Operations Lead](https://careers.airbnb.com/positions/8163221?gh_jid=8163221) | United States  | 🟢 | Greenhouse | 2d |
 | Airbnb | [Senior Social Content Operations Manager, China](https://careers.airbnb.com/positions/8078406?gh_jid=8078406) | China | 🟢 | Greenhouse | 2d |
-| Airbnb | [Senior Social Media Associate](https://careers.airbnb.com/positions/8201289?gh_jid=8201289) | India | 🟢 | Greenhouse | 2d |
 | Airbnb | [Senior Support Specialist, Premium Support](https://careers.airbnb.com/positions/8107160?gh_jid=8107160) | Canada | 🟢 | Greenhouse | 2d |
 | Airbnb | [Senior Systems Engineer, Tech Foundations](https://careers.airbnb.com/positions/8197652?gh_jid=8197652) | Remote | 🟢 | Greenhouse | 2d |
 | Airbnb | [Spécialiste principal(e), Soutien Premium](https://careers.airbnb.com/positions/8107161?gh_jid=8107161) | Canada | 🟢 | Greenhouse | 2d |
@@ -443,10 +423,8 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Airbnb | [Staff Platform Manager, Payments Regional Growth](https://careers.airbnb.com/positions/8120721?gh_jid=8120721) | Mexico | 🟢 | Greenhouse | 2d |
 | Airbnb | [Staff Platform Manager, Payments Regional Growth](https://careers.airbnb.com/positions/8120611?gh_jid=8120611) | Brazil | 🟢 | Greenhouse | 2d |
 | Airbnb | [Staff UX Researcher, Payments Growth (Mixed Methods)](https://careers.airbnb.com/positions/8113284?gh_jid=8113284) | United States | 🟢 | Greenhouse | 2d |
-| Airbnb | [Staff Workday Integration Engineer, Tech Foundations](https://careers.airbnb.com/positions/8202878?gh_jid=8202878) | United States | 🟢 | Greenhouse | 2d |
 | Airbnb | [Strategic Partnerships Lead, Central and Eastern Europe](https://careers.airbnb.com/positions/7641058?gh_jid=7641058) | Berlin, Germany | 🟢 | Greenhouse | 2d |
 | Airbnb | [Superviseur (-e), Soutien Premium Bilingue (français/anglais)](https://careers.airbnb.com/positions/8080626?gh_jid=8080626) | Canada | 🟢 | Greenhouse | 2d |
-| Airbnb | [Supervisor, Aircover](https://careers.airbnb.com/positions/8194590?gh_jid=8194590) | Gurugram, India | 🟢 | Greenhouse | 2d |
 | Airbnb | [Supervisor, Premium Support (French/English)](https://careers.airbnb.com/positions/8080625?gh_jid=8080625) | Canada | 🟢 | Greenhouse | 2d |
 | Airbnb | [Vendor Manager, Operational Vendor Support (Insurance)](https://careers.airbnb.com/positions/8120259?gh_jid=8120259) | United States  | 🟢 | Greenhouse | 2d |
 | Coinbase | [Senior Sourcing Analyst](https://www.coinbase.com/careers/positions/8017697?gh_jid=8017697) | Remote - USA | 🟢 | Greenhouse | 3d |
@@ -504,7 +482,6 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | See posting | [Estuary - US-Based &#x2F; Remote - Full-time –  https:&#x2F;&#x2F;estuary.dev&#x2F;  Estuary is a VC-backed, post–Series A startup powering ](https://news.ycombinator.com/item?id=49613305) | See posting | ❔ | HN Who's Hiring | 19d |
 | See posting | [Turquoise-Senior Performance Engineer-FT- Remote USA - 172-195 I&#x27;m on the recruitment team at Turquoise, a health tech company that use](https://news.ycombinator.com/item?id=49612508) | See posting | ❔ | HN Who's Hiring | 19d |
 | Ramp | [GTM Senior Business Systems Analyst, Pre-Sales](https://jobs.ashbyhq.com/ramp/aa433e44-f095-484b-a46a-a330583d84b0) | New York, NY (HQ) | ❔ | Ashby | 19d |
-| Libertex Group | [Business Development Manager](https://remoteOK.com/remote-jobs/remote-business-development-manager-libertex-group-1137373) | ÙØ³ÙØ·, ÙØ³ÙØ· ÙØ³ÙØ· Ø¹ÙØ§Ù | ❔ | RemoteOK | 19d |
 | Ramp | [GTM Senior Business Systems Analyst – Channel Sales](https://jobs.ashbyhq.com/ramp/2d2c336c-16e7-4f27-b0cd-5bb6055cdf21) | New York, NY (HQ) | ❔ | Ashby | 19d |
 | See posting | [BOSS-IQ - CTO Partner - REMOTE (worldwide) - Full-time - Istanbul-based company -  https:&#x2F;&#x2F;boss-iq.com  BOSS-IQ is an AI strategic](https://news.ycombinator.com/item?id=49598051) | See posting | ❔ | HN Who's Hiring | 20d |
 | See posting | [Lucia - Director of Corp Dev · Product Marketing Associate · MLOps Engineer - Remote (NYC &#x2F; SEA &#x2F; global overlap) - $140K–$200K + ](https://news.ycombinator.com/item?id=49595476) | See posting | ❔ | HN Who's Hiring | 20d |
@@ -623,7 +600,6 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Coinbase | [Senior Associate, FCM](https://www.coinbase.com/careers/positions/8060577?gh_jid=8060577) | Remote - USA | 🟢 | Greenhouse | 33d |
 | Ramp | [Senior Financial Crimes Compliance Controls Strategist](https://jobs.ashbyhq.com/ramp/a91527c9-d2e7-489d-9506-ad72091b5125) | New York, NY (HQ) | ❔ | Ashby | 33d |
 | Ramp | [Senior Manager, Strategic Technical Consulting](https://jobs.ashbyhq.com/ramp/ac7edc29-103a-420f-9002-5d4d43afb159) | New York, NY (HQ) | ❔ | Ashby | 34d |
-| Orca Bio | [Senior Specialist Global QMS](https://remoteOK.com/remote-jobs/remote-senior-specialist-global-qms-orca-bio-1137072) | Remote | ❔ | RemoteOK | 36d |
 | Ramp | [Senior Recruiter, Emerging Talent](https://jobs.ashbyhq.com/ramp/b0433f82-e0c0-4dd8-9d41-c6bf2371c2ea) | New York, NY (HQ) | ❔ | Ashby | 40d |
 | Engine | [Marketing Operations Specialist](https://remoteOK.com/remote-jobs/remote-marketing-operations-specialist-engine-1136950) | Remote - US | ❔ | RemoteOK | 40d |
 | Chaos | [Team Lead Education](https://remoteOK.com/remote-jobs/remote-team-lead-education-chaos-1136949) | Remote | ❔ | RemoteOK | 40d |
@@ -632,7 +608,6 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Coinbase | [Senior Talent Program Manager](https://www.coinbase.com/careers/positions/8126484?gh_jid=8126484) | Remote - USA | 🟢 | Greenhouse | 40d |
 | Coinbase | [Principal Recruiter](https://www.coinbase.com/careers/positions/8106071?gh_jid=8106071) | Remote - Singapore | 🟢 | Greenhouse | 40d |
 | Benchling | [Solutions Delivery Manager](https://remoteOK.com/remote-jobs/remote-solutions-delivery-manager-benchling-1136937) | Boston | ❔ | RemoteOK | 40d |
-| Ramp | [Product Operations - AI Revenue Systems](https://jobs.ashbyhq.com/ramp/4e9886c1-134b-4cc7-9bcf-eb56bd0ca71f) | New York, NY (HQ) | ❔ | Ashby | 41d |
 | Legal Services NYC | [Hotline Paralegal](https://remoteOK.com/remote-jobs/remote-hotline-paralegal-legal-services-nyc-1136861) | LSNYC Central Office | ❔ | RemoteOK | 41d |
 | Precision Medicine Group | [Senior Contracts and Budget Associate](https://remoteOK.com/remote-jobs/remote-senior-contracts-and-budget-associate-precision-medicine-group-1136844) | South Korea | ❔ | RemoteOK | 41d |
 | HighLevel | [Lead Product Designer](https://remoteOK.com/remote-jobs/remote-lead-product-designer-highlevel-1136841) | India | ❔ | RemoteOK | 41d |
@@ -647,7 +622,6 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Ramp | [Finance Storytelling Lead](https://jobs.ashbyhq.com/ramp/a450c0e4-7002-47a8-920d-f6937b0cb641) | New York, NY (HQ) | ❔ | Ashby | 46d |
 | Bybit | [P2P BD Assistant](https://remoteOK.com/remote-jobs/remote-p2p-bd-assistant-bybit-1136568) | LATAM | ❔ | RemoteOK | 46d |
 | Adaptive Teams | [Customer Service Representative](https://remoteOK.com/remote-jobs/remote-customer-service-representative-adaptive-teams-1136566) | Remote | ❔ | RemoteOK | 46d |
-| Ramp | [Account Executive - Strategic ](https://jobs.ashbyhq.com/ramp/707d5f91-bcf7-42b2-a0e6-8130bf13e56b) | San Francisco, CA | ❔ | Ashby | 47d |
 | DoiT | [Sales Development Representative Attributeâ](https://remoteOK.com/remote-jobs/) | Remote UK | ❔ | RemoteOK | 47d |
 | Ramp | [Senior Customer Activation Manager - Partnerships ](https://jobs.ashbyhq.com/ramp/97898101-f97b-47c8-a991-267afc517ae5) | New York, NY (HQ) | ❔ | Ashby | 48d |
 | Ramp | [Business Development Representative - Ontario, Canada](https://jobs.ashbyhq.com/ramp/cce684de-191d-4a8a-bc42-7ded3ccd47af) | Toronto, ON | ❔ | Ashby | 48d |
@@ -657,11 +631,9 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Coinbase | [Senior Product Designer, Coinbase One](https://www.coinbase.com/careers/positions/8114474?gh_jid=8114474) | Remote - USA | 🟢 | Greenhouse | 51d |
 | Ramp | [Senior Product Marketing Manager - New Products](https://jobs.ashbyhq.com/ramp/cdc3cb5a-8c6d-4820-86cf-5f9daa2b41fc) | New York, NY (HQ) | ❔ | Ashby | 52d |
 | Ramp | [Lead Product Marketing Manager - Verticals ](https://jobs.ashbyhq.com/ramp/2e07fb9f-fefd-44a4-a6ef-235b4e567432) | New York, NY (HQ) | ❔ | Ashby | 52d |
-| Ramp | [Commercial Account Executive, Canada](https://jobs.ashbyhq.com/ramp/3f94674f-6af8-4e10-9631-77b1b0a410bf) | Toronto, ON | ❔ | Ashby | 52d |
 | Coinbase | [Senior Manager Product Operations, FCM Ops](https://www.coinbase.com/careers/positions/8110496?gh_jid=8110496) | Remote - USA | 🟢 | Greenhouse | 52d |
 | Clera | [Java Developer](https://remoteOK.com/remote-jobs/remote-java-developer-clera-1136188) | Los Angeles | ❔ | RemoteOK | 53d |
 | Shapr3D | [Future Shaprs](https://remoteOK.com/remote-jobs/remote-future-shaprs-shapr3d-1136770) | Budapest,  | ❔ | RemoteOK | 53d |
-| testacy | [Why do you want this new job](https://remoteOK.com/remote-jobs/remote-why-do-you-want-this-new-job-testacy-1136168) | Posts,  | ❔ | RemoteOK | 53d |
 | Sophie's Flats Inc. | [Architectural Designer](https://remoteOK.com/remote-jobs/remote-architectural-designer-sophies-flats-inc-1136192) | Toronto,  | ❔ | RemoteOK | 53d |
 | Control Shift Video | [Freelance Designer](https://remoteOK.com/remote-jobs/remote-freelance-designer-control-shift-video-1136213) | Texas,  | ❔ | RemoteOK | 53d |
 | Tremendous | [Head of Security](https://remoteOK.com/remote-jobs/remote-head-of-security-tremendous-1136210) | New York, New York, New York, United States | ❔ | RemoteOK | 53d |
@@ -681,18 +653,15 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Berni and Mick Ireland | [Managing Director](https://remoteOK.com/remote-jobs/remote-managing-director-berni-and-mick-ireland-1135908) | Sunshine Coast, Sunshine Coast, Queensland, Australia | ❔ | RemoteOK | 57d |
 | Bored Panda | [Voice Over Artist](https://remoteOK.com/remote-jobs/remote-voice-over-artist-bored-panda-1135765) | Vilnius, Vilnius, Vilniaus, Lithuania | ❔ | RemoteOK | 58d |
 | Ramp | [Senior Scaled Customer Activation Manager - Canada](https://jobs.ashbyhq.com/ramp/70958953-f10f-4dba-a606-80a10f80a8f6) | Toronto, ON | ❔ | Ashby | 59d |
-| Ramp | [Senior Brand Designer, Growth](https://jobs.ashbyhq.com/ramp/a8451979-2691-440e-851b-49a3b807729b) | San Francisco, CA | ❔ | Ashby | 59d |
 | Ramp | [Partner Development Representative - Private Equity](https://jobs.ashbyhq.com/ramp/29d188c7-0529-4bc8-a04a-57902df2a7ae) | New York, NY (HQ) | ❔ | Ashby | 60d |
 | Coinbase | [Senior IT Automation Engineer](https://www.coinbase.com/careers/positions/8054055?gh_jid=8054055) | Remote - India | 🟢 | Greenhouse | 60d |
 | Coinbase | [Concierge Specialist IV](https://www.coinbase.com/careers/positions/7994501?gh_jid=7994501) | Hybrid - Singapore | 🟢 | Greenhouse | 61d |
 | Coinbase | [Senior Enterprise Product  Marketing Manager, Base](https://www.coinbase.com/careers/positions/8084049?gh_jid=8084049) | Remote - USA | 🟢 | Greenhouse | 62d |
-| Coinbase | [Supervisor, Customer Success Team](https://www.coinbase.com/careers/positions/8082829?gh_jid=8082829) | Remote - Cyprus | 🟢 | Greenhouse | 65d |
 | Coinbase | [Strategic Program Lead](https://www.coinbase.com/careers/positions/8083758?gh_jid=8083758) | Remote - USA | 🟢 | Greenhouse | 65d |
 | Coinbase | [Head of Product Creative ](https://www.coinbase.com/careers/positions/7304930?gh_jid=7304930) | Remote - USA | 🟢 | Greenhouse | 68d |
 | Ramp | [Manager, Advisory and Services Partnerships](https://jobs.ashbyhq.com/ramp/1368191c-94bc-4cfd-b3d2-a2a72f847360) | New York, NY (HQ) | ❔ | Ashby | 72d |
 | Coinbase | [Concierge Specialist IV](https://www.coinbase.com/careers/positions/8031308?gh_jid=8031308) | Hybrid - London, UK | 🟢 | Greenhouse | 79d |
 | Coinbase | [Concierge Specialist IV](https://www.coinbase.com/careers/positions/8031253?gh_jid=8031253) | Hybrid - London, UK | 🟢 | Greenhouse | 79d |
-| Coinbase | [SAM Compliance Lead Analyst](https://www.coinbase.com/careers/positions/8052192?gh_jid=8052192) | Hybrid - Luxembourg | 🟢 | Greenhouse | 81d |
 | Coinbase | [Business Operations Senior Associate, Institutional](https://www.coinbase.com/careers/positions/7980600?gh_jid=7980600) | Remote - USA | 🟢 | Greenhouse | 82d |
 | Ramp | [Manager, Procurement Product Activation](https://jobs.ashbyhq.com/ramp/d238a056-3a1f-4dcc-99de-fadc95b9f31c) | San Francisco, CA | ❔ | Ashby | 88d |
 | Ramp | [Procurement Product Activation Manager](https://jobs.ashbyhq.com/ramp/f0e3a8bb-5f86-4ce1-b345-80d8912f9ddc) | New York, NY (HQ) | ❔ | Ashby | 88d |
@@ -723,7 +692,7 @@ Each link below is a separate, independently-updated feed filtered to that exper
 | Ramp | [Customer Activation Manager - Enterprise](https://jobs.ashbyhq.com/ramp/09a9381c-677b-40a5-9ff1-027bd4302c13) | New York, NY (HQ) | ❔ | Ashby | 548d |
 | Linear | [Senior / Staff Product Engineer](https://jobs.ashbyhq.com/linear/069c4628-88d7-4e4d-b393-c996fc7f3076) | Europe | ❔ | Ashby | 1709d |
 
-[⬆️ Back to top](#experienced-engineer-job-feed)
+[⬆️ Back to top](#experienced-engineer-job-feed-10+-years)
 
 ---
 
@@ -736,10 +705,10 @@ This directory publishes two machine-readable files, regenerated on every run:
 
 If this repo is public, reachable without auth at:
 ```
-https://raw.githubusercontent.com/<your-username>/<your-repo>/main/feed.json
-https://raw.githubusercontent.com/<your-username>/<your-repo>/main/feed.xml
+https://raw.githubusercontent.com/<your-username>/<your-repo>/main/feeds/staff-plus/feed.json
+https://raw.githubusercontent.com/<your-username>/<your-repo>/main/feeds/staff-plus/feed.xml
 ```
 
 ## Configuring what gets tracked
 
-Edit [`companies.yaml`](./companies.yaml) — add Greenhouse/Lever/Ashby company slugs, tweak seniority/exclude keywords, adjust the H1B settings, or add/edit years-of-experience feeds under `feeds:`. The next scheduled run picks up your changes automatically.
+Edit [`companies.yaml`](../../companies.yaml) — add Greenhouse/Lever/Ashby company slugs, tweak seniority/exclude keywords, adjust the H1B settings, or add/edit years-of-experience feeds under `feeds:`. The next scheduled run picks up your changes automatically.

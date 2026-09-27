@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Experienced Engineer Job Feed</title>
+    <title>Experienced Engineer Job Feed — 3-5 years</title>
     <link>https://github.com/</link>
     <description>Open roles for experienced engineers, pulled from public job-board APIs.</description>
     <lastBuildDate>Sun, 27 Sep 2026 22:06:57 +0000</lastBuildDate>
@@ -13,32 +13,11 @@
       <pubDate>Sat, 26 Sep 2026 16:00:26 +0000</pubDate>
     </item>
     <item>
-      <title>Coinbase — Group Product Manager, Money Movement</title>
-      <link>https://www.coinbase.com/careers/positions/8234060?gh_jid=8234060</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8234060?gh_jid=8234060</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Sat, 26 Sep 2026 13:37:56 -0400</pubDate>
-    </item>
-    <item>
-      <title>Ramp — Senior Corporate Paralegal</title>
-      <link>https://jobs.ashbyhq.com/ramp/314d4881-e8f2-4e61-a102-3469f9566759</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/314d4881-e8f2-4e61-a102-3469f9566759</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 6+ years</description>
-      <pubDate>Sat, 26 Sep 2026 12:16:55 +0000</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Product Manager, Help Center (CX Automation)</title>
       <link>https://www.coinbase.com/careers/positions/8031208?gh_jid=8031208</link>
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8031208?gh_jid=8031208</guid>
       <description>Remote - India · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Sat, 26 Sep 2026 03:23:29 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Enterprise Account Manager</title>
-      <link>https://careers.airbnb.com/positions/8232474?gh_jid=8232474</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8232474?gh_jid=8232474</guid>
-      <description>Singapore · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Sat, 26 Sep 2026 02:40:51 -0400</pubDate>
     </item>
     <item>
       <title>Ramp — Principal Brand Designer</title>
@@ -55,20 +34,6 @@
       <pubDate>Fri, 25 Sep 2026 20:21:55 +0000</pubDate>
     </item>
     <item>
-      <title>Robinhood — Staff Technical Program Manager, Brokerage</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7804542?t=gh_src=&amp;gh_jid=7804542</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/7804542?t=gh_src=&amp;gh_jid=7804542</guid>
-      <description>Menlo Park, CA; New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Fri, 25 Sep 2026 19:27:49 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer (Platform - Financial Engineering)</title>
-      <link>https://www.coinbase.com/careers/positions/8204243?gh_jid=8204243</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8204243?gh_jid=8204243</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Fri, 25 Sep 2026 18:23:59 -0400</pubDate>
-    </item>
-    <item>
       <title>Ramp — Senior Channel Partner Manager, Strategic Advisory</title>
       <link>https://jobs.ashbyhq.com/ramp/d2beca4a-7409-404b-8382-761e5db6e917</link>
       <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/d2beca4a-7409-404b-8382-761e5db6e917</guid>
@@ -76,32 +41,11 @@
       <pubDate>Fri, 25 Sep 2026 17:58:44 +0000</pubDate>
     </item>
     <item>
-      <title>Ramp — Senior Channel Partner Manager, Global Advisory / GSI</title>
-      <link>https://jobs.ashbyhq.com/ramp/b4908db8-ac21-4c7f-b544-a66fffbfb97e</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/b4908db8-ac21-4c7f-b544-a66fffbfb97e</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 6+ years</description>
-      <pubDate>Fri, 25 Sep 2026 17:54:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Staff Machine Learning Engineer, AI Platform &amp; Agentic Apps</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8107212?t=gh_src=&amp;gh_jid=8107212</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8107212?t=gh_src=&amp;gh_jid=8107212</guid>
-      <description>Menlo Park, CA · via Greenhouse · h1b_sponsor: unknown · experience: 10+ years</description>
-      <pubDate>Fri, 25 Sep 2026 17:47:55 -0400</pubDate>
-    </item>
-    <item>
       <title>Robinhood — Fraud Investigator - Customer Protection</title>
       <link>https://boards.greenhouse.io/robinhood/jobs/8186282?t=gh_src=&amp;gh_jid=8186282</link>
       <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8186282?t=gh_src=&amp;gh_jid=8186282</guid>
       <description>Denver, CO; Lake Mary, FL · via Greenhouse · h1b_sponsor: unknown · experience: 2+ years</description>
       <pubDate>Fri, 25 Sep 2026 17:03:51 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Host Communications Strategy Lead</title>
-      <link>https://careers.airbnb.com/positions/8201750?gh_jid=8201750</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8201750?gh_jid=8201750</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Fri, 25 Sep 2026 15:59:16 -0400</pubDate>
     </item>
     <item>
       <title>Robinhood — Senior Software Engineer, Cloud Networking</title>
@@ -118,13 +62,6 @@
       <pubDate>Fri, 25 Sep 2026 14:18:15 -0400</pubDate>
     </item>
     <item>
-      <title>Airbnb — Staff Data Scientist, Guest &amp; Host</title>
-      <link>https://careers.airbnb.com/positions/7705262?gh_jid=7705262</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7705262?gh_jid=7705262</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Fri, 25 Sep 2026 14:17:15 -0400</pubDate>
-    </item>
-    <item>
       <title>Robinhood — AML Investigator</title>
       <link>https://boards.greenhouse.io/robinhood/jobs/8162157?t=gh_src=&amp;gh_jid=8162157</link>
       <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8162157?t=gh_src=&amp;gh_jid=8162157</guid>
@@ -136,13 +73,6 @@
       <link>https://boards.greenhouse.io/robinhood/jobs/6669758?t=gh_src=&amp;gh_jid=6669758</link>
       <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/6669758?t=gh_src=&amp;gh_jid=6669758</guid>
       <description>New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 3+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Crypto Risk Lead</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8144996?t=gh_src=&amp;gh_jid=8144996</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8144996?t=gh_src=&amp;gh_jid=8144996</guid>
-      <description>Toronto, Canada · via Greenhouse · h1b_sponsor: unknown · experience: 7+ years</description>
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
@@ -230,20 +160,6 @@
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
-      <title>Robinhood — Fraud Investigator</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8214553?t=gh_src=&amp;gh_jid=8214553</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8214553?t=gh_src=&amp;gh_jid=8214553</guid>
-      <description>Chicago, IL; Denver, CO; Westlake, TX · via Greenhouse · h1b_sponsor: unknown · experience: 1-2 years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — ICT Risk Oversight Lead</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8105960?t=gh_src=&amp;gh_jid=8105960</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8105960?t=gh_src=&amp;gh_jid=8105960</guid>
-      <description>Luxembourg, Luxembourg · via Greenhouse · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
       <title>Robinhood — iOS Engineer, Government Products</title>
       <link>https://boards.greenhouse.io/robinhood/jobs/6674980?t=gh_src=&amp;gh_jid=6674980</link>
       <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/6674980?t=gh_src=&amp;gh_jid=6674980</guid>
@@ -293,24 +209,10 @@
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
-      <title>Robinhood — Senior Android Engineer, Crypto Expansion</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8100160?t=gh_src=&amp;gh_jid=8100160</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8100160?t=gh_src=&amp;gh_jid=8100160</guid>
-      <description>Menlo Park, CA; New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 6+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
       <title>Robinhood — Senior Android Engineer, iRAD</title>
       <link>https://boards.greenhouse.io/robinhood/jobs/8049885?t=gh_src=&amp;gh_jid=8049885</link>
       <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8049885?t=gh_src=&amp;gh_jid=8049885</guid>
       <description>Menlo Park, CA; New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 5+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Senior Android Engineer, Trading Products</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8049809?t=gh_src=&amp;gh_jid=8049809</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8049809?t=gh_src=&amp;gh_jid=8049809</guid>
-      <description>Menlo Park, CA · via Greenhouse · h1b_sponsor: unknown · experience: 6+ years</description>
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
@@ -339,34 +241,6 @@
       <link>https://boards.greenhouse.io/robinhood/jobs/8097597?t=gh_src=&amp;gh_jid=8097597</link>
       <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8097597?t=gh_src=&amp;gh_jid=8097597</guid>
       <description>Menlo Park, CA · via Greenhouse · h1b_sponsor: unknown · experience: 3-4 years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Senior Engineering Manager - Agent Experience</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8142909?t=gh_src=&amp;gh_jid=8142909</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8142909?t=gh_src=&amp;gh_jid=8142909</guid>
-      <description>Menlo Park, CA · via Greenhouse · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Senior iOS Engineer, Crypto Trading</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8027506?t=gh_src=&amp;gh_jid=8027506</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8027506?t=gh_src=&amp;gh_jid=8027506</guid>
-      <description>New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 6+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Senior Machine Learning Engineer, AI Infra</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8189874?t=gh_src=&amp;gh_jid=8189874</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8189874?t=gh_src=&amp;gh_jid=8189874</guid>
-      <description>Bellevue, WA; Menlo Park, CA · via Greenhouse · h1b_sponsor: unknown · experience: 6+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Senior Offensive Security Engineer</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8202858?t=gh_src=&amp;gh_jid=8202858</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8202858?t=gh_src=&amp;gh_jid=8202858</guid>
-      <description>Bellevue, WA; Denver, CO; Menlo Park, CA; New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 6+ years</description>
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
@@ -531,13 +405,6 @@
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
-      <title>Robinhood — Senior Staff Software Developer, Developer Infrastructure</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8189869?t=gh_src=&amp;gh_jid=8189869</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8189869?t=gh_src=&amp;gh_jid=8189869</guid>
-      <description>Toronto, Canada · via Greenhouse · h1b_sponsor: unknown · experience: 10+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
       <title>Robinhood — Senior Staff Software Engineer, Core Infrastructure</title>
       <link>https://boards.greenhouse.io/robinhood/jobs/8147341?t=gh_src=&amp;gh_jid=8147341</link>
       <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8147341?t=gh_src=&amp;gh_jid=8147341</guid>
@@ -549,13 +416,6 @@
       <link>https://boards.greenhouse.io/robinhood/jobs/7729014?t=gh_src=&amp;gh_jid=7729014</link>
       <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/7729014?t=gh_src=&amp;gh_jid=7729014</guid>
       <description>Bellevue, WA · via Greenhouse · h1b_sponsor: unknown · experience: unspecified</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Senior Staff Software Engineer, Developer Infrastructure</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8189867?t=gh_src=&amp;gh_jid=8189867</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8189867?t=gh_src=&amp;gh_jid=8189867</guid>
-      <description>Menlo Park, CA; New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 10+ years</description>
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
@@ -594,59 +454,10 @@
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
-      <title>Robinhood — Staff Android Engineer</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8114730?t=gh_src=&amp;gh_jid=8114730</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8114730?t=gh_src=&amp;gh_jid=8114730</guid>
-      <description>Menlo Park, CA · via Greenhouse · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Staff Data Scientist,  ML (Credit Risk)</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7997218?t=gh_src=&amp;gh_jid=7997218</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/7997218?t=gh_src=&amp;gh_jid=7997218</guid>
-      <description>Menlo Park, CA; New York, NY; Washington, DC · via Greenhouse · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Staff Data Scientist (People Analytics &amp; Insights)</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8072766?t=gh_src=&amp;gh_jid=8072766</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8072766?t=gh_src=&amp;gh_jid=8072766</guid>
-      <description>Chicago, IL; Menlo Park, CA; New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Staff Machine Learning Engineer, AI R&amp;D</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8082579?t=gh_src=&amp;gh_jid=8082579</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8082579?t=gh_src=&amp;gh_jid=8082579</guid>
-      <description>Bellevue, WA; Menlo Park, CA · via Greenhouse · h1b_sponsor: unknown · experience: 10+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Staff Offensive Security Engineer</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7460169?t=gh_src=&amp;gh_jid=7460169</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/7460169?t=gh_src=&amp;gh_jid=7460169</guid>
-      <description>Toronto, Canada · via Greenhouse · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Staff Offensive Security Engineer</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7460167?t=gh_src=&amp;gh_jid=7460167</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/7460167?t=gh_src=&amp;gh_jid=7460167</guid>
-      <description>Bellevue, WA; Denver, CO; Menlo Park, CA; New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
       <title>Robinhood — Staff Product Designer, National Impact</title>
       <link>https://boards.greenhouse.io/robinhood/jobs/7804648?t=gh_src=&amp;gh_jid=7804648</link>
       <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/7804648?t=gh_src=&amp;gh_jid=7804648</guid>
       <description>Menlo Park, CA; New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: unspecified</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Staff Product Manager, Banking</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8044746?t=gh_src=&amp;gh_jid=8044746</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8044746?t=gh_src=&amp;gh_jid=8044746</guid>
-      <description>Menlo Park, CA; New York, NY; Washington, DC · via Greenhouse · h1b_sponsor: unknown · experience: 7+ years</description>
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
@@ -664,13 +475,6 @@
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
-      <title>Robinhood — Staff Security Engineer, Detection &amp; Response</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7939818?t=gh_src=&amp;gh_jid=7939818</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/7939818?t=gh_src=&amp;gh_jid=7939818</guid>
-      <description>Bellevue, WA; Denver, CO; Menlo Park, CA · via Greenhouse · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
       <title>Robinhood — Staff Software Developer, DevX (Developer Infrastructure)</title>
       <link>https://boards.greenhouse.io/robinhood/jobs/8080939?t=gh_src=&amp;gh_jid=8080939</link>
       <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8080939?t=gh_src=&amp;gh_jid=8080939</guid>
@@ -685,45 +489,10 @@
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
-      <title>Robinhood — Staff Software Engineer, Event Contracts</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8167194?t=gh_src=&amp;gh_jid=8167194</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8167194?t=gh_src=&amp;gh_jid=8167194</guid>
-      <description>Menlo Park, CA; New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 10+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Staff Software Engineer, Observability </title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7489707?t=gh_src=&amp;gh_jid=7489707</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/7489707?t=gh_src=&amp;gh_jid=7489707</guid>
-      <description>Menlo Park, CA · via Greenhouse · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
       <title>Robinhood — Staff Software Engineer, Storage Platform</title>
       <link>https://boards.greenhouse.io/robinhood/jobs/8044227?t=gh_src=&amp;gh_jid=8044227</link>
       <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8044227?t=gh_src=&amp;gh_jid=8044227</guid>
       <description>Bellevue, WA · via Greenhouse · h1b_sponsor: unknown · experience: unspecified</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Staff Software Engineer, Web3</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&amp;gh_jid=7489952</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&amp;gh_jid=7489952</guid>
-      <description>Toronto, Canada · via Greenhouse · h1b_sponsor: unknown · experience: 10+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Staff Software Engineer, Web3</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&amp;gh_jid=7489950</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&amp;gh_jid=7489950</guid>
-      <description>Menlo Park, CA; New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 10+ years</description>
-      <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Staff Web Engineer, Legend</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8003233?t=gh_src=&amp;gh_jid=8003233</link>
-      <guid isPermaLink="false">https://boards.greenhouse.io/robinhood/jobs/8003233?t=gh_src=&amp;gh_jid=8003233</guid>
-      <description>Menlo Park, CA; New York, NY · via Greenhouse · h1b_sponsor: unknown · experience: 7+ years</description>
       <pubDate>Fri, 25 Sep 2026 13:03:21 -0400</pubDate>
     </item>
     <item>
@@ -732,27 +501,6 @@
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8232346?gh_jid=8232346</guid>
       <description>London, UK · via Greenhouse · h1b_sponsor: yes · experience: 2+ years</description>
       <pubDate>Fri, 25 Sep 2026 12:11:39 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Host Development Lead, Incentives</title>
-      <link>https://careers.airbnb.com/positions/8142636?gh_jid=8142636</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8142636?gh_jid=8142636</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Fri, 25 Sep 2026 11:55:50 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Counsel, Business Legal</title>
-      <link>https://www.coinbase.com/careers/positions/8224901?gh_jid=8224901</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8224901?gh_jid=8224901</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 7+ years</description>
-      <pubDate>Fri, 25 Sep 2026 11:03:45 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Risk &amp; Monitoring Analyst IV</title>
-      <link>https://www.coinbase.com/careers/positions/8049976?gh_jid=8049976</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8049976?gh_jid=8049976</guid>
-      <description>Remote - UK · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Fri, 25 Sep 2026 06:18:22 -0400</pubDate>
     </item>
     <item>
       <title>Coinbase — Senior Software Engineer, Backend (Consumer - Growth Foundations)</title>
@@ -783,39 +531,11 @@
       <pubDate>Fri, 25 Sep 2026 02:42:57 -0400</pubDate>
     </item>
     <item>
-      <title>Airbnb — Associate Principal, Procurement Innovation Supplier Programs</title>
-      <link>https://careers.airbnb.com/positions/8231416?gh_jid=8231416</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8231416?gh_jid=8231416</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 21:35:15 -0400</pubDate>
-    </item>
-    <item>
       <title>Airbnb — Senior Machine Learning Engineer, Trust</title>
       <link>https://careers.airbnb.com/positions/8232153?gh_jid=8232153</link>
       <guid isPermaLink="false">https://careers.airbnb.com/positions/8232153?gh_jid=8232153</guid>
       <description>San Francisco, CA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Thu, 24 Sep 2026 19:24:47 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Business Development Manager</title>
-      <link>https://careers.airbnb.com/positions/7995153?gh_jid=7995153</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7995153?gh_jid=7995153</guid>
-      <description>Berlin, Germany  · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Business Operations and Growth Lead</title>
-      <link>https://careers.airbnb.com/positions/7999656?gh_jid=7999656</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7999656?gh_jid=7999656</guid>
-      <description>Sydney, Australia · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Community Engagement Lead, Spain and Portugal</title>
-      <link>https://careers.airbnb.com/positions/7982715?gh_jid=7982715</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7982715?gh_jid=7982715</guid>
-      <description>Barcelona, Spain · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
       <title>Airbnb — Customer Service Partner Operations Manager, Mandarin Speaking (Manila Based) </title>
@@ -853,146 +573,6 @@
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
-      <title>Airbnb — Growth Marketing Lead, Japan </title>
-      <link>https://careers.airbnb.com/positions/7590542?gh_jid=7590542</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7590542?gh_jid=7590542</guid>
-      <description>Tokyo, Japan · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Lead Advanced Analyst, Integrated Marketing</title>
-      <link>https://careers.airbnb.com/positions/8207084?gh_jid=8207084</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8207084?gh_jid=8207084</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Lead, Advanced Analytics, Acquisition</title>
-      <link>https://careers.airbnb.com/positions/7948314?gh_jid=7948314</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7948314?gh_jid=7948314</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Lead Advanced Analytics, Community Support</title>
-      <link>https://careers.airbnb.com/positions/8023118?gh_jid=8023118</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8023118?gh_jid=8023118</guid>
-      <description>Bengaluru, India · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Lead, Advanced Analytics, Community Support</title>
-      <link>https://careers.airbnb.com/positions/8125981?gh_jid=8125981</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8125981?gh_jid=8125981</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Lead, Advanced Analytics, Payments</title>
-      <link>https://careers.airbnb.com/positions/7967712?gh_jid=7967712</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7967712?gh_jid=7967712</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Lead Advanced Analytics, Product</title>
-      <link>https://careers.airbnb.com/positions/8080954?gh_jid=8080954</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8080954?gh_jid=8080954</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Lead Localization Operations Program Manager</title>
-      <link>https://careers.airbnb.com/positions/8120458?gh_jid=8120458</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8120458?gh_jid=8120458</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Lead Platform Manager, Tech Foundations</title>
-      <link>https://careers.airbnb.com/positions/8211765?gh_jid=8211765</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8211765?gh_jid=8211765</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Manager, Quality, AirCover</title>
-      <link>https://careers.airbnb.com/positions/8114339?gh_jid=8114339</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8114339?gh_jid=8114339</guid>
-      <description>Canada · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Market Manager - Vacation Rental</title>
-      <link>https://careers.airbnb.com/positions/8000413?gh_jid=8000413</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8000413?gh_jid=8000413</guid>
-      <description>Tokyo, Japan · via Greenhouse · h1b_sponsor: yes · experience: 6-8 years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Principal Machine Learning Engineer- LLM Fine-tuning and Optimization </title>
-      <link>https://careers.airbnb.com/positions/7955579?gh_jid=7955579</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7955579?gh_jid=7955579</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Principal, Strategic Finance &amp; Analytics, Acquisition</title>
-      <link>https://careers.airbnb.com/positions/8209984?gh_jid=8209984</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8209984?gh_jid=8209984</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Product Manager, Services</title>
-      <link>https://careers.airbnb.com/positions/8081925?gh_jid=8081925</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8081925?gh_jid=8081925</guid>
-      <description>San Francisco, CA, Seattle WA, New York, NY · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Programs and Business Operations Lead</title>
-      <link>https://careers.airbnb.com/positions/8028783?gh_jid=8028783</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8028783?gh_jid=8028783</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Sales Operations Lead</title>
-      <link>https://careers.airbnb.com/positions/8155005?gh_jid=8155005</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8155005?gh_jid=8155005</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Account Executive, Hotels (Milan-based)</title>
-      <link>https://careers.airbnb.com/positions/8046210?gh_jid=8046210</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8046210?gh_jid=8046210</guid>
-      <description>Milan, Italy · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Advanced Analyst, Fraud &amp; Safety Investigations</title>
-      <link>https://careers.airbnb.com/positions/8225785?gh_jid=8225785</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8225785?gh_jid=8225785</guid>
-      <description>Bangalore, India · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Analyst, Frontline Performance</title>
-      <link>https://careers.airbnb.com/positions/8224146?gh_jid=8224146</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8224146?gh_jid=8224146</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Business Solutions Engineer, BizTech(LegalTech)</title>
-      <link>https://careers.airbnb.com/positions/8053132?gh_jid=8053132</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8053132?gh_jid=8053132</guid>
-      <description>Bangalore, India · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
       <title>Airbnb — Senior Community Growth Manager</title>
       <link>https://careers.airbnb.com/positions/8178467?gh_jid=8178467</link>
       <guid isPermaLink="false">https://careers.airbnb.com/positions/8178467?gh_jid=8178467</guid>
@@ -1000,52 +580,10 @@
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
-      <title>Airbnb — Senior Compensation Partner, Technology</title>
-      <link>https://careers.airbnb.com/positions/8201136?gh_jid=8201136</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8201136?gh_jid=8201136</guid>
-      <description>San Francisco, United States · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Connectivity Partner Manager, Bangkok (SEA/IN)</title>
-      <link>https://careers.airbnb.com/positions/8141377?gh_jid=8141377</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8141377?gh_jid=8141377</guid>
-      <description>Bangkok, Thailand · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
       <title>Airbnb — Senior Data Scientist - Payments (Inference)</title>
       <link>https://careers.airbnb.com/positions/8123037?gh_jid=8123037</link>
       <guid isPermaLink="false">https://careers.airbnb.com/positions/8123037?gh_jid=8123037</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Demand Strategy Lead, Experiences</title>
-      <link>https://careers.airbnb.com/positions/8196013?gh_jid=8196013</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8196013?gh_jid=8196013</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Engineering Manager, Media Foundation</title>
-      <link>https://careers.airbnb.com/positions/7968034?gh_jid=7968034</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7968034?gh_jid=7968034</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Executive IT Support Engineer, Tech Foundations</title>
-      <link>https://careers.airbnb.com/positions/8214375?gh_jid=8214375</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8214375?gh_jid=8214375</guid>
-      <description>San Francisco, CA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Key Accounts Manager</title>
-      <link>https://careers.airbnb.com/positions/7916840?gh_jid=7916840</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7916840?gh_jid=7916840</guid>
-      <description>Paris, France · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
@@ -1077,101 +615,10 @@
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
-      <title>Airbnb — Senior Manager, Field Operations</title>
-      <link>https://careers.airbnb.com/positions/8044801?gh_jid=8044801</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8044801?gh_jid=8044801</guid>
-      <description>Mexico City, Mexico · via Greenhouse · h1b_sponsor: yes · experience: 14+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Manager, Machine Learning Engineering - Communication &amp; Connectivity</title>
-      <link>https://careers.airbnb.com/positions/8070121?gh_jid=8070121</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8070121?gh_jid=8070121</guid>
-      <description>Remote - US · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Manager, Platform Management (Payments)</title>
-      <link>https://careers.airbnb.com/positions/8175521?gh_jid=8175521</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8175521?gh_jid=8175521</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Manager, Quality, Specialty</title>
-      <link>https://careers.airbnb.com/positions/8114342?gh_jid=8114342</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8114342?gh_jid=8114342</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Manager, Technical Program Management (Search &amp; AI Foundations)</title>
-      <link>https://careers.airbnb.com/positions/8077683?gh_jid=8077683</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8077683?gh_jid=8077683</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 13+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Market Manager</title>
-      <link>https://careers.airbnb.com/positions/8138055?gh_jid=8138055</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8138055?gh_jid=8138055</guid>
-      <description>Sao Paulo, Brazil · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Market Manager</title>
-      <link>https://careers.airbnb.com/positions/8202802?gh_jid=8202802</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8202802?gh_jid=8202802</guid>
-      <description>Los Angeles, California, United States · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Market Manager, Hotels</title>
-      <link>https://careers.airbnb.com/positions/7587869?gh_jid=7587869</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7587869?gh_jid=7587869</guid>
-      <description>Sydney, Australia · via Greenhouse · h1b_sponsor: yes · experience: 7+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Market Manager, Vietnamese Speaking (Bangkok Based) </title>
-      <link>https://careers.airbnb.com/positions/8167204?gh_jid=8167204</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8167204?gh_jid=8167204</guid>
-      <description>Vietnam · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Market Manager, Vietnamese Speaking (Bangkok Based) </title>
-      <link>https://careers.airbnb.com/positions/8141266?gh_jid=8141266</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8141266?gh_jid=8141266</guid>
-      <description>Bangkok, Thailand · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Platform Manager, Data Products, Finance Accounting</title>
-      <link>https://careers.airbnb.com/positions/8070705?gh_jid=8070705</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8070705?gh_jid=8070705</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Platform Manager, Payment Platform Accounts</title>
-      <link>https://careers.airbnb.com/positions/8082863?gh_jid=8082863</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8082863?gh_jid=8082863</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 7+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
       <title>Airbnb — Senior Platform Manager, Trust and Safety</title>
       <link>https://careers.airbnb.com/positions/8029984?gh_jid=8029984</link>
       <guid isPermaLink="false">https://careers.airbnb.com/positions/8029984?gh_jid=8029984</guid>
       <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Principal, Competitive Intelligence</title>
-      <link>https://careers.airbnb.com/positions/8053756?gh_jid=8053756</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8053756?gh_jid=8053756</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
@@ -1182,52 +629,10 @@
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
-      <title>Airbnb — Senior Product Program Manager, Roadmap Planning &amp; Program Management </title>
-      <link>https://careers.airbnb.com/positions/8094462?gh_jid=8094462</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8094462?gh_jid=8094462</guid>
-      <description>San Francisco, United States  · via Greenhouse · h1b_sponsor: yes · experience: 13+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Programs &amp; Business Operations Lead</title>
-      <link>https://careers.airbnb.com/positions/8163221?gh_jid=8163221</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8163221?gh_jid=8163221</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Social Content Operations Manager, China</title>
-      <link>https://careers.airbnb.com/positions/8078406?gh_jid=8078406</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8078406?gh_jid=8078406</guid>
-      <description>China · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
       <title>Airbnb — Senior Social Media Associate</title>
       <link>https://careers.airbnb.com/positions/8201289?gh_jid=8201289</link>
       <guid isPermaLink="false">https://careers.airbnb.com/positions/8201289?gh_jid=8201289</guid>
       <description>India · via Greenhouse · h1b_sponsor: yes · experience: 4-9 years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Software Engineer(AI/ML), Trust</title>
-      <link>https://careers.airbnb.com/positions/8154477?gh_jid=8154477</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8154477?gh_jid=8154477</guid>
-      <description>Bangalore, India · via Greenhouse · h1b_sponsor: yes · experience: 7+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Software Engineer, Assistance Engineering</title>
-      <link>https://careers.airbnb.com/positions/8017556?gh_jid=8017556</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8017556?gh_jid=8017556</guid>
-      <description>San Francisco, CA · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Software Engineer, Service Tools   </title>
-      <link>https://careers.airbnb.com/positions/8024057?gh_jid=8024057</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8024057?gh_jid=8024057</guid>
-      <description>Brazil · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
@@ -1238,101 +643,10 @@
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
-      <title>Airbnb — Senior Staff Data Engineer - Data Stewardship</title>
-      <link>https://careers.airbnb.com/positions/7998356?gh_jid=7998356</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7998356?gh_jid=7998356</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Data Engineer, Foundational Data</title>
-      <link>https://careers.airbnb.com/positions/8224032?gh_jid=8224032</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8224032?gh_jid=8224032</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Data Scientist, Guest &amp; Host Marketplace AI</title>
-      <link>https://careers.airbnb.com/positions/7107054?gh_jid=7107054</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7107054?gh_jid=7107054</guid>
-      <description>Remote · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Machine Learning Engineer, Data &amp; Eval</title>
-      <link>https://careers.airbnb.com/positions/6757302?gh_jid=6757302</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/6757302?gh_jid=6757302</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Machine Learning Engineer, Growth Platform Engineering</title>
-      <link>https://careers.airbnb.com/positions/7747259?gh_jid=7747259</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7747259?gh_jid=7747259</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Machine Learning Engineer, Guest &amp; Host</title>
-      <link>https://careers.airbnb.com/positions/7005605?gh_jid=7005605</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7005605?gh_jid=7005605</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Machine Learning Engineer, Post Training</title>
-      <link>https://careers.airbnb.com/positions/7858738?gh_jid=7858738</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7858738?gh_jid=7858738</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
       <title>Airbnb — Senior Staff Machine Learning Engineer, Trust</title>
       <link>https://careers.airbnb.com/positions/7592146?gh_jid=7592146</link>
       <guid isPermaLink="false">https://careers.airbnb.com/positions/7592146?gh_jid=7592146</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 2-3 years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Software Engineer, Guest &amp; Host</title>
-      <link>https://careers.airbnb.com/positions/8017277?gh_jid=8017277</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8017277?gh_jid=8017277</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Software Engineer, Host Pricing &amp; Settings</title>
-      <link>https://careers.airbnb.com/positions/8039723?gh_jid=8039723</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8039723?gh_jid=8039723</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Software Engineer, Payments</title>
-      <link>https://careers.airbnb.com/positions/7525479?gh_jid=7525479</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7525479?gh_jid=7525479</guid>
-      <description>Remote - Bangalore, India · via Greenhouse · h1b_sponsor: yes · experience: 15+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Software Engineer, Tech Foundations</title>
-      <link>https://careers.airbnb.com/positions/8187190?gh_jid=8187190</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8187190?gh_jid=8187190</guid>
-      <description>Remote · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Software Engineer, Trust</title>
-      <link>https://careers.airbnb.com/positions/7818982?gh_jid=7818982</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7818982?gh_jid=7818982</guid>
-      <description>Remote - US · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Support Specialist, Premium Support</title>
-      <link>https://careers.airbnb.com/positions/8107160?gh_jid=8107160</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8107160?gh_jid=8107160</guid>
-      <description>Canada · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
@@ -1350,150 +664,10 @@
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
-      <title>Airbnb — Sr Social Measurement Lead</title>
-      <link>https://careers.airbnb.com/positions/8042783?gh_jid=8042783</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8042783?gh_jid=8042783</guid>
-      <description>San Francisco, CA · via Greenhouse · h1b_sponsor: yes · experience: 15+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Advanced Analytics, Community Blueprint &amp; Quality</title>
-      <link>https://careers.airbnb.com/positions/8207095?gh_jid=8207095</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8207095?gh_jid=8207095</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Advanced Analytics, Guest Product</title>
-      <link>https://careers.airbnb.com/positions/7943874?gh_jid=7943874</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7943874?gh_jid=7943874</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Backend Engineer - Ads Platform</title>
-      <link>https://careers.airbnb.com/positions/8074897?gh_jid=8074897</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8074897?gh_jid=8074897</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Machine Learning Engineer, Assistance Engineering</title>
-      <link>https://careers.airbnb.com/positions/8024316?gh_jid=8024316</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8024316?gh_jid=8024316</guid>
-      <description>San Francisco, CA · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Machine Learning Engineer, Traffic Intelligence</title>
-      <link>https://careers.airbnb.com/positions/8129371?gh_jid=8129371</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8129371?gh_jid=8129371</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb —  Staff Platform Manager, AI Personalization</title>
-      <link>https://careers.airbnb.com/positions/7834495?gh_jid=7834495</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7834495?gh_jid=7834495</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Platform Manager, Conversational Products</title>
-      <link>https://careers.airbnb.com/positions/8136554?gh_jid=8136554</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8136554?gh_jid=8136554</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Platform Manager - GTM &amp; Ops Tooling</title>
-      <link>https://careers.airbnb.com/positions/8163100?gh_jid=8163100</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8163100?gh_jid=8163100</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120721?gh_jid=8120721</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8120721?gh_jid=8120721</guid>
-      <description>Mexico · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120611?gh_jid=8120611</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8120611?gh_jid=8120611</guid>
-      <description>Brazil · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Software Engineer, Assistance Engineering</title>
-      <link>https://careers.airbnb.com/positions/7463421?gh_jid=7463421</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7463421?gh_jid=7463421</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Software Engineer, Communication &amp; Connectivity</title>
-      <link>https://careers.airbnb.com/positions/7421419?gh_jid=7421419</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7421419?gh_jid=7421419</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Software Engineer, Data Warehouse</title>
-      <link>https://careers.airbnb.com/positions/8197715?gh_jid=8197715</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8197715?gh_jid=8197715</guid>
-      <description>USA · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Software Engineer, Passport &amp; Commerce (Backend)</title>
-      <link>https://careers.airbnb.com/positions/8130817?gh_jid=8130817</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8130817?gh_jid=8130817</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Software Engineer, Payments Compliance</title>
-      <link>https://careers.airbnb.com/positions/8130787?gh_jid=8130787</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8130787?gh_jid=8130787</guid>
-      <description>Remote - US · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Software Engineer, Tech Foundations</title>
-      <link>https://careers.airbnb.com/positions/7702714?gh_jid=7702714</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7702714?gh_jid=7702714</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Software Engineer, Unified Data Store</title>
-      <link>https://careers.airbnb.com/positions/7867435?gh_jid=7867435</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7867435?gh_jid=7867435</guid>
-      <description>Brazil · via Greenhouse · h1b_sponsor: yes · experience: 9+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff UX Researcher, Payments Growth (Mixed Methods)</title>
-      <link>https://careers.airbnb.com/positions/8113284?gh_jid=8113284</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8113284?gh_jid=8113284</guid>
-      <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
       <title>Airbnb — Staff Workday Integration Engineer, Tech Foundations</title>
       <link>https://careers.airbnb.com/positions/8202878?gh_jid=8202878</link>
       <guid isPermaLink="false">https://careers.airbnb.com/positions/8202878?gh_jid=8202878</guid>
       <description>United States · via Greenhouse · h1b_sponsor: yes · experience: 5-6 years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Strategic Partnerships Lead, Central and Eastern Europe</title>
-      <link>https://careers.airbnb.com/positions/7641058?gh_jid=7641058</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/7641058?gh_jid=7641058</guid>
-      <description>Berlin, Germany · via Greenhouse · h1b_sponsor: yes · experience: 10-12 years</description>
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
@@ -1511,32 +685,11 @@
       <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
     </item>
     <item>
-      <title>Airbnb — Supervisor, Premium Support (French/English)</title>
-      <link>https://careers.airbnb.com/positions/8080625?gh_jid=8080625</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8080625?gh_jid=8080625</guid>
-      <description>Canada · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Vendor Manager, Operational Vendor Support (Insurance)</title>
-      <link>https://careers.airbnb.com/positions/8120259?gh_jid=8120259</link>
-      <guid isPermaLink="false">https://careers.airbnb.com/positions/8120259?gh_jid=8120259</guid>
-      <description>United States  · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Thu, 24 Sep 2026 18:49:00 -0400</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Sourcing Analyst</title>
       <link>https://www.coinbase.com/careers/positions/8017697?gh_jid=8017697</link>
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8017697?gh_jid=8017697</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Thu, 24 Sep 2026 17:48:29 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer, EAA CX</title>
-      <link>https://www.coinbase.com/careers/positions/6784618?gh_jid=6784618</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/6784618?gh_jid=6784618</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 24 Sep 2026 16:04:03 -0400</pubDate>
     </item>
     <item>
       <title>Mercier Consultancy Group — Danish Speaking Solutions Consultant Work Sofia Bulgaria</title>
@@ -1581,25 +734,11 @@
       <pubDate>Wed, 23 Sep 2026 16:31:53 +0000</pubDate>
     </item>
     <item>
-      <title>Coinbase — Associate General Counsel, Privacy</title>
-      <link>https://www.coinbase.com/careers/positions/8227393?gh_jid=8227393</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8227393?gh_jid=8227393</guid>
-      <description>Remote - Ireland · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Wed, 23 Sep 2026 16:20:00 -0400</pubDate>
-    </item>
-    <item>
       <title>Prenosis — Software Engineer</title>
       <link>https://remoteOK.com/remote-jobs/remote-software-engineer-prenosis-1137427</link>
       <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-software-engineer-prenosis-1137427</guid>
       <description>Remote · via RemoteOK · h1b_sponsor: unknown · experience: unspecified</description>
       <pubDate>Wed, 23 Sep 2026 14:00:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Associate General Counsel, Privacy</title>
-      <link>https://www.coinbase.com/careers/positions/8212923?gh_jid=8212923</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8212923?gh_jid=8212923</guid>
-      <description>Remote - UK · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Wed, 23 Sep 2026 04:59:40 -0400</pubDate>
     </item>
     <item>
       <title>Bjak  — Frontend Engineer</title>
@@ -1635,13 +774,6 @@
       <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-software-developer-security-analytics-redmimicry-1137417</guid>
       <description>Remote · via RemoteOK · h1b_sponsor: unknown · experience: unspecified</description>
       <pubDate>Tue, 22 Sep 2026 09:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Engineering Manager, Core AI Automation (Platform)</title>
-      <link>https://www.coinbase.com/careers/positions/8124224?gh_jid=8124224</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8124224?gh_jid=8124224</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Tue, 22 Sep 2026 01:00:15 -0400</pubDate>
     </item>
     <item>
       <title>Magic Eden — Senior Growth Product Manager AI Native</title>
@@ -1700,13 +832,6 @@
       <pubDate>Sun, 20 Sep 2026 23:49:01 -0400</pubDate>
     </item>
     <item>
-      <title>OkWhen — Senior .NET Software Engineer</title>
-      <link>https://remoteOK.com/remote-jobs/remote-senior-net-software-engineer-okwhen-1137411</link>
-      <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-senior-net-software-engineer-okwhen-1137411</guid>
-      <description>Remote · via RemoteOK · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Sun, 20 Sep 2026 00:00:31 +0000</pubDate>
-    </item>
-    <item>
       <title>Bjak  — Frontend Engineer</title>
       <link>https://remoteOK.com/remote-jobs/remote-frontend-engineer-bjak-1137410</link>
       <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-frontend-engineer-bjak-1137410</guid>
@@ -1721,20 +846,6 @@
       <pubDate>Sat, 19 Sep 2026 20:00:01 +0000</pubDate>
     </item>
     <item>
-      <title>Delinea — VP Pricing &amp; Packaging</title>
-      <link>https://remoteOK.com/remote-jobs/remote-vp-pricing-packaging-delinea-1137407</link>
-      <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-vp-pricing-packaging-delinea-1137407</guid>
-      <description>Redwood City · via RemoteOK · h1b_sponsor: unknown · experience: 12+ years</description>
-      <pubDate>Sat, 19 Sep 2026 00:00:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>JumpCloud — Customer Success Manager Mexico</title>
-      <link>https://remoteOK.com/remote-jobs/remote-customer-success-manager-mexico-jumpcloud-1137406</link>
-      <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-customer-success-manager-mexico-jumpcloud-1137406</guid>
-      <description>Mexico City, Mexico - Remote · via RemoteOK · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Sat, 19 Sep 2026 00:00:06 +0000</pubDate>
-    </item>
-    <item>
       <title>Ramp — Product Operations Specialist | Travel</title>
       <link>https://jobs.ashbyhq.com/ramp/925fce22-61af-4d26-8f20-90696a3b6704</link>
       <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/925fce22-61af-4d26-8f20-90696a3b6704</guid>
@@ -1742,39 +853,11 @@
       <pubDate>Fri, 18 Sep 2026 17:56:17 +0000</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Software Engineer, Agent Verification </title>
-      <link>https://www.coinbase.com/careers/positions/8174949?gh_jid=8174949</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8174949?gh_jid=8174949</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 7+ years</description>
-      <pubDate>Fri, 18 Sep 2026 15:04:15 -0400</pubDate>
-    </item>
-    <item>
-      <title>Sanctuary Computer — Senior Shopify Developer</title>
-      <link>https://remoteOK.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405</link>
-      <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405</guid>
-      <description>Remote · via RemoteOK · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Fri, 18 Sep 2026 13:29:53 +0000</pubDate>
-    </item>
-    <item>
       <title>Ramp — Enterprise Manager, Sales Development</title>
       <link>https://jobs.ashbyhq.com/ramp/9a7b7657-1e16-4a95-9a47-79612669cf9c</link>
       <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/9a7b7657-1e16-4a95-9a47-79612669cf9c</guid>
       <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 2+ years</description>
       <pubDate>Fri, 18 Sep 2026 12:58:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Group Product Manager, Developer Infrastructure</title>
-      <link>https://www.coinbase.com/careers/positions/8017607?gh_jid=8017607</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8017607?gh_jid=8017607</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Fri, 18 Sep 2026 03:04:01 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer, Developer Infrastructure (Test Infrastructure)</title>
-      <link>https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Fri, 18 Sep 2026 03:03:57 -0400</pubDate>
     </item>
     <item>
       <title>Coinbase — Software Engineer, Developer Infrastructure</title>
@@ -1789,13 +872,6 @@
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7964398?gh_jid=7964398</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Fri, 18 Sep 2026 03:03:44 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Machine Learning Engineer(Platform - Identity)</title>
-      <link>https://www.coinbase.com/careers/positions/8211486?gh_jid=8211486</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8211486?gh_jid=8211486</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 17 Sep 2026 15:38:43 -0400</pubDate>
     </item>
     <item>
       <title>Ramp — Manager, Sales Development | SMB</title>
@@ -1840,13 +916,6 @@
       <pubDate>Wed, 16 Sep 2026 06:55:47 +0000</pubDate>
     </item>
     <item>
-      <title>DomainTools — Principal Product Manager</title>
-      <link>https://remoteOK.com/remote-jobs/remote-principal-product-manager-domaintools-1137396</link>
-      <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-principal-product-manager-domaintools-1137396</guid>
-      <description>Remote · via RemoteOK · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:13 +0000</pubDate>
-    </item>
-    <item>
       <title>Ramp — Enterprise Customer Activation Manager | Bill Pay &amp; Procurement </title>
       <link>https://jobs.ashbyhq.com/ramp/ab74a687-4545-47c9-870d-bfd7e7cde576</link>
       <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/ab74a687-4545-47c9-870d-bfd7e7cde576</guid>
@@ -1873,13 +942,6 @@
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49711313</guid>
       <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: unspecified</description>
       <pubDate>Tue, 15 Sep 2026 12:09:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Staff Software Engineer, Institutional Exchange</title>
-      <link>https://www.coinbase.com/careers/positions/8179210?gh_jid=8179210</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8179210?gh_jid=8179210</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Tue, 15 Sep 2026 00:18:16 -0400</pubDate>
     </item>
     <item>
       <title>ExtraHop — Sr Solutions Architect</title>
@@ -1910,20 +972,6 @@
       <pubDate>Mon, 14 Sep 2026 16:39:41 -0400</pubDate>
     </item>
     <item>
-      <title>Coinbase — Staff Software Engineer, Customer Administration</title>
-      <link>https://www.coinbase.com/careers/positions/8054153?gh_jid=8054153</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8054153?gh_jid=8054153</guid>
-      <description>Remote - India · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Mon, 14 Sep 2026 16:39:37 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer, Enterprise Apps</title>
-      <link>https://www.coinbase.com/careers/positions/8166218?gh_jid=8166218</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8166218?gh_jid=8166218</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Mon, 14 Sep 2026 16:39:29 -0400</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Machine Learning Engineer, CX Intelligence </title>
       <link>https://www.coinbase.com/careers/positions/8008569?gh_jid=8008569</link>
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8008569?gh_jid=8008569</guid>
@@ -1945,25 +993,11 @@
       <pubDate>Mon, 14 Sep 2026 16:39:01 -0400</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Enterprise Engineer - Salesforce Platform (EAA - STP)</title>
-      <link>https://www.coinbase.com/careers/positions/7652048?gh_jid=7652048</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7652048?gh_jid=7652048</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Mon, 14 Sep 2026 16:38:57 -0400</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Software Engineer (EAA)</title>
       <link>https://www.coinbase.com/careers/positions/7483221?gh_jid=7483221</link>
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7483221?gh_jid=7483221</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Mon, 14 Sep 2026 16:38:47 -0400</pubDate>
-    </item>
-    <item>
-      <title>Ramp — Account Executive | Enterprise</title>
-      <link>https://jobs.ashbyhq.com/ramp/8f3c27f0-50fb-47ba-a3dd-597428380843</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/8f3c27f0-50fb-47ba-a3dd-597428380843</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 6+ years</description>
-      <pubDate>Mon, 14 Sep 2026 03:34:59 +0000</pubDate>
     </item>
     <item>
       <title>Bjak  — Technical Product Lead AI Finance App</title>
@@ -1994,25 +1028,11 @@
       <pubDate>Fri, 11 Sep 2026 18:20:16 -0400</pubDate>
     </item>
     <item>
-      <title>Coinbase — Operational Excellence Senior Program Lead</title>
-      <link>https://www.coinbase.com/careers/positions/8198059?gh_jid=8198059</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8198059?gh_jid=8198059</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 7+ years</description>
-      <pubDate>Fri, 11 Sep 2026 18:15:13 -0400</pubDate>
-    </item>
-    <item>
       <title>See posting — Obi9 | Full-Stack Engineer | REMOTE (US time zones) | Contract or Full-time |  https:&amp;#x2F;&amp;#x2F;obi9.ai&amp;#x2F;jobs&amp;#x2F;full-stack-engineer </title>
       <link>https://news.ycombinator.com/item?id=49661611</link>
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49661611</guid>
       <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 5+ years</description>
       <pubDate>Fri, 11 Sep 2026 16:57:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Principal Recruiter</title>
-      <link>https://www.coinbase.com/careers/positions/8050322?gh_jid=8050322</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8050322?gh_jid=8050322</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Fri, 11 Sep 2026 10:32:53 -0400</pubDate>
     </item>
     <item>
       <title>Copenhagen Optimization — Marketing Student Assistant</title>
@@ -2078,13 +1098,6 @@
       <pubDate>Wed, 09 Sep 2026 22:23:09 +0000</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Staff Software Engineer, Platform - IAM</title>
-      <link>https://www.coinbase.com/careers/positions/8155366?gh_jid=8155366</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8155366?gh_jid=8155366</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Wed, 09 Sep 2026 20:23:49 -0400</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Software Engineer, Core Infra Systems</title>
       <link>https://www.coinbase.com/careers/positions/8172100?gh_jid=8172100</link>
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8172100?gh_jid=8172100</guid>
@@ -2139,13 +1152,6 @@
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49615435</guid>
       <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 4+ years</description>
       <pubDate>Tue, 08 Sep 2026 19:19:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ramp — Senior Channel Partner Manager, Canada</title>
-      <link>https://jobs.ashbyhq.com/ramp/ad9d3118-1ab4-488a-a6e8-3784082f92a4</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/ad9d3118-1ab4-488a-a6e8-3784082f92a4</guid>
-      <description>Toronto, ON · via Ashby · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Tue, 08 Sep 2026 19:01:52 +0000</pubDate>
     </item>
     <item>
       <title>See posting — Matterhaul | Founding Applied AI Engineer | San Francisco, CA | Onsite (4x&amp;#x2F;week) | $200-260K |  https:&amp;#x2F;&amp;#x2F;www.matterhaul.com&amp;#x</title>
@@ -2253,20 +1259,6 @@
       <pubDate>Fri, 04 Sep 2026 17:31:02 -0400</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Network Engineer</title>
-      <link>https://www.coinbase.com/careers/positions/8179311?gh_jid=8179311</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8179311?gh_jid=8179311</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Fri, 04 Sep 2026 17:24:43 -0400</pubDate>
-    </item>
-    <item>
-      <title>See posting — Endless Access | Engineering Lead | Hybrid NYC | full time | 150k-250k We&amp;#x27;re a mission-oriented org focused on bridging the global digi</title>
-      <link>https://news.ycombinator.com/item?id=49567458</link>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49567458</guid>
-      <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Fri, 04 Sep 2026 17:20:02 +0000</pubDate>
-    </item>
-    <item>
       <title>See posting — Harmonic | Technical Trainer | REMOTE (USA, East Coast based) | Full-time | 85k-105k USD Key requirements: Up to 50% time can be mandatory t</title>
       <link>https://news.ycombinator.com/item?id=49564322</link>
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49564322</guid>
@@ -2286,20 +1278,6 @@
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8179114?gh_jid=8179114</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Fri, 04 Sep 2026 03:08:31 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase —  Staff Infrastructure Engineer, Trading </title>
-      <link>https://www.coinbase.com/careers/positions/8144769?gh_jid=8144769</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8144769?gh_jid=8144769</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Fri, 04 Sep 2026 03:08:31 -0400</pubDate>
-    </item>
-    <item>
-      <title>See posting — Flow Traders | Research Engineer | Hong Kong&amp;#x2F; London (onsite) | Full Time | Visa | Relocation Flow Traders is a leading proprietary tra</title>
-      <link>https://news.ycombinator.com/item?id=49559854</link>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49559854</guid>
-      <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Fri, 04 Sep 2026 02:33:45 +0000</pubDate>
     </item>
     <item>
       <title>Ramp — Manager, Account Executive | Commercial</title>
@@ -2456,13 +1434,6 @@
       <pubDate>Wed, 02 Sep 2026 22:41:32 +0000</pubDate>
     </item>
     <item>
-      <title>See posting — Tecuity | Senior Software Engineer I | Hyde Park, UT (ONSITE preferred; will consider candidates who can commute in 1-2x&amp;#x2F;month) | Full-</title>
-      <link>https://news.ycombinator.com/item?id=49543040</link>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49543040</guid>
-      <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 20+ years</description>
-      <pubDate>Wed, 02 Sep 2026 21:49:56 +0000</pubDate>
-    </item>
-    <item>
       <title>See posting — Foray Bioscience | Software Engineer, Data &amp;amp; ML | On-Site (Cambridge, MA) | Full Time | $105,000–$130,000 + equity Company:</title>
       <link>https://news.ycombinator.com/item?id=49542805</link>
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49542805</guid>
@@ -2482,13 +1453,6 @@
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49541388</guid>
       <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: unspecified</description>
       <pubDate>Wed, 02 Sep 2026 19:44:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>See posting — VLM Run ( https:&amp;#x2F;&amp;#x2F;vlm.run ) | 1x Founding Infrastructure Engineer We’re building the inference platform for visual intelligence. W</title>
-      <link>https://news.ycombinator.com/item?id=49541233</link>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49541233</guid>
-      <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 20+ years</description>
-      <pubDate>Wed, 02 Sep 2026 19:33:22 +0000</pubDate>
     </item>
     <item>
       <title>See posting — Enveritas (YC S18, non-profit) | Backend Software Engineer | Remote (Global) |  https:&amp;#x2F;&amp;#x2F;enveritas.org&amp;#x2F;jobs&amp;#x2F; </title>
@@ -2519,13 +1483,6 @@
       <pubDate>Wed, 02 Sep 2026 17:12:00 +0000</pubDate>
     </item>
     <item>
-      <title>See posting — MWI Animal Health | Remote (US only) | Senior SWE, Senior DevOps US animal-health distributor. We build .NET&amp;#x2F;Angular apps and hardware </title>
-      <link>https://news.ycombinator.com/item?id=49538902</link>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49538902</guid>
-      <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Wed, 02 Sep 2026 16:42:43 +0000</pubDate>
-    </item>
-    <item>
       <title>See posting — Cascade Space | Senior Mechanical Engineer | San Francisco, CA (ONSITE) | Full-time | $150k - $190k + equity Cascade Space is building groun</title>
       <link>https://news.ycombinator.com/item?id=49538639</link>
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49538639</guid>
@@ -2538,13 +1495,6 @@
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8024880?gh_jid=8024880</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Wed, 02 Sep 2026 16:16:24 -0400</pubDate>
-    </item>
-    <item>
-      <title>See posting — Republic Services | Staff Engineer – Agentic AI | REMOTE (US) | Full-time | $175k is our salary midpoint + 20% target bonus Republic Service</title>
-      <link>https://news.ycombinator.com/item?id=49538459</link>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49538459</guid>
-      <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 7-10 years</description>
-      <pubDate>Wed, 02 Sep 2026 16:12:45 +0000</pubDate>
     </item>
     <item>
       <title>See posting — Checkly |  https:&amp;#x2F;&amp;#x2F;www.checklyhq.com  | Product Manager, Sales Engineer, Senior Sales Engineer | REMOTE (Europe &amp;#x2F; US Eastern)</title>
@@ -2806,13 +1756,6 @@
       <pubDate>Tue, 01 Sep 2026 22:24:16 +0000</pubDate>
     </item>
     <item>
-      <title>Ramp — Senior Product Partnerships Manager</title>
-      <link>https://jobs.ashbyhq.com/ramp/c0fe115a-6251-4608-af07-d222ab6a0f42</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/c0fe115a-6251-4608-af07-d222ab6a0f42</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Tue, 01 Sep 2026 22:11:40 +0000</pubDate>
-    </item>
-    <item>
       <title>See posting — Trustworthy Technology | Earth | Part Time | REMOTE | Vision, Marketing, and&amp;#x2F;or  Design Hi, we are a small group trying to bring the &amp;q</title>
       <link>https://news.ycombinator.com/item?id=49528935</link>
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49528935</guid>
@@ -2897,13 +1840,6 @@
       <pubDate>Tue, 01 Sep 2026 21:00:44 +0000</pubDate>
     </item>
     <item>
-      <title>See posting — Paramark | Software Engineer (L4) | San Francisco HYBRID (3 days&amp;#x2F;wk) or REMOTE (US) | Full-time | $199K–$249K + equity Paramark helps M</title>
-      <link>https://news.ycombinator.com/item?id=49527646</link>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49527646</guid>
-      <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Tue, 01 Sep 2026 20:25:16 +0000</pubDate>
-    </item>
-    <item>
       <title>See posting — Newtwen | Backend &amp;amp; Cloud Platform Engineer | REMOTE (EU) | Full-time | €70k–€90k+ Newtwen is building a cloud platform that brings comp</title>
       <link>https://news.ycombinator.com/item?id=49527588</link>
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49527588</guid>
@@ -2937,13 +1873,6 @@
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49527354</guid>
       <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: unspecified</description>
       <pubDate>Tue, 01 Sep 2026 20:04:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>See posting — AREO | Remote (EU) &amp;#x2F; on-site in Bremen, Germany | Full-Time | Equity | Roles: [Engineering Manager (Ruby on Rails), Lead Product Engine</title>
-      <link>https://news.ycombinator.com/item?id=49527344</link>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49527344</guid>
-      <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 20+ years</description>
-      <pubDate>Tue, 01 Sep 2026 20:03:19 +0000</pubDate>
     </item>
     <item>
       <title>See posting — ML6 | Senior AI Engineer | Python, TensorFlow, PyTorch, GCP, AWS, Azure | Full-time | Amsterdam, Berlin, Munich, Eindhoven, Ghent (EU) On-si</title>
@@ -2986,13 +1915,6 @@
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49527115</guid>
       <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: unspecified</description>
       <pubDate>Tue, 01 Sep 2026 19:48:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>See posting — Pathos AI | Senior Software&amp;#x2F;AI Engineer + DevSecOps Engineer | NYC, ONSITE 3-4 days&amp;#x2F;wk | Full-time | $180-200K + equity | VISA (tr</title>
-      <link>https://news.ycombinator.com/item?id=49527113</link>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49527113</guid>
-      <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 6-8 years</description>
-      <pubDate>Tue, 01 Sep 2026 19:48:09 +0000</pubDate>
     </item>
     <item>
       <title>See posting — Leidos |  https:&amp;#x2F;&amp;#x2F;www.leidos.com&amp;#x2F;  | Oklahoma City, OK, USA | Full Time | Onsite * Great opportunity to do meaningful work at</title>
@@ -3098,13 +2020,6 @@
       <guid isPermaLink="false">https://news.ycombinator.com/item?id=49525651</guid>
       <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: unspecified</description>
       <pubDate>Tue, 01 Sep 2026 18:12:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>See posting — Astoria AI | Founding AI Engineer — Agentic Systems | Remote (async) | Full-time | Equity-only pre-seed, $190k-$280k + equity post-seed Asto</title>
-      <link>https://news.ycombinator.com/item?id=49525603</link>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=49525603</guid>
-      <description>See posting · via HN Who's Hiring · h1b_sponsor: unknown · experience: 6+ years</description>
-      <pubDate>Tue, 01 Sep 2026 18:08:48 +0000</pubDate>
     </item>
     <item>
       <title>See posting — Balerion AI | Software + FDE + AI Engineers | San Francisco, CA | ONSITE | Full-time | $250k+ base + seed equity | Visa sponsorship availabl</title>
@@ -3590,39 +2505,11 @@
       <pubDate>Tue, 01 Sep 2026 12:18:20 -0400</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Staff Software Engineer, Payments</title>
-      <link>https://www.coinbase.com/careers/positions/8060842?gh_jid=8060842</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8060842?gh_jid=8060842</guid>
-      <description>Remote - Canada · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Tue, 01 Sep 2026 11:04:52 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Staff Software Engineer, Payments</title>
-      <link>https://www.coinbase.com/careers/positions/8056068?gh_jid=8056068</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8056068?gh_jid=8056068</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 10+ years</description>
-      <pubDate>Tue, 01 Sep 2026 11:04:01 -0400</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Software Engineer</title>
       <link>https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647</link>
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Mon, 31 Aug 2026 17:51:50 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer</title>
-      <link>https://www.coinbase.com/careers/positions/8021650?gh_jid=8021650</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8021650?gh_jid=8021650</guid>
-      <description>Remote - Israel · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Mon, 31 Aug 2026 17:40:48 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer, Security Platform</title>
-      <link>https://www.coinbase.com/careers/positions/8167571?gh_jid=8167571</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8167571?gh_jid=8167571</guid>
-      <description>Remote - India · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Mon, 31 Aug 2026 13:27:12 -0400</pubDate>
     </item>
     <item>
       <title>Ramp — Executive Assistant | Multiple Openings</title>
@@ -3674,25 +2561,11 @@
       <pubDate>Thu, 27 Aug 2026 09:00:02 +0000</pubDate>
     </item>
     <item>
-      <title>Blackbird Interactive — Senior Level Designer</title>
-      <link>https://remoteOK.com/remote-jobs/remote-senior-level-designer-blackbird-interactive-1137156</link>
-      <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-senior-level-designer-blackbird-interactive-1137156</guid>
-      <description>Vancouver, BC, Canada · via RemoteOK · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Thu, 27 Aug 2026 00:00:23 +0000</pubDate>
-    </item>
-    <item>
       <title>Tessera Labs — Oracle Fusion Cloud Lead â Logistics &amp; Supply Chain Management</title>
       <link>https://remoteOK.com/remote-jobs/remote-oracle-fusion-cloud-lead-logistics-supply-chain-management-tessera-labs-1137155</link>
       <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-oracle-fusion-cloud-lead-logistics-supply-chain-management-tessera-labs-1137155</guid>
       <description>Remote · via RemoteOK · h1b_sponsor: unknown · experience: unspecified</description>
       <pubDate>Thu, 27 Aug 2026 00:00:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer, Compute Platform (Routing)</title>
-      <link>https://www.coinbase.com/careers/positions/8160557?gh_jid=8160557</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8160557?gh_jid=8160557</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Wed, 26 Aug 2026 20:36:40 -0400</pubDate>
     </item>
     <item>
       <title>Transportation Partners &amp;amp; Logistics — Renewables Project Scheduler</title>
@@ -3723,27 +2596,6 @@
       <pubDate>Tue, 25 Aug 2026 07:00:03 +0000</pubDate>
     </item>
     <item>
-      <title>Ramp — Senior Financial Crimes Compliance Controls Strategist</title>
-      <link>https://jobs.ashbyhq.com/ramp/a91527c9-d2e7-489d-9506-ad72091b5125</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/a91527c9-d2e7-489d-9506-ad72091b5125</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Mon, 24 Aug 2026 22:55:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer, Backend - Platform (Core AI Automation)</title>
-      <link>https://www.coinbase.com/careers/positions/8154983?gh_jid=8154983</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8154983?gh_jid=8154983</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Mon, 24 Aug 2026 17:19:13 -0400</pubDate>
-    </item>
-    <item>
-      <title>Ramp — Senior Manager, Strategic Technical Consulting</title>
-      <link>https://jobs.ashbyhq.com/ramp/ac7edc29-103a-420f-9002-5d4d43afb159</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/ac7edc29-103a-420f-9002-5d4d43afb159</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Mon, 24 Aug 2026 16:32:32 +0000</pubDate>
-    </item>
-    <item>
       <title>Orca Bio — Senior Specialist Global QMS</title>
       <link>https://remoteOK.com/remote-jobs/remote-senior-specialist-global-qms-orca-bio-1137072</link>
       <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-senior-specialist-global-qms-orca-bio-1137072</guid>
@@ -3763,13 +2615,6 @@
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8146039?gh_jid=8146039</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Fri, 21 Aug 2026 17:05:50 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer (Platform - Access &amp; Authorization)</title>
-      <link>https://www.coinbase.com/careers/positions/8114877?gh_jid=8114877</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8114877?gh_jid=8114877</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Fri, 21 Aug 2026 17:04:19 -0400</pubDate>
     </item>
     <item>
       <title>Coinbase — Senior Data Scientist</title>
@@ -3807,39 +2652,11 @@
       <pubDate>Tue, 18 Aug 2026 14:56:03 +0000</pubDate>
     </item>
     <item>
-      <title>Coinbase — Chief of Staff</title>
-      <link>https://www.coinbase.com/careers/positions/8131316?gh_jid=8131316</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8131316?gh_jid=8131316</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 7+ years</description>
-      <pubDate>Tue, 18 Aug 2026 10:04:09 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Talent Program Manager</title>
-      <link>https://www.coinbase.com/careers/positions/8126484?gh_jid=8126484</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8126484?gh_jid=8126484</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 7+ years</description>
-      <pubDate>Tue, 18 Aug 2026 10:04:05 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Principal Recruiter</title>
-      <link>https://www.coinbase.com/careers/positions/8106071?gh_jid=8106071</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8106071?gh_jid=8106071</guid>
-      <description>Remote - Singapore · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Tue, 18 Aug 2026 10:04:02 -0400</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Software Engineer, Simple Trade Experience</title>
       <link>https://www.coinbase.com/careers/positions/8103569?gh_jid=8103569</link>
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8103569?gh_jid=8103569</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Tue, 18 Aug 2026 09:17:58 -0400</pubDate>
-    </item>
-    <item>
-      <title>Benchling — Solutions Delivery Manager</title>
-      <link>https://remoteOK.com/remote-jobs/remote-solutions-delivery-manager-benchling-1136937</link>
-      <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-solutions-delivery-manager-benchling-1136937</guid>
-      <description>Boston · via RemoteOK · h1b_sponsor: unknown · experience: 6+ years</description>
-      <pubDate>Tue, 18 Aug 2026 08:00:07 +0000</pubDate>
     </item>
     <item>
       <title>Ramp — Product Operations | AI Revenue Systems</title>
@@ -3863,13 +2680,6 @@
       <pubDate>Mon, 17 Aug 2026 08:00:35 +0000</pubDate>
     </item>
     <item>
-      <title>HighLevel — Lead Product Designer</title>
-      <link>https://remoteOK.com/remote-jobs/remote-lead-product-designer-highlevel-1136841</link>
-      <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-lead-product-designer-highlevel-1136841</guid>
-      <description>India · via RemoteOK · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Mon, 17 Aug 2026 08:00:03 +0000</pubDate>
-    </item>
-    <item>
       <title>Physical Superintelligence — Member of Technical Staff Engineering</title>
       <link>https://remoteOK.com/remote-jobs/remote-member-of-technical-staff-engineering-physical-superintelligence-1136798</link>
       <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-member-of-technical-staff-engineering-physical-superintelligence-1136798</guid>
@@ -3877,32 +2687,11 @@
       <pubDate>Sun, 16 Aug 2026 00:00:23 +0000</pubDate>
     </item>
     <item>
-      <title>FreedomPay — Strategic Account Executive Lodging</title>
-      <link>https://remoteOK.com/remote-jobs/remote-strategic-account-executive-lodging-freedompay-1136797</link>
-      <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-strategic-account-executive-lodging-freedompay-1136797</guid>
-      <description>Select USA Remote Locations · via RemoteOK · h1b_sponsor: unknown · experience: 10+ years</description>
-      <pubDate>Sun, 16 Aug 2026 00:00:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Delinea — Staff Software Development Engineer SDM</title>
-      <link>https://remoteOK.com/remote-jobs/remote-staff-software-development-engineer-sdm-delinea-1136796</link>
-      <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-staff-software-development-engineer-sdm-delinea-1136796</guid>
-      <description>Redwood City · via RemoteOK · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Sun, 16 Aug 2026 00:00:10 +0000</pubDate>
-    </item>
-    <item>
       <title>Pivotal Health — Senior Software Engineer Case Execution</title>
       <link>https://remoteOK.com/remote-jobs/remote-senior-software-engineer-case-execution-pivotal-health-1136795</link>
       <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-senior-software-engineer-case-execution-pivotal-health-1136795</guid>
       <description>New York City · via RemoteOK · h1b_sponsor: unknown · experience: 5+ years</description>
       <pubDate>Sun, 16 Aug 2026 00:00:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Counsel, Product</title>
-      <link>https://www.coinbase.com/careers/positions/8069582?gh_jid=8069582</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8069582?gh_jid=8069582</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 7+ years</description>
-      <pubDate>Sat, 15 Aug 2026 00:41:21 -0400</pubDate>
     </item>
     <item>
       <title>Coinbase — Operations Senior Associate</title>
@@ -4031,46 +2820,11 @@
       <pubDate>Mon, 10 Aug 2026 16:22:34 +0000</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Product Marketing Manager, Trading </title>
-      <link>https://www.coinbase.com/careers/positions/8077090?gh_jid=8077090</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8077090?gh_jid=8077090</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Mon, 10 Aug 2026 15:18:26 -0400</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Product Designer, Coinbase One</title>
       <link>https://www.coinbase.com/careers/positions/8114474?gh_jid=8114474</link>
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8114474?gh_jid=8114474</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Fri, 07 Aug 2026 13:31:21 -0400</pubDate>
-    </item>
-    <item>
-      <title>Ramp — Senior Product Marketing Manager - New Products</title>
-      <link>https://jobs.ashbyhq.com/ramp/cdc3cb5a-8c6d-4820-86cf-5f9daa2b41fc</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/cdc3cb5a-8c6d-4820-86cf-5f9daa2b41fc</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 6+ years</description>
-      <pubDate>Thu, 06 Aug 2026 19:42:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ramp — Lead Product Marketing Manager - Verticals </title>
-      <link>https://jobs.ashbyhq.com/ramp/2e07fb9f-fefd-44a4-a6ef-235b4e567432</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/2e07fb9f-fefd-44a4-a6ef-235b4e567432</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Thu, 06 Aug 2026 19:42:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Software Engineer, Data Engineering Platform</title>
-      <link>https://www.coinbase.com/careers/positions/8082199?gh_jid=8082199</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8082199?gh_jid=8082199</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 7+ years</description>
-      <pubDate>Thu, 06 Aug 2026 18:57:15 -0400</pubDate>
-    </item>
-    <item>
-      <title>Ramp — Commercial Account Executive, Canada</title>
-      <link>https://jobs.ashbyhq.com/ramp/3f94674f-6af8-4e10-9631-77b1b0a410bf</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/3f94674f-6af8-4e10-9631-77b1b0a410bf</guid>
-      <description>Toronto, ON · via Ashby · h1b_sponsor: unknown · experience: 1-2 years</description>
-      <pubDate>Thu, 06 Aug 2026 16:05:16 +0000</pubDate>
     </item>
     <item>
       <title>Coinbase — Senior Manager Product Operations, FCM Ops</title>
@@ -4220,13 +2974,6 @@
       <pubDate>Sat, 01 Aug 2026 16:00:06 +0000</pubDate>
     </item>
     <item>
-      <title>Berni and Mick Ireland — Managing Director</title>
-      <link>https://remoteOK.com/remote-jobs/remote-managing-director-berni-and-mick-ireland-1135908</link>
-      <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-managing-director-berni-and-mick-ireland-1135908</guid>
-      <description>Sunshine Coast, Sunshine Coast, Queensland, Australia · via RemoteOK · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Sat, 01 Aug 2026 06:38:19 +0000</pubDate>
-    </item>
-    <item>
       <title>Bored Panda — Voice Over Artist</title>
       <link>https://remoteOK.com/remote-jobs/remote-voice-over-artist-bored-panda-1135765</link>
       <guid isPermaLink="false">https://remoteOK.com/remote-jobs/remote-voice-over-artist-bored-panda-1135765</guid>
@@ -4276,20 +3023,6 @@
       <pubDate>Tue, 28 Jul 2026 15:44:35 -0400</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Enterprise Product  Marketing Manager, Base</title>
-      <link>https://www.coinbase.com/careers/positions/8084049?gh_jid=8084049</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8084049?gh_jid=8084049</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Mon, 27 Jul 2026 16:43:23 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Supervisor, Customer Success Team</title>
-      <link>https://www.coinbase.com/careers/positions/8082829?gh_jid=8082829</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8082829?gh_jid=8082829</guid>
-      <description>Remote - Cyprus · via Greenhouse · h1b_sponsor: yes · experience: 1-2 years</description>
-      <pubDate>Fri, 24 Jul 2026 14:49:43 -0400</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Strategic Program Lead</title>
       <link>https://www.coinbase.com/careers/positions/8083758?gh_jid=8083758</link>
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8083758?gh_jid=8083758</guid>
@@ -4297,53 +3030,11 @@
       <pubDate>Fri, 24 Jul 2026 14:06:26 -0400</pubDate>
     </item>
     <item>
-      <title>Coinbase — Staff Software Engineer, Core AI Infrastructure</title>
-      <link>https://www.coinbase.com/careers/positions/7991691?gh_jid=7991691</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7991691?gh_jid=7991691</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Thu, 23 Jul 2026 15:17:22 -0400</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Software Engineer, Core AI Infrastructure</title>
       <link>https://www.coinbase.com/careers/positions/7847431?gh_jid=7847431</link>
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7847431?gh_jid=7847431</guid>
       <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 5+ years</description>
       <pubDate>Thu, 23 Jul 2026 15:17:15 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Head of Product Creative </title>
-      <link>https://www.coinbase.com/careers/positions/7304930?gh_jid=7304930</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7304930?gh_jid=7304930</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 7+ years</description>
-      <pubDate>Tue, 21 Jul 2026 14:19:20 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer (Platform - Identity IDV)</title>
-      <link>https://www.coinbase.com/careers/positions/7773776?gh_jid=7773776</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7773776?gh_jid=7773776</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Fri, 17 Jul 2026 17:26:51 -0400</pubDate>
-    </item>
-    <item>
-      <title>Ramp — Manager, Advisory and Services Partnerships</title>
-      <link>https://jobs.ashbyhq.com/ramp/1368191c-94bc-4cfd-b3d2-a2a72f847360</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/1368191c-94bc-4cfd-b3d2-a2a72f847360</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 6+ years</description>
-      <pubDate>Fri, 17 Jul 2026 17:21:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Staff Software Engineer - Blockchain Platform</title>
-      <link>https://www.coinbase.com/careers/positions/7366208?gh_jid=7366208</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7366208?gh_jid=7366208</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Wed, 15 Jul 2026 16:18:54 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Staff Software Engineer, Core Automation</title>
-      <link>https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Wed, 15 Jul 2026 16:18:51 -0400</pubDate>
     </item>
     <item>
       <title>Coinbase — Concierge Specialist IV</title>
@@ -4416,27 +3107,6 @@
       <pubDate>Mon, 29 Jun 2026 17:10:36 +0000</pubDate>
     </item>
     <item>
-      <title>Coinbase — Risk &amp; Monitoring Analyst IV</title>
-      <link>https://www.coinbase.com/careers/positions/8030686?gh_jid=8030686</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/8030686?gh_jid=8030686</guid>
-      <description>Dublin, Ireland · via Greenhouse · h1b_sponsor: yes · experience: 6+ years</description>
-      <pubDate>Fri, 26 Jun 2026 17:48:50 -0400</pubDate>
-    </item>
-    <item>
-      <title>Ramp — Senior Manager, Equity Administration</title>
-      <link>https://jobs.ashbyhq.com/ramp/803e8ace-6c1d-4807-99d3-e35fe45b2fc9</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/803e8ace-6c1d-4807-99d3-e35fe45b2fc9</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 8-10 years</description>
-      <pubDate>Wed, 24 Jun 2026 20:35:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Staff Software Engineer, Data Platform</title>
-      <link>https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 12+ years</description>
-      <pubDate>Tue, 23 Jun 2026 19:49:36 -0400</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Concierge Specialist IV</title>
       <link>https://www.coinbase.com/careers/positions/7994498?gh_jid=7994498</link>
       <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7994498?gh_jid=7994498</guid>
@@ -4472,32 +3142,11 @@
       <pubDate>Mon, 15 Jun 2026 19:10:56 +0000</pubDate>
     </item>
     <item>
-      <title>Coinbase — Staff Machine Learning Engineer(Platform - Identity)</title>
-      <link>https://www.coinbase.com/careers/positions/7891045?gh_jid=7891045</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7891045?gh_jid=7891045</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Fri, 12 Jun 2026 16:43:31 -0400</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer, Frontend (Consumer - Advanced Trading)</title>
-      <link>https://www.coinbase.com/careers/positions/7629141?gh_jid=7629141</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7629141?gh_jid=7629141</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Fri, 12 Jun 2026 16:33:28 -0400</pubDate>
-    </item>
-    <item>
       <title>Ramp — Business Development</title>
       <link>https://jobs.ashbyhq.com/ramp/c495a261-789f-4718-9286-3bba81052b4b</link>
       <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/c495a261-789f-4718-9286-3bba81052b4b</guid>
       <description>London · via Ashby · h1b_sponsor: unknown · experience: unspecified</description>
       <pubDate>Thu, 11 Jun 2026 19:19:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Manager, Finance &amp; Strategy</title>
-      <link>https://www.coinbase.com/careers/positions/7948222?gh_jid=7948222</link>
-      <guid isPermaLink="false">https://www.coinbase.com/careers/positions/7948222?gh_jid=7948222</guid>
-      <description>Remote - USA · via Greenhouse · h1b_sponsor: yes · experience: 8+ years</description>
-      <pubDate>Tue, 09 Jun 2026 19:23:24 -0400</pubDate>
     </item>
     <item>
       <title>Ramp — Account Executive</title>
@@ -4521,13 +3170,6 @@
       <pubDate>Thu, 21 May 2026 22:15:05 +0000</pubDate>
     </item>
     <item>
-      <title>Linear — Principal Product Designer</title>
-      <link>https://jobs.ashbyhq.com/linear/ba8a41d2-4198-481a-a7f4-e09c5364ff7f</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/linear/ba8a41d2-4198-481a-a7f4-e09c5364ff7f</guid>
-      <description>Europe · via Ashby · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Wed, 29 Apr 2026 18:16:36 +0000</pubDate>
-    </item>
-    <item>
       <title>Linear — Developer Relations</title>
       <link>https://jobs.ashbyhq.com/linear/62a4524c-75da-499e-b150-7f68ce9f2da3</link>
       <guid isPermaLink="false">https://jobs.ashbyhq.com/linear/62a4524c-75da-499e-b150-7f68ce9f2da3</guid>
@@ -4540,13 +3182,6 @@
       <guid isPermaLink="false">https://jobs.ashbyhq.com/linear/1d652292-04d9-405c-8101-578efd020e94</guid>
       <description>North America · via Ashby · h1b_sponsor: unknown · experience: unspecified</description>
       <pubDate>Fri, 24 Apr 2026 03:30:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linear — Senior / Staff Product Designer</title>
-      <link>https://jobs.ashbyhq.com/linear/a264869e-f058-487c-ab7f-9b77dffa427c</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/linear/a264869e-f058-487c-ab7f-9b77dffa427c</guid>
-      <description>North America · via Ashby · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Thu, 23 Apr 2026 21:39:39 +0000</pubDate>
     </item>
     <item>
       <title>Linear — Senior / Staff Product Engineer</title>
@@ -4563,25 +3198,11 @@
       <pubDate>Thu, 19 Feb 2026 14:50:34 +0000</pubDate>
     </item>
     <item>
-      <title>Ramp — Senior Manager, Head of Talent Operations</title>
-      <link>https://jobs.ashbyhq.com/ramp/bdd28c40-f95b-43df-bebe-3b8a25c8f602</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/bdd28c40-f95b-43df-bebe-3b8a25c8f602</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 8+ years</description>
-      <pubDate>Mon, 16 Feb 2026 21:45:14 +0000</pubDate>
-    </item>
-    <item>
       <title>Ramp — Security Engineer, Privacy</title>
       <link>https://jobs.ashbyhq.com/ramp/95f450a1-0d38-4d58-9aac-9d7e655adc36</link>
       <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/95f450a1-0d38-4d58-9aac-9d7e655adc36</guid>
       <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 4+ years</description>
       <pubDate>Tue, 20 Jan 2026 21:47:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ramp — Customer Activation Manager | Strategic Enterprise</title>
-      <link>https://jobs.ashbyhq.com/ramp/f330ccd7-59f5-4032-82b0-4448482769e4</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/f330ccd7-59f5-4032-82b0-4448482769e4</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Fri, 16 Jan 2026 18:04:53 +0000</pubDate>
     </item>
     <item>
       <title>Linear — Account Executive, Startups</title>
@@ -4603,13 +3224,6 @@
       <guid isPermaLink="false">https://jobs.ashbyhq.com/linear/b4a7764e-c680-4bdf-9956-dc78f2ca94d5</guid>
       <description>North America · via Ashby · h1b_sponsor: unknown · experience: 5+ years</description>
       <pubDate>Thu, 10 Jul 2025 19:17:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ramp — Customer Activation Manager | Enterprise</title>
-      <link>https://jobs.ashbyhq.com/ramp/09a9381c-677b-40a5-9ff1-027bd4302c13</link>
-      <guid isPermaLink="false">https://jobs.ashbyhq.com/ramp/09a9381c-677b-40a5-9ff1-027bd4302c13</guid>
-      <description>New York, NY (HQ) · via Ashby · h1b_sponsor: unknown · experience: 7+ years</description>
-      <pubDate>Thu, 27 Mar 2025 22:17:14 +0000</pubDate>
     </item>
     <item>
       <title>Linear — Senior / Staff Product Engineer</title>
