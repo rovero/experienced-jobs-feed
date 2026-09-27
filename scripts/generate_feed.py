@@ -31,6 +31,7 @@ def main():
                 "url": j.get("url"),
                 "source": j.get("source"),
                 "posted": j.get("posted"),
+                "h1b_sponsor": j.get("h1b_sponsor", "unknown"),
             }
             for j in jobs
         ],
@@ -44,6 +45,7 @@ def main():
         link = escape(j.get("url") or "")
         location = escape(j.get("location") or "")
         source = escape(j.get("source") or "")
+        h1b = escape(j.get("h1b_sponsor", "unknown"))
         pub_date = now_rfc822
         if j.get("posted"):
             try:
@@ -56,7 +58,7 @@ def main():
       <title>{title}</title>
       <link>{link}</link>
       <guid isPermaLink="false">{guid}</guid>
-      <description>{location} · via {source}</description>
+      <description>{location} · via {source} · h1b_sponsor: {h1b}</description>
       <pubDate>{pub_date}</pubDate>
     </item>""")
 

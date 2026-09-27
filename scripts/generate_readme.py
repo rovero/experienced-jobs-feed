@@ -48,10 +48,13 @@ def age_str(posted_iso):
     return f"{days}d"
 
 
+H1B_ICON = {"yes": "🟢", "no": "🔴", "unknown": "❔"}
+
+
 def build_table(jobs):
     lines = [
-        "| Company | Role | Location | Source | Posted |",
-        "|---|---|---|---|---|",
+        "| Company | Role | Location | 🛂 H1B | Source | Posted |",
+        "|---|---|---|---|---|---|",
     ]
     for j in jobs:
         company = (j.get("company") or "—").replace("|", "-")
@@ -60,8 +63,9 @@ def build_table(jobs):
         url = j.get("url")
         source = j.get("source", "—")
         posted = age_str(j.get("posted"))
+        h1b = H1B_ICON.get(j.get("h1b_sponsor", "unknown"), "❔")
         role_cell = f"[{title}]({url})" if url else title
-        lines.append(f"| {company} | {role_cell} | {location} | {source} | {posted} |")
+        lines.append(f"| {company} | {role_cell} | {location} | {h1b} | {source} | {posted} |")
     return "\n".join(lines)
 
 
@@ -89,6 +93,15 @@ def main():
     )
     lines.append("")
     lines.append(f"**Last updated:** {ts_display} · **Total open roles:** {data.get('count', 0)}")
+    lines.append("")
+    lines.append(
+        "🛂 H1B column: 🟢 posting explicitly mentions sponsorship, or the "
+        "company is on your known-sponsors list · 🔴 posting explicitly says "
+        "no sponsorship · ❔ not stated — this is a best-effort heuristic on "
+        "text that companies often don't specify, not a guarantee. See "
+        "`companies.yaml` to tune it, including switching on filtering "
+        "(currently controlled by the `h1b.mode` setting there)."
+    )
     lines.append("")
     lines.append(
         "🤖 **Agents/scripts:** don't scrape this README — read "

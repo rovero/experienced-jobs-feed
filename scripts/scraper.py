@@ -48,8 +48,78 @@ def matches(title, include_kw, exclude_kw):
     return any(k.lower() in t for k in include_kw)
 
 
+# ---------------------------------------------------------------- H1B tagging
+# Best-effort text detection. Job descriptions are inconsistent about stating
+# sponsorship status at all, so "unknown" is a very common — and honest —
+# outcome, not a bug.
+SPONSOR_YES_PATTERNS = [
+    r"\bwe (?:do |can |are able to |)sponsor\b",
+    r"\bvisa sponsorship (?:is )?(?:available|offered|provided)\b",
+    r"\bwill sponsor\b",
+    r"\bopen to (?:visa )?sponsorship\b",
+    r"\bh-?1b sponsorship (?:is )?available\b",
+    r"\bsponsor(?:ship)? for (?:work authorization|visas?)\b",
+]
+SPONSOR_NO_PATTERNS = [
+    r"\b(?:not|unable to|cannot|can't|do not|does not|doesn't) (?:currently )?"
+    r"(?:provide|offer|sponsor)[\w\s]{0,20}(?:visas?|sponsorships?|h-?1bs?)\b",
+    r"\bwithout (?:the need for )?(?:visa )?sponsorship\b",
+    r"\bno (?:visa )?sponsorship\b",
+    r"\bmust be authorized to work[\w\s,]{0,40}without sponsorship\b",
+    r"\bnot eligible for (?:visa )?sponsorship\b",
+    r"\bnot able to sponsor\b",
+]
+
+
+def detect_sponsorship(text):
+    if not text:
+        return "unknown"
+    t = re.sub("<[^<]+?>", " ", text).lower()
+    for pat in SPONSOR_NO_PATTERNS:
+        if re.search(pat, t):
+            return "no"
+    for pat in SPONSOR_YES_PATTERNS:
+        if re.search(pat, t):
+            return "yes"
+    return "unknown"
+
+
+def is_known_sponsor(company, known_sponsors):
+    if not company or not known_sponsors:
+        return False
+    c = company.lower()
+    return any(k.lower() in c for k in known_sponsors)
+
+
+def apply_h1b_tag(job, description_text, known_sponsors):
+    tag = detect_sponsorship(description_text)
+    if tag == "unknown" and is_known_sponsor(job.get("company"), known_sponsors):
+        tag = "yes"
+    job["h1b_sponsor"] = tag
+    return job
+
+
+def h1b_filter(jobs, h1b_cfg):
+    mode = (h1b_cfg or {}).get("mode", "off")
+    if not (h1b_cfg or {}).get("enabled", False) or mode == "off":
+        return jobs
+    known = h1b_cfg.get("known_sponsors", [])
+    out = []
+    for j in jobs:
+        tag = j.get("h1b_sponsor", "unknown")
+        if mode == "exclude_no":
+            if tag != "no":
+                out.append(j)
+        elif mode == "known_sponsors_only":
+            if tag == "yes" or is_known_sponsor(j.get("company"), known):
+                out.append(j)
+        else:
+            out.append(j)
+    return out
+
+
 # ---------------------------------------------------------------- Greenhouse
-def fetch_greenhouse(slug, include_kw, exclude_kw):
+def fetch_greenhouse(slug, include_kw, exclude_kw, known_sponsors):
     url = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true"
     out = []
     try:
@@ -62,21 +132,23 @@ def fetch_greenhouse(slug, include_kw, exclude_kw):
             if not matches(title, include_kw, exclude_kw):
                 continue
             location = (job.get("location") or {}).get("name", "Remote/Unspecified")
-            out.append({
+            record = {
                 "company": slug.replace("-", " ").title(),
                 "title": title,
                 "location": location,
                 "url": job.get("absolute_url"),
                 "source": "Greenhouse",
                 "posted": job.get("updated_at"),
-            })
+            }
+            apply_h1b_tag(record, job.get("content", ""), known_sponsors)
+            out.append(record)
     except requests.RequestException as e:
         print(f"[greenhouse:{slug}] error: {e}", file=sys.stderr)
     return out
 
 
 # --------------------------------------------------------------------- Lever
-def fetch_lever(slug, include_kw, exclude_kw):
+def fetch_lever(slug, include_kw, exclude_kw, known_sponsors):
     url = f"https://api.lever.co/v0/postings/{slug}?mode=json"
     out = []
     try:
@@ -90,21 +162,30 @@ def fetch_lever(slug, include_kw, exclude_kw):
                 continue
             categories = job.get("categories", {}) or {}
             location = categories.get("location", "Remote/Unspecified")
-            out.append({
+            description = job.get("descriptionPlain") or job.get("description", "")
+            lists_text = " ".join(
+                (item.get("content") or "") for lst in (job.get("lists") or []) for item in [lst]
+            )
+            record = {
                 "company": slug.replace("-", " ").title(),
                 "title": title,
                 "location": location,
                 "url": job.get("hostedUrl"),
                 "source": "Lever",
                 "posted": job.get("createdAt"),
-            })
+            }
+            apply_h1b_tag(record, f"{description} {lists_text}", known_sponsors)
+            out.append(record)
     except requests.RequestException as e:
         print(f"[lever:{slug}] error: {e}", file=sys.stderr)
     return out
 
 
 # -------------------------------------------------------------------- Ashby
-def fetch_ashby(slug, include_kw, exclude_kw):
+def fetch_ashby(slug, include_kw, exclude_kw, known_sponsors):
+    # Note: Ashby's public list endpoint doesn't reliably include full
+    # description text, so h1b_sponsor for Ashby jobs will often fall back
+    # to "unknown" unless the company is in known_sponsors.
     url = f"https://api.ashbyhq.com/posting-api/job-board/{slug}"
     out = []
     try:
@@ -116,21 +197,24 @@ def fetch_ashby(slug, include_kw, exclude_kw):
             title = job.get("title", "")
             if not matches(title, include_kw, exclude_kw):
                 continue
-            out.append({
+            description = job.get("descriptionPlain") or job.get("descriptionHtml", "")
+            record = {
                 "company": slug.replace("-", " ").title(),
                 "title": title,
                 "location": job.get("location", "Remote/Unspecified"),
                 "url": job.get("jobUrl") or job.get("applyUrl"),
                 "source": "Ashby",
                 "posted": job.get("publishedAt"),
-            })
+            }
+            apply_h1b_tag(record, description, known_sponsors)
+            out.append(record)
     except requests.RequestException as e:
         print(f"[ashby:{slug}] error: {e}", file=sys.stderr)
     return out
 
 
 # ------------------------------------------------------------------ RemoteOK
-def fetch_remoteok(include_kw, exclude_kw):
+def fetch_remoteok(include_kw, exclude_kw, known_sponsors):
     url = "https://remoteok.com/api"
     out = []
     try:
@@ -146,21 +230,23 @@ def fetch_remoteok(include_kw, exclude_kw):
             tags = " ".join(job.get("tags", []))
             if not matches(f"{title} {tags}", include_kw, exclude_kw):
                 continue
-            out.append({
+            record = {
                 "company": job.get("company", "Unknown"),
                 "title": title,
                 "location": job.get("location") or "Remote",
                 "url": job.get("url"),
                 "source": "RemoteOK",
                 "posted": job.get("date"),
-            })
+            }
+            apply_h1b_tag(record, job.get("description", ""), known_sponsors)
+            out.append(record)
     except requests.RequestException as e:
         print(f"[remoteok] error: {e}", file=sys.stderr)
     return out
 
 
 # --------------------------------------------------- Hacker News "Who's Hiring"
-def fetch_hn_whoishiring(include_kw, exclude_kw):
+def fetch_hn_whoishiring(include_kw, exclude_kw, known_sponsors):
     """Finds the most recent monthly 'Who is Hiring?' thread and scans its
     top-level comments for postings matching the seniority keywords."""
     out = []
@@ -188,7 +274,7 @@ def fetch_hn_whoishiring(include_kw, exclude_kw):
             if not matches(plain, include_kw, exclude_kw):
                 continue
             first_line = plain.strip().split("\n")[0][:140]
-            out.append({
+            record = {
                 "company": "See posting",
                 "title": first_line,
                 "location": "See posting",
@@ -196,7 +282,9 @@ def fetch_hn_whoishiring(include_kw, exclude_kw):
                 "source": "HN Who's Hiring",
                 "posted": datetime.fromtimestamp(c.get("created_at_i", 0), tz=timezone.utc).isoformat()
                 if c.get("created_at_i") else None,
-            })
+            }
+            apply_h1b_tag(record, plain, known_sponsors)
+            out.append(record)
     except requests.RequestException as e:
         print(f"[hn] error: {e}", file=sys.stderr)
     return out
@@ -218,22 +306,27 @@ def main():
     cfg = load_config()
     include_kw = cfg["seniority_keywords"]
     exclude_kw = cfg["exclude_keywords"]
+    h1b_cfg = cfg.get("h1b", {}) or {}
+    known_sponsors = h1b_cfg.get("known_sponsors", [])
 
     all_jobs = []
     for slug in cfg["greenhouse"]:
-        all_jobs += fetch_greenhouse(slug, include_kw, exclude_kw)
+        all_jobs += fetch_greenhouse(slug, include_kw, exclude_kw, known_sponsors)
         time.sleep(0.3)
     for slug in cfg["lever"]:
-        all_jobs += fetch_lever(slug, include_kw, exclude_kw)
+        all_jobs += fetch_lever(slug, include_kw, exclude_kw, known_sponsors)
         time.sleep(0.3)
     for slug in cfg["ashby"]:
-        all_jobs += fetch_ashby(slug, include_kw, exclude_kw)
+        all_jobs += fetch_ashby(slug, include_kw, exclude_kw, known_sponsors)
         time.sleep(0.3)
 
-    all_jobs += fetch_remoteok(include_kw, exclude_kw)
-    all_jobs += fetch_hn_whoishiring(include_kw, exclude_kw)
+    all_jobs += fetch_remoteok(include_kw, exclude_kw, known_sponsors)
+    all_jobs += fetch_hn_whoishiring(include_kw, exclude_kw, known_sponsors)
 
     all_jobs = dedupe(all_jobs)
+    pre_filter_count = len(all_jobs)
+    all_jobs = h1b_filter(all_jobs, h1b_cfg)
+    dropped = pre_filter_count - len(all_jobs)
     all_jobs.sort(key=lambda j: j.get("posted") or "", reverse=True)
 
     payload = {
@@ -242,7 +335,8 @@ def main():
         "jobs": all_jobs,
     }
     OUTPUT_PATH.write_text(json.dumps(payload, indent=2))
-    print(f"Wrote {len(all_jobs)} listings to {OUTPUT_PATH}")
+    print(f"Wrote {len(all_jobs)} listings to {OUTPUT_PATH} "
+          f"({dropped} dropped by h1b filter, mode={h1b_cfg.get('mode', 'off')})")
 
 
 if __name__ == "__main__":

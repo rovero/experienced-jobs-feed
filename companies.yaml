@@ -44,3 +44,46 @@ exclude_keywords:
   - graduate
   - junior
   - entry level
+
+# --------------------------------------------------------------------------
+# H1B sponsorship filter
+# --------------------------------------------------------------------------
+# No job-board API exposes a structured "sponsors visas" field, so this is
+# necessarily a best-effort heuristic, built two ways:
+#
+#  1. Text detection: each posting's actual description is scanned for
+#     explicit sponsorship language (see keyword lists in scripts/scraper.py
+#     if you want to tune them) and tagged h1b_sponsor: yes / no / unknown.
+#  2. known_sponsors: a list you maintain yourself of companies with a history
+#     of sponsoring H1Bs. Seed it from the official, public USCIS H-1B
+#     Employer Data Hub (search by employer, no login needed):
+#     https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub
+#     A prior approval doesn't guarantee they're sponsoring for THIS role —
+#     treat this list as a signal, not a guarantee.
+h1b:
+  enabled: true
+
+  # off               -> just tag every job, don't drop anything
+  # exclude_no        -> drop jobs whose description explicitly says no
+  #                      sponsorship; keep "yes" and "unknown"
+  # known_sponsors_only -> keep only jobs where the company is in
+  #                      known_sponsors below, OR the description explicitly
+  #                      says yes. Strictest option, will drop the most jobs.
+  mode: exclude_no
+
+  known_sponsors:
+    - google
+    - amazon
+    - microsoft
+    - meta
+    - apple
+    - nvidia
+    - salesforce
+    - airbnb
+    - doordash
+    - coinbase
+    - databricks
+    - stripe
+    # Add more — match against the "company" field however it shows up
+    # (case-insensitive substring match), e.g. from Greenhouse/Lever/Ashby
+    # slugs or RemoteOK/HN company names.
