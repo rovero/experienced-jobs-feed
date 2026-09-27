@@ -24,6 +24,32 @@ ashby:
   - ramp
   - linear
 
+# --------------------------------------------------------------------------
+# Workday-hosted career sites
+# --------------------------------------------------------------------------
+# Microsoft, Salesforce, and a large share of Fortune 500s run on Workday
+# rather than Greenhouse/Lever/Ashby. Paste the exact myworkdayjobs.com URL
+# from your browser after clicking into a company's "Careers"/"Search jobs"
+# page — this is the public search endpoint the career site itself calls,
+# no login needed. (This is not an official/documented Workday API — it's
+# the same page-rendering endpoint every Workday careers site uses.)
+#
+# NOTE: unlike Greenhouse/Lever, Workday's list endpoint doesn't return full
+# description text, so h1b_sponsor/years_min/years_max default to "unknown"
+# for these jobs unless the company is also in h1b.known_sponsors above.
+workday:
+  - https://salesforce.wd12.myworkdayjobs.com/External_Career_Site
+
+# Cap on jobs fetched per Workday tenant per run — some run 1,000+ open
+# reqs, this keeps the daily run fast. Raise for deeper coverage.
+workday_max_jobs_per_tenant: 200
+
+# SAP is NOT included above: jobs.sap.com runs on SAP's own SuccessFactors
+# platform, and there's no verified public no-auth JSON endpoint for it the
+# way there is for Greenhouse/Lever/Ashby/Workday. If you find one (open
+# SAP's careers page, DevTools -> Network tab, search a role, look for an
+# XHR request returning JSON), it can likely be added as a new source.
+
 # Free-text keywords used everywhere (HN, RemoteOK, and to tag/categorize
 # roles pulled from the companies above). Edit freely.
 seniority_keywords:

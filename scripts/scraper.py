@@ -14,8 +14,9 @@ import json
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 import yaml
@@ -34,6 +35,8 @@ def load_config():
     cfg.setdefault("greenhouse", [])
     cfg.setdefault("lever", [])
     cfg.setdefault("ashby", [])
+    cfg.setdefault("workday", [])
+    cfg.setdefault("workday_max_jobs_per_tenant", 200)
     cfg.setdefault("seniority_keywords", [])
     cfg.setdefault("exclude_keywords", [])
     return cfg
@@ -261,6 +264,101 @@ def fetch_ashby(slug, include_kw, exclude_kw, known_sponsors):
     return out
 
 
+# ------------------------------------------------------------------- Workday
+# Microsoft, Salesforce, and a large share of Fortune 500s run their careers
+# site on Workday rather than Greenhouse/Lever/Ashby. Workday career pages
+# are a JS shell that reads from a public, unauthenticated search endpoint —
+# this is that endpoint, not an official/documented Workday API.
+def parse_workday_url(url):
+    """https://microsoft.wd1.myworkdayjobs.com/en-US/microsoftcareers ->
+    (scheme, host, tenant, site_name, path_prefix). path_prefix keeps any
+    locale segment (en-US) so job URLs can be reconstructed correctly."""
+    parsed = urlparse(url)
+    host = parsed.netloc
+    tenant = host.split(".")[0]
+    path_parts = [p for p in parsed.path.split("/") if p]
+    site_name = path_parts[-1] if path_parts else ""
+    path_prefix = "/" + "/".join(path_parts) if path_parts else ""
+    return parsed.scheme, host, tenant, site_name, path_prefix
+
+
+def parse_relative_posted(text):
+    """Workday only gives relative labels like 'Posted 3 Days Ago', not an
+    ISO date — this approximates one so sorting/age-display still work."""
+    if not text:
+        return None
+    t = text.lower()
+    now = datetime.now(timezone.utc)
+    if "today" in t:
+        return now.isoformat()
+    if "yesterday" in t:
+        return (now - timedelta(days=1)).isoformat()
+    m = re.search(r"(\d+)\+?\s*day", t)
+    if m:
+        return (now - timedelta(days=int(m.group(1)))).isoformat()
+    m = re.search(r"(\d+)\+?\s*month", t)
+    if m:
+        return (now - timedelta(days=int(m.group(1)) * 30)).isoformat()
+    return None
+
+
+def fetch_workday(url, include_kw, exclude_kw, known_sponsors, max_jobs=200):
+    out = []
+    try:
+        scheme, host, tenant, site_name, path_prefix = parse_workday_url(url)
+        if not site_name:
+            print(f"[workday:{url}] couldn't parse a site name from this URL, skipping", file=sys.stderr)
+            return out
+        api_url = f"{scheme}://{host}/wday/cxs/{tenant}/{site_name}/jobs"
+        company_label = tenant.replace("-", " ").title()
+        offset = 0
+        limit = 20
+        while offset < max_jobs:
+            body = {"appliedFacets": {}, "limit": limit, "offset": offset, "searchText": ""}
+            r = requests.post(api_url, json=body,
+                               headers={**HEADERS, "Content-Type": "application/json"},
+                               timeout=TIMEOUT)
+            if r.status_code != 200:
+                print(f"[workday:{tenant}] HTTP {r.status_code}, stopping", file=sys.stderr)
+                break
+            data = r.json()
+            postings = data.get("jobPostings", [])
+            if not postings:
+                break
+            for job in postings:
+                title = job.get("title", "")
+                if not matches(title, include_kw, exclude_kw):
+                    continue
+                bullets = job.get("bulletFields") or []
+                location = bullets[0] if bullets else "Unspecified"
+                ext_path = job.get("externalPath", "")
+                job_url = f"{scheme}://{host}{path_prefix}{ext_path}" if ext_path else url
+                record = {
+                    "company": company_label,
+                    "title": title,
+                    "location": location,
+                    "url": job_url,
+                    "source": "Workday",
+                    "posted": parse_relative_posted(job.get("postedOn")),
+                }
+                # Workday's list endpoint doesn't return full description
+                # text (would need one extra request per job), so h1b/years
+                # default to unknown here unless the company is in
+                # known_sponsors — same tradeoff as Ashby.
+                enrich_job(record, "", known_sponsors)
+                out.append(record)
+            total = data.get("total", 0)
+            offset += limit
+            if offset >= total:
+                break
+            time.sleep(0.3)
+    except requests.RequestException as e:
+        print(f"[workday:{url}] error: {e}", file=sys.stderr)
+    except (ValueError, KeyError) as e:
+        print(f"[workday:{url}] unexpected response shape: {e}", file=sys.stderr)
+    return out
+
+
 # ------------------------------------------------------------------ RemoteOK
 def fetch_remoteok(include_kw, exclude_kw, known_sponsors):
     url = "https://remoteok.com/api"
@@ -366,6 +464,10 @@ def main():
         time.sleep(0.3)
     for slug in cfg["ashby"]:
         all_jobs += fetch_ashby(slug, include_kw, exclude_kw, known_sponsors)
+        time.sleep(0.3)
+    for url in cfg["workday"]:
+        all_jobs += fetch_workday(url, include_kw, exclude_kw, known_sponsors,
+                                   max_jobs=cfg["workday_max_jobs_per_tenant"])
         time.sleep(0.3)
 
     all_jobs += fetch_remoteok(include_kw, exclude_kw, known_sponsors)
