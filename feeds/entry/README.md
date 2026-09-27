@@ -6,7 +6,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 
 [⬅️ Back to all experience levels](../../README.md)
 
-**Last updated:** 2026-09-27T22:06:56.898353+00:00 · **Open roles in this feed:** 295
+**Last updated:** 2026-09-27T23:05:25.528873+00:00 · **Open roles in this feed:** 325
 
 🛂 H1B column: 🟢 posting explicitly mentions sponsorship, or the company is on your known-sponsors list · 🔴 posting explicitly says no sponsorship · ❔ not stated — this is a best-effort heuristic on text that companies often don't specify, not a guarantee. See `companies.yaml` to tune it.
 
@@ -15,10 +15,10 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 ## Browse roles by category
 
 - 💻 Software Engineering (72)
-- 🤖 Data, AI & Machine Learning (13)
+- 🤖 Data, AI & Machine Learning (14)
 - 🛠️ Infrastructure, Platform & DevOps (17)
 - 🧭 Engineering Management & Leadership (3)
-- 💼 Other Engineering Roles (190)
+- 💼 Other Engineering Roles (219)
 
 ---
 
@@ -42,7 +42,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | See posting | [Pango (YC S26) - Founding Software Engineer - On-site (hybrid) in Stockholm, Sweden - Full time Pango is building the world&#x27;s first Age](https://news.ycombinator.com/item?id=49711313) | See posting | ❔ | HN Who's Hiring | 12d |
 | Mirantis | [Software Engineer](https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387) | Remote | ❔ | RemoteOK | 15d |
 | Coinbase | [Software Engineer- Money Movement ](https://www.coinbase.com/careers/positions/8177946?gh_jid=8177946) | Remote - USA | 🟢 | Greenhouse | 17d |
-| See posting | [Freeform ( http:&#x2F;&#x2F;freeform.co ) - Software Engineers - Full-time - Onsite - Hawthorne, CA (Los Angeles County) Freeform builds AI-](https://news.ycombinator.com/item?id=49635387) | See posting | ❔ | HN Who's Hiring | 17d |
+| See posting | [Freeform ( http:&#x2F;&#x2F;freeform.co ) - Software Engineers - Full-time - Onsite - Hawthorne, CA (Los Angeles County) Freeform builds AI-](https://news.ycombinator.com/item?id=49635387) | See posting | ❔ | HN Who's Hiring | 18d |
 | See posting | [Remote (US) Close ( https:&#x2F;&#x2F;close.com ) - Senior&#x2F;Staff Backend Engineer, Backend Platform - Full-time We&#x27;re bootstrapped](https://news.ycombinator.com/item?id=49615973) | See posting | ❔ | HN Who's Hiring | 19d |
 | See posting | [We’re hiring at Langfuse — now part of ClickHouse. We are looking for a Product Manager, Product &amp; Backend Engineers, Product Marketing ](https://news.ycombinator.com/item?id=49609343) | See posting | ❔ | HN Who's Hiring | 19d |
 | See posting | [Valkyrie Aero - Software Engineer (Autonomy, Perception, Frontend) - REMOTE (US) - Contract - U.S. Citizens -  https:&#x2F;&#x2F;valkyrieaer](https://news.ycombinator.com/item?id=49578811) | See posting | ❔ | HN Who's Hiring | 22d |
@@ -68,7 +68,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | See posting | [Seeq -  https:&#x2F;&#x2F;seeq.com  - Staff&#x2F;Principal Software Engineer (Full-Stack, AI, Backend, Platform) - REMOTE (Some crossover w&](https://news.ycombinator.com/item?id=49530381) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [Pagelove -  https:&#x2F;&#x2F;pagelove.com  - Founding Software Engineer - REMOTE - Full-time - $110k–$130k + early equity Pagelove collapse](https://news.ycombinator.com/item?id=49529763) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [New Lantern -  https:&#x2F;&#x2F;newlantern.ai  - Software engineers (backend and generalist product engineers, founding recruiter) - Full t](https://news.ycombinator.com/item?id=49529518) | See posting | ❔ | HN Who's Hiring | 25d |
-| See posting | [DeepL - Software Engineer &#x2F; Senior Software Engineer &#x2F; Sr. Staff Software Engineer - New York, New York (Hybrid) - $200k-$300k+ pl](https://news.ycombinator.com/item?id=49529454) | See posting | ❔ | HN Who's Hiring | 25d |
+| See posting | [DeepL - Software Engineer &#x2F; Senior Software Engineer &#x2F; Sr. Staff Software Engineer - New York, New York (Hybrid) - $200k-$300k+ pl](https://news.ycombinator.com/item?id=49529454) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [Cora AI - Founding Full Stack &#x2F; Applied AI Engineer - REMOTE (US ONLY, LA&#x2F;SF preferred) - Full-time - $190–250k + early equity We ](https://news.ycombinator.com/item?id=49528837) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [Valstad Shipworks - Senior Robotics Software Engineer - Austin, TX - Full-time, on-site - $165 - 210k + equity We&#x27;re building the machi](https://news.ycombinator.com/item?id=49528413) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [Relativity Space - Software Engineer (all levels) - Long Beach, CA - Full-time - $154,000 - $230,000 USD + equity The Terrestrial Software t](https://news.ycombinator.com/item?id=49528132) | See posting | ❔ | HN Who's Hiring | 26d |
@@ -105,8 +105,9 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 
 | Company | Role | Location | 🛂 H1B | Source | Posted |
 |---|---|---|---|---|---|
-| Airbnb | [Senior Machine Learning Engineer, Assistance Engineering](https://careers.airbnb.com/positions/8014904?gh_jid=8014904) | Remote-USA | 🟢 | Greenhouse | 2d |
-| Airbnb | [Senior Staff Machine Learning Engineer, Trust](https://careers.airbnb.com/positions/7592146?gh_jid=7592146) | Remote - USA | 🟢 | Greenhouse | 2d |
+| Salesforce | [Member of Technical Staff — Machine Learning & Agent Security Engineering](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Member-of-Technical-Staff---Machine-Learning---Agent-Security-Engineering_JR358244) | JR358244 | 🟢 | Workday | 2d |
+| Airbnb | [Senior Machine Learning Engineer, Assistance Engineering](https://careers.airbnb.com/positions/8014904?gh_jid=8014904) | Remote-USA | 🟢 | Greenhouse | 3d |
+| Airbnb | [Senior Staff Machine Learning Engineer, Trust](https://careers.airbnb.com/positions/7592146?gh_jid=7592146) | Remote - USA | 🟢 | Greenhouse | 3d |
 | See posting | [Matterhaul - Founding Applied AI Engineer - San Francisco, CA - Onsite (4x&#x2F;week) - $200-260K -  https:&#x2F;&#x2F;www.matterhaul.com&#x](https://news.ycombinator.com/item?id=49613617) | See posting | ❔ | HN Who's Hiring | 19d |
 | See posting | [cloro - Founding Engineer, Data Scientist, Founding Operations, Founding Marketer - REMOTE (EU timezones) - Full-time -  https:&#x2F;&#x2F;c](https://news.ycombinator.com/item?id=49532259) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [ML6 - Senior AI Engineer - Python, TensorFlow, PyTorch, GCP, AWS, Azure - Full-time - Amsterdam, Berlin, Munich, Eindhoven, Ghent (EU) On-si](https://news.ycombinator.com/item?id=49527283) | See posting | ❔ | HN Who's Hiring | 26d |
@@ -130,7 +131,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Robinhood | [Staff Software Developer, DevX (Developer Infrastructure)](https://boards.greenhouse.io/robinhood/jobs/8080939?t=gh_src=&gh_jid=8080939) | Toronto, Canada | ❔ | Greenhouse | 2d |
 | See posting | [LiveKit- http:&#x2F;&#x2F;livekit.io&#x2F; - VoiceAI - webRTC - Remote - Full Time LiveKit is building the infrastructure layer for the voic](https://news.ycombinator.com/item?id=49570095) | See posting | ❔ | HN Who's Hiring | 23d |
 | See posting | [Crossref - Head of Infrastructure Services - REMOTE - Full-time - 120k USD or local equivalent I&#x27;m the Director of Technology at Crossr](https://news.ycombinator.com/item?id=49562582) | See posting | ❔ | HN Who's Hiring | 23d |
-| See posting | [Odin - Senior Design Engineer, Senior Platform Engineer — Edge Systems - Remote (US) - Full-time Odin builds workforce visibility and compli](https://news.ycombinator.com/item?id=49543579) | See posting | ❔ | HN Who's Hiring | 24d |
+| See posting | [Odin - Senior Design Engineer, Senior Platform Engineer — Edge Systems - Remote (US) - Full-time Odin builds workforce visibility and compli](https://news.ycombinator.com/item?id=49543579) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [Strobe Power - Site Reliability Engineer - ONSITE (SF) -  https:&#x2F;&#x2F;strobepower.com  AI data centers are creating a massive new wave](https://news.ycombinator.com/item?id=49534764) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [Zepto - Senior Security Engineer (product security) - REMOTE (AUS) -  https:&#x2F;&#x2F;zepto.bamboohr.com&#x2F;careers&#x2F;104  As a Senio](https://news.ycombinator.com/item?id=49528686) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [Loft Orbital - Senior Cloud Infrastructure Engineer (SRE) - Golden, CO or San Francisco, CA - $180k–$240k + equity -  https:&#x2F;&#x2F;loft](https://news.ycombinator.com/item?id=49527209) | See posting | ❔ | HN Who's Hiring | 26d |
@@ -159,6 +160,35 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 
 | Company | Role | Location | 🛂 H1B | Source | Posted |
 |---|---|---|---|---|---|
+| Salesforce | [Specialist Account Executive - Slack](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Gurgaon/Specialist-Account-Executive---Slack_JR360164) | JR360164 | 🟢 | Workday | 0d |
+| Salesforce | [Manager/Senior Manager - Business Strategy](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Program-Manager---Strategy-and-Operations_JR327797) | JR327797 | 🟢 | Workday | 0d |
+| Salesforce | [Senior Account Executive, Slack](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/France---Paris/Senior-Account-Executive--Slack_JR360509-1) | JR360509 | 🟢 | Workday | 1d |
+| Salesforce | [Account Executive, Slack](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/France---Paris/Account-Executive--Slack_JR360508) | JR360508 | 🟢 | Workday | 1d |
+| Salesforce | [Zuora Revenue System -Senior Analyst](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/SMTS--Zuora-Revenue-System-Engineer_JR335227) | JR335227 | 🟢 | Workday | 1d |
+| Salesforce | [Sales Development Representative, UKI market - Public sector and NGOs](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Sales-Development-Representative--UKI-market---Public-sector-and-NGOs_JR360916-2) | JR360916 | 🟢 | Workday | 2d |
+| Salesforce | [Services Sales Solutions Director](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Switzerland---Zurich/Services-Sales-Solutions-Director_JR360726) | JR360726 | 🟢 | Workday | 2d |
+| Salesforce | [Cloud Account Executive – Revenue Cloud](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Cloud-Account-Executive---Revenue-Cloud_JR361740) | JR361740 | 🟢 | Workday | 2d |
+| Salesforce | [Trailhead - Sr Data Analyst](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/Trailhead---Sr-Data-Analyst_JR361743) | JR361743 | 🟢 | Workday | 2d |
+| Salesforce | [Senior Analyst, Partner Operations](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Indiana---Indianapolis/Senior-Analyst--Partner-Operations_JR360321) | JR360321 | 🟢 | Workday | 2d |
+| Salesforce | [Value Acceleration Engineer](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Value-Acceleration-Engineer_JR361744) | JR361744 | 🟢 | Workday | 2d |
+| Salesforce | [Named Account Executive, Enterprise Non-Profit](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Named-Account-Executive--Enterprise-Non-Profit_JR361764) | JR361764 | 🟢 | Workday | 2d |
+| Salesforce | [Success Architect / Senior Success Architect](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Indiana---Indianapolis/Senior-Success-Architect_JR320532-1) | JR320532 | 🟢 | Workday | 2d |
+| Salesforce | [Named Account Executive, Enterprise Non-Profit (Mid Atlantic/Chicago)](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/District-of-Columbia---Washington/Named-Account-Executive--Enterprise-Non-Profit--Mid-Atlantic-Chicago-_JR361756) | JR361756 | 🟢 | Workday | 2d |
+| Salesforce | [Named Account Executive, Enterprise Non-Profit (Northeast)](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/New-York---New-York/Named-Account-Executive--Enterprise-Non-Profit--Northeast-_JR361755) | JR361755 | 🟢 | Workday | 2d |
+| Salesforce | [Named Account Executive, State Government (Iowa)](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Iowa---Remote/Named-Account-Executive--State-Government--Iowa-_JR360829) | JR360829 | 🟢 | Workday | 2d |
+| Salesforce | [User Interface/User Experience Principal - AgentExchange UX](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/User-Interface-User-Experience-Principal---AgentExchange-UX_JR360859) | JR360859 | 🟢 | Workday | 2d |
+| Salesforce | [Account Executive, Sales Performance Management - Commercial](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Chicago/Commercial---Enterprise-Account-Executive--Sales-Performance-Management_JR291423) | JR291423 | 🟢 | Workday | 2d |
+| Salesforce | [Senior Director, Integrated Campaigns Creative - Apps Creative](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Seattle/Senior-Director--Integrated-Campaigns-Creative---Apps-Creative_JR361483) | JR361483 | 🟢 | Workday | 2d |
+| Salesforce | [Services Sales Solution Architect](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Indiana---Remote/Services-Business-Strategy-Director_JR344557) | JR344557 | 🟢 | Workday | 2d |
+| Salesforce | [Senior Technical Consultant](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Brazil---Sao-Paulo/Senior-Technical-Consultant_JR361836) | JR361836 | 🟢 | Workday | 2d |
+| Salesforce | [Director, Product Marketing (GTM Field Service)](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Chicago/Director--Product-Marketing--GTM-Field-Service-_JR360020) | JR360020 | 🟢 | Workday | 2d |
+| Salesforce | [Senior Solution Architect - Marketing Cloud](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Georgia---Atlanta-Metro---Remote/Solution-Architect--Marketing--Data360-or-Agentforce-Contact-Center-_JR359055) | JR359055 | 🟢 | Workday | 2d |
+| Salesforce | [Growth Business Account Executive, Slack](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Growth-Business-Account-Executive--Slack_JR361343) | JR361343 | 🟢 | Workday | 2d |
+| Salesforce | [Solution Architect/Senior Solution Architect - Data 360](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Georgia---Atlanta-Metro---Remote/Senior-Solution-Architect---Data-360_JR361875) | JR361875 | 🟢 | Workday | 2d |
+| Salesforce | [Senior Solution Architect - Agentforce Contact Center](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Georgia---Atlanta-Metro---Remote/Senior-Solution-Architect---Agentforce-Contact-Center_JR361888) | JR361888 | 🟢 | Workday | 2d |
+| Salesforce | [Senior Director, Security Vendor & Technology Strategy](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Senior-Director--Security-Vendor---Technology-Strategy_JR359021) | JR359021 | 🟢 | Workday | 2d |
+| Salesforce | [Senior Manager, Revenue Strategy](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Chicago/Senior-Manager--Revenue-Strategy_JR360149) | JR360149 | 🟢 | Workday | 2d |
+| Salesforce | [Sr Solution Engineer](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---Remote/Sr-Solution-Engineer_JR361902-1) | JR361902 | 🟢 | Workday | 2d |
 | Ramp | [Principal Brand Designer](https://jobs.ashbyhq.com/ramp/72c3ef8f-e390-4ee1-9c0d-83b7b616ee17) | New York, NY (HQ) | ❔ | Ashby | 2d |
 | Ramp | [Sales Development Representative, Strategic Accounts](https://jobs.ashbyhq.com/ramp/7c55aa7c-90a5-46af-9ce7-134fbf370284) | New York, NY (HQ) | ❔ | Ashby | 2d |
 | Robinhood | [Fraud Investigator - Customer Protection](https://boards.greenhouse.io/robinhood/jobs/8186282?t=gh_src=&gh_jid=8186282) | Denver, CO; Lake Mary, FL | ❔ | Greenhouse | 2d |
@@ -181,11 +211,11 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Robinhood | [Staff Product Designer, National Impact](https://boards.greenhouse.io/robinhood/jobs/7804648?t=gh_src=&gh_jid=7804648) | Menlo Park, CA; New York, NY | ❔ | Greenhouse | 2d |
 | Robinhood | [Staff Product Manager - Prediction Markets](https://boards.greenhouse.io/robinhood/jobs/8164459?t=gh_src=&gh_jid=8164459) | Menlo Park, CA; New York, NY | ❔ | Greenhouse | 2d |
 | Coinbase | [Trade Surveillance Associate](https://www.coinbase.com/careers/positions/8232346?gh_jid=8232346) | London, UK | 🟢 | Greenhouse | 2d |
-| Airbnb | [Gestionnaire, Qualité, AirCover ](https://careers.airbnb.com/positions/8164421?gh_jid=8164421) | Canada | 🟢 | Greenhouse | 2d |
-| Airbnb | [Senior Community Growth Manager](https://careers.airbnb.com/positions/8178467?gh_jid=8178467) | Brazil | 🟢 | Greenhouse | 2d |
-| Airbnb | [Spécialiste principal(e), Soutien Premium](https://careers.airbnb.com/positions/8107161?gh_jid=8107161) | Canada | 🟢 | Greenhouse | 2d |
-| Airbnb | [Superviseur (-e), Soutien Premium Bilingue (français/anglais)](https://careers.airbnb.com/positions/8080626?gh_jid=8080626) | Canada | 🟢 | Greenhouse | 2d |
-| Airbnb | [Supervisor, Aircover](https://careers.airbnb.com/positions/8194590?gh_jid=8194590) | Gurugram, India | 🟢 | Greenhouse | 2d |
+| Airbnb | [Gestionnaire, Qualité, AirCover ](https://careers.airbnb.com/positions/8164421?gh_jid=8164421) | Canada | 🟢 | Greenhouse | 3d |
+| Airbnb | [Senior Community Growth Manager](https://careers.airbnb.com/positions/8178467?gh_jid=8178467) | Brazil | 🟢 | Greenhouse | 3d |
+| Airbnb | [Spécialiste principal(e), Soutien Premium](https://careers.airbnb.com/positions/8107161?gh_jid=8107161) | Canada | 🟢 | Greenhouse | 3d |
+| Airbnb | [Superviseur (-e), Soutien Premium Bilingue (français/anglais)](https://careers.airbnb.com/positions/8080626?gh_jid=8080626) | Canada | 🟢 | Greenhouse | 3d |
+| Airbnb | [Supervisor, Aircover](https://careers.airbnb.com/positions/8194590?gh_jid=8194590) | Gurugram, India | 🟢 | Greenhouse | 3d |
 | Mercier Consultancy Group | [Danish Speaking Solutions Consultant Work Sofia Bulgaria](https://remoteOK.com/remote-jobs/remote-danish-speaking-solutions-consultant-work-sofia-bulgaria-mercier-consultancy-group-1137431) | Remote | ❔ | RemoteOK | 3d |
 | iMerit Technology | [Video Data Annotator](https://remoteOK.com/remote-jobs/remote-video-data-annotator-imerit-technology-1137428) | Remote | ❔ | RemoteOK | 4d |
 | Ramp | [Tech Lead, Ramp Travel](https://jobs.ashbyhq.com/ramp/3c43dea1-3cd7-45ab-96f1-4054cfa875ff) | New York, NY (HQ) | ❔ | Ashby | 5d |
@@ -226,7 +256,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | See posting | [VictoriaMetrics - Remote - EMEA, North America - Hiring VictoriaMetrics is an open-source monitoring and observability company. We build Vic](https://news.ycombinator.com/item?id=49547973) | See posting | ❔ | HN Who's Hiring | 24d |
 | See posting | [Frequenz Energy-as-a-Service GmbH - Full-Time - Berlin, Germany We are a vibrant technology company developing groundbreaking solutions that](https://news.ycombinator.com/item?id=49546958) | See posting | ❔ | HN Who's Hiring | 24d |
 | See posting | [Duets Network - Founding Engineer - REMOTE (US-Based Only) - Equity + discretionary cash - ~10–15 hrs&#x2F;wk Duets Network is an AI-powered](https://news.ycombinator.com/item?id=49544301) | See posting | ❔ | HN Who's Hiring | 24d |
-| See posting | [Mastra - Customer Engineer - REMOTE (AMER or EMEA time zones) - Full-time Mastra is the open-source TypeScript framework for building AI age](https://news.ycombinator.com/item?id=49543632) | See posting | ❔ | HN Who's Hiring | 24d |
+| See posting | [Mastra - Customer Engineer - REMOTE (AMER or EMEA time zones) - Full-time Mastra is the open-source TypeScript framework for building AI age](https://news.ycombinator.com/item?id=49543632) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [SentiLink -  https:&#x2F;&#x2F;www.sentilink.com&#x2F;  - Engineering &amp; Data Science - REMOTE, HYBRID, and ONSITE (USA) - Full Time Prim](https://news.ycombinator.com/item?id=49541874) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [Coder -  https:&#x2F;&#x2F;coder.com&#x2F;  - Multiple roles - Multiple locations - Full-time Coder is an AI software development company le](https://news.ycombinator.com/item?id=49541388) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [NYC - ONSITE (hybrid) Norm Ai, the agentic law company, has a client base with a combined $30 trillion in assets under management. Norm Ai p](https://news.ycombinator.com/item?id=49540382) | See posting | ❔ | HN Who's Hiring | 25d |
@@ -247,8 +277,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | See posting | [BCC - Platform Systems Engineers - Bethesda MD - Competitive compensation! -  https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov  Black Canyon Consultin](https://news.ycombinator.com/item?id=49530256) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [DrSwarm - CTO Cofounder - Bay Area - Full-time Building AI agents that automate the work of outpatient healthcare practices. I&#x27;m the fo](https://news.ycombinator.com/item?id=49530057) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [Shovels - Forward-Deployed Engineer (FDE) - Remote - Full-time Shovels is the intelligence layer for the built world. We&#x27;re venture-bac](https://news.ycombinator.com/item?id=49530020) | See posting | ❔ | HN Who's Hiring | 25d |
-| See posting | [Muris - Founding Engineer - Berlin - ONSITE - Full-time We&#x27;re building software for agricultural logistics, from field to factory. A lo](https://news.ycombinator.com/item?id=49529054) | See posting | ❔ | HN Who's Hiring | 25d |
-| See posting | [Trustworthy Technology - Earth - Part Time - REMOTE - Vision, Marketing, and&#x2F;or  Design Hi, we are a small group trying to bring the &q](https://news.ycombinator.com/item?id=49528935) | See posting | ❔ | HN Who's Hiring | 25d |
+| See posting | [Muris - Founding Engineer - Berlin - ONSITE - Full-time We&#x27;re building software for agricultural logistics, from field to factory. A lo](https://news.ycombinator.com/item?id=49529054) | See posting | ❔ | HN Who's Hiring | 26d |
+| See posting | [Trustworthy Technology - Earth - Part Time - REMOTE - Vision, Marketing, and&#x2F;or  Design Hi, we are a small group trying to bring the &q](https://news.ycombinator.com/item?id=49528935) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [Tolmo - multiple roles - San Francisco, Ca, USA - ONSITE - Full time I am hiring for multiple roles in cybersecurity x AI [1] We have securi](https://news.ycombinator.com/item?id=49528822) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [Deya - Multiple Roles - New York, NY - HYBRID (NYC) or REMOTE - Full-time -  https:&#x2F;&#x2F;deya.health&#x2F;careers&#x2F;  Everyone in h](https://news.ycombinator.com/item?id=49528637) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [Railway - Senior Product Eng (full-stack), Brand Designer - Web, Senior Growth Marketer, Senior Product Marketer, Account Executive, Scale- ](https://news.ycombinator.com/item?id=49528608) | See posting | ❔ | HN Who's Hiring | 26d |
@@ -331,7 +361,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Sophie's Flats Inc. | [Architectural Designer](https://remoteOK.com/remote-jobs/remote-architectural-designer-sophies-flats-inc-1136192) | Toronto,  | ❔ | RemoteOK | 53d |
 | Control Shift Video | [Freelance Designer](https://remoteOK.com/remote-jobs/remote-freelance-designer-control-shift-video-1136213) | Texas,  | ❔ | RemoteOK | 53d |
 | Tremendous | [Head of Security](https://remoteOK.com/remote-jobs/remote-head-of-security-tremendous-1136210) | New York, New York, New York, United States | ❔ | RemoteOK | 53d |
-| AWeber | [Operations Engineer II](https://remoteOK.com/remote-jobs/remote-operations-engineer-ii-aweber-1136778) | Uluberia-II,  | ❔ | RemoteOK | 53d |
+| AWeber | [Operations Engineer II](https://remoteOK.com/remote-jobs/remote-operations-engineer-ii-aweber-1136778) | Uluberia-II,  | ❔ | RemoteOK | 54d |
 | INNERGY | [Marketing Specialist](https://remoteOK.com/remote-jobs/remote-marketing-specialist-innergy-1136094) | Austin, Austin, Texas, United States | ❔ | RemoteOK | 54d |
 | SEAhub Asia | [Data Analyst](https://remoteOK.com/remote-jobs/remote-data-analyst-seahub-asia-1136222) | Kuala Lumpur, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia | ❔ | RemoteOK | 54d |
 | Arabian Private Holdings | [Data Analyst Assistant](https://remoteOK.com/remote-jobs/remote-data-analyst-assistant-arabian-private-holdings-1136217) | Ø¯Ø¨Ù, Ø¯Ø¨Ù Ø¯Ø¨Ù Ø§ÙØ¥ÙØ§Ø±Ø§Øª Ø§ÙØ¹Ø±Ø¨ÙØ© Ø§ÙÙØªØ­Ø¯Ø© | ❔ | RemoteOK | 54d |
