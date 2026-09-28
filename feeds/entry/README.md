@@ -6,7 +6,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 
 [⬅️ Back to all experience levels](../../README.md)
 
-**Last updated:** 2026-09-28T01:18:41.541558+00:00 · **Open roles in this feed:** 2802
+**Last updated:** 2026-09-28T02:50:32.088640+00:00 · **Open roles in this feed:** 2802
 
 🛂 H1B column: 🟢 posting explicitly mentions sponsorship, or the company is on your known-sponsors list · 🔴 posting explicitly says no sponsorship · ❔ not stated — this is a best-effort heuristic on text that companies often don't specify, not a guarantee. See `companies.yaml` to tune it.
 
@@ -36,8 +36,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Roblox | [Senior Software Engineer, Developer Tools](https://careers.roblox.com/jobs/8211271?gh_jid=8211271) | San Mateo, CA, United States | ❔ | Greenhouse | 0d |
 | Palo Alto Networks | [Senior Staff AI Software Engineer (CORA AI)](https://jobs.paloaltonetworks.com/en/job/petah-tikva/senior-staff-ai-software-engineer-cora-ai/47263/101219583280) | Petach Tikva, Israel | ❔ | Radancy | 1d |
 | Palo Alto Networks | [Senior DevOps Engineer  - Backend Infrastructure Team (Cortex)](https://jobs.paloaltonetworks.com/en/job/tel-aviv/senior-devops-engineer-backend-infrastructure-team-cortex/47263/101209917648) | Tel Aviv-Yafo, Israel | ❔ | Radancy | 1d |
-| Gitlab | [Staff Backend Engineer, India](https://job-boards.greenhouse.io/gitlab/jobs/8775136002) | Bangalore, India | ❔ | Greenhouse | 1d |
-| Gitlab | [Senior Backend Engineer, India](https://job-boards.greenhouse.io/gitlab/jobs/8716143002) | Bangalore, India | ❔ | Greenhouse | 1d |
+| Gitlab | [Staff Backend Engineer, India](https://job-boards.greenhouse.io/gitlab/jobs/8775136002) | Bangalore, India | ❔ | Greenhouse | 2d |
+| Gitlab | [Senior Backend Engineer, India](https://job-boards.greenhouse.io/gitlab/jobs/8716143002) | Bangalore, India | ❔ | Greenhouse | 2d |
 | Stripe | [Software Engineer, High Availability and Disaster Recovery](https://stripe.com/jobs/search?gh_jid=8197135) | Seattle, WA | 🟢 | Greenhouse | 2d |
 | Stripe | [Senior Software Engineer, Product Velocity](https://stripe.com/jobs/search?gh_jid=8194328) | Seattle, WA | 🟢 | Greenhouse | 2d |
 | Stripe | [Senior Software Engineer, Docs Product](https://stripe.com/jobs/search?gh_jid=8177860) | New York, NY | 🟢 | Greenhouse | 2d |
@@ -149,8 +149,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Datadog | [Senior Software Engineer - Backend ](https://careers.datadoghq.com/detail/4599148/?gh_jid=4599148) | Bordeaux, France; Paris, France | ❔ | Greenhouse | 9d |
 | Datadog | [Senior Software Engineer - Bazel Tools](https://careers.datadoghq.com/detail/8095166/?gh_jid=8095166) | Atlanta, Georgia, USA; Boston, Massachusetts, USA; New York, New York, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Senior Software Engineer - Distributed Systems](https://careers.datadoghq.com/detail/4599111/?gh_jid=4599111) | Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France; Tel Aviv, Israel | ❔ | Greenhouse | 9d |
-| Datadog | [Senior Software Engineer - REDAPL Graph Engine](https://careers.datadoghq.com/detail/7959966/?gh_jid=7959966) | France, Remote; Germany, Remote; Italy, Remote; Spain, Remote; Switzerland, Remote; United Kingdom, Remote | ❔ | Greenhouse | 9d |
 | Datadog | [Senior Software Engineer - REDAPL Graph Engine](https://careers.datadoghq.com/detail/7959962/?gh_jid=7959962) | Dublin, Ireland; Madrid, Spain; Paris, France | ❔ | Greenhouse | 9d |
+| Datadog | [Senior Software Engineer - REDAPL Graph Engine](https://careers.datadoghq.com/detail/7959966/?gh_jid=7959966) | France, Remote; Germany, Remote; Italy, Remote; Spain, Remote; Switzerland, Remote; United Kingdom, Remote | ❔ | Greenhouse | 9d |
 | Datadog | [Senior Software Engineer - REDAPL Graph Engine](https://careers.datadoghq.com/detail/7959967/?gh_jid=7959967) | Lisbon, Portugal | ❔ | Greenhouse | 9d |
 | Datadog | [Senior Software Engineer - Streaming Platform ](https://careers.datadoghq.com/detail/7993551/?gh_jid=7993551) | New York, New York, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Senior Software Engineer - Streaming Platform Client](https://careers.datadoghq.com/detail/8035492/?gh_jid=8035492) | New York, New York, USA | ❔ | Greenhouse | 9d |
@@ -158,8 +158,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Datadog | [Staff Software Engineer - Corporate Development](https://careers.datadoghq.com/detail/8105372/?gh_jid=8105372) | New York, New York, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Staff Software Engineer - Logs Observability Pipelines ](https://careers.datadoghq.com/detail/7743369/?gh_jid=7743369) | New York, New York, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Staff Software Engineer - ML Observability](https://careers.datadoghq.com/detail/7107437/?gh_jid=7107437) | Boston, Massachusetts, USA; New York, New York, USA | ❔ | Greenhouse | 9d |
-| Datadog | [Staff Software Engineer - Security Agent](https://careers.datadoghq.com/detail/8007606/?gh_jid=8007606) | Portugal, Remote | ❔ | Greenhouse | 9d |
 | Datadog | [Staff Software Engineer - Security Agent](https://careers.datadoghq.com/detail/8007589/?gh_jid=8007589) | Paris, France | ❔ | Greenhouse | 9d |
+| Datadog | [Staff Software Engineer - Security Agent](https://careers.datadoghq.com/detail/8007606/?gh_jid=8007606) | Portugal, Remote | ❔ | Greenhouse | 9d |
 | Datadog | [Staff Software Engineer - Security Agent](https://careers.datadoghq.com/detail/8007598/?gh_jid=8007598) | France, Remote; Germany, Remote; Ireland, Remote; Italy, Remote; Spain, Remote | ❔ | Greenhouse | 9d |
 | Gitlab | [Senior Backend Engineer, Platform Enablement](https://job-boards.greenhouse.io/gitlab/jobs/8750842002) | Remote, United States | ❔ | Greenhouse | 9d |
 | Clickhouse | [Langfuse - Senior Backend Engineer](https://jobs.ashbyhq.com/clickhouse/31500bec-b690-4795-b4d6-0dce06a4c180) | Germany | ❔ | Ashby | 9d |
@@ -240,7 +240,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Sentry | [Senior Software Engineer, Billing Platform](https://jobs.ashbyhq.com/sentry/26c3535f-fcaa-4419-8272-43faa00582f1) | Toronto, Ontario, Canada | ❔ | Ashby | 15d |
 | Mirantis | [Software Engineer](https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387) | Remote | ❔ | RemoteOK | 15d |
 | Lyft | [Software Engineer - Self Service Intelligence, SCC Eng](https://app.careerpuck.com/job-board/lyft/job/8791488002?gh_jid=8791488002) | Mexico City, Mexico | ❔ | Greenhouse | 15d |
-| Faire | [Staff Software Engineer - Code Authoring](https://boards.greenhouse.io/faire/jobs/8803938002?gh_jid=8803938002) | Kitchener-Waterloo, ON; Toronto, ON | ❔ | Greenhouse | 15d |
+| Faire | [Staff Software Engineer - Code Authoring](https://boards.greenhouse.io/faire/jobs/8803938002?gh_jid=8803938002) | Kitchener-Waterloo, ON; Toronto, ON | ❔ | Greenhouse | 16d |
 | Discord | [Staff Software Engineer, Safety Processing](https://job-boards.greenhouse.io/discord/jobs/8214127002) | San Francisco Bay Area or Los Angeles Area | ❔ | Greenhouse | 16d |
 | Elastic | [Principal Software Engineer (Application Networking) - Platform Infrastructure](https://jobs.elastic.co/jobs?gh_jid=8096579&gh_jid=8096579) | Spain | ❔ | Greenhouse | 17d |
 | Elastic | [Principal Software Engineer (Application Networking) - Platform Infrastructure](https://jobs.elastic.co/jobs?gh_jid=8178851&gh_jid=8178851) | Greece | ❔ | Greenhouse | 17d |
@@ -344,8 +344,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | See posting | [Rerun - Remote - Stockholm, Sweden - Full-time  https:&#x2F;&#x2F;rerun.io&#x2F;  Rerun is the data layer for Physical AI; robotics, autonom](https://news.ycombinator.com/item?id=49533651) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [Multiply - Python + SQL Software Engineer - On-site - Mauritius We build repricing software that keeps online sellers on top of their compet](https://news.ycombinator.com/item?id=49532978) | See posting | 🟢 | HN Who's Hiring | 25d |
 | See posting | [Hiya - Senior Backend Software Engineer - Seattle, WA - HYBRID - Full-time - $113-197k + equity Hiya&#x27;s Voice Intelligence Platform prot](https://news.ycombinator.com/item?id=49531417) | See posting | ❔ | HN Who's Hiring | 25d |
-| See posting | [Greenzie - Robotics Software Engineer (Early Career + Experienced) - Atlanta, GA - ONSITE&#x2F;HYBRID - Full-time -  https:&#x2F;&#x2F;green](https://news.ycombinator.com/item?id=49530909) | See posting | ❔ | HN Who's Hiring | 25d |
-| See posting | [Clad (YC W23) - Software Engineer - NYC - withclad.com Clad is construction software for building infrastructure. We help contractors track ](https://news.ycombinator.com/item?id=49530894) | See posting | ❔ | HN Who's Hiring | 25d |
+| See posting | [Greenzie - Robotics Software Engineer (Early Career + Experienced) - Atlanta, GA - ONSITE&#x2F;HYBRID - Full-time -  https:&#x2F;&#x2F;green](https://news.ycombinator.com/item?id=49530909) | See posting | ❔ | HN Who's Hiring | 26d |
+| See posting | [Clad (YC W23) - Software Engineer - NYC - withclad.com Clad is construction software for building infrastructure. We help contractors track ](https://news.ycombinator.com/item?id=49530894) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [LatchBio - Member of Technical Staff (infra, ML infra, systems, platform, full stack) - ONSITE San Francisco - Full Time Our mission is to a](https://news.ycombinator.com/item?id=49530558) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [St. Jude Children&#x27;s Research Hospital - Sr. Staff or Principal Software Engineer, Rust Genomics Infrastructure - Memphis, TN - ONSITE (](https://news.ycombinator.com/item?id=49530430) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [This Dot Labs - Senior Android Engineer (Kotlin), Senior React Native Engineer, Senior JavaScript Engineer, Software Architect - REMOTE This](https://news.ycombinator.com/item?id=49530424) | See posting | ❔ | HN Who's Hiring | 26d |
@@ -483,12 +483,12 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Openai | [Software Engineer, Productivity - Model Performance](https://jobs.ashbyhq.com/openai/6d403ec9-d5d3-4754-9092-8fd5e659562a) | San Francisco | ❔ | Ashby | 151d |
 | Openai | [Software Engineer, Productivity - Networking](https://jobs.ashbyhq.com/openai/17daedbd-b3fb-4e8c-a17c-8bbc9ec1d0b5) | San Francisco | ❔ | Ashby | 152d |
 | Openai | [Software Engineer, Security Observability](https://jobs.ashbyhq.com/openai/1e4e9985-babf-4bd9-8fe8-a2016250780d) | San Francisco | ❔ | Ashby | 165d |
-| Cursor | [Software Engineer, Agent Evaluation and Quality](https://jobs.ashbyhq.com/cursor/2bbe9f02-83a5-4173-98be-9085d1cb5693) | San Francisco | ❔ | Ashby | 167d |
+| Cursor | [Software Engineer, Agent Evaluation and Quality](https://jobs.ashbyhq.com/cursor/2bbe9f02-83a5-4173-98be-9085d1cb5693) | San Francisco | ❔ | Ashby | 168d |
 | Cursor | [Software Engineer, Core Services](https://jobs.ashbyhq.com/cursor/77bf35db-119c-4533-8187-1e8d5ae08c45) | San Francisco | ❔ | Ashby | 173d |
-| Openai | [Principal Software Engineer, Infrastructure Security](https://jobs.ashbyhq.com/openai/ace42c6d-8663-4b30-9337-ec70cf071d73) | US - Remote | ❔ | Ashby | 186d |
+| Openai | [Principal Software Engineer, Infrastructure Security](https://jobs.ashbyhq.com/openai/ace42c6d-8663-4b30-9337-ec70cf071d73) | US - Remote | ❔ | Ashby | 187d |
 | Vanta | [Senior Software Engineer, Developer Experience ](https://jobs.ashbyhq.com/vanta/dbd4e02c-0c6c-4031-a658-f57e88ec9943) | Remote U.S. | ❔ | Ashby | 194d |
 | Openai | [Software Engineer, Observability](https://jobs.ashbyhq.com/openai/d4dcd344-40cf-44d6-a7dd-172118eb0842) | San Francisco | ❔ | Ashby | 220d |
-| Harvey | [Staff Software Engineer, Full Stack](https://jobs.ashbyhq.com/harvey/01f31ece-f3fe-4991-b6fb-b59f21faa8e9) | Toronto | ❔ | Ashby | 228d |
+| Harvey | [Staff Software Engineer, Full Stack](https://jobs.ashbyhq.com/harvey/01f31ece-f3fe-4991-b6fb-b59f21faa8e9) | Toronto | ❔ | Ashby | 229d |
 | Harvey | [Senior Software Engineer, Full Stack - NYC](https://jobs.ashbyhq.com/harvey/10900071-f75f-49da-bff7-7e9db5e9b1f9) | New York | ❔ | Ashby | 230d |
 | Openai | [Software Engineer, Cooperative AI](https://jobs.ashbyhq.com/openai/7613aca3-9dd8-41cd-b114-06ef4de967a9) | San Francisco | ❔ | Ashby | 264d |
 | Openai | [Camera Software Engineer, Consumer Devices](https://jobs.ashbyhq.com/openai/1dc05fc7-ceb7-4827-a905-9d1beb77a4a0) | San Francisco | ❔ | Ashby | 278d |
@@ -508,7 +508,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Perplexity | [Member of Technical Staff (Backend/Infrastructure Engineer, Search)](https://jobs.ashbyhq.com/perplexity/dd80ab52-34bd-42af-aa5e-6283b7e6c194) | Belgrade | ❔ | Ashby | 569d |
 | Retell Ai | [Senior Software Engineer, Backend](https://jobs.ashbyhq.com/retell-ai/3e4fa860-4673-49bf-b577-57e73b6292fe) | San Francisco Bay Area | ❔ | Ashby | 663d |
 | Openai | [Software Engineer, Collective Communication](https://jobs.ashbyhq.com/openai/340c0c22-8d8f-4232-b17e-f642b64c25c3) | San Francisco | ❔ | Ashby | 890d |
-| Harvey | [Senior Software Engineer, Frontend](https://jobs.ashbyhq.com/harvey/04e17f81-d0a7-4f83-8526-ec4c9532ddcc) | San Francisco | ❔ | Ashby | 933d |
+| Harvey | [Senior Software Engineer, Frontend](https://jobs.ashbyhq.com/harvey/04e17f81-d0a7-4f83-8526-ec4c9532ddcc) | San Francisco | ❔ | Ashby | 934d |
 
 [⬆️ Back to top](#experienced-engineer-job-feed-0-2-years)
 
@@ -562,8 +562,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Palo Alto Networks | [Principal Data Engineer - Data Ingestion Pipeline (Prisma AIRS)](https://jobs.paloaltonetworks.com/en/job/santa-clara/principal-data-engineer-data-ingestion-pipeline-prisma-airs/47263/100093058976) | Santa Clara, California, United States of America | ❔ | Radancy | 26d |
 | See posting | [ML6 - Senior AI Engineer - Python, TensorFlow, PyTorch, GCP, AWS, Azure - Full-time - Amsterdam, Berlin, Munich, Eindhoven, Ghent (EU) On-si](https://news.ycombinator.com/item?id=49527283) | See posting | ❔ | HN Who's Hiring | 26d |
 | Scaleai | [Senior / Staff Machine Learning Research Scientist, Agents](https://job-boards.greenhouse.io/scaleai/jobs/4488520005) | San Francisco, CA; Seattle, WA; New York, NY | ❔ | Greenhouse | 26d |
-| Spacex | [Sr. AI Engineer, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557060002?gh_jid=8557060002) | Palo Alto, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Sr. AI Engineer, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557268002?gh_jid=8557268002) | Washington, DC | ❔ | Greenhouse | 26d |
+| Spacex | [Sr. AI Engineer, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557060002?gh_jid=8557060002) | Palo Alto, CA | ❔ | Greenhouse | 26d |
 | See posting | [Balerion AI - Software + FDE + AI Engineers - San Francisco, CA - ONSITE - Full-time - $250k+ base + seed equity - Visa sponsorship availabl](https://news.ycombinator.com/item?id=49525600) | See posting | 🟢 | HN Who's Hiring | 26d |
 | See posting | [PostHog - Full-Time - Technical CSMs, Technical Content Writers, AI Research Engineer - REMOTE (all remote) - Hiring GMT-8 to GMT+2 - PostHo](https://news.ycombinator.com/item?id=49524781) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [Steg.AI - Machine Learning Engineer - Irvine, CA (Onsite) - Full Time Steg.AI develops AI-powered watermarking technology to protect and aut](https://news.ycombinator.com/item?id=49524327) | See posting | ❔ | HN Who's Hiring | 26d |
@@ -598,7 +598,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Outreach | [Senior Applied Scientist](https://jobs.lever.co/outreach/03198a0a-e455-43fd-9666-30ec5fedcb6b) | Seattle, WA | ❔ | Lever | 125d |
 | Uipath | [Senior Applied Scientist](https://jobs.ashbyhq.com/uipath/aaadb603-82c1-422f-b2cf-c1f96c96ad94) | Bucharest | ❔ | Ashby | 156d |
 | Strava | [Senior Machine Learning Engineer](https://jobs.ashbyhq.com/strava/5aaf1d74-988b-4edb-911f-671b22990623) | Strava SF | ❔ | Ashby | 177d |
-| Mercor | [Research Engineer - Environments, Data and Post-Training](https://jobs.ashbyhq.com/mercor/97b8c17e-e438-4b61-bab1-9ae18e2c3f34) | San Francisco | ❔ | Ashby | 186d |
+| Mercor | [Research Engineer - Environments, Data and Post-Training](https://jobs.ashbyhq.com/mercor/97b8c17e-e438-4b61-bab1-9ae18e2c3f34) | San Francisco | ❔ | Ashby | 187d |
 | Applied | [Research Engineer - Reinforcement Learning, Self-Driving](https://jobs.ashbyhq.com/applied/36a49d01-e60f-4c01-8c8c-5a7f79347f51) | Sunnyvale | ❔ | Ashby | 226d |
 | Applied | [Research Engineer - 3D Vision and Generation, Self-Driving](https://jobs.ashbyhq.com/applied/8da87c90-49ff-4b75-97c5-337882f63a00) | Sunnyvale | ❔ | Ashby | 226d |
 | Openai | [Research Engineer, Frontier Evals & Environments](https://jobs.ashbyhq.com/openai/bba18df5-f30f-4d2c-909c-30e651f95579) | San Francisco | ❔ | Ashby | 532d |
@@ -645,8 +645,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Okta | [Senior Site Reliability Engineer (FedRAMP)](https://www.okta.com/company/careers/opportunity/7289458?gh_jid=7289458) | San Francisco, California | ❔ | Greenhouse | 6d |
 | Okta | [Staff Product Security Engineer, Reviews](https://www.okta.com/company/careers/opportunity/8156825?gh_jid=8156825) | Toronto, Ontario, Canada | ❔ | Greenhouse | 6d |
 | Okta | [Staff Site Reliability Engineer, Federal (TS/SCI)](https://www.okta.com/company/careers/opportunity/8097489?gh_jid=8097489) | Washington, DC | ❔ | Greenhouse | 6d |
-| Datadog | [Senior Platform Security Engineer](https://careers.datadoghq.com/detail/8094188/?gh_jid=8094188) | Paris, France | ❔ | Greenhouse | 9d |
 | Datadog | [Senior Platform Security Engineer](https://careers.datadoghq.com/detail/7815616/?gh_jid=7815616) | New York, New York, USA | ❔ | Greenhouse | 9d |
+| Datadog | [Senior Platform Security Engineer](https://careers.datadoghq.com/detail/8094188/?gh_jid=8094188) | Paris, France | ❔ | Greenhouse | 9d |
 | Datadog | [Senior Security Engineer, Vulnerability Management](https://careers.datadoghq.com/detail/8173840/?gh_jid=8173840) | Boston, Massachusetts, USA; New York, New York, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Staff Application Security Engineer](https://careers.datadoghq.com/detail/7777798/?gh_jid=7777798) | Boston, Massachusetts, USA; Connecticut, USA, Remote; Delaware, USA, Remote; District of Columbia, USA, Remote; Maryland, USA, Remote; Massachusetts, USA, Remote; New Jersey, USA, Remote; New York, New York, USA; New York, USA, Remote; Rhode Island, USA, Remote | ❔ | Greenhouse | 9d |
 | Affirm | [Staff Security Engineer, Enterprise AI](https://job-boards.greenhouse.io/affirm/jobs/7994555003) | Remote Canada | ❔ | Greenhouse | 9d |
@@ -715,7 +715,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Palo Alto Networks | [Principal DevOps Engineer](https://jobs.paloaltonetworks.com/en/job/london/principal-devops-engineer/47263/96174879888) | London, United Kingdom | ❔ | Radancy | 67d |
 | Ramp | [Senior Security Engineer, Endpoint](https://jobs.ashbyhq.com/ramp/e5232cce-a23a-4f03-b12e-dac510d08cd3) | New York, NY (HQ) | ❔ | Ashby | 81d |
 | Openai | [GPT Infrastructure Lead](https://jobs.ashbyhq.com/openai/a67d16f7-0273-4052-bb48-06bf9c478eb6) | San Francisco | ❔ | Ashby | 153d |
-| Openai | [Principal Security Engineer, Infrastructure Security](https://jobs.ashbyhq.com/openai/8f1b8c6b-b414-4026-a434-6ca32c3b3e0d) | US - Remote | ❔ | Ashby | 186d |
+| Openai | [Principal Security Engineer, Infrastructure Security](https://jobs.ashbyhq.com/openai/8f1b8c6b-b414-4026-a434-6ca32c3b3e0d) | US - Remote | ❔ | Ashby | 187d |
 | Angellist | [Senior Infrastructure Engineer](https://jobs.lever.co/angellist/78bbf4c8-6f54-4fac-b12a-c86d934a510e) | San Francisco, CA | ❔ | Lever | 503d |
 
 [⬆️ Back to top](#experienced-engineer-job-feed-0-2-years)
@@ -764,7 +764,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 |---|---|---|---|---|---|
 | Salesforce | [Specialist Account Executive - Slack](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Gurgaon/Specialist-Account-Executive---Slack_JR360164) | JR360164 | 🟢 | Workday | 0d |
 | Salesforce | [Manager/Senior Manager - Business Strategy](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Program-Manager---Strategy-and-Operations_JR327797) | JR327797 | 🟢 | Workday | 0d |
-| Retell Ai | [Senior Talent Sourcer](https://jobs.ashbyhq.com/retell-ai/46039898-25bb-4e97-8c26-82949f786958) | San Francisco Bay Area | ❔ | Ashby | 0d |
+| Retell Ai | [Senior Talent Sourcer](https://jobs.ashbyhq.com/retell-ai/46039898-25bb-4e97-8c26-82949f786958) | Remote | ❔ | Ashby | 0d |
 | Reddit | [Senior Product Manager, Ads -  Shopping Catalogs](https://job-boards.greenhouse.io/reddit/jobs/8120503) | Remote - United States | ❔ | Greenhouse | 0d |
 | Roblox | [Senior/Principal Product Manager, Video Generation (Roblox Reality) ](https://careers.roblox.com/jobs/8180420?gh_jid=8180420) | San Mateo, CA, United States | ❔ | Greenhouse | 0d |
 | Roblox | [Senior Litigation Counsel](https://careers.roblox.com/jobs/8180852?gh_jid=8180852) | San Mateo, CA, United States | ❔ | Greenhouse | 0d |
@@ -931,7 +931,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Verkada | [Senior Marketing Operations Manager, EMEA](https://job-boards.greenhouse.io/verkada/jobs/5199873007) | London | 🟢 | Greenhouse | 2d |
 | Verkada | [Senior Technical Support Engineer](https://job-boards.greenhouse.io/verkada/jobs/4997665007) | San Mateo, CA United States | 🟢 | Greenhouse | 2d |
 | Verkada | [Senior Test Engineer – Alarms](https://job-boards.greenhouse.io/verkada/jobs/5082745007) | San Mateo, CA United States | 🟢 | Greenhouse | 2d |
-| Databricks | [Sr. Delivery Partner Manager, FDE](https://databricks.com/company/careers/open-positions/job?gh_jid=8611106002) | Central - United States; Northeast - United States; Southeast - United States | 🟢 | Greenhouse | 2d |
+| Databricks | [Sr. Delivery Partner Manager, FDE](https://databricks.com/company/careers/open-positions/job?gh_jid=8611106002) | Central - United States; Northeast - United States; Southeast - United States | 🟢 | Greenhouse | 3d |
 | Elastic | [Regional Vice President - Enterprise East](https://jobs.elastic.co/jobs?gh_jid=8232338&gh_jid=8232338) | Massachusetts, United States | ❔ | Greenhouse | 3d |
 | Elastic | [Regional Vice President - Enterprise East](https://jobs.elastic.co/jobs?gh_jid=8232337&gh_jid=8232337) | North Carolina, United States | ❔ | Greenhouse | 3d |
 | Elastic | [Regional Vice President - Enterprise East](https://jobs.elastic.co/jobs?gh_jid=8232336&gh_jid=8232336) | Florida, United States | ❔ | Greenhouse | 3d |
@@ -1182,7 +1182,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Palo Alto Networks | [Accounts Receivable Supervisor](https://jobs.paloaltonetworks.com/en/job/bengaluru/accounts-receivable-supervisor/47263/101022363568) | Bangalore, Karnātaka, India | ❔ | Radancy | 5d |
 | Palo Alto Networks | [Strategic Resource Management Lead, Americas](https://jobs.paloaltonetworks.com/en/job/plano/strategic-resource-management-lead-americas/47263/101011312768) | Plano, Texas, United States of America | ❔ | Radancy | 5d |
 | Palo Alto Networks | [Sr. Vendor Manager](https://jobs.paloaltonetworks.com/en/job/plano/sr-vendor-manager/47263/101011312720) | Plano, Texas, United States of America | ❔ | Radancy | 5d |
-| Spacex | [Food Services Specialist - Temporary (McGregor)](https://boards.greenhouse.io/spacex/jobs/8827680002?gh_jid=8827680002) | McGregor, TX | ❔ | Greenhouse | 4d |
+| Spacex | [Food Services Specialist - Temporary (McGregor)](https://boards.greenhouse.io/spacex/jobs/8827680002?gh_jid=8827680002) | McGregor, TX | ❔ | Greenhouse | 5d |
 | Databricks | [Sr. Solutions Architect - Oil, Gas, and Energy](https://databricks.com/company/careers/open-positions/job?gh_jid=8522046002) | United States | 🟢 | Greenhouse | 5d |
 | Braze | [Business Development Representative](https://job-boards.greenhouse.io/braze/jobs/8222430) | Sydney | ❔ | Greenhouse | 5d |
 | Ramp | [Tech Lead, Ramp Travel](https://jobs.ashbyhq.com/ramp/3c43dea1-3cd7-45ab-96f1-4054cfa875ff) | New York, NY (HQ) | ❔ | Ashby | 5d |
@@ -1229,7 +1229,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Palo Alto Networks | [Principal Consultant, DFIR- Reactive Services (Unit 42)](https://jobs.paloaltonetworks.com/en/job/sao-paulo/principal-consultant-dfir-reactive-services-unit-42/47263/100399866752) | Sao Paulo, São Paulo, Brazil | ❔ | Radancy | 6d |
 | Palo Alto Networks | [Practice Architect – Capability Development](https://jobs.paloaltonetworks.com/en/job/singapore/practice-architect-capability-development/47263/100963745984) | Singapore, Central Singapore, Singapore | ❔ | Radancy | 6d |
 | Palo Alto Networks | [Sr. Director, Domain Consulting](https://jobs.paloaltonetworks.com/en/job/phoenix/sr-director-domain-consulting/47263/100963744608) | Phoenix, Arizona, United States of America Bridgeport, Connecticut, United States of America New York City, New York, United States of America | ❔ | Radancy | 6d |
-| Spacex | [HVAC Programmer (Starbase)](https://boards.greenhouse.io/spacex/jobs/8825659002?gh_jid=8825659002) | Starbase, TX | ❔ | Greenhouse | 5d |
+| Spacex | [HVAC Programmer (Starbase)](https://boards.greenhouse.io/spacex/jobs/8825659002?gh_jid=8825659002) | Starbase, TX | ❔ | Greenhouse | 6d |
 | Harvey | [SMB Account Executive](https://jobs.ashbyhq.com/harvey/2a05532b-4746-45ee-965a-ba423efb62fb) | Chicago | ❔ | Ashby | 6d |
 | Anthropic | [Developer Education Lead, Claude Platform](https://job-boards.greenhouse.io/anthropic/jobs/5311465008) | San Francisco, CA - New York City, NY - Seattle, WA | 🟢 | Greenhouse | 6d |
 | Spacex | [Supplier Development Engineer, Electrical (Starlink)](https://boards.greenhouse.io/spacex/jobs/8827724002?gh_jid=8827724002) | Bastrop, TX | ❔ | Greenhouse | 6d |
@@ -1261,8 +1261,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Databricks | [Sr. Manager, Security — Continuous Monitoring v 2.0 ](https://databricks.com/company/careers/open-positions/job?gh_jid=8470847002) | Remote - California | 🟢 | Greenhouse | 6d |
 | Gitlab | [Senior Manager, Public Sector Renewals](https://job-boards.greenhouse.io/gitlab/jobs/8820804002) | Remote, United States | ❔ | Greenhouse | 6d |
 | Braze | [Senior Recruitment Coordinator](https://job-boards.greenhouse.io/braze/jobs/8181445) | New York City | ❔ | Greenhouse | 6d |
-| Databricks | [Business Development Representative](https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002) | Chicago, Illinois | 🟢 | Greenhouse | 6d |
 | Databricks | [Business Development Representative](https://databricks.com/company/careers/open-positions/job?gh_jid=8423167002) | Washington, D.C. | 🟢 | Greenhouse | 6d |
+| Databricks | [Business Development Representative](https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002) | Chicago, Illinois | 🟢 | Greenhouse | 6d |
 | Databricks | [Business Development Representative (Italian-speaking)](https://databricks.com/company/careers/open-positions/job?gh_jid=8590201002) | Paris, France | 🟢 | Greenhouse | 6d |
 | Databricks | [Core Account Executive - Public Sector](https://databricks.com/company/careers/open-positions/job?gh_jid=8441865002) | Sydney, Australia | 🟢 | Greenhouse | 6d |
 | Databricks | [Digital Natives Account Executive](https://databricks.com/company/careers/open-positions/job?gh_jid=8737153002) | London, United Kingdom | 🟢 | Greenhouse | 6d |
@@ -1279,8 +1279,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Databricks | [Go-To-Market (GTM) Digital Natives Program Leader](https://databricks.com/company/careers/open-positions/job?gh_jid=8356420002) | San Francisco, California; United States | 🟢 | Greenhouse | 6d |
 | Databricks | [Lead Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8768956002) | Munich, Germany | 🟢 | Greenhouse | 6d |
 | Databricks | [Named Core Account Executive - Retail](https://databricks.com/company/careers/open-positions/job?gh_jid=8700402002) | Munich, Germany | 🟢 | Greenhouse | 6d |
-| Databricks | [Named Enterprise Account Executive](https://databricks.com/company/careers/open-positions/job?gh_jid=8536432002) | Remote - Denmark | 🟢 | Greenhouse | 6d |
 | Databricks | [Named Enterprise Account Executive](https://databricks.com/company/careers/open-positions/job?gh_jid=8536436002) | Stockholm, Sweden | 🟢 | Greenhouse | 6d |
+| Databricks | [Named Enterprise Account Executive](https://databricks.com/company/careers/open-positions/job?gh_jid=8536432002) | Remote - Denmark | 🟢 | Greenhouse | 6d |
 | Databricks | [Named Enterprise Account Executive, Financial Services](https://databricks.com/company/careers/open-positions/job?gh_jid=8660983002) | Milan, Italy | 🟢 | Greenhouse | 6d |
 | Databricks | [Principal AI Research Scientist, Research Director - AI Scaling](https://databricks.com/company/careers/open-positions/job?gh_jid=8557780002) | Mountain View, California; San Francisco, California | 🟢 | Greenhouse | 6d |
 | Databricks | [Principal Engineer, Compute Fleet Management](https://databricks.com/company/careers/open-positions/job?gh_jid=8334738002) | Bellevue, Washington | 🟢 | Greenhouse | 6d |
@@ -1301,35 +1301,35 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Databricks | [Sr. Event Marketing Manager, Field Programming](https://databricks.com/company/careers/open-positions/job?gh_jid=8638648002) | United States | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Manager, AI Forward Deployed Engineering (AI FDE)](https://databricks.com/company/careers/open-positions/job?gh_jid=8779014002) | United States | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Manager, Engineering](https://databricks.com/company/careers/open-positions/job?gh_jid=8540678002) | Amsterdam, Netherlands | 🟢 | Greenhouse | 6d |
-| Databricks | [Sr. Manager, Field Engineering](https://databricks.com/company/careers/open-positions/job?gh_jid=8682223002) | Sydney, Australia | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Manager, Field Engineering](https://databricks.com/company/careers/open-positions/job?gh_jid=8732052002) | Chicago, Illinois; Connecticut; New Jersey; Remote - New York; Remote - Washington D.C.; San Francisco, California | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Manager, Field Engineering](https://databricks.com/company/careers/open-positions/job?gh_jid=8438767002) | Singapore | 🟢 | Greenhouse | 6d |
+| Databricks | [Sr. Manager, Field Engineering](https://databricks.com/company/careers/open-positions/job?gh_jid=8682223002) | Sydney, Australia | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Manager, Field Engineering](https://databricks.com/company/careers/open-positions/job?gh_jid=8736179002) | Seoul, South Korea | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Manager, Field Engineering Qatar&Africa](https://databricks.com/company/careers/open-positions/job?gh_jid=8535812002) | London, United Kingdom; Paris, France | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Manager, Field Engineering - Sports](https://databricks.com/company/careers/open-positions/job?gh_jid=8716314002) | Northeast - United States | 🟢 | Greenhouse | 6d |
-| Databricks | [Sr. Manager, Field Engineering UAE](https://databricks.com/company/careers/open-positions/job?gh_jid=8778848002) | London, United Kingdom | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Manager, Field Engineering UAE](https://databricks.com/company/careers/open-positions/job?gh_jid=8764727002) | Paris, France | 🟢 | Greenhouse | 6d |
+| Databricks | [Sr. Manager, Field Engineering UAE](https://databricks.com/company/careers/open-positions/job?gh_jid=8778848002) | London, United Kingdom | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Product Manager, Lakeflow](https://databricks.com/company/careers/open-positions/job?gh_jid=8186386002) | Amsterdam, Netherlands | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Product Marketing Manager, Lakewatch & Agentic Apps](https://databricks.com/company/careers/open-positions/job?gh_jid=8493857002) | West Coast - United States | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Recruiter, GTM Field Engineering](https://databricks.com/company/careers/open-positions/job?gh_jid=8771706002) | London, United Kingdom | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Recruiter, GTM – Field Engineering (Contract)](https://databricks.com/company/careers/open-positions/job?gh_jid=8587088002) | Bengaluru, India | 🟢 | Greenhouse | 6d |
-| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8567987002) | Remote - Texas | 🟢 | Greenhouse | 6d |
-| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8620635002) | Melbourne, Australia | 🟢 | Greenhouse | 6d |
-| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8785045002) | Auckland, New Zealand | 🟢 | Greenhouse | 6d |
-| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8682362002) | London, United Kingdom | 🟢 | Greenhouse | 6d |
-| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8537033002) | Queensland, Australia | 🟢 | Greenhouse | 6d |
-| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8632383002) | Northeast - United States | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8675570002) | Milan, Italy | 🟢 | Greenhouse | 6d |
+| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8682362002) | London, United Kingdom | 🟢 | Greenhouse | 6d |
+| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8632383002) | Northeast - United States | 🟢 | Greenhouse | 6d |
+| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8537033002) | Queensland, Australia | 🟢 | Greenhouse | 6d |
+| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8567987002) | Remote - Texas | 🟢 | Greenhouse | 6d |
+| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8785045002) | Auckland, New Zealand | 🟢 | Greenhouse | 6d |
+| Databricks | [Sr. Solutions Architect](https://databricks.com/company/careers/open-positions/job?gh_jid=8620635002) | Melbourne, Australia | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Solutions Architect Madrid Spain](https://databricks.com/company/careers/open-positions/job?gh_jid=8641242002) | Madrid | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Solutions Architect - Manufacturing](https://databricks.com/company/careers/open-positions/job?gh_jid=8583085002) | Central - United States | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Solutions Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8609866002) | Stockholm, Sweden | 🟢 | Greenhouse | 6d |
-| Databricks | [Sr. Solutions Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8721005002) | Munich, Germany | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Solutions Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8593371002) | Toronto, Canada | 🟢 | Greenhouse | 6d |
+| Databricks | [Sr. Solutions Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8721005002) | Munich, Germany | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Solutions Engineer Digital Natives & Scaleups Spain](https://databricks.com/company/careers/open-positions/job?gh_jid=8486484002) | Madrid | 🟢 | Greenhouse | 6d |
 | Databricks | [Sr. Staff Forward Deployed Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8555674002) | Singapore | 🟢 | Greenhouse | 6d |
 | Databricks | [Staff Backline Engineer – ML/AI](https://databricks.com/company/careers/open-positions/job?gh_jid=7872746002) | Bellevue, Washington; San Francisco, California | 🟢 | Greenhouse | 6d |
-| Databricks | [Staff Product Manager](https://databricks.com/company/careers/open-positions/job?gh_jid=7649409002) | Amsterdam, Netherlands | 🟢 | Greenhouse | 6d |
 | Databricks | [Staff Product Manager](https://databricks.com/company/careers/open-positions/job?gh_jid=7649411002) | Berlin, Germany | 🟢 | Greenhouse | 6d |
+| Databricks | [Staff Product Manager](https://databricks.com/company/careers/open-positions/job?gh_jid=7649409002) | Amsterdam, Netherlands | 🟢 | Greenhouse | 6d |
 | Databricks | [Startup Hunter Account Executive](https://databricks.com/company/careers/open-positions/job?gh_jid=8438936002) | Singapore | 🟢 | Greenhouse | 6d |
 | Databricks | [Startup Hunter Account Executive](https://databricks.com/company/careers/open-positions/job?gh_jid=8643831002) | Ontario, Canada | 🟢 | Greenhouse | 6d |
 | Databricks | [Strategic Account Executive - Consumer Goods Industry ](https://databricks.com/company/careers/open-positions/job?gh_jid=8622413002) | London, United Kingdom | 🟢 | Greenhouse | 6d |
@@ -1427,12 +1427,12 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Bungie | [Investment Designer (Contract)](https://job-boards.greenhouse.io/bungie/jobs/6193602004) | United States, Remote | ❔ | Greenhouse | 9d |
 | Brex | [Senior Product Manager, AI](https://www.brex.com/careers/8780828002?gh_jid=8780828002) | Seattle, Washington, United States | ❔ | Greenhouse | 9d |
 | Datadog | [Commercial Account Executive](https://careers.datadoghq.com/detail/6512586/?gh_jid=6512586) | Seoul, South Korea | ❔ | Greenhouse | 9d |
-| Datadog | [Commercial Account Executive](https://careers.datadoghq.com/detail/6512326/?gh_jid=6512326) | Seoul, South Korea | ❔ | Greenhouse | 9d |
 | Datadog | [Commercial Account Executive](https://careers.datadoghq.com/detail/7463765/?gh_jid=7463765) | Sydney, Australia | ❔ | Greenhouse | 9d |
 | Datadog | [Commercial Account Executive](https://careers.datadoghq.com/detail/6512321/?gh_jid=6512321) | Bangalore, India | ❔ | Greenhouse | 9d |
-| Datadog | [Commercial Account Executive](https://careers.datadoghq.com/detail/1694375/?gh_jid=1694375) | Denver, Colorado, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Commercial Account Executive](https://careers.datadoghq.com/detail/5798241/?gh_jid=5798241) | Tokyo, Japan | ❔ | Greenhouse | 9d |
 | Datadog | [Commercial Account Executive](https://careers.datadoghq.com/detail/6009777/?gh_jid=6009777) | Tokyo, Japan | ❔ | Greenhouse | 9d |
+| Datadog | [Commercial Account Executive](https://careers.datadoghq.com/detail/1694375/?gh_jid=1694375) | Denver, Colorado, USA | ❔ | Greenhouse | 9d |
+| Datadog | [Commercial Account Executive](https://careers.datadoghq.com/detail/6512326/?gh_jid=6512326) | Seoul, South Korea | ❔ | Greenhouse | 9d |
 | Datadog | [Commercial Account Executive - Boston](https://careers.datadoghq.com/detail/1497543/?gh_jid=1497543) | Boston, Massachusetts, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Commercial Account Executive (DACH)](https://careers.datadoghq.com/detail/5283132/?gh_jid=5283132) | Amsterdam, The Netherlands; Dublin, Ireland | ❔ | Greenhouse | 9d |
 | Datadog | [Commercial Account Executive (Hong Kong Market)](https://careers.datadoghq.com/detail/7919037/?gh_jid=7919037) | Singapore, Singapore | ❔ | Greenhouse | 9d |
@@ -1452,8 +1452,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Datadog | [Manager II, Engineering - Observability Pipelines](https://careers.datadoghq.com/detail/8103585/?gh_jid=8103585) | New York, New York, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Manager I, Premier Support Engineering - Denver](https://careers.datadoghq.com/detail/8083563/?gh_jid=8083563) | Denver, Colorado, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Mid Market Account Executive](https://careers.datadoghq.com/detail/7785319/?gh_jid=7785319) | Bangalore, India | ❔ | Greenhouse | 9d |
-| Datadog | [Mid Market Account Executive](https://careers.datadoghq.com/detail/6163246/?gh_jid=6163246) | Denver, Colorado, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Mid Market Account Executive](https://careers.datadoghq.com/detail/6522009/?gh_jid=6522009) | Tokyo, Japan | ❔ | Greenhouse | 9d |
+| Datadog | [Mid Market Account Executive](https://careers.datadoghq.com/detail/6163246/?gh_jid=6163246) | Denver, Colorado, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Mid Market Account Executive](https://careers.datadoghq.com/detail/6523631/?gh_jid=6523631) | Tokyo, Japan | ❔ | Greenhouse | 9d |
 | Datadog | [Mid Market Account Executive](https://careers.datadoghq.com/detail/6665385/?gh_jid=6665385) | New York, New York, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Mid Market Account Executive - Benelux](https://careers.datadoghq.com/detail/8096105/?gh_jid=8096105) | Amsterdam, The Netherlands | ❔ | Greenhouse | 9d |
@@ -1463,8 +1463,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Datadog | [Product Strategy and Corporate Development Lead, AI](https://careers.datadoghq.com/detail/8011158/?gh_jid=8011158) | New York, New York, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Program Manager, AI and Developer Community Content and Events](https://careers.datadoghq.com/detail/8094924/?gh_jid=8094924) | San Francisco, California, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Program Manager - Community Content and Events (EMEA)](https://careers.datadoghq.com/detail/8091868/?gh_jid=8091868) | Paris, France | ❔ | Greenhouse | 9d |
-| Datadog | [Sales Development Representative](https://careers.datadoghq.com/detail/7806043/?gh_jid=7806043) | Tokyo, Japan | ❔ | Greenhouse | 9d |
 | Datadog | [Sales Development Representative](https://careers.datadoghq.com/detail/8042600/?gh_jid=8042600) | Sydney, Australia | ❔ | Greenhouse | 9d |
+| Datadog | [Sales Development Representative](https://careers.datadoghq.com/detail/7806043/?gh_jid=7806043) | Tokyo, Japan | ❔ | Greenhouse | 9d |
 | Datadog | [Sales Development Representative](https://careers.datadoghq.com/detail/7806117/?gh_jid=7806117) | Tokyo, Japan | ❔ | Greenhouse | 9d |
 | Datadog | [Sales Development Representative (DACH) ](https://careers.datadoghq.com/detail/6307160/?gh_jid=6307160) | Amsterdam, The Netherlands | ❔ | Greenhouse | 9d |
 | Datadog | [Sales Development Representative - Denver](https://careers.datadoghq.com/detail/7137624/?gh_jid=7137624) | Denver, Colorado, USA | ❔ | Greenhouse | 9d |
@@ -1481,15 +1481,15 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Datadog | [Staff Engineer - Cloud Networks](https://careers.datadoghq.com/detail/8128450/?gh_jid=8128450) | Boston, Massachusetts, USA; Denver, Colorado, USA; New York, New York, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Staff Engineer, Compute](https://careers.datadoghq.com/detail/8139277/?gh_jid=8139277) | Dublin, Ireland; Madrid, Spain; Paris, France | ❔ | Greenhouse | 9d |
 | Datadog | [Staff Engineer, Compute](https://careers.datadoghq.com/detail/8139279/?gh_jid=8139279) | Lisbon, Portugal | ❔ | Greenhouse | 9d |
-| Datadog | [Staff Engineer - Data Platform Experience](https://careers.datadoghq.com/detail/8119493/?gh_jid=8119493) | Dublin, Ireland; Madrid, Spain; Paris, France | ❔ | Greenhouse | 9d |
 | Datadog | [Staff Engineer - Data Platform Experience](https://careers.datadoghq.com/detail/8119496/?gh_jid=8119496) | Lisbon, Portugal | ❔ | Greenhouse | 9d |
+| Datadog | [Staff Engineer - Data Platform Experience](https://careers.datadoghq.com/detail/8119493/?gh_jid=8119493) | Dublin, Ireland; Madrid, Spain; Paris, France | ❔ | Greenhouse | 9d |
 | Datadog | [Staff Engineer - Data Semantics](https://careers.datadoghq.com/detail/8043560/?gh_jid=8043560) | Madrid, Spain; Paris, France | ❔ | Greenhouse | 9d |
 | Datadog | [Strategic Account Executive, Public Sector Japan, FED](https://careers.datadoghq.com/detail/7439569/?gh_jid=7439569) | Tokyo, Japan | ❔ | Greenhouse | 9d |
 | Datadog | [Strategic Account Executive, Public Sector Japan, SLED](https://careers.datadoghq.com/detail/7439573/?gh_jid=7439573) | Tokyo, Japan | ❔ | Greenhouse | 9d |
 | Datadog | [Strategic Account Executive, Public Sector Japan, SLED](https://careers.datadoghq.com/detail/7439152/?gh_jid=7439152) | Tokyo, Japan | ❔ | Greenhouse | 9d |
 | Datadog | [Strategic Account Executive (SLED)](https://careers.datadoghq.com/detail/7314667/?gh_jid=7314667) | Boston, Massachusetts, USA; New York, New York, USA | ❔ | Greenhouse | 9d |
-| Datadog | [Strategic Account Executive (SLED)](https://careers.datadoghq.com/detail/6430945/?gh_jid=6430945) | California, USA, Remote; Oregon, USA, Remote; Washington, USA, Remote | ❔ | Greenhouse | 9d |
 | Datadog | [Strategic Account Executive (SLED)](https://careers.datadoghq.com/detail/7453034/?gh_jid=7453034) | Texas, USA, Remote | ❔ | Greenhouse | 9d |
+| Datadog | [Strategic Account Executive (SLED)](https://careers.datadoghq.com/detail/6430945/?gh_jid=6430945) | California, USA, Remote; Oregon, USA, Remote; Washington, USA, Remote | ❔ | Greenhouse | 9d |
 | Datadog | [Strategic Account Executive (Vietnam Market)](https://careers.datadoghq.com/detail/7515110/?gh_jid=7515110) | Singapore, Singapore | ❔ | Greenhouse | 9d |
 | Datadog | [Technical Escalations Engineer 2 (Revenue and Cost Management) - US-East](https://careers.datadoghq.com/detail/8154643/?gh_jid=8154643) | Boston, Massachusetts, USA; New York, New York, USA | ❔ | Greenhouse | 9d |
 | Datadog | [Technical Escalations Engineer II (Revenue and Cost Management) - APJ](https://careers.datadoghq.com/detail/8095826/?gh_jid=8095826) | Seoul, South Korea; Sydney, Australia; Tokyo, Japan | ❔ | Greenhouse | 9d |
@@ -1646,7 +1646,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Palo Alto Networks | [Sr. Technical Support Engineer, Focused Services](https://jobs.paloaltonetworks.com/en/job/bengaluru/sr-technical-support-engineer-focused-services/47263/100703641744) | Bangalore, Karnātaka, India | ❔ | Radancy | 12d |
 | Palo Alto Networks | [Practice Architect, Delivery Architecture (COE)](https://jobs.paloaltonetworks.com/en/job/austin/practice-architect-delivery-architecture-coe/47263/100697177552) | Austin, Texas, United States of America Arlington, Virginia, United States of America Chicago, Illinois, United States of America Dallas, Texas, United States of America | ❔ | Radancy | 12d |
 | Gitlab | [Senior Customer Success Engineer, Japan](https://job-boards.greenhouse.io/gitlab/jobs/8808549002) | Remote, Japan | ❔ | Greenhouse | 11d |
-| Coinbase | [Derivative Sales Analyst](https://www.coinbase.com/careers/positions/8097444?gh_jid=8097444) | Remote - UK | 🟢 | Greenhouse | 11d |
+| Coinbase | [Derivative Sales Analyst](https://www.coinbase.com/careers/positions/8097444?gh_jid=8097444) | Remote - UK | 🟢 | Greenhouse | 12d |
 | Mercor | [Delivery Engineer, Frontier Data Products ](https://jobs.ashbyhq.com/mercor/d6594f4c-53e4-4a91-9b7b-f7b8fd4d8fc2) | San Francisco | ❔ | Ashby | 12d |
 | Newrelic | [Principal Product Designer](https://job-boards.greenhouse.io/newrelic/jobs/5396630008) | Barcelona, Spain | ❔ | Greenhouse | 12d |
 | Newrelic | [Sales Development Representative](https://job-boards.greenhouse.io/newrelic/jobs/5251325008) | Tokyo, Japan | ❔ | Greenhouse | 12d |
@@ -1713,9 +1713,9 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Palo Alto Networks | [Principal Technical Product Engineer - Agentic AI & Automation (Cortex)](https://jobs.paloaltonetworks.com/en/job/california/principal-technical-product-engineer-agentic-ai-and-automation-cortex/47263/100643474672) | Remote, California, United States of America | ❔ | Radancy | 13d |
 | Ramp | [Customer Experience Associate (Evening Shift)](https://jobs.ashbyhq.com/ramp/40f43993-21e8-4db1-a9f4-7a3e6098a9ba) | New York, NY (HQ) | ❔ | Ashby | 13d |
 | Coinbase | [FCM Tech Lead](https://www.coinbase.com/careers/positions/8154342?gh_jid=8154342) | Remote - USA | 🟢 | Greenhouse | 12d |
-| Salesloft | [Senior Customer Success Manager ](https://www.salesloft.com/company/careers?gh_jid=8120871) | United States, Remote | ❔ | Greenhouse | 12d |
-| Salesloft | [Sr. Customer Success Manager ](https://www.salesloft.com/company/careers?gh_jid=8092662) | United States, Remote | ❔ | Greenhouse | 12d |
-| Spacex | [Electro-Mechanical Build & Test Technician (Starship Avionics) ](https://boards.greenhouse.io/spacex/jobs/8806154002?gh_jid=8806154002) | Hawthorne, CA | ❔ | Greenhouse | 12d |
+| Salesloft | [Senior Customer Success Manager ](https://www.salesloft.com/company/careers?gh_jid=8120871) | United States, Remote | ❔ | Greenhouse | 13d |
+| Salesloft | [Sr. Customer Success Manager ](https://www.salesloft.com/company/careers?gh_jid=8092662) | United States, Remote | ❔ | Greenhouse | 13d |
+| Spacex | [Electro-Mechanical Build & Test Technician (Starship Avionics) ](https://boards.greenhouse.io/spacex/jobs/8806154002?gh_jid=8806154002) | Hawthorne, CA | ❔ | Greenhouse | 13d |
 | Fireworks | [Business Development Representative (BDR), EMEA ](https://jobs.ashbyhq.com/fireworks/5494d188-bc33-4f92-8c92-9d57bcd66c2a) | London | ❔ | Ashby | 13d |
 | Openai | [Influencer Program Lead - LATAM](https://jobs.ashbyhq.com/openai/5ca9ca8a-c859-4857-a259-1caedfe06134) | São Paulo | ❔ | Ashby | 13d |
 | Elastic | [Regional Vice President - Financial Services, Strategic Accounts ](https://jobs.elastic.co/jobs?gh_jid=8201974&gh_jid=8201974) | New York City, NY | ❔ | Greenhouse | 13d |
@@ -1786,7 +1786,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Spacex | [Supervisor, Materials Management (Multiple Shifts) ](https://boards.greenhouse.io/spacex/jobs/8805427002?gh_jid=8805427002) | Cape Canaveral, FL | ❔ | Greenhouse | 13d |
 | Harvey | [Senior Motion Designer](https://jobs.ashbyhq.com/harvey/37498a8d-689a-4a59-9973-86b2588c7a45) | New York | ❔ | Ashby | 13d |
 | Harvey | [Senior Motion Designer](https://jobs.ashbyhq.com/harvey/2667d5b1-63b1-4ea1-a578-8f8375389150) | San Francisco | ❔ | Ashby | 13d |
-| Openai | [Strategy & Operations Lead — Korea](https://jobs.ashbyhq.com/openai/345bda68-5b8d-43e4-9c05-ecac06f03912) | Seoul, South Korea | ❔ | Ashby | 13d |
+| Openai | [Strategy & Operations Lead — Korea](https://jobs.ashbyhq.com/openai/345bda68-5b8d-43e4-9c05-ecac06f03912) | Seoul, South Korea | ❔ | Ashby | 14d |
 | Palo Alto Networks | [Principal Engineer - Security & Detections (Prisma AIRS)](https://jobs.paloaltonetworks.com/en/job/santa-clara/principal-engineer-security-and-detections-prisma-airs/47263/100636952400) | Santa Clara, California, United States of America | ❔ | Radancy | 14d |
 | Palo Alto Networks | [Director, Government Affairs, State, Local & Education (SLED)](https://jobs.paloaltonetworks.com/en/job/washington/director-government-affairs-state-local-and-education-sled/47263/100629537840) | Washington DC, District of Columbia, United States of America | ❔ | Radancy | 14d |
 | Palo Alto Networks | [Enterprise Identity Account Executive- Tennessee](https://jobs.paloaltonetworks.com/en/job/nashville/enterprise-identity-account-executive-tennessee/47263/100636950992) | Nashville, Tennessee, United States of America Memphis, Tennessee, United States of America Remote, Tennessee, United States of America | ❔ | Radancy | 14d |
@@ -1802,15 +1802,15 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Spacex | [Avionics Systems Engineer (Falcon & Dragon)](https://boards.greenhouse.io/spacex/jobs/8805284002?gh_jid=8805284002) | Hawthorne, CA | ❔ | Greenhouse | 15d |
 | Anthropic | [Enforcement Operations Lead, Cloud Partners](https://job-boards.greenhouse.io/anthropic/jobs/5417758008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 15d |
 | Flexport | [Sales Development Representative (Danish speaking)](https://job-boards.greenhouse.io/flexport/jobs/8050576) | København, Capital Region of Denmark, Denmark | ❔ | Greenhouse | 15d |
-| See posting | [Lumen Labs - Robotics &#x2F; Hardware Engineer - San Francisco, CA - ONSITE - Full-time - $130k–200k + equity -  https:&#x2F;&#x2F;lumenrese](https://news.ycombinator.com/item?id=49667711) | See posting | ❔ | HN Who's Hiring | 15d |
-| Anthropic | [Safeguards Enforcement Analyst, Safety Evaluations](https://job-boards.greenhouse.io/anthropic/jobs/5137183008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 15d |
-| Anthropic | [Safeguards Enforcement Analyst, Account Takeover & Credential Abuse](https://job-boards.greenhouse.io/anthropic/jobs/5319624008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 15d |
-| Anthropic | [Safeguards Enforcement Lead, User Well-Being](https://job-boards.greenhouse.io/anthropic/jobs/5410004008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 15d |
-| Anthropic | [Safeguards Enforcement Lead, Cyber Harms](https://job-boards.greenhouse.io/anthropic/jobs/5403775008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 15d |
-| Anthropic | [Safeguards Enforcement Analyst, Conventional Weapons](https://job-boards.greenhouse.io/anthropic/jobs/5410006008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 15d |
-| Anthropic | [Policy Design Manager, Conventional Weapons](https://job-boards.greenhouse.io/anthropic/jobs/5392184008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 15d |
-| Anthropic | [Head of Vulnerability Disclosure & Security Community](https://job-boards.greenhouse.io/anthropic/jobs/5397699008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 15d |
-| Anthropic | [Safeguards Enforcement Analyst, Chem & Explosives Harms](https://job-boards.greenhouse.io/anthropic/jobs/5319700008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 15d |
+| See posting | [Lumen Labs - Robotics &#x2F; Hardware Engineer - San Francisco, CA - ONSITE - Full-time - $130k–200k + equity -  https:&#x2F;&#x2F;lumenrese](https://news.ycombinator.com/item?id=49667711) | See posting | ❔ | HN Who's Hiring | 16d |
+| Anthropic | [Safeguards Enforcement Analyst, Safety Evaluations](https://job-boards.greenhouse.io/anthropic/jobs/5137183008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 16d |
+| Anthropic | [Safeguards Enforcement Analyst, Account Takeover & Credential Abuse](https://job-boards.greenhouse.io/anthropic/jobs/5319624008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 16d |
+| Anthropic | [Safeguards Enforcement Lead, User Well-Being](https://job-boards.greenhouse.io/anthropic/jobs/5410004008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 16d |
+| Anthropic | [Safeguards Enforcement Lead, Cyber Harms](https://job-boards.greenhouse.io/anthropic/jobs/5403775008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 16d |
+| Anthropic | [Safeguards Enforcement Analyst, Conventional Weapons](https://job-boards.greenhouse.io/anthropic/jobs/5410006008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 16d |
+| Anthropic | [Policy Design Manager, Conventional Weapons](https://job-boards.greenhouse.io/anthropic/jobs/5392184008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 16d |
+| Anthropic | [Head of Vulnerability Disclosure & Security Community](https://job-boards.greenhouse.io/anthropic/jobs/5397699008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 16d |
+| Anthropic | [Safeguards Enforcement Analyst, Chem & Explosives Harms](https://job-boards.greenhouse.io/anthropic/jobs/5319700008) | San Francisco, CA - New York City, NY - Washington, DC | 🟢 | Greenhouse | 16d |
 | Openai | [Lead, Ads Prospecting & Customer Intelligence](https://jobs.ashbyhq.com/openai/fa5114ae-c6ff-4bbd-9e21-5dcfafd032f7) | San Francisco | ❔ | Ashby | 16d |
 | Uipath | [Business Development Representative](https://jobs.ashbyhq.com/uipath/3bdbdc61-2344-41bd-bf3d-5df3a90884e5) | Austin | ❔ | Ashby | 16d |
 | Openai | [Scaled Programs Lead, SMB Ads](https://jobs.ashbyhq.com/openai/e36955a7-403d-41e4-b54e-37edc7039173) | San Francisco | ❔ | Ashby | 16d |
@@ -2098,9 +2098,9 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Palo Alto Networks | [Major Account Manager -  Local Gov (Abu Dhabi)](https://jobs.paloaltonetworks.com/en/job/abu-dhabi-emirate/major-account-manager-local-gov-abu-dhabi/47263/100111148064) | Abu Dhabi, United Arab Emirates | ❔ | Radancy | 25d |
 | Openai | [Technical Program Manager, Developer Experience](https://jobs.ashbyhq.com/openai/ad958934-fd89-4033-8b13-1a4871d8073c) | San Francisco | ❔ | Ashby | 25d |
 | See posting | [Mastra - Customer Engineer - REMOTE (AMER or EMEA time zones) - Full-time Mastra is the open-source TypeScript framework for building AI age](https://news.ycombinator.com/item?id=49543632) | See posting | ❔ | HN Who's Hiring | 25d |
-| Spacex | [HVAC Technician (Facilities)](https://boards.greenhouse.io/spacex/jobs/8595156002?gh_jid=8595156002) | Cape Canaveral, FL | ❔ | Greenhouse | 24d |
+| Spacex | [HVAC Technician (Facilities)](https://boards.greenhouse.io/spacex/jobs/8595156002?gh_jid=8595156002) | Cape Canaveral, FL | ❔ | Greenhouse | 25d |
 | Prefect | [Senior Analytics Engineer](https://jobs.ashbyhq.com/prefect/d68d4231-c5f0-41e2-820a-9a5a9344ff6e) | Remote | ❔ | Ashby | 25d |
-| Spacex | [Mechanical Engineer, HVAC (Facilities) ](https://boards.greenhouse.io/spacex/jobs/8698666002?gh_jid=8698666002) | Cape Canaveral, FL | ❔ | Greenhouse | 24d |
+| Spacex | [Mechanical Engineer, HVAC (Facilities) ](https://boards.greenhouse.io/spacex/jobs/8698666002?gh_jid=8698666002) | Cape Canaveral, FL | ❔ | Greenhouse | 25d |
 | Spacex | [CNC Machinist (Raptor Combustion Devices & Valves) - 2nd Shift](https://boards.greenhouse.io/spacex/jobs/8780323002?gh_jid=8780323002) | Hawthorne, CA | ❔ | Greenhouse | 25d |
 | See posting | [SentiLink -  https:&#x2F;&#x2F;www.sentilink.com&#x2F;  - Engineering &amp; Data Science - REMOTE, HYBRID, and ONSITE (USA) - Full Time Prim](https://news.ycombinator.com/item?id=49541874) | See posting | ❔ | HN Who's Hiring | 25d |
 | See posting | [Coder -  https:&#x2F;&#x2F;coder.com&#x2F;  - Multiple roles - Multiple locations - Full-time Coder is an AI software development company le](https://news.ycombinator.com/item?id=49541388) | See posting | ❔ | HN Who's Hiring | 25d |
@@ -2127,10 +2127,10 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Greenhouse | [Growth Account Executive](https://job-boards.greenhouse.io/greenhouse/jobs/8168227?gh_jid=8168227) | Anywhere in Ireland | ❔ | Greenhouse | 25d |
 | See posting | [Mondrio - Founding Product Engineer - San Francisco - ONSITE - $200k – $250k plus  equity Mondrio ( https:&#x2F;&#x2F;mondrio.io ) builds ag](https://news.ycombinator.com/item?id=49531416) | See posting | ❔ | HN Who's Hiring | 25d |
 | Clickhouse | [Enterprise Account Executive - Delhi](https://jobs.ashbyhq.com/clickhouse/f038a7b6-2329-4d27-aeca-7c93fdb043c8) | India | ❔ | Ashby | 25d |
-| See posting | [Statecraft - Forward Deployed Engineer (All Levels) - REMOTE (US) - $160-220k + equity At Statecraft, we are building an AI workforce to hel](https://news.ycombinator.com/item?id=49531126) | See posting | ❔ | HN Who's Hiring | 25d |
-| See posting | [Source ( https:&#x2F;&#x2F;source.inc )- USA&#x2F;Canada: REMOTE - Full-Time Our mission: make handling memory, state, and context for AI ag](https://news.ycombinator.com/item?id=49531109) | See posting | ❔ | HN Who's Hiring | 25d |
-| See posting | [National Association of Realtors - Chicago or Washington DC - ONSITE - Data Analyst - Full Time We want Python + Pandas, SQL, statistics, da](https://news.ycombinator.com/item?id=49531002) | See posting | ❔ | HN Who's Hiring | 25d |
-| Clickhouse | [Commercial Account Executive - ASEAN](https://jobs.ashbyhq.com/clickhouse/a2312b70-cc44-43ab-b0ba-31fd17f46110) | Singapore | ❔ | Ashby | 25d |
+| See posting | [Statecraft - Forward Deployed Engineer (All Levels) - REMOTE (US) - $160-220k + equity At Statecraft, we are building an AI workforce to hel](https://news.ycombinator.com/item?id=49531126) | See posting | ❔ | HN Who's Hiring | 26d |
+| See posting | [Source ( https:&#x2F;&#x2F;source.inc )- USA&#x2F;Canada: REMOTE - Full-Time Our mission: make handling memory, state, and context for AI ag](https://news.ycombinator.com/item?id=49531109) | See posting | ❔ | HN Who's Hiring | 26d |
+| See posting | [National Association of Realtors - Chicago or Washington DC - ONSITE - Data Analyst - Full Time We want Python + Pandas, SQL, statistics, da](https://news.ycombinator.com/item?id=49531002) | See posting | ❔ | HN Who's Hiring | 26d |
+| Clickhouse | [Commercial Account Executive - ASEAN](https://jobs.ashbyhq.com/clickhouse/a2312b70-cc44-43ab-b0ba-31fd17f46110) | Singapore | ❔ | Ashby | 26d |
 | See posting | [Cardog - Toronto, Canada or REMOTE - Full-time](https://news.ycombinator.com/item?id=49530464) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [BCC - Platform Systems Engineers - Bethesda MD - Competitive compensation! -  https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov  Black Canyon Consultin](https://news.ycombinator.com/item?id=49530256) | See posting | ❔ | HN Who's Hiring | 26d |
 | See posting | [DrSwarm - CTO Cofounder - Bay Area - Full-time Building AI agents that automate the work of outpatient healthcare practices. I&#x27;m the fo](https://news.ycombinator.com/item?id=49530057) | See posting | ❔ | HN Who's Hiring | 26d |
@@ -2151,12 +2151,12 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | See posting | [Stand - San Francisco, CA - ONSITE We&#x27;re building the intelligence layer for physical risk: digital twins of individual homes, run thro](https://news.ycombinator.com/item?id=49527354) | See posting | ❔ | HN Who's Hiring | 26d |
 | Scaleai | [Staff Solutions Engineer, Enterprise](https://job-boards.greenhouse.io/scaleai/jobs/4689909005) | New York, NY; San Francisco, CA | ❔ | Greenhouse | 26d |
 | See posting | [Virtasant (1099 contractor for a client of ours) - Virtasant.com - Remote (USA)- full-time Hey, we are a finops&#x2F;cloud optimization comp](https://news.ycombinator.com/item?id=49527133) | See posting | ❔ | HN Who's Hiring | 26d |
-| Spacex | [Account Lead, Starlink Strategic Connectivity](https://boards.greenhouse.io/spacex/jobs/8594962002?gh_jid=8594962002) | Bastrop, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Account Lead, Starlink Strategic Connectivity](https://boards.greenhouse.io/spacex/jobs/8585061002?gh_jid=8585061002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
+| Spacex | [Account Lead, Starlink Strategic Connectivity](https://boards.greenhouse.io/spacex/jobs/8594962002?gh_jid=8594962002) | Bastrop, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Account Specialist, Starlink Enterprise Account Management (Aviation)](https://boards.greenhouse.io/spacex/jobs/8476089002?gh_jid=8476089002) | Woodinville, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Additive Manufacturing Specialist (Starlink Development) ](https://boards.greenhouse.io/spacex/jobs/8694545002?gh_jid=8694545002) | Bastrop, TX | ❔ | Greenhouse | 26d |
-| Spacex | [AMS Verification Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8742211002?gh_jid=8742211002) | Redmond, WA | ❔ | Greenhouse | 26d |
 | Spacex | [AMS Verification Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8742411002?gh_jid=8742411002) | Irvine, CA | ❔ | Greenhouse | 26d |
+| Spacex | [AMS Verification Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8742211002?gh_jid=8742211002) | Redmond, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Antenna Engineer - Parabolic & Waveguide (Starlink)](https://boards.greenhouse.io/spacex/jobs/8692102002?gh_jid=8692102002) | Redmond, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Automation Build Engineer, Development (Starlink) ](https://boards.greenhouse.io/spacex/jobs/8696881002?gh_jid=8696881002) | Bastrop, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Automation & Controls Specialist (Starlink Development)](https://boards.greenhouse.io/spacex/jobs/8546178002?gh_jid=8546178002) | Bastrop, TX | ❔ | Greenhouse | 26d |
@@ -2185,10 +2185,10 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Spacex | [Civil/Structural Engineer](https://boards.greenhouse.io/spacex/jobs/8672666002?gh_jid=8672666002) | McGregor, TX | ❔ | Greenhouse | 26d |
 | Spacex | [CNC Machinist (Raptor Combustion Devices & Valves)](https://boards.greenhouse.io/spacex/jobs/8643907002?gh_jid=8643907002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Delivery Systems Specialist - Driver](https://boards.greenhouse.io/spacex/jobs/8675197002?gh_jid=8675197002) | Redmond, WA | ❔ | Greenhouse | 26d |
-| Spacex | [Design Verification Engineer (Silicon Engineering)](https://boards.greenhouse.io/spacex/jobs/8632894002?gh_jid=8632894002) | Redmond, WA | ❔ | Greenhouse | 26d |
+| Spacex | [Design Verification Engineer (Silicon Engineering)](https://boards.greenhouse.io/spacex/jobs/8632967002?gh_jid=8632967002) | Austin, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Design Verification Engineer (Silicon Engineering)](https://boards.greenhouse.io/spacex/jobs/8632395002?gh_jid=8632395002) | Irvine, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Design Verification Engineer (Silicon Engineering)](https://boards.greenhouse.io/spacex/jobs/8632971002?gh_jid=8632971002) | Palo Alto, CA | ❔ | Greenhouse | 26d |
-| Spacex | [Design Verification Engineer (Silicon Engineering)](https://boards.greenhouse.io/spacex/jobs/8632967002?gh_jid=8632967002) | Austin, TX | ❔ | Greenhouse | 26d |
+| Spacex | [Design Verification Engineer (Silicon Engineering)](https://boards.greenhouse.io/spacex/jobs/8632894002?gh_jid=8632894002) | Redmond, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Development Technician (PCBA) - 2nd Shift (Starlink)](https://boards.greenhouse.io/spacex/jobs/8534711002?gh_jid=8534711002) | Redmond, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Development Test Engineer, Battery (Starship Electronics)](https://boards.greenhouse.io/spacex/jobs/8647452002?gh_jid=8647452002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Development Test Engineer, Satellites (Starlink)](https://boards.greenhouse.io/spacex/jobs/8532641002?gh_jid=8532641002) | Redmond, WA | ❔ | Greenhouse | 26d |
@@ -2209,8 +2209,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Spacex | [Field Engineer (Site Development)](https://boards.greenhouse.io/spacex/jobs/8726249002?gh_jid=8726249002) | McGregor, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Food Services Specialist - Multiple Shifts](https://boards.greenhouse.io/spacex/jobs/8612601002?gh_jid=8612601002) | Vandenberg, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Food Services Specialist - Restaurants](https://boards.greenhouse.io/spacex/jobs/8719800002?gh_jid=8719800002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
-| Spacex | [Food Services Specialist - Temporary](https://boards.greenhouse.io/spacex/jobs/8529777002?gh_jid=8529777002) | Starbase, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Food Services Specialist - Temporary](https://boards.greenhouse.io/spacex/jobs/8584666002?gh_jid=8584666002) | Bastrop, TX | ❔ | Greenhouse | 26d |
+| Spacex | [Food Services Specialist - Temporary](https://boards.greenhouse.io/spacex/jobs/8529777002?gh_jid=8529777002) | Starbase, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Fulfillment Coordinator (Starlink Aviation)](https://boards.greenhouse.io/spacex/jobs/8652425002?gh_jid=8652425002) | Woodinville, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Gateway Site Development Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8577167002?gh_jid=8577167002) | Redmond, WA | ❔ | Greenhouse | 26d |
 | Spacex | [GNC Engineer, Attitude Determination and Optical Navigation (Starlink)](https://boards.greenhouse.io/spacex/jobs/8722945002?gh_jid=8722945002) | Redmond, WA | ❔ | Greenhouse | 26d |
@@ -2231,8 +2231,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Spacex | [Integration & Test Engineer (Starlink Aviation) ](https://boards.greenhouse.io/spacex/jobs/8629248002?gh_jid=8629248002) | Woodinville, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Inventory Specialist, Maintenance (Starlink)   ](https://boards.greenhouse.io/spacex/jobs/8696983002?gh_jid=8696983002) | Bastrop, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Inventory Specialist (Raptor) - 1st Shift](https://boards.greenhouse.io/spacex/jobs/8686223002?gh_jid=8686223002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
-| Spacex | [Inventory Specialist (Starlink)](https://boards.greenhouse.io/spacex/jobs/8552846002?gh_jid=8552846002) | Woodinville, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Inventory Specialist (Starlink)](https://boards.greenhouse.io/spacex/jobs/8470414002?gh_jid=8470414002) | Redmond, WA | ❔ | Greenhouse | 26d |
+| Spacex | [Inventory Specialist (Starlink)](https://boards.greenhouse.io/spacex/jobs/8552846002?gh_jid=8552846002) | Woodinville, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Inventory Specialist (Starlink) - 3rd Shift](https://boards.greenhouse.io/spacex/jobs/8645845002?gh_jid=8645845002) | Redmond, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Inventory Specialist (Starlink) - Weekend Shift](https://boards.greenhouse.io/spacex/jobs/8692214002?gh_jid=8692214002) | Woodinville, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Inventory Specialist (Starship)](https://boards.greenhouse.io/spacex/jobs/8695194002?gh_jid=8695194002) | Starbase, TX | ❔ | Greenhouse | 26d |
@@ -2265,8 +2265,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Spacex | [Optical Transceiver Engineer - High Speed Links, Satellites (Starlink)](https://boards.greenhouse.io/spacex/jobs/8677827002?gh_jid=8677827002) | Redmond, WA | ❔ | Greenhouse | 26d |
 | Spacex | [PCB Designer, Avionics (Falcon & Dragon)](https://boards.greenhouse.io/spacex/jobs/8549216002?gh_jid=8549216002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Power Electronics Engineer - High Voltage (Starlink)](https://boards.greenhouse.io/spacex/jobs/8635943002?gh_jid=8635943002) | Redmond, WA | ❔ | Greenhouse | 26d |
-| Spacex | [Power Systems Engineer (Starship Avionics) ](https://boards.greenhouse.io/spacex/jobs/8627222002?gh_jid=8627222002) | Starbase, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Power Systems Engineer (Starship Avionics) ](https://boards.greenhouse.io/spacex/jobs/8627410002?gh_jid=8627410002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
+| Spacex | [Power Systems Engineer (Starship Avionics) ](https://boards.greenhouse.io/spacex/jobs/8627222002?gh_jid=8627222002) | Starbase, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Process Development Engineer ](https://boards.greenhouse.io/spacex/jobs/8555804002?gh_jid=8555804002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Product Development Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8545873002?gh_jid=8545873002) | Bastrop, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Propulsion Engineer, Avionics Manufacturing (Raptor)](https://boards.greenhouse.io/spacex/jobs/8623602002?gh_jid=8623602002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
@@ -2283,8 +2283,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Spacex | [Receiving Specialist (Starlink) - 2nd Shift](https://boards.greenhouse.io/spacex/jobs/8470827002?gh_jid=8470827002) | Woodinville, WA | ❔ | Greenhouse | 26d |
 | Spacex | [RF/Microwave Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8642056002?gh_jid=8642056002) | Redmond, WA | ❔ | Greenhouse | 26d |
 | Spacex | [RF/Microwave Engineer, Satellites (Starlink)](https://boards.greenhouse.io/spacex/jobs/8480418002?gh_jid=8480418002) | Redmond, WA | ❔ | Greenhouse | 26d |
-| Spacex | [Shuttle Driver (Starlink)](https://boards.greenhouse.io/spacex/jobs/8675331002?gh_jid=8675331002) | Woodinville, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Shuttle Driver (Starlink)](https://boards.greenhouse.io/spacex/jobs/8675334002?gh_jid=8675334002) | Redmond, WA | ❔ | Greenhouse | 26d |
+| Spacex | [Shuttle Driver (Starlink)](https://boards.greenhouse.io/spacex/jobs/8675331002?gh_jid=8675331002) | Woodinville, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Software Development Test Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8675233002?gh_jid=8675233002) | Bastrop, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Sr. Automation Engineer, Blades and Vanes Foundry](https://boards.greenhouse.io/spacex/jobs/8497668002?gh_jid=8497668002) | Bastrop, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Sr. Global Supply Manager, Semiconductor Intellectual Property](https://boards.greenhouse.io/spacex/jobs/8610224002?gh_jid=8610224002) | Bastrop, TX | ❔ | Greenhouse | 26d |
@@ -2292,8 +2292,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Spacex | [Sr. Sourcing Specialist, Construction](https://boards.greenhouse.io/spacex/jobs/8738193002?gh_jid=8738193002) | Cape Canaveral, FL | ❔ | Greenhouse | 26d |
 | Spacex | [Sr. Sourcing Specialist, Mechanical (Starship)](https://boards.greenhouse.io/spacex/jobs/8692434002?gh_jid=8692434002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Sr. Sourcing Specialist, PCB/PCBA (Starshield)](https://boards.greenhouse.io/spacex/jobs/8719838002?gh_jid=8719838002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
-| Spacex | [Sr. Sourcing Specialist (Starship)](https://boards.greenhouse.io/spacex/jobs/8706220002?gh_jid=8706220002) | Starbase, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Sr. Sourcing Specialist (Starship)](https://boards.greenhouse.io/spacex/jobs/8593375002?gh_jid=8593375002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
+| Spacex | [Sr. Sourcing Specialist (Starship)](https://boards.greenhouse.io/spacex/jobs/8706220002?gh_jid=8706220002) | Starbase, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Sr. Sourcing Specialist (Starship Pad) ](https://boards.greenhouse.io/spacex/jobs/8730689002?gh_jid=8730689002) | Cape Canaveral, FL | ❔ | Greenhouse | 26d |
 | Spacex | [Sr. Space Lasers Engineer, Satellites (Starlink)](https://boards.greenhouse.io/spacex/jobs/8483195002?gh_jid=8483195002) | Redmond, WA | ❔ | Greenhouse | 26d |
 | Spacex | [Sr. Supplier Development Engineer, Data Center (Starlink) ](https://boards.greenhouse.io/spacex/jobs/8645827002?gh_jid=8645827002) | Palo Alto, CA | ❔ | Greenhouse | 26d |
@@ -2311,14 +2311,14 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Spacex | [Starlink Growth Lead, US Northeast](https://boards.greenhouse.io/spacex/jobs/8703146002?gh_jid=8703146002) | Remote - NY | ❔ | Greenhouse | 26d |
 | Spacex | [Starlink Growth Lead, US Northeast](https://boards.greenhouse.io/spacex/jobs/8703151002?gh_jid=8703151002) | Remote - PA | ❔ | Greenhouse | 26d |
 | Spacex | [Starlink Growth Lead, US South](https://boards.greenhouse.io/spacex/jobs/8703196002?gh_jid=8703196002) | Remote - NC | ❔ | Greenhouse | 26d |
-| Spacex | [Starlink Growth Lead, US South](https://boards.greenhouse.io/spacex/jobs/8703207002?gh_jid=8703207002) | Remote - TN | ❔ | Greenhouse | 26d |
 | Spacex | [Starlink Growth Lead, US South](https://boards.greenhouse.io/spacex/jobs/8703162002?gh_jid=8703162002) | Remote - TX | ❔ | Greenhouse | 26d |
+| Spacex | [Starlink Growth Lead, US South](https://boards.greenhouse.io/spacex/jobs/8703207002?gh_jid=8703207002) | Remote - TN | ❔ | Greenhouse | 26d |
 | Spacex | [Starlink Growth Lead, US West](https://boards.greenhouse.io/spacex/jobs/8681154002?gh_jid=8681154002) | Remote - CO | ❔ | Greenhouse | 26d |
 | Spacex | [Starlink Growth Lead, US West](https://boards.greenhouse.io/spacex/jobs/8703129002?gh_jid=8703129002) | Remote - CA | ❔ | Greenhouse | 26d |
 | Spacex | [Structural Analyst (Raptor Combustion Devices)](https://boards.greenhouse.io/spacex/jobs/8679371002?gh_jid=8679371002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Supervisor, Development (Starshield)](https://boards.greenhouse.io/spacex/jobs/8735350002?gh_jid=8735350002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
-| Spacex | [Supervisor, Distribution Center - (Materials Management)](https://boards.greenhouse.io/spacex/jobs/8641512002?gh_jid=8641512002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Supervisor, Distribution Center - (Materials Management)](https://boards.greenhouse.io/spacex/jobs/8635083002?gh_jid=8635083002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
+| Spacex | [Supervisor, Distribution Center - (Materials Management)](https://boards.greenhouse.io/spacex/jobs/8641512002?gh_jid=8641512002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Supervisor, Equipment Maintenance (Starship) - Night Shift](https://boards.greenhouse.io/spacex/jobs/8770390002?gh_jid=8770390002) | Starbase, TX | ❔ | Greenhouse | 26d |
 | Spacex | [Supervisor, Fulfillment Center - Materials Management](https://boards.greenhouse.io/spacex/jobs/8644008002?gh_jid=8644008002) | Hawthorne, CA | ❔ | Greenhouse | 26d |
 | Spacex | [Supervisor, Heatshield Materials Management (Starship)](https://boards.greenhouse.io/spacex/jobs/8639279002?gh_jid=8639279002) | Starbase, TX | ❔ | Greenhouse | 26d |
@@ -2420,7 +2420,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | See posting | [Modash.io - Senior Product Engineer - Remote (Europe) - Full-time - €75k–110k -  https:&#x2F;&#x2F;modash.io  Modash helps brands find, mana](https://news.ycombinator.com/item?id=49522903) | See posting | ❔ | HN Who's Hiring | 26d |
 | Reddit | [Product Manager, Developer Ecosystem](https://job-boards.greenhouse.io/reddit/jobs/8088720) | Remote - United States | ❔ | Greenhouse | 26d |
 | Cultureamp | [Sales Development Representative, Allbound](https://job-boards.greenhouse.io/cultureamp/jobs/8160866) | Chicago | ❔ | Greenhouse | 26d |
-| Openai | [Applied AI Architect, Government](https://jobs.ashbyhq.com/openai/6882c919-600e-43c8-92f9-803d4eb3bcd2) | Washington, DC | ❔ | Ashby | 26d |
+| Openai | [Applied AI Architect, Government](https://jobs.ashbyhq.com/openai/6882c919-600e-43c8-92f9-803d4eb3bcd2) | Washington, DC | ❔ | Ashby | 27d |
 | Palo Alto Networks | [Partnerships, Sr. Manager](https://jobs.paloaltonetworks.com/en/job/atlanta/partnerships-sr-manager/47263/100043802752) | Atlanta, Georgia, United States of America | ❔ | Radancy | 27d |
 | Cultureamp | [Senior Renewals Manager, Enterprise](https://job-boards.greenhouse.io/cultureamp/jobs/8168528) | Austin Texas | ❔ | Greenhouse | 27d |
 | Cultureamp | [Senior Renewals Manager, Enterprise](https://job-boards.greenhouse.io/cultureamp/jobs/8168527) | Chicago | ❔ | Greenhouse | 27d |
@@ -2568,7 +2568,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Openai | [Product Policy Research and Advisory Partnerships](https://jobs.ashbyhq.com/openai/978a22a5-0f0f-4da7-811e-a4b2b2fbe659) | New York City | ❔ | Ashby | 44d |
 | Affirm | [Lead, Technical Account Management (SMB Merchants) ](https://job-boards.greenhouse.io/affirm/jobs/7849657003) | Remote US | ❔ | Greenhouse | 44d |
 | Affirm | [Lead, Technical Account Management (SMB Merchants) ](https://job-boards.greenhouse.io/affirm/jobs/7849659003) | Remote Canada | ❔ | Greenhouse | 44d |
-| Strava | [ Senior Manager, Detection Response](https://jobs.ashbyhq.com/strava/288b9cda-2539-4107-be58-115a99a0bdb2) | Strava SF | ❔ | Ashby | 44d |
+| Strava | [ Senior Manager, Detection Response](https://jobs.ashbyhq.com/strava/288b9cda-2539-4107-be58-115a99a0bdb2) | Strava SF | ❔ | Ashby | 45d |
 | Applied | [Product Manager - Developer Tooling](https://jobs.ashbyhq.com/applied/84cd980d-ad01-4738-9cc8-ddc53d64f71d) | Sunnyvale | ❔ | Ashby | 45d |
 | NT Health | [Gardener Handyman Driver](https://remoteOK.com/remote-jobs/remote-gardener-handyman-driver-nt-health-1136625) | Alice Springs,  | ❔ | RemoteOK | 45d |
 | Retell Ai | [Senior Forward Deployed Engineer (Spanish Fluency Required)](https://jobs.ashbyhq.com/retell-ai/e6b26f71-d747-4f1d-8756-e6cf91ee1e50) | San Francisco Bay Area | ❔ | Ashby | 45d |
@@ -2626,7 +2626,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Notion | [Business Development Manager, DACH](https://jobs.ashbyhq.com/notion/3f842011-eb04-4b75-bf92-8be5a5ce02b2) | Dublin, Ireland | ❔ | Ashby | 53d |
 | Notion | [Solutions Consultant Manager, Enterprise (Sales Leadership)](https://jobs.ashbyhq.com/notion/9fe70944-f84f-421c-8168-bbf21d4b4ca4) | Tokyo, Japan  | ❔ | Ashby | 53d |
 | Control Shift Video | [Freelance Designer](https://remoteOK.com/remote-jobs/remote-freelance-designer-control-shift-video-1136213) | Texas,  | ❔ | RemoteOK | 53d |
-| Tremendous | [Head of Security](https://remoteOK.com/remote-jobs/remote-head-of-security-tremendous-1136210) | New York, New York, New York, United States | ❔ | RemoteOK | 53d |
+| Tremendous | [Head of Security](https://remoteOK.com/remote-jobs/remote-head-of-security-tremendous-1136210) | New York, New York, New York, United States | ❔ | RemoteOK | 54d |
 | Palo Alto Networks | [Security Services Consultant](https://jobs.paloaltonetworks.com/en/job/mexico-city/security-services-consultant/47263/98803915856) | Mexico City, Ciudad de Mexico, Mexico | ❔ | Radancy | 54d |
 | AWeber | [Operations Engineer II](https://remoteOK.com/remote-jobs/remote-operations-engineer-ii-aweber-1136778) | Uluberia-II,  | ❔ | RemoteOK | 54d |
 | Scaleai | [Business Development Representative, Partnerships (Physical AI)](https://job-boards.greenhouse.io/scaleai/jobs/4694836005) | New York, NY | ❔ | Greenhouse | 54d |
@@ -2659,7 +2659,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Carta | [Manager, Tax Delivery](https://job-boards.greenhouse.io/carta/jobs/6294047003) | Sandy, UT | ❔ | Greenhouse | 55d |
 | Carta | [Senior Associate, Tax Delivery](https://job-boards.greenhouse.io/carta/jobs/6014075003) | Seattle, WA | ❔ | Greenhouse | 55d |
 | Carta | [Senior Associate, Tax Delivery](https://job-boards.greenhouse.io/carta/jobs/6652041003) | Sandy, UT | ❔ | Greenhouse | 55d |
-| PulseMediaNL | [Data Entry Administrator](https://remoteOK.com/remote-jobs/remote-data-entry-administrator-pulsemedianl-1135903) | Ø§ÙØ±ÙØ§Ø¶, Ø§ÙØ±ÙØ§Ø¶ Ø§ÙØ±ÙØ§Ø¶ Ø§ÙØ³Ø¹ÙØ¯ÙØ© | ❔ | RemoteOK | 56d |
+| PulseMediaNL | [Data Entry Administrator](https://remoteOK.com/remote-jobs/remote-data-entry-administrator-pulsemedianl-1135903) | Ø§ÙØ±ÙØ§Ø¶, Ø§ÙØ±ÙØ§Ø¶ Ø§ÙØ±ÙØ§Ø¶ Ø§ÙØ³Ø¹ÙØ¯ÙØ© | ❔ | RemoteOK | 57d |
 | Grapefruit Health | [Patient Outreach Specialist](https://remoteOK.com/remote-jobs/remote-patient-outreach-specialist-grapefruit-health-1135789) | Remote | ❔ | RemoteOK | 57d |
 | Liberty Mutual Insurance | [Licensed Customer Service Representative](https://remoteOK.com/remote-jobs/remote-licensed-customer-service-representative-liberty-mutual-insurance-1135788) | Remote | ❔ | RemoteOK | 57d |
 | Harvey | [Account Executive, Mid Market](https://jobs.ashbyhq.com/harvey/f996dd71-e08c-487d-abe1-9900c8d29331) | Toronto | ❔ | Ashby | 58d |
@@ -2744,7 +2744,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Mercor | [Strategic Project Lead](https://jobs.ashbyhq.com/mercor/426a1c6b-e285-4b88-9f94-9048b1d6dc8c) | San Francisco | ❔ | Ashby | 76d |
 | Palo Alto Networks | [Senior Solution Consultant - Large Accounts France](https://jobs.paloaltonetworks.com/en/job/boulogne-billancourt/senior-solution-consultant-large-accounts-france/47263/97741096880) | Boulogne-Billancourt, Hauts-de-Seine, France | ❔ | Radancy | 77d |
 | Palo Alto Networks | [Identity Enterprise Account Executive](https://jobs.paloaltonetworks.com/en/job/seattle/identity-enterprise-account-executive/47263/97750045872) | Seattle, Washington, United States of America Portland, Oregon, United States of America | ❔ | Radancy | 77d |
-| Retell Ai | [Senior Agent Product Manager](https://jobs.ashbyhq.com/retell-ai/8b34f37b-345c-4e97-8a41-3a34b4d8d306) | San Francisco Bay Area | ❔ | Ashby | 78d |
+| Retell Ai | [Senior Agent Product Manager](https://jobs.ashbyhq.com/retell-ai/8b34f37b-345c-4e97-8a41-3a34b4d8d306) | San Francisco Bay Area | ❔ | Ashby | 79d |
 | Harvey | [Account Executive, Enterprise](https://jobs.ashbyhq.com/harvey/594f114f-8389-4412-a2ae-d78b16abfa12) | Mexico | ❔ | Ashby | 79d |
 | Openai | [Technical Program Manager, Custom Silicon Development](https://jobs.ashbyhq.com/openai/004ae8f4-245b-4aad-8903-9daabdb58bb9) | San Francisco | ❔ | Ashby | 79d |
 | Openai | [IT Support Dublin, EMEA Regional Lead](https://jobs.ashbyhq.com/openai/8c460221-77ba-4120-b74e-3b1ad7c82818) | Dublin, Ireland | ❔ | Ashby | 79d |
@@ -2779,8 +2779,8 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Ramp | [Business Development](https://jobs.ashbyhq.com/ramp/c495a261-789f-4718-9286-3bba81052b4b) | London | ❔ | Ashby | 108d |
 | Applied | [Senior Asset Pipeline Engineer - Sensor Platform](https://jobs.ashbyhq.com/applied/2e0c417b-d6b9-42b1-971d-f3d95fc44af8) | Sunnyvale | ❔ | Ashby | 108d |
 | Notion | [People Analytics Lead - Recruiting](https://jobs.ashbyhq.com/notion/6597b600-7781-46e6-b70a-a9af4fb2b61b) | San Francisco, California | ❔ | Ashby | 108d |
-| Retell Ai | [Founders Initiatives, Technical Ex-Founders](https://jobs.ashbyhq.com/retell-ai/7961d60d-cadd-45af-9635-6efaeb04a14d) | San Francisco Bay Area | ❔ | Ashby | 108d |
-| Retell Ai | [Founders Initiatives, AI Agents](https://jobs.ashbyhq.com/retell-ai/21cf0117-6b44-40df-96ea-0fb2d1d0892f) | San Francisco Bay Area | ❔ | Ashby | 108d |
+| Retell Ai | [Founders Initiatives, Technical Ex-Founders](https://jobs.ashbyhq.com/retell-ai/7961d60d-cadd-45af-9635-6efaeb04a14d) | San Francisco Bay Area | ❔ | Ashby | 109d |
+| Retell Ai | [Founders Initiatives, AI Agents](https://jobs.ashbyhq.com/retell-ai/21cf0117-6b44-40df-96ea-0fb2d1d0892f) | San Francisco Bay Area | ❔ | Ashby | 109d |
 | Palo Alto Networks | [Senior Product Manager (Cloud Delivered Security Services)](https://jobs.paloaltonetworks.com/en/job/santa-clara/senior-product-manager-cloud-delivered-security-services/47263/96275938992) | Santa Clara, California, United States of America | ❔ | Radancy | 109d |
 | Clickhouse | [Commercial Account Executive](https://jobs.ashbyhq.com/clickhouse/d2fe6df7-bd9b-4880-9c1d-4d6f1f37ac64) | San Francisco | ❔ | Ashby | 109d |
 | Palo Alto Networks | [Sr. Product Manager (PAN-OS Product Security and Lifecycle Management)](https://jobs.paloaltonetworks.com/en/job/santa-clara/sr-product-manager-pan-os-product-security-and-lifecycle-management/47263/96262961776) | Santa Clara, California, United States of America San Francisco, California, United States of America San Jose, California, United States of America | ❔ | Radancy | 110d |
@@ -2829,7 +2829,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Pylon | [Member of Technical Staff, API](https://jobs.ashbyhq.com/pylon/d1ef993a-9d43-432c-8700-f185de00a1e4) | Palo Alto | ❔ | Ashby | 167d |
 | Pylon | [Member of Technical Staff, Underwriting ](https://jobs.ashbyhq.com/pylon/2ed1cad6-d4c7-48a4-bf8a-f66ce884a0ea) | Palo Alto | ❔ | Ashby | 167d |
 | Pylon | [Member of Technical Staff, Integrations](https://jobs.ashbyhq.com/pylon/23ee52df-cd68-42c9-bf27-5b844ae8e2c6) | Palo Alto | ❔ | Ashby | 167d |
-| Notion | [Business Development Representative](https://jobs.ashbyhq.com/notion/759a9c5a-cdd6-4d05-8eaf-e78eabc34293) | Seoul, South Korea | ❔ | Ashby | 177d |
+| Notion | [Business Development Representative](https://jobs.ashbyhq.com/notion/759a9c5a-cdd6-4d05-8eaf-e78eabc34293) | Seoul, South Korea | ❔ | Ashby | 178d |
 | Notion | [Business Development Representative, New York](https://jobs.ashbyhq.com/notion/05e14247-17c4-4e98-9a13-53828a4e2f13) | New York, New York | ❔ | Ashby | 178d |
 | Notion | [Business Development Representative, San Francisco](https://jobs.ashbyhq.com/notion/b21fef72-4864-4a3e-a627-91557a0f8a36) | San Francisco, California | ❔ | Ashby | 179d |
 | Mercor | [Strategic Project Lead (UK)](https://jobs.ashbyhq.com/mercor/70c15d49-619d-4cda-ade7-a7d4b7223cdb) | London | ❔ | Ashby | 181d |
@@ -2839,7 +2839,7 @@ Filtered to roles whose stated experience range overlaps **0-2 years** (postings
 | Decagon | [Manager, Sales Development](https://jobs.ashbyhq.com/decagon/037ea083-e556-4ce7-aca0-ec88f63772fc) | New York City | ❔ | Ashby | 233d |
 | Openai | [Applied AI Architect, Digital Natives](https://jobs.ashbyhq.com/openai/3a64da1c-bf29-4e52-baa3-a8f35f16ff74) | San Francisco | ❔ | Ashby | 235d |
 | Openai | [Applied AI Architect, Digital Natives (Strategics) ](https://jobs.ashbyhq.com/openai/56fceb8e-589b-410e-8b21-24f9945ccb9d) | San Francisco | ❔ | Ashby | 235d |
-| Applied | [Business Development - Industrial](https://jobs.ashbyhq.com/applied/c44c51dd-720f-4a08-94ec-5788d5e83a94) | Tokyo | ❔ | Ashby | 243d |
+| Applied | [Business Development - Industrial](https://jobs.ashbyhq.com/applied/c44c51dd-720f-4a08-94ec-5788d5e83a94) | Tokyo | ❔ | Ashby | 244d |
 | Openai | [Research Program Manager – Adversarial Model Research](https://jobs.ashbyhq.com/openai/65913e57-80e0-4a1a-bbc3-265ae8a1a41b) | San Francisco | ❔ | Ashby | 244d |
 | Perplexity | [Business Development Representative](https://jobs.ashbyhq.com/perplexity/a5b97109-222d-49e1-b2ac-e101487a5ddd) | San Francisco | ❔ | Ashby | 249d |
 | Ycombinator | [Investment Associate & Product Engineer](https://jobs.ashbyhq.com/ycombinator/d8181870-1652-4436-b7c7-b3b44115fd70) | San Francisco Bay Area | ❔ | Ashby | 262d |
