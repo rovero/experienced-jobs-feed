@@ -12,7 +12,6 @@
 
 greenhouse:
   - airbnb
-  - doordash
   - robinhood
   - coinbase
 
@@ -94,9 +93,14 @@ greenhouse:
   # Brand-verified via job content (Starlink titles).
   - spacex
 
-lever:
-  - notion
+  # --- Added 2026-09-27: ATS migrations discovered from CI 404s ---
+  # `netlify` moved from Lever to Greenhouse (boards.greenhouse.io/netlify,
+  # verified live). Removed from the lever list below.
   - netlify
+
+lever:
+  # notion -> moved to Ashby (slug `notion`, verified live 2026-09-27)
+  # netlify -> moved to Greenhouse (slug `netlify`, verified live 2026-09-27)
 
   # --- Added 2026-09-27: verified live against api.lever.co ---
   - rover
@@ -106,6 +110,11 @@ lever:
 ashby:
   - ramp
   - linear
+
+  # --- Added 2026-09-27: ATS migrations discovered from CI 404s ---
+  # `notion` moved from Lever to Ashby (jobs.ashbyhq.com/notion, verified
+  # live). Removed from the lever list below.
+  - notion
 
   # --- Added 2026-09-28: discovered via 1point3acres 面经 scan ---
   # Each slug verified live against api.ashbyhq.com/posting-api AND brand
@@ -157,6 +166,9 @@ ashby:
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
 #   - nordstrom, ebay, expedia, intuit : custom careers sites, no public
 #     JSON endpoint on a supported ATS
+#   - doordash        : Greenhouse board gone (404 as of 2026-09-27);
+#     careers.doordash.com is a custom JS site with no public ATS endpoint
+#     found — direct-search lane only
 #   - tiktok          : own platform (careers.tiktok.com / jobs.bytedance.com)
 #   - paloaltonetworks: was on SmartRecruiters (jobs.smartrecruiters.com/
 #     PaloAltoNetworks2) but that board looks stale — current careers site
