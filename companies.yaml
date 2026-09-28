@@ -9,6 +9,10 @@
 # Open the company's careers page, check the URL, copy the slug. That's it.
 # The examples below are placeholders — verify each slug still resolves
 # before relying on it (companies migrate ATS providers over time).
+locations:
+  mode: allowlist
+  countries: ["USA", "Canada"]
+  keep_unknown: true
 
 greenhouse:
   - airbnb
