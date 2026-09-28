@@ -75,6 +75,8 @@ def age_str(posted_iso):
         posted = datetime.fromisoformat(posted_iso.replace("Z", "+00:00"))
     except ValueError:
         return "—"
+    if posted.tzinfo is None:
+        posted = posted.replace(tzinfo=timezone.utc)
     days = (datetime.now(timezone.utc) - posted).days
     return "0d" if days < 1 else f"{days}d"
 
