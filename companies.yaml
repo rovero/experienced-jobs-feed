@@ -16,13 +16,96 @@ greenhouse:
   - robinhood
   - coinbase
 
+  # --- Added 2026-09-27: 30 verified Greenhouse boards ---
+  # Each slug verified live against boards-api.greenhouse.io
+  # (known H-1B sponsors hiring frontend/full-stack engineers).
+  - affirm
+  - anthropic
+  - asana
+  - brex
+  - bungie
+  - chime
+  - cloudflare
+  - databricks
+  - datadog
+  - discord
+  - dropbox
+  - duolingo
+  - elastic
+  - figma
+  - gitlab
+  - instacart
+  - lyft
+  - mongodb
+  - newrelic
+  - okta
+  - pagerduty
+  - pinterest
+  - roblox
+  - scaleai
+  - sofi
+  - stripe
+  - twilio
+  - twitch
+  - vercel
+  - webflow
+
+  # --- Added 2026-09-27: Seattle/CA mid-size companies + startups ---
+  # Each slug verified live against boards-api.greenhouse.io AND the
+  # company's own careers page title (rules out slug collisions).
+  # NOTE: "neon" on Lever resolves to an unrelated Brazilian company,
+  # not Neon the database company — deliberately excluded.
+  - smartsheet
+  - amperity
+  - offerup
+  - airtable
+  - intercom
+  - amplitude
+  - mixpanel
+  - braze
+  - checkr
+  - faire
+  - flexport
+  - gusto
+  - carta
+  - mercury
+  - fivetran
+  - chainguard
+  - tailscale
+  - planetscale
+  - hightouch
+  - honeycomb
+  - nextdoor
+  - reddit
+  - salesloft
+  - lattice
+  - cultureamp
+  - greenhouse
 lever:
   - notion
   - netlify
 
+  # --- Added 2026-09-27: verified live against api.lever.co ---
+  - rover
+  - outreach
+  - angellist
+
 ashby:
   - ramp
   - linear
+
+# --------------------------------------------------------------------------
+# Companies requested but NOT addable with the current ATS adapters
+# (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
+#   - nordstrom, ebay, expedia, intuit : custom careers sites, no public
+#     JSON endpoint on a supported ATS
+#   - tiktok          : own platform (careers.tiktok.com / jobs.bytedance.com)
+#   - paloaltonetworks: SmartRecruiters (jobs.smartrecruiters.com/PaloAltoNetworks2)
+#     -> needs a SmartRecruiters fetcher added to scripts/scraper.py
+#     (public API: GET https://api.smartrecruiters.com/v1/companies/{id}/postings)
+# These are still covered by the daily sweep's direct-search lane
+# (Google Jobs tab + Jooble + company-site checks), just not by this feed.
+# --------------------------------------------------------------------------
 
 # --------------------------------------------------------------------------
 # Workday-hosted career sites
