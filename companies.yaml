@@ -81,6 +81,19 @@ greenhouse:
   - lattice
   - cultureamp
   - greenhouse
+
+  # --- Added 2026-09-28: discovered via 1point3acres 面经 scan ---
+  # Each slug verified live against boards-api.greenhouse.io AND cross-checked
+  # against the company's own careers page title (rules out slug collisions).
+  - verkada
+  - attentive
+  - cresta
+  - chowbus
+
+  # --- Added 2026-09-27: SpaceX uses Greenhouse (slug `spacex`, ~2600 jobs) ---
+  # Brand-verified via job content (Starlink titles).
+  - spacex
+
 lever:
   - notion
   - netlify
@@ -94,18 +107,132 @@ ashby:
   - ramp
   - linear
 
+  # --- Added 2026-09-28: discovered via 1point3acres 面经 scan ---
+  # Each slug verified live against api.ashbyhq.com/posting-api AND brand
+  # cross-checked (JD content names the company; rules out slug collisions).
+  # NOTE: use `retell-ai` (not `retellai`) for Retell AI; Fireworks AI moved
+  # from Greenhouse (`fireworksai`) to Ashby (`fireworks`) — the Greenhouse
+  # board is gone. `cursor` = Anysphere/Cursor official board. `applied` is
+  # Applied Intuition (generic word, but API content is Applied Intuition Inc.,
+  # confirmed by two independent third-party slug mappings).
+  # Retell AI JD explicitly mentions H1B sponsorship.
+  - perplexity
+  - harvey
+  - decagon
+  - mercor
+  - cursor
+  - applied
+  - strava
+  - retell-ai
+  - fireworks
+
+  # --- Added 2026-09-27: Ashby re-verification round ---
+  # NOTE: Ashby's public API only answers GET (POST returns nothing), so an
+  # earlier check round falsely reported these as missing. Each slug below
+  # verified live via GET AND brand-checked against job content/locations
+  # (rules out slug collisions).
+  # `openai` = OpenAI's official board (829 jobs). `pylon` = Pylon Lending
+  # (mortgage: underwriting/post-closing titles) — NOT `pylon-labs`, which is
+  # a different company (Pylon, the support platform). `hightouch` also has
+  # an Ashby board but it's a 1-job leftover — they're on Greenhouse now
+  # (already listed above), so it's skipped here to avoid dupes.
+  - openai
+  - pylon
+  - qumulo
+  - miro
+  - vanta
+  - drata
+  - hex
+  - supabase
+  - clickhouse
+  - prefect
+  - airbyte
+  - posthog
+  - sentry
+  - ycombinator
+  - uipath
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
 #   - nordstrom, ebay, expedia, intuit : custom careers sites, no public
 #     JSON endpoint on a supported ATS
 #   - tiktok          : own platform (careers.tiktok.com / jobs.bytedance.com)
-#   - paloaltonetworks: SmartRecruiters (jobs.smartrecruiters.com/PaloAltoNetworks2)
-#     -> needs a SmartRecruiters fetcher added to scripts/scraper.py
-#     (public API: GET https://api.smartrecruiters.com/v1/companies/{id}/postings)
+#   - paloaltonetworks: was on SmartRecruiters (jobs.smartrecruiters.com/
+#     PaloAltoNetworks2) but that board looks stale — current careers site
+#     jobs.paloaltonetworks.com runs on Radancy (TMP). Now covered by the
+#     Radancy fetcher (see radancy: section below + radancy-fetcher.patch).
 # These are still covered by the daily sweep's direct-search lane
 # (Google Jobs tab + Jooble + company-site checks), just not by this feed.
+#
+# Checked 2026-09-28 (discovered via 1point3acres 面经 scan):
+#   - airwallex, circle, remitly, aurora : Greenhouse 404 — own careers site /
+#     Workday. (circle = Circle the fintech, NOT CircleCI which does use
+#     Greenhouse — do not add "circle" on Greenhouse, wrong company.)
+#   - stackadapt      : Lever 404 — own careers page, no public ATS JSON
+#   - loop            : no public ATS found, and several same-name companies
+#     (loop.so / Loop AI / Loop Commerce) make any guess risky — excluded
+#   - antinternational: no public ATS found
+#   - lumalabs        : Luma AI uses Gem (boards.greenhouse.io 404) — not a
+#     supported ATS
+#   - whatnot         : jobs.ashbyhq.com/whatnot board exists but the public
+#     posting API is closed (404) — feed cannot poll it. Recheck later.
+#   - openai          : RESOLVED 2026-09-27 — Ashby `openai` is OpenAI's
+#     official board (829 jobs, brand-verified). Added to the ashby list.
+#
+# Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
+#   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
+#     no public ATS found — own careers sites
+#   - optiver         : Greenhouse board exists but returns 0 jobs (empty /
+#     private board) — not added
+#   - pylon-labs      : Ashby board exists (20 jobs) but it's Pylon the
+#     support platform, NOT Pylon Lending — excluded. `pylon` on Ashby IS
+#     Pylon Lending (mortgage titles) — added to the ashby list.
+#   - oracle, amazon  : Oracle HCM / amazon.jobs — own platforms, no
+#     supported public API
 # --------------------------------------------------------------------------
+
+# --------------------------------------------------------------------------
+# SmartRecruiters-hosted career sites
+# --------------------------------------------------------------------------
+# Public, unauthenticated API:
+#   GET https://api.smartrecruiters.com/v1/companies/{company}/postings
+# {company} is SmartRecruiters' internal company identifier, NOT always the
+# jobs.smartrecruiters.com/{slug} web slug — the API returns 200 + empty list
+# for unknown identifiers, so typos fail silently (the scraper logs a warning).
+# Entries can be plain identifiers, or mappings when the web slug differs:
+#   smartrecruiters:
+#     - somecompany
+#     - {id: "ABC123", slug: "some-company", name: "Some Company Inc."}
+# A fetch_smartrecruiters() implementation ships with scraper.py — apply
+# smartrecruiters-fetcher.patch from ~/workspace/your_files/ if the repo
+# doesn't have it yet.
+smartrecruiters: []
+
+# --------------------------------------------------------------------------
+# Radancy (TalentBrew)-hosted career sites
+# --------------------------------------------------------------------------
+# Radancy (formerly TMP Worldwide / TalentBrew) powers corporate career sites
+# like jobs.paloaltonetworks.com and jobs.citi.com. The search page is a JS
+# shell; the scraper POSTs a JSON criteria object to the site's own public,
+# unauthenticated endpoint:
+#   POST {base}/{locale}/search-jobs/resultspost
+# Job cards carry no posted date, so the fetcher loads each title-matched
+# job's detail page and reads the JSON-LD datePosted + description (one extra
+# request per match — that's also what feeds h1b/years enrichment).
+# Entries are base URLs (locale defaults to "en"), or mappings:
+#   radancy:
+#     - https://jobs.paloaltonetworks.com
+#     - {base: "https://jobs.example.com", locale: "en", name: "Example Inc."}
+# A fetch_radancy() implementation ships with scraper.py — apply
+# radancy-fetcher.patch from ~/workspace/your_files/ if the repo
+# doesn't have it yet (apply smartrecruiters-fetcher.patch first —
+# radancy-fetcher.patch is layered on top of it).
+radancy:
+  # Added 2026-09-27: Palo Alto Networks (migrated off SmartRecruiters to
+  # Radancy; old SmartRecruiters board is stale). Verified live — 1,383 open
+  # reqs, cards + JSON-LD datePosted parse correctly.
+  - {base: "https://jobs.paloaltonetworks.com", locale: "en", name: "Palo Alto Networks"}
 
 # --------------------------------------------------------------------------
 # Workday-hosted career sites

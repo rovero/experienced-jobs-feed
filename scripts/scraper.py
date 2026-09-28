@@ -4,6 +4,8 @@ Pulls open roles for experienced engineers from public, no-auth job APIs:
   - Greenhouse job boards   (boards-api.greenhouse.io)
   - Lever job boards        (api.lever.co)
   - Ashby job boards        (api.ashbyhq.com)
+  - SmartRecruiters boards  (api.smartrecruiters.com)
+  - Radancy/TalentBrew sites (e.g. jobs.paloaltonetworks.com)
   - RemoteOK                (remoteok.com/api)
   - Hacker News "Who is Hiring" (hn.algolia.com)
 
@@ -14,6 +16,7 @@ import json
 import re
 import sys
 import time
+import html
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -36,6 +39,8 @@ def load_config():
     cfg.setdefault("lever", [])
     cfg.setdefault("ashby", [])
     cfg.setdefault("workday", [])
+    cfg.setdefault("smartrecruiters", [])
+    cfg.setdefault("radancy", [])
     cfg.setdefault("workday_max_jobs_per_tenant", 200)
     cfg.setdefault("seniority_keywords", [])
     cfg.setdefault("exclude_keywords", [])
@@ -264,6 +269,257 @@ def fetch_ashby(slug, include_kw, exclude_kw, known_sponsors):
     return out
 
 
+# ------------------------------------------------------------------ Radancy
+# Radancy (formerly TMP Worldwide / TalentBrew) powers corporate career sites
+# such as jobs.paloaltonetworks.com and jobs.citi.com. The search page is a
+# JS shell; the data comes from a public, unauthenticated JSON endpoint:
+#   POST {base}/{locale}/search-jobs/resultspost   (JSON body, see below)
+# which returns {"results": "<html cards>", "filters": "...", "hasJobs": bool}.
+# (The GET variant /search-jobs/results answers but returns no cards, and the
+# POST requires contentType application/json — form-encoded posts get 400.)
+#
+# Job cards look like:
+#   <li class="section29__search-results-li">
+#     <a href="/en/job/<city>/<slug>/<orgId>/<jobId>" data-job-id="...">
+#       <h2 class="section29__search-results-job-title">Title</h2>
+#       ... <span class="section29__result-location newLoc">City, ST</span>
+# Cards carry NO posted date. The job detail page embeds JSON-LD with
+# "datePosted" (e.g. "2026-9-16") and the full "description" HTML, so this
+# fetcher loads the detail page for title-matched jobs only — one extra
+# request per match, which also gives us real sponsorship/years text.
+RADANCY_CRITERIA = {
+    # Mirrors the `criteria` object the site's own search.js POSTs (all fields
+    # matter: trimmed-down payloads return empty results for blank keywords).
+    "ActiveFacetID": 0, "Distance": 50, "RadiusUnitType": None,
+    "Keywords": "", "Location": "", "Latitude": None, "Longitude": None,
+    "ShowRadius": False, "IsPagination": "False",
+    "CustomFacetName": "", "FacetTerm": "", "FacetType": 0, "FacetFilters": [],
+    "SearchResultsModuleName": "", "SearchFiltersModuleName": None,
+    "SortCriteria": 0, "SortDirection": 0, "SearchType": 5,
+    "CategoryFacetTerm": "", "CategoryFacetType": "",
+    "LocationFacetTerm": "", "LocationFacetType": "",
+    "KeywordType": "", "LocationType": "", "LocationPath": "",
+    "OrganizationIds": "", "RefinedKeywords": [],
+    "TotalContentResults": 0, "AjaxCharLimit": 4096,
+    "SearchOrderCriteriaWithNoDirection": [0, 6],
+}
+
+RADANCY_CARD_RE = re.compile(
+    r'<li class="section29__search-results-li">\s*'
+    r'<a[^>]*href="([^"]+)"[^>]*>\s*'
+    r'<h2[^>]*>(.*?)</h2>(.*?)</li>', re.S)
+RADANCY_LOC_RE = re.compile(
+    r'<span class="section29__result-location[^"]*">(.*?)</span>', re.S)
+RADANCY_JSONLD_RE = re.compile(
+    r'<script type="application/ld\+json">(.*?)</script>', re.S)
+
+
+def _radancy_job_detail(session, url, label):
+    """Fetch a Radancy job page; return (date_posted_iso, description_html)."""
+    try:
+        r = session.get(url, headers=HEADERS, timeout=TIMEOUT)
+        if r.status_code != 200:
+            return None, ""
+        m = RADANCY_JSONLD_RE.search(r.text)
+        if not m:
+            return None, ""
+        data = json.loads(m.group(1))
+        posted = None
+        raw_date = data.get("datePosted") or ""
+        dm = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})", str(raw_date))
+        if dm:
+            posted = f"{dm.group(1)}-{int(dm.group(2)):02d}-{int(dm.group(3)):02d}"
+        return posted, data.get("description") or ""
+    except (requests.RequestException, ValueError) as e:
+        print(f"[radancy:{label}] detail error: {e}", file=sys.stderr)
+        return None, ""
+
+
+def fetch_radancy(entry, include_kw, exclude_kw, known_sponsors,
+                  max_jobs=500):
+    if isinstance(entry, dict):
+        base = (entry.get("base") or "").rstrip("/")
+        locale = entry.get("locale") or "en"
+        display = entry.get("name")
+    else:
+        base = entry.rstrip("/")
+        locale = "en"
+        display = None
+    label = display or base
+    out = []
+    try:
+        session = requests.Session()
+        session.headers.update(HEADERS)
+        # The SearchResultsModuleName must match the site's search module or
+        # blank-keyword searches come back empty. Discover it from the page
+        # (data-search-results-module-name="..."); allow a config override.
+        module_name = (entry.get("module") if isinstance(entry, dict)
+                       else None) or ""
+        if not module_name:
+            try:
+                pg = session.get(f"{base}/{locale}/search-jobs",
+                                 headers=HEADERS, timeout=TIMEOUT)
+                m = re.search(r'data-search-results-module-name="([^"]+)"',
+                              pg.text)
+                if m:
+                    module_name = m.group(1)
+            except requests.RequestException as e:
+                print(f"[radancy:{label}] module discovery failed: {e}",
+                      file=sys.stderr)
+        endpoint = f"{base}/{locale}/search-jobs/resultspost"
+        page = 1
+        per_page = 50
+        fetched = 0
+        total_pages = None
+        while fetched < max_jobs:
+            criteria = dict(RADANCY_CRITERIA,
+                            SearchResultsModuleName=module_name,
+                            CurrentPage=page, RecordsPerPage=per_page)
+            r = session.post(
+                endpoint, json=criteria,
+                headers={"Accept": "application/json",
+                         "X-Requested-With": "XMLHttpRequest",
+                         "Referer": f"{base}/{locale}/search-jobs"},
+                timeout=TIMEOUT)
+            if r.status_code != 200:
+                print(f"[radancy:{label}] HTTP {r.status_code} on page {page}, "
+                      f"stopping", file=sys.stderr)
+                break
+            payload = r.json()
+            cards_html = payload.get("results") or ""
+            if total_pages is None:
+                tm = re.search(r'data-total-pages="(\d+)"', cards_html)
+                total_pages = int(tm.group(1)) if tm else 1
+            cards = RADANCY_CARD_RE.findall(cards_html)
+            if not cards:
+                break
+            for href, title_html, rest in cards:
+                title = html.unescape(
+                    re.sub(r"<[^>]+>", "", title_html).strip())
+                if not matches(title, include_kw, exclude_kw):
+                    continue
+                loc_m = RADANCY_LOC_RE.search(rest)
+                location = html.unescape(
+                    re.sub(r"\s+",
+                           " ", re.sub(r"<[^>]+>", "", loc_m.group(1))).strip()
+                    if loc_m else "Unspecified")
+                job_url = href if href.startswith("http") else base + href
+                posted, description = _radancy_job_detail(session, job_url,
+                                                         label)
+                time.sleep(0.3)
+                record = {
+                    "company": display or base.split("//")[-1].split(".")[0].title(),
+                    "title": title,
+                    "location": location,
+                    "url": job_url,
+                    "source": "Radancy",
+                    "posted": posted,
+                }
+                enrich_job(record, description, known_sponsors)
+                out.append(record)
+            fetched += len(cards)
+            page += 1
+            if total_pages is not None and page > total_pages:
+                break
+            time.sleep(0.3)
+    except requests.RequestException as e:
+        print(f"[radancy:{label}] error: {e}", file=sys.stderr)
+    except (ValueError, KeyError) as e:
+        print(f"[radancy:{label}] unexpected response shape: {e}",
+              file=sys.stderr)
+    return out
+
+
+# ------------------------------------------------------- SmartRecruiters
+# Public, unauthenticated API:
+#   GET https://api.smartrecruiters.com/v1/companies/{company}/postings?limit=100&offset=0
+# Response shape:
+#   {"content": [{"id": "744000001", "name": "Software Engineer",
+#                 "releasedDate": "2026-01-01T00:00:00.000Z",
+#                 "location": {"city": "Austin", "region": "TX", "country": "us",
+#                              "remote": false},
+#                 "company": {"name": "Acme Corp"}}],
+#    "totalFound": N, "offset": 0, "limit": 100}
+# Posting page: https://jobs.smartrecruiters.com/{web_slug}/{id}
+# (resolves to the canonical posting URL).
+#
+# IMPORTANT: {company} is SmartRecruiters' internal company identifier, which
+# is NOT always the same as the jobs.smartrecruiters.com/{slug} web slug.
+# The API answers HTTP 200 with an empty list for unknown identifiers, so a
+# typo fails silently — this fetcher logs a warning when totalFound == 0.
+# To find the identifier, open any live posting for the company and check
+# the apply URL, or ask the company's recruiting team.
+#
+# Like Workday/Ashby, the list endpoint doesn't return full description text
+# (that would need one extra request per posting:
+#  GET /v1/companies/{company}/postings/{id} -> jobAd.sections), so
+# h1b_sponsor/years default to "unknown" here unless the company is in
+# known_sponsors.
+def fetch_smartrecruiters(entry, include_kw, exclude_kw, known_sponsors,
+                           max_jobs=500):
+    if isinstance(entry, dict):
+        company_id = entry.get("id", "")
+        web_slug = entry.get("slug") or company_id
+        display = entry.get("name")
+    else:
+        company_id = web_slug = entry
+        display = None
+    out = []
+    try:
+        offset = 0
+        limit = 100
+        total = None
+        while offset < max_jobs:
+            url = (f"https://api.smartrecruiters.com/v1/companies/{company_id}"
+                   f"/postings?limit={limit}&offset={offset}")
+            r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+            if r.status_code != 200:
+                print(f"[smartrecruiters:{company_id}] HTTP {r.status_code}, "
+                      f"stopping", file=sys.stderr)
+                break
+            data = r.json()
+            if total is None:
+                total = data.get("totalFound", 0)
+                if total == 0:
+                    # The API returns 200 + empty for unknown identifiers too,
+                    # so this may mean a wrong company id rather than no jobs.
+                    print(f"[smartrecruiters:{company_id}] 0 postings returned "
+                          f"-- verify the company identifier", file=sys.stderr)
+            postings = data.get("content", [])
+            if not postings:
+                break
+            for job in postings:
+                title = job.get("name", "")
+                if not matches(title, include_kw, exclude_kw):
+                    continue
+                loc = job.get("location") or {}
+                parts = [loc.get("city"), loc.get("region"), loc.get("country")]
+                location = ", ".join(p for p in parts if p) or (
+                    "Remote" if loc.get("remote") else "Unspecified")
+                company = (display or (job.get("company") or {}).get("name")
+                           or company_id)
+                record = {
+                    "company": company,
+                    "title": title,
+                    "location": location,
+                    "url": f"https://jobs.smartrecruiters.com/{web_slug}/{job.get('id')}",
+                    "source": "SmartRecruiters",
+                    "posted": job.get("releasedDate"),
+                }
+                enrich_job(record, "", known_sponsors)
+                out.append(record)
+            offset += limit
+            if total is not None and offset >= total:
+                break
+            time.sleep(0.3)
+    except requests.RequestException as e:
+        print(f"[smartrecruiters:{company_id}] error: {e}", file=sys.stderr)
+    except (ValueError, KeyError) as e:
+        print(f"[smartrecruiters:{company_id}] unexpected response shape: {e}",
+              file=sys.stderr)
+    return out
+
+
 # ------------------------------------------------------------------- Workday
 # Microsoft, Salesforce, and a large share of Fortune 500s run their careers
 # site on Workday rather than Greenhouse/Lever/Ashby. Workday career pages
@@ -468,6 +724,14 @@ def main():
     for url in cfg["workday"]:
         all_jobs += fetch_workday(url, include_kw, exclude_kw, known_sponsors,
                                    max_jobs=cfg["workday_max_jobs_per_tenant"])
+        time.sleep(0.3)
+    for entry in cfg["smartrecruiters"]:
+        all_jobs += fetch_smartrecruiters(entry, include_kw, exclude_kw,
+                                          known_sponsors)
+        time.sleep(0.3)
+    for entry in cfg["radancy"]:
+        all_jobs += fetch_radancy(entry, include_kw, exclude_kw,
+                                  known_sponsors)
         time.sleep(0.3)
 
     all_jobs += fetch_remoteok(include_kw, exclude_kw, known_sponsors)
