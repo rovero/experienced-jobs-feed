@@ -228,7 +228,12 @@ def fetch_lever(slug, include_kw, exclude_kw, known_sponsors):
                 "location": location,
                 "url": job.get("hostedUrl"),
                 "source": "Lever",
-                "posted": job.get("createdAt"),
+                # Lever returns createdAt as epoch milliseconds (int); the
+                # rest of the pipeline expects ISO date strings for sorting.
+                "posted": (datetime.fromtimestamp(job["createdAt"] / 1000,
+                                                  tz=timezone.utc)
+                           .date().isoformat()
+                           if job.get("createdAt") else None),
             }
             enrich_job(record, f"{description} {lists_text}", known_sponsors)
             out.append(record)
