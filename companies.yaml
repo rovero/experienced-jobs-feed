@@ -9,6 +9,13 @@
 # Open the company's careers page, check the URL, copy the slug. That's it.
 # The examples below are placeholders — verify each slug still resolves
 # before relying on it (companies migrate ATS providers over time).
+
+# --- Added 2026-09-27: configurable location filter ---
+# mode: allowlist = keep only jobs in the listed countries (default)
+#       off       = no location filtering
+# keep_unknown: keep jobs whose location has no recognizable country signal
+#   (e.g. "Remote", "Hybrid") — default true; the daily sweep verifies these.
+# Supported country keys: USA, Canada.
 locations:
   mode: allowlist
   countries: ["USA", "Canada"]
@@ -139,6 +146,21 @@ ashby:
   - retell-ai
   - fireworks
 
+  # --- Added 2026-09-30: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each slug verified live via GET api.ashbyhq.com/posting-api AND brand
+  # cross-checked against job content (departments/titles rule out slug
+  # collisions). Counts observed 2026-09-30.
+  # `eliseai` = EliseAI (housing/rental AI, "Housing" dept, 121 jobs)
+  # `voleon` = Voleon (quant firm, Strategy Research Analytics titles, 55 jobs)
+  # `patreon` = Patreon (creator economy, 15 jobs)
+  # `abridge` = Abridge (medical AI, VistA integrations, 46 jobs)
+  # `valon` = Valon (mortgage servicing, 25 jobs)
+  - eliseai
+  - voleon
+  - patreon
+  - abridge
+  - valon
+
   # --- Added 2026-09-27: Ashby re-verification round ---
   # NOTE: Ashby's public API only answers GET (POST returns nothing), so an
   # earlier check round falsely reported these as missing. Each slug below
@@ -164,6 +186,24 @@ ashby:
   - sentry
   - ycombinator
   - uipath
+
+  # --- Added 2026-10-03: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each slug verified live via GET api.ashbyhq.com/posting-api AND brand
+  # cross-checked against job content (departments/titles rule out slug
+  # collisions). Counts observed 2026-10-03.
+  # `cohere` = Cohere (AI/LLM, 137 jobs)
+  # `elevenlabs` = ElevenLabs (voice AI, 169 jobs)
+  # `mintlify` = Mintlify (docs platform, 13 jobs)
+  # `zip` = Zip (procurement software, ziphq.com, 124 jobs) — NOT Zip Co
+  #   (the BNPL company), a different company.
+  # `furtherai` = FurtherAI (AI insurance, 11 jobs)
+  # `archil` = Archil (2 jobs — tiny board)
+  - cohere
+  - elevenlabs
+  - mintlify
+  - zip
+  - furtherai
+  - archil
 
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
@@ -195,6 +235,29 @@ ashby:
 #     posting API is closed (404) — feed cannot poll it. Recheck later.
 #   - openai          : RESOLVED 2026-09-27 — Ashby `openai` is OpenAI's
 #     official board (829 jobs, brand-verified). Added to the ashby list.
+#
+# Checked 2026-09-30 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - glean, rippling, onepay, shipday, datologyai : no public ATS found
+#     (Ashby/Greenhouse/Lever all 404) — own careers sites
+#   - cognitiv, virtu, toast : Greenhouse board slug exists but returns
+#     0 jobs (empty/private board) — not added. NOTE: `virtu` ≠ Virtu Financial
+#     trading roles risk; toast migrated off Greenhouse to own platform.
+#   - whatnot         : RECHECK LATER — jobs.ashbyhq.com/whatnot board exists
+#     but public posting API is closed (404 as of 2026-09-28)
+#
+# Checked 2026-10-03 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - grammarly, docusign, moveworks, amd, cisco, bloomberg, apple,
+#     linkedin, nokia, walmart, jpmorganchase, snap, hudsonrivertrading,
+#     salientai, qualifiedhealth, otter.ai : no public ATS found
+#     (Greenhouse/Ashby/Lever all 404) — own careers sites / platforms
+#   - pinterest, disney, coupang, moloco, pdtpartners, janestreet, ethos,
+#     nuro, censys, cockroachlabs, flex : Greenhouse board slug exists but
+#     returns 0 jobs (empty/private board) — not added. NOTE: `flex` here is
+#     Flexible Finance, GH board empty.
+#   - ebay            : no public ATS (own platform; covered by the daily
+#     sweep's direct-search lane)
+#   - alipayus/antinternational : no public ATS found
+#   - 小红书 (xiaohongshu) : no public ATS — own platform
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
