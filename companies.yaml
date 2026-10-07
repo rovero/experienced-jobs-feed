@@ -205,6 +205,17 @@ ashby:
   - furtherai
   - archil
 
+  # --- Added 2026-10-06: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each slug verified live via GET api.ashbyhq.com/posting-api AND brand
+  # cross-checked against job content (departments/titles rule out slug
+  # collisions). Counts observed 2026-10-06.
+  # `persona` = Persona (identity verification, 16 jobs — SWE Security/Edge/
+  #   Traffic/Network roles confirm the brand)
+  # `candidhealth` = Candid Health (healthcare revenue-cycle automation,
+  #   36 jobs — Front End SWE + Senior SWE roles confirm the brand)
+  - persona
+  - candidhealth
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -258,6 +269,14 @@ ashby:
 #     sweep's direct-search lane)
 #   - alipayus/antinternational : no public ATS found
 #   - 小红书 (xiaohongshu) : no public ATS — own platform
+#
+# Checked 2026-10-06 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - lucidmotors, xai : Ashby board slug exists but returns 0 jobs
+#     (empty/private board) — not added
+#   - goldmansachs, statefarm, autodesk, c3ai, temu : no public ATS found
+#     (Greenhouse/Ashby/Lever all 404) — own careers sites
+#   - Uncertain nicknames from 面经 posts (女大, 偶爱新鲜, 电车, 核心编制):
+#     company identity unclear — not recorded, will retry if named explicitly
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
