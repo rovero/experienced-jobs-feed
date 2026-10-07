@@ -109,6 +109,28 @@ greenhouse:
   # verified live). Removed from the lever list below.
   - netlify
 
+  # --- Added 2026-10-07: banking/fintech H1B sponsors (user request) ---
+  # Each slug verified live against boards-api.greenhouse.io AND brand
+  # cross-checked (board name + job content rule out slug collisions).
+  # `block` = Block, Inc. (Square/Cash App/Afterpay; 226 jobs)
+  # `adyen` = Adyen (payments; 231 jobs; "This is Adyen" JD boilerplate
+  #   confirms brand)
+  # `enova` = Enova International (online lender; enova.com/careers links
+  #   boards.greenhouse.io/enova; CashNetUSA titles confirm brand; 32 jobs)
+  # `blend` = Blend Labs (mortgage tech; "The Blend Talent Team" confirmation
+  #   page confirms brand; 14 jobs)
+  # `upgrade` = Upgrade, Inc. (fintech lender; 31 jobs)
+  - block
+  - adyen
+  - enova
+  - blend
+  - upgrade
+
+  # --- Added 2026-10-07: Akuna Capital (user request) ---
+  # Prop trading firm, known H1B sponsor. Slug `akunacapital` verified live
+  # against boards-api.greenhouse.io (board name "Akuna Capital", 41 jobs).
+  - akunacapital
+
 lever:
   # notion -> moved to Ashby (slug `notion`, verified live 2026-09-27)
   # netlify -> moved to Greenhouse (slug `netlify`, verified live 2026-09-27)
@@ -216,6 +238,15 @@ ashby:
   - persona
   - candidhealth
 
+  # --- Added 2026-10-07: banking/fintech H1B sponsors (user request) ---
+  # Each slug verified live via GET api.ashbyhq.com/posting-api AND brand
+  # cross-checked (rules out slug collisions). Counts observed 2026-10-07.
+  # `plaid` = Plaid (fintech; 122 jobs)
+  # `dave` = Dave Inc (neobank; dave.com/careers links jobs.ashbyhq.com/dave;
+  #   6 jobs — small board)
+  - plaid
+  - dave
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -277,6 +308,23 @@ ashby:
 #     (Greenhouse/Ashby/Lever all 404) — own careers sites
 #   - Uncertain nicknames from 面经 posts (女大, 偶爱新鲜, 电车, 核心编制):
 #     company identity unclear — not recorded, will retry if named explicitly
+#
+# Checked 2026-10-07 (banking/fintech H1B-sponsor research, user request):
+#   - wise            : Greenhouse board `wise` exists (15 jobs) but the board
+#     name is "Wise Worksite Field Sales" — NOT Wise the fintech. Excluded
+#     (slug collision). Real Wise has no public ATS board found.
+#   - current         : Greenhouse board `current` exists (7 jobs) but job
+#     content (Drupal/digital-agency roles) shows it's a marketing agency,
+#     NOT Current the fintech. Excluded (slug collision).
+#   - marqeta, varo, lendingclub, q2, shift4, alkami, ncino, revolut, avant,
+#     oppfi, moneylion, jackhenry : no public ATS found (Greenhouse/Ashby/
+#     Lever all 404) — own careers sites
+#   - nubank          : Greenhouse board `nubank` exists but returns 0 jobs
+#     (empty/private board) — not added
+#   - Banks (JPMorgan Chase, Bank of America, Citigroup, Wells Fargo,
+#     Capital One, Morgan Stanley), PayPal, Toast : all major H1B sponsors
+#     but run own careers platforms (no public ATS) — covered by the daily
+#     sweep's company-watch lane, not this feed
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
