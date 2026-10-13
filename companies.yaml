@@ -247,6 +247,38 @@ ashby:
   - plaid
   - dave
 
+  # --- Added 2026-10-09: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each slug verified live via GET api.ashbyhq.com/posting-api AND brand
+  # cross-checked against job content (departments/titles rule out slug
+  # collisions). Counts observed 2026-10-09.
+  # `fluidstack` = Fluidstack (AI cloud / GPU infrastructure; fluidstack.io
+  #   careers shows a matching job count, 245 jobs — includes Applied AI /
+  #   GPU Infrastructure / Cloud Infrastructure SWE roles)
+  # `clickup` = ClickUp (AI-native collaboration platform, 47 jobs —
+  #   Senior/Staff Frontend Engineer (Angular 2+) + Staff AI Engineer titles
+  #   match ClickUp's public postings)
+  - fluidstack
+  - clickup
+
+  # --- Added 2026-10-10: 1point3acres nickname "功夫轮" decoded by user ---
+  # `confluent` = Confluent (data-streaming/Kafka platform; Ashby board
+  #   titles "WarpStream", "Kafka Connect", "Cluster Linking" confirm brand,
+  #   17 jobs)
+  - confluent
+
+  # --- Added 2026-10-12: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each slug verified live via GET api.ashbyhq.com/posting-api AND brand
+  # cross-checked against job content (departments/titles rule out slug
+  # collisions). Counts observed 2026-10-12.
+  # `sierra` = Sierra AI (Bret Taylor's enterprise AI-agent platform, 190
+  #   jobs — board "About us" boilerplate matches sierra.ai careers)
+  # `merge` = Merge (unified integration APIs, merge.dev, 14 jobs —
+  #   "Integrations Engineer" titles confirm the brand)
+  # `headway` = Headway (mental-health platform, headway.co, 84 jobs)
+  - sierra
+  - merge
+  - headway
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -325,6 +357,51 @@ ashby:
 #     Capital One, Morgan Stanley), PayPal, Toast : all major H1B sponsors
 #     but run own careers platforms (no public ATS) — covered by the daily
 #     sweep's company-watch lane, not this feed
+#
+# Checked 2026-10-08 (user request: Adobe):
+#   - adobe           : no public ATS found (Greenhouse/Ashby/Lever all 404)
+#     — careers.adobe.com is its own platform; covered by the daily sweep's
+#     company-watch lane, not this feed
+#
+# Checked 2026-10-09 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - drw             : no public ATS found (Greenhouse/Lever/Ashby all 404)
+#     — own careers platform
+#   - ziprecruiter    : Greenhouse board `ziprecruiter` exists but returns
+#     0 jobs (empty/private board) — not added; Lever/Ashby 404
+#   - yahoo, oracle, unity, atlassian : no public ATS found
+#     (Greenhouse/Lever/Ashby all 404) — own careers platforms
+#   - imbue           : Greenhouse `imbue` and Lever `imbue` return 0 jobs
+#     (empty/private boards); Ashby 404 — not added
+#   - Resolved 2026-10-10 (user decoded the 面经 nicknames — use the post's
+#     @-tagged company as the primary signal; titles like "虚拟表演" can be
+#     wordplay, not the company):
+#       格林 = glean (already rejected — no public ATS)
+#       飞哥麻 = Figma (CORRECTED 2026-10-10 — phonetic for Figma; already in
+#         the greenhouse list above, 150 jobs — no change needed)
+#       功夫轮 = Confluent → Ashby `confluent` (17 jobs, brand-verified via
+#         WarpStream/Kafka Connect titles) — ADDED to the ashby list
+#       开花 = bloomberg (company watch, own platform — not feed-addable)
+#       虚拟表演 = "virtual onsite" (not a company; resolve via the post's
+#         @ tag — the user's example post was tagged @brex)
+#       电车公司 = Tesla (CORRECTED 2026-10-10; GH/Lever/Ashby all 404 — own
+#         careers platform, tesla.com/careers)
+#       电车 = (DELETED 2026-10-11 per user — was user's original mapping
+#         for uber; the @-tagged company is authoritative for any 电车 post)
+#       直播平台 = twitch (CORRECTED 2026-10-11 — Greenhouse `twitch`,
+#         already in the greenhouse list above)
+#       果子 = Apple (no public ATS, already noted)
+#       水波纹AI = WaveForms AI (audio-LLM startup; GH/Lever/Ashby all 404 —
+#         no public ATS; jobs only on aggregator mirrors)
+#
+# Checked 2026-10-12 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - old mission capital : Greenhouse board exists but returns 0 jobs
+#     (empty/private board); Lever/Ashby 404 — not added
+#   - headlands technology: GH/Lever/Ashby all 404 — no public ATS (quant
+#     trading firm)
+#   - cubist              : GH/Lever/Ashby all 404 — no public ATS
+#   - optiver             : re-confirmed 2026-10-12 — Greenhouse board still
+#     returns 0 jobs; Lever/Ashby 404 (own platform). Already noted
+#     2026-09-27 — no change.
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
