@@ -305,6 +305,16 @@ ashby:
   - sphere
   - reevo
 
+  # --- Added 2026-10-16: user correction (she asked "snowflake是ashby的吧？") ---
+  # Verified live via GET api.ashbyhq.com/posting-api (HTTP 200, 359 jobs,
+  # 116 in Engineering) AND brand cross-checked ("Software Engineer -
+  # Database Engineering", "Software Engineer - Java Platform", "Senior
+  # Technical Program Manager - ML/AI" confirm Snowflake the data company).
+  # Previous "own platform / no public ATS" notes (2026-10-12, 2026-10-15)
+  # were wrong — corrected 2026-10-16. Feed-covered via this Ashby board,
+  # not the daily sweep's company watch.
+  - snowflake
+
   # --- Added 2026-10-14: 1point3acres 面经 backfill (9-14~9-22 window) ---
   # Each slug verified live via GET api.ashbyhq.com/posting-api AND brand
   # cross-checked (board title + JD content rule out slug collisions).
