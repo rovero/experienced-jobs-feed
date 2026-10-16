@@ -140,6 +140,12 @@ lever:
   - outreach
   - angellist
 
+  # --- Added 2026-10-15: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET api.lever.co/v0/postings (returns non-empty array).
+  # `wealthfront` = Wealthfront (robo-advisor fintech; "Android Engineer |
+  #   Palo Alto, CA" confirms HQ-brand match, 24 jobs observed 2026-10-15)
+  - wealthfront
+
 ashby:
   - ramp
   - linear
@@ -278,6 +284,40 @@ ashby:
   - sierra
   - merge
   - headway
+  # --- Added 2026-10-14: 1point3acres hiring-filter follow-up (page 1) ---
+  # `baseten` = Baseten (ML inference cloud, baseten.co; Ashby board titles
+  #   "Software Engineer - Dedicated Inference", "Cloud Platform Engineer",
+  #   "Site Reliability Engineer" confirm brand, 105 jobs observed 2026-10-14)
+  - baseten
+
+  # --- Added 2026-10-15: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each slug verified live via GET api.ashbyhq.com/posting-api AND brand
+  # cross-checked against job content (departments/titles rule out slug
+  # collisions). Counts observed 2026-10-15.
+  # `legora` = Legora (AI legal tech, legora.com; enterprise-AE titles
+  #   consistent with B2B legal AI, 302 jobs)
+  # `sphere` = Sphere (AI-powered cross-border tax compliance platform —
+  #   "Tax Support Specialist"/"E-Invoicing Lead"/"AI Agent Infrastructure
+  #   Lead" titles confirm the brand; SF, 16 jobs)
+  # `reevo` = Reevo (B2B revenue-stack software, SF/Santa Clara; signature
+  #   "Builder - ..." title convention matches reevo.com careers, 21 jobs)
+  - legora
+  - sphere
+  - reevo
+
+  # --- Added 2026-10-14: 1point3acres 面经 backfill (9-14~9-22 window) ---
+  # Each slug verified live via GET api.ashbyhq.com/posting-api AND brand
+  # cross-checked (board title + JD content rule out slug collisions).
+  # Counts observed 2026-10-14.
+  # `render` = Render (cloud platform, "Render Jobs" board title, 39 jobs)
+  # `physicalintelligence` = Physical Intelligence (robotics foundation
+  #   models, "Physical Intelligence Jobs" board title, 41 jobs; includes
+  #   Robotics Software Engineer / ML Infra Engineer roles)
+  # `greptile` = Greptile (AI code reviewer, JD boilerplate confirms brand,
+  #   18 jobs)
+  - render
+  - physicalintelligence
+  - greptile
 
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
@@ -402,6 +442,44 @@ ashby:
 #   - optiver             : re-confirmed 2026-10-12 — Greenhouse board still
 #     returns 0 jobs; Lever/Ashby 404 (own platform). Already noted
 #     2026-09-27 — no change.
+  #
+  # Checked 2026-10-14 (1point3acres hiring-filter follow-up, page 1 of 144):
+  #   - ode : GH/Lever/Ashby all 404 — no public ATS (identity unverified;
+  #     single 面经 thread "Ode phone screen" @Ode on 2026-10-14)
+  #
+  # Checked 2026-10-14 (1point3acres 面经 backfill, 9-14~9-22 window):
+  #   - togetherai, oscarhealth, coreweave, thetradedesk, upstart, agoda,
+  #     indeed : Greenhouse board slug exists but returns 0 jobs
+  #     (empty/private/migrated board) — not added
+  #   - mistralai : GH/Lever/Ashby all 404 — own platform, no public ATS
+  #   - walleye, squarepoint, worldquant : quant firms — GH board 0 jobs or
+  #     404; own platforms, no public ATS
+  #   - axqcapital, jainglobal, millennium, fiverings, quantbot, sig :
+  #     quant/prop firms — GH/Lever/Ashby all 404; own platforms
+  #   - visa, yelp, siemens, americanexpress, wayfair : GH 404 — own
+  #     careers sites, no public ATS
+  #   - gatik, modular, latenthealth : GH/Lever/Ashby all 404 — no public ATS
+  #   - palantir : own platform, no public ATS (no calls spent)
+#
+# Checked 2026-10-15 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - arista networks : GH/Lever/Ashby all 404 — own careers platform
+#   - retool          : GH/Lever/Ashby all 404 — own careers platform
+#   - collegevine     : GH/Lever/Ashby all 404 — no public ATS
+#   - clay            : GH/Lever/Ashby all 404 — own careers platform
+#   - ambient.ai      : GH/Lever/Ashby all 404 — own careers platform
+#   - alibaba cloud   : no public ATS — own platform (alibabagroup.com)
+#   - intersystems    : no public ATS — own careers platform
+#   - netflix         : no public ATS — own careers platform
+#   - d.e. shaw, marshall wace : quant/hedge-fund firms — own platforms /
+#     non-SWE boards, not feed-addable
+#   - ode             : re-confirmed 2026-10-15 — GH/Lever/Ashby all 404
+#     (identity still unverified; already noted 2026-10-14)
+#   - upstart         : re-confirmed 2026-10-15 — Greenhouse board exists but
+#     returns 0 jobs (empty/private); Lever/Ashby 404 — not added
+#     (already noted 2026-10-14)
+#   - stackadapt      : update 2026-10-15 — Greenhouse board `stackadapt`
+#     now exists but returns 0 jobs (empty/private); Lever/Ashby 404 —
+#     not added (was "Lever 404 — own careers page" 2026-09-28)
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
