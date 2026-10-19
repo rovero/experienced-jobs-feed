@@ -131,6 +131,17 @@ greenhouse:
   # against boards-api.greenhouse.io (board name "Akuna Capital", 41 jobs).
   - akunacapital
 
+  # --- Added 2026-10-19: user request (she supplied the careers URL) ---
+  # `purestorage` = Everpure (data storage; formerly Pure Storage — the
+  # company rebranded: board display name is now "Everpure" while the GH
+  # slug stays `purestorage`). Verified live 2026-10-19 via GET
+  # boards-api.greenhouse.io/v1/boards/purestorage/jobs (HTTP 200, 369
+  # jobs); her supplied URL (everpuredata.com/company/careers/
+  # opportunities.html) embeds this exact board
+  # (boards-api.greenhouse.io/v1/boards/purestorage/offices) — brand
+  # match confirmed, not a collision.
+  - purestorage
+
 lever:
   # notion -> moved to Ashby (slug `notion`, verified live 2026-09-27)
   # netlify -> moved to Greenhouse (slug `netlify`, verified live 2026-09-27)
@@ -145,6 +156,14 @@ lever:
   # `wealthfront` = Wealthfront (robo-advisor fintech; "Android Engineer |
   #   Palo Alto, CA" confirms HQ-brand match, 24 jobs observed 2026-10-15)
   - wealthfront
+
+  # --- Added 2026-10-18: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET api.lever.co/v0/postings (non-empty array) AND
+  # brand cross-checked (re-verified by main agent 2026-10-18: 240 jobs;
+  # "AV Safety Data Reporting Engineer / Foster City, CA" confirms Zoox
+  # the autonomous-vehicle company, not a collision).
+  # `zoox` = Zoox (Amazon robotaxi subsidiary, Foster City HQ)
+  - zoox
 
 ashby:
   - ramp
@@ -314,6 +333,23 @@ ashby:
   # were wrong — corrected 2026-10-16. Feed-covered via this Ashby board,
   # not the daily sweep's company watch.
   - snowflake
+
+  # --- Added 2026-10-18: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each verified live via GET api.ashbyhq.com/posting-api (HTTP 200) AND
+  # brand cross-checked by main agent 2026-10-18 (counts observed that day).
+  # NOTE: Ashby posting-api returned 401 on all calls the morning of
+  # 2026-10-18 but was back to 200 by evening — transient, not a global
+  # block; verify per slug.
+  # `listenlabs` = Listen Labs (AI research platform, Sequoia-backed;
+  #   "Member of Technical Staff, Product Engineering" titles, 31 jobs)
+  # `reducto` = Reducto (agentic document-intelligence platform;
+  #   "Backend/AI Engineer", "Forward Deployed Engineer, Infrastructure
+  #   Specialist" titles, 40 jobs, 12 in Engineering)
+  # `rogo` = Rogo ("Wall Street's first true AI analyst", NYC AI fintech;
+  #   93 jobs, 11 in Engineering)
+  - listenlabs
+  - reducto
+  - rogo
 
   # --- Added 2026-10-14: 1point3acres 面经 backfill (9-14~9-22 window) ---
   # Each slug verified live via GET api.ashbyhq.com/posting-api AND brand
@@ -490,6 +526,12 @@ ashby:
 #   - stackadapt      : update 2026-10-15 — Greenhouse board `stackadapt`
 #     now exists but returns 0 jobs (empty/private); Lever/Ashby 404 —
 #     not added (was "Lever 404 — own careers page" 2026-09-28)
+#
+# Checked 2026-10-18 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - bitdeer         : GH/Lever/Ashby all 404 — no public ATS
+#   - pilot           : GH/Lever/Ashby all 404 — no public ATS
+#   - aqr capital     : Greenhouse board `aqr` exists but returns 0 jobs
+#     (empty/private); Lever/Ashby 404 — quant firm, own platform
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
