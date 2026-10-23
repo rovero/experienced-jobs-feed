@@ -365,6 +365,22 @@ ashby:
   - physicalintelligence
   - greptile
 
+  # --- Added 2026-10-21: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each verified live via GET api.ashbyhq.com/posting-api (HTTP 200,
+  # non-empty jobs) by the watch task AND re-verified by the main agent
+  # 2026-10-21 (same counts: 64/20/21). Counts observed 2026-10-21.
+  # `illumio` = Illumio (zero-trust segmentation / network security;
+  #   "Sr. Member of Technical Staff - Platform" titles, 64 jobs)
+  # `atlys` = Atlys (visa-processing travel startup; atlys.com —
+  #   "Fulfilment Intern", "City Scout - Vienna", "Guest Delight Associate"
+  #   titles fit the travel-concierge brand, 20 jobs)
+  # `anyscale` = Anyscale (Ray distributed-compute platform;
+  #   "Software Engineer, Ray Core", "Distributed LLM Inference Engineer"
+  #   titles confirm brand, 21 jobs)
+  - illumio
+  - atlys
+  - anyscale
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -532,6 +548,30 @@ ashby:
 #   - pilot           : GH/Lever/Ashby all 404 — no public ATS
 #   - aqr capital     : Greenhouse board `aqr` exists but returns 0 jobs
 #     (empty/private); Lever/Ashby 404 — quant firm, own platform
+#
+# Checked 2026-10-20 (user request: Redfin):
+#   - redfin          : Greenhouse/Lever/Ashby all 404 — no public ATS;
+#     redfin.com/careers is its own platform (Redfin was acquired by
+#     Rocket Companies, closed 2025). Added to the daily sweep's
+#     company-watch lane 2026-10-20 per user — not feed-addable.
+#
+# Checked 2026-10-21 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - coalition       : Greenhouse board "Coalition, Inc." exists but
+#     returns 0 jobs (empty/private board); Lever/Ashby 404 — not added
+#   - wise            : re-confirmed 2026-10-21 — Greenhouse board `wise`
+#     is "Wise Worksite Field Sales" (brand collision, NOT Wise the
+#     fintech) and returns 0 jobs; Lever/Ashby 404 (already noted
+#     2026-10-07)
+#   - workday         : GH/Lever/Ashby all 404 — own platform
+#   - tower research capital : GH/Lever/Ashby all 404 — HFT own platform
+#   - sony interactive entertainment (playstation) : GH/Lever/Ashby all
+#     404 — own platform
+#   - engelhart       : Greenhouse board `engelhart` exists but returns
+#     0 jobs (empty/private); Lever/Ashby 404 — quant/trading firm, own
+#     platform, non-SWE focus
+#   - elation health  : GH/Lever/Ashby all 404 — no public ATS
+#   - rim universe    : GH/Lever/Ashby all 404; company identity itself
+#     uncertain (seen only as an 内推帖 @tag) — not recorded
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
