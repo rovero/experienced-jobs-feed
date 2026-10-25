@@ -142,6 +142,18 @@ greenhouse:
   # match confirmed, not a collision.
   - purestorage
 
+  # --- Added 2026-10-24: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each verified live via GET boards-api.greenhouse.io (HTTP 200) by the
+  # watch task AND re-verified by the main agent 2026-10-24 (same counts).
+  # `mavenclinic` = Maven Clinic (women's/family health platform; US hub
+  #   cities incl. NYC/SF, 32 jobs — includes a Seattle posting)
+  # `tripadvisor` = Tripadvisor (travel platform; 86 jobs — NOTE: as of
+  #   2026-10-24 the board is Europe-only (London, Lisbon, Krakow,
+  #   etc.), 0 US jobs; the feed's USA/Canada location filter will
+  #   exclude them, so this board is dormant until US roles appear)
+  - mavenclinic
+  - tripadvisor
+
 lever:
   # notion -> moved to Ashby (slug `notion`, verified live 2026-09-27)
   # netlify -> moved to Greenhouse (slug `netlify`, verified live 2026-09-27)
@@ -164,6 +176,13 @@ lever:
   # the autonomous-vehicle company, not a collision).
   # `zoox` = Zoox (Amazon robotaxi subsidiary, Foster City HQ)
   - zoox
+
+  # --- Added 2026-10-24: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET api.lever.co/v0/postings (non-empty array) by the
+  # watch task AND re-verified by the main agent 2026-10-24 (68 postings).
+  # `matchgroup` = Match Group (Tinder/Hinge parent; NYC/LA/Vancouver
+  #   postings confirm brand, 68 jobs)
+  - matchgroup
 
 ashby:
   - ramp
@@ -381,6 +400,13 @@ ashby:
   - atlys
   - anyscale
 
+  # --- Added 2026-10-24: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET api.ashbyhq.com/posting-api (HTTP 200) by the
+  # watch task AND re-verified by the main agent 2026-10-24 (10 jobs).
+  # `vals-ai` = Vals AI (AI evaluation platform, SF; "Member of Technical
+  #   Staff - Platform/Research" titles confirm brand, 10 jobs)
+  - vals-ai
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -572,6 +598,12 @@ ashby:
 #   - elation health  : GH/Lever/Ashby all 404 — no public ATS
 #   - rim universe    : GH/Lever/Ashby all 404; company identity itself
 #     uncertain (seen only as an 内推帖 @tag) — not recorded
+#
+# Checked 2026-10-24 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - cloudkitchens   : Ashby board exists but returns 0 jobs
+#     (empty/private); GH/Lever 404 — not added
+#   - tsmc            : GH/Lever/Ashby all 404 — no public ATS
+#   - shopify         : GH/Lever/Ashby all 404 — no public ATS
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
