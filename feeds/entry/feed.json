@@ -1,15 +1,268 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-24T16:29:41.785308+00:00",
-  "count": 3458,
+  "generated_at": "2026-10-25T17:01:05.474008+00:00",
+  "count": 3503,
   "jobs": [
+    {
+      "company": "Reddit",
+      "title": "Principal Data Scientist, User Ecosystem",
+      "location": "Remote - United States",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8289345",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T08:13:36-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Reddit",
+      "title": "Senior, Business Risk & AI Automation",
+      "location": "Remote - Ontario, Canada",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8074846",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T08:13:35-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
+      "years_max": 4
+    },
+    {
+      "company": "Reddit",
+      "title": "Senior, Business Risk & AI Automation",
+      "location": "Remote - British Columbia, Canada",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8074860",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T08:13:35-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
+      "years_max": 4
+    },
+    {
+      "company": "Reddit",
+      "title": "Staff Machine Learning Engineer, Ads Creative Effectiveness",
+      "location": "Remote - United States",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8250389",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T08:13:34-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Reddit",
+      "title": "Staff Data Scientist, Marketing",
+      "location": "Remote - United States",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7445240",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T08:13:33-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
+      "years_max": 3
+    },
+    {
+      "company": "Reddit",
+      "title": "Staff Data Scientist, Marketing",
+      "location": "Remote - Ontario, Canada",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7931000",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T08:13:33-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
+      "years_max": 3
+    },
+    {
+      "company": "Reddit",
+      "title": "Senior Product Manager, Ads -  Shopping Catalogs",
+      "location": "Remote - United States",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8120503",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T08:13:31-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 1,
+      "years_max": 3
+    },
+    {
+      "company": "Roblox",
+      "title": "Senior Software Engineer, UGC Validation",
+      "location": "San Mateo, CA, United States",
+      "url": "https://careers.roblox.com/jobs/7997637?gh_jid=7997637",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T02:44:57-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Roblox",
+      "title": "Principal Software Engineer, Data Tooling",
+      "location": "San Mateo, CA, United States",
+      "url": "https://careers.roblox.com/jobs/8052237?gh_jid=8052237",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T02:41:45-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Roblox",
+      "title": "Senior/Principal Product Manager, Video Generation (Roblox Reality) ",
+      "location": "San Mateo, CA, United States",
+      "url": "https://careers.roblox.com/jobs/8180420?gh_jid=8180420",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T02:37:02-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Automation Tools",
+      "location": "San Mateo, CA, United States",
+      "url": "https://careers.roblox.com/jobs/8187491?gh_jid=8187491",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T02:36:39-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Roblox",
+      "title": "Senior Security Software Engineer, Sandbox Platforms",
+      "location": "San Mateo, CA, United States",
+      "url": "https://careers.roblox.com/jobs/8198167?gh_jid=8198167",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T02:36:23-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Developer Tools",
+      "location": "San Mateo, CA, United States",
+      "url": "https://careers.roblox.com/jobs/8211271?gh_jid=8211271",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T02:36:05-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Roblox",
+      "title": "Principal Software Engineer, Engine Systems",
+      "location": "San Mateo, CA, United States",
+      "url": "https://careers.roblox.com/jobs/8227830?gh_jid=8227830",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T02:35:17-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Roblox",
+      "title": "Principal Software Engineer, Core Services",
+      "location": "San Mateo, CA, United States",
+      "url": "https://careers.roblox.com/jobs/8227778?gh_jid=8227778",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T02:35:15-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Roblox",
+      "title": "[2027] Senior Machine Learning Engineer - PhD Early Career",
+      "location": "San Mateo, CA, United States",
+      "url": "https://careers.roblox.com/jobs/8242623?gh_jid=8242623",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T02:34:34-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Test Frameworks & Tools",
+      "location": "San Mateo, CA, United States",
+      "url": "https://careers.roblox.com/jobs/8244812?gh_jid=8244812",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T02:34:19-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
+      "years_max": null
+    },
+    {
+      "company": "Roblox",
+      "title": "Senior Technical Program Manager, Engine",
+      "location": "San Mateo, CA, United States",
+      "url": "https://careers.roblox.com/jobs/8265761?gh_jid=8265761",
+      "source": "Greenhouse",
+      "posted": "2026-10-25T02:33:32-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Senior Manager, AI & Data Solutions Engineering",
+      "location": "Petach Tikva, Israel",
+      "url": "https://jobs.paloaltonetworks.com/en/job/petah-tikva/senior-manager-ai-and-data-solutions-engineering/47263/102422250768",
+      "source": "Radancy",
+      "posted": "2026-10-25",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
+      "years_max": 3
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Sr Principal Architect Engineer Software (Privileged Cloud Digital Vault - Idira)",
+      "location": "Petach Tikva, Israel",
+      "url": "https://jobs.paloaltonetworks.com/en/job/petah-tikva/sr-principal-architect-engineer-software-privileged-cloud-digital-vault-idira/47263/102422250736",
+      "source": "Radancy",
+      "posted": "2026-10-25",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Senior Product Designer (Cortex Platform)",
+      "location": "Tel Aviv-Yafo, Israel",
+      "url": "https://jobs.paloaltonetworks.com/en/job/tel-aviv/senior-product-designer-cortex-platform/47263/102422250448",
+      "source": "Radancy",
+      "posted": "2026-10-25",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Senior Product Manager, Privileged Access Management (PAM) Self-Hosted (Idira)",
+      "location": "Petach Tikva, Israel",
+      "url": "https://jobs.paloaltonetworks.com/en/job/petah-tikva/senior-product-manager-privileged-access-management-pam-self-hosted-idira/47263/102422249888",
+      "source": "Radancy",
+      "posted": "2026-10-25",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Palo Alto Networks",
+      "title": "Senior Principal Backend Engineer (CORTEX - Autonomous SOC)",
+      "location": "Tel Aviv-Yafo, Israel",
+      "url": "https://jobs.paloaltonetworks.com/en/job/tel-aviv/senior-principal-backend-engineer-cortex-autonomous-soc/47263/101706652512",
+      "source": "Radancy",
+      "posted": "2026-10-25",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
     {
       "company": "Salesforce",
       "title": "Sales Strategy Senior Specialist/Manager",
       "location": "JR358925",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Japan---Tokyo/Sales-Strategy-Senior-Specialist-Manager_JR358925",
       "source": "Workday",
-      "posted": "2026-10-24T16:27:39.782067+00:00",
+      "posted": "2026-10-24T16:59:09.908739+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -20,9 +273,20 @@
       "location": "JR353632",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Manager-Senior-Manager--Technical-Consulting---Revenue-Cloud-Advanced-RCA-_JR353632",
       "source": "Workday",
-      "posted": "2026-10-24T16:27:38.927383+00:00",
+      "posted": "2026-10-24T16:59:08.987054+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Getlabs",
+      "title": "Field Phlebotomy Supervisor Northern California",
+      "location": "Remote",
+      "url": "https://remoteOK.com/remote-jobs/remote-field-phlebotomy-supervisor-northern-california-getlabs-1137569",
+      "source": "RemoteOK",
+      "posted": "2026-10-24T16:00:04+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
       "years_max": null
     },
     {
@@ -68,83 +332,6 @@
       "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
-    },
-    {
-      "company": "Reddit",
-      "title": "Principal Data Scientist, User Ecosystem",
-      "location": "Remote - United States",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8289345",
-      "source": "Greenhouse",
-      "posted": "2026-10-24T08:18:57-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Reddit",
-      "title": "Senior, Business Risk & AI Automation",
-      "location": "Remote - Ontario, Canada",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8074846",
-      "source": "Greenhouse",
-      "posted": "2026-10-24T08:18:56-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 2,
-      "years_max": 4
-    },
-    {
-      "company": "Reddit",
-      "title": "Senior, Business Risk & AI Automation",
-      "location": "Remote - British Columbia, Canada",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8074860",
-      "source": "Greenhouse",
-      "posted": "2026-10-24T08:18:56-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 2,
-      "years_max": 4
-    },
-    {
-      "company": "Reddit",
-      "title": "Staff Data Scientist, Marketing",
-      "location": "Remote - Ontario, Canada",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7931000",
-      "source": "Greenhouse",
-      "posted": "2026-10-24T08:18:55-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 2,
-      "years_max": 3
-    },
-    {
-      "company": "Reddit",
-      "title": "Staff Data Scientist, Marketing",
-      "location": "Remote - United States",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7445240",
-      "source": "Greenhouse",
-      "posted": "2026-10-24T08:18:55-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 2,
-      "years_max": 3
-    },
-    {
-      "company": "Reddit",
-      "title": "Staff Machine Learning Engineer, Ads Creative Effectiveness",
-      "location": "Remote - United States",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8250389",
-      "source": "Greenhouse",
-      "posted": "2026-10-24T08:18:55-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Reddit",
-      "title": "Senior Product Manager, Ads -  Shopping Catalogs",
-      "location": "Remote - United States",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8120503",
-      "source": "Greenhouse",
-      "posted": "2026-10-24T08:18:53-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 1,
-      "years_max": 3
     },
     {
       "company": "Applied",
@@ -210,6 +397,17 @@
       "posted": "2026-10-24",
       "h1b_sponsor": "unknown",
       "years_min": 2,
+      "years_max": null
+    },
+    {
+      "company": "Vals Ai",
+      "title": "Child & Adolescent Physician / Developmental Expert (Contract)",
+      "location": "Remote, U.S.",
+      "url": "https://jobs.ashbyhq.com/vals-ai/66fbe58b-28c2-4980-8a4a-ed7db59f9da9",
+      "source": "Ashby",
+      "posted": "2026-10-23T23:33:50.330+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
       "years_max": null
     },
     {
@@ -433,45 +631,12 @@
       "years_max": null
     },
     {
-      "company": "Dropbox",
-      "title": "Senior Corporate Enterprise Platform Engineer, Windows",
-      "location": "Remote - US: Select locations",
-      "url": "https://jobs.dropbox.com/listing/8280093?gh_jid=8280093",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T16:47:49-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Salesforce",
-      "title": "Staff & Senior Staff Data Platform Engineer - Slack",
-      "location": "JR365133",
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Staff---Senior-Staff-Data-Platform-Engineer---Slack_JR365133-1",
-      "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782119+00:00",
-      "h1b_sponsor": "yes",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Salesforce",
-      "title": "GB Named Account Executive",
-      "location": "JR365568",
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/GB-Named-Account-Executive_JR365568",
-      "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782111+00:00",
-      "h1b_sponsor": "yes",
-      "years_min": null,
-      "years_max": null
-    },
-    {
       "company": "Salesforce",
       "title": "Senior/ Director Technical Architect, Regulated Industries",
       "location": "JR365567",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Chicago-Metro---Remote/Senior--Director-Technical-Architect--Regulated-Industries_JR365567",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782101+00:00",
+      "posted": "2026-10-23T16:59:09.908780+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -482,7 +647,7 @@
       "location": "JR335020",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Japan---Tokyo/XMLNAME--411-Salesforce-Architect---Salesforce-Architect---Trail-Architect_JR335020-1",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782093+00:00",
+      "posted": "2026-10-23T16:59:09.908770+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -493,7 +658,7 @@
       "location": "JR344030",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Japan---Tokyo/Sr-Director--Public-Sector-Strategy---Business-Development_JR344030",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782083+00:00",
+      "posted": "2026-10-23T16:59:09.908758+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -504,7 +669,7 @@
       "location": "JR358708",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Japan---Tokyo/Program-Project-Management-Senior-Analyst_JR358708",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782074+00:00",
+      "posted": "2026-10-23T16:59:09.908748+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -515,7 +680,7 @@
       "location": "JR361738",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/New-York---New-York/Strategic-Partner-Account-Sr-Manager_JR361738",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782056+00:00",
+      "posted": "2026-10-23T16:59:09.908727+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -526,7 +691,7 @@
       "location": "JR363043",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Technical-Program-Management-Senior-Manager_JR363043",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782048+00:00",
+      "posted": "2026-10-23T16:59:09.908717+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -537,7 +702,7 @@
       "location": "JR356609",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Georgia---Atlanta/Senior-Manager--Software-Engineering_JR356609-2",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782040+00:00",
+      "posted": "2026-10-23T16:59:09.908705+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -548,7 +713,7 @@
       "location": "JR365584",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Account-Executive---SMB---Polish-Market_JR365584",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782030+00:00",
+      "posted": "2026-10-23T16:59:09.908675+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -559,7 +724,7 @@
       "location": "JR352235",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Georgia---Remote/Engagement-Delivery-Director---HLS---Health---Life-Sciences_JR352235",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782017+00:00",
+      "posted": "2026-10-23T16:59:09.908661+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -570,7 +735,7 @@
       "location": "JR363582",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Chicago/Global-Integrated-Campaigns-Senior-Analyst_JR363582-1",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:39.782005+00:00",
+      "posted": "2026-10-23T16:59:09.908649+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -581,7 +746,7 @@
       "location": "JR341133",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Florida---Remote/Account-Executive---MuleSoft--Combatant-Commands-_JR341133",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:39.781977+00:00",
+      "posted": "2026-10-23T16:59:09.908636+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -592,7 +757,7 @@
       "location": "JR344060",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Senior-Data-Scientist--SMTS-_JR344060",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:38.927526+00:00",
+      "posted": "2026-10-23T16:59:09.908597+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -603,7 +768,7 @@
       "location": "JR364455",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Dreamforce-Senior-Manager_JR364455",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:38.927508+00:00",
+      "posted": "2026-10-23T16:59:08.987321+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -614,7 +779,7 @@
       "location": "JR365621",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/Senior-Instructor-Salesforce----Tableau_JR365621",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:38.927495+00:00",
+      "posted": "2026-10-23T16:59:08.987306+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -625,7 +790,7 @@
       "location": "JR365626",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/Mulesoft-Senior-Instructor_JR365626",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:38.927487+00:00",
+      "posted": "2026-10-23T16:59:08.987297+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -636,7 +801,7 @@
       "location": "JR365629",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Senior-Software-Engineer--SMTS---Identity---Access-Management---Device-Trust_JR365629",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:38.927475+00:00",
+      "posted": "2026-10-23T16:59:08.987285+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -647,7 +812,7 @@
       "location": "JR346225",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Georgia---Remote/Engagement-Delivery-Director_JR346225",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:38.927467+00:00",
+      "posted": "2026-10-23T16:59:08.987275+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -658,7 +823,7 @@
       "location": "JR364647",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Principal-AI-Solutions-Engineer---Salesforce-AI-Labs_JR364647",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:38.927455+00:00",
+      "posted": "2026-10-23T16:59:08.987262+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -669,7 +834,7 @@
       "location": "JR337145",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Senior-Executive-Assistant_JR337145",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:38.927446+00:00",
+      "posted": "2026-10-23T16:59:08.987252+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -680,7 +845,7 @@
       "location": "JR360310",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Forward-Deployed-Consultant---Senior-Consultant_JR360310",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:38.927438+00:00",
+      "posted": "2026-10-23T16:59:08.987241+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -691,7 +856,7 @@
       "location": "JR323094",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/District-of-Columbia---Washington/COO--GovCloud---Missionforce_JR323094",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:38.927428+00:00",
+      "posted": "2026-10-23T16:59:08.987226+00:00",
       "h1b_sponsor": "yes",
       "years_min": null,
       "years_max": null
@@ -702,8 +867,19 @@
       "location": "JR363529",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Colombia---Bogota/Cloud-Account-Executive---Tableau_JR363529-1",
       "source": "Workday",
-      "posted": "2026-10-23T16:27:38.927414+00:00",
+      "posted": "2026-10-23T16:59:08.987087+00:00",
       "h1b_sponsor": "yes",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Dropbox",
+      "title": "Senior Corporate Enterprise Platform Engineer, Windows",
+      "location": "Remote - US: Select locations",
+      "url": "https://jobs.dropbox.com/listing/8280093?gh_jid=8280093",
+      "source": "Greenhouse",
+      "posted": "2026-10-23T16:47:49-04:00",
+      "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
     },
@@ -760,17 +936,6 @@
       "posted": "2026-10-23T16:00:12+00:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Huzzle",
-      "title": "Sales Development Representative B2B",
-      "location": "Remote",
-      "url": "https://remoteOK.com/remote-jobs/remote-sales-development-representative-b2b-huzzle-1137561",
-      "source": "RemoteOK",
-      "posted": "2026-10-23T16:00:06+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 2,
       "years_max": null
     },
     {
@@ -884,127 +1049,6 @@
       "years_max": null
     },
     {
-      "company": "Roblox",
-      "title": "Senior Software Engineer, UGC Validation",
-      "location": "San Mateo, CA, United States",
-      "url": "https://careers.roblox.com/jobs/7997637?gh_jid=7997637",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T14:47:04-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Roblox",
-      "title": "Principal Software Engineer, Data Tooling",
-      "location": "San Mateo, CA, United States",
-      "url": "https://careers.roblox.com/jobs/8052237?gh_jid=8052237",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T14:43:58-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Roblox",
-      "title": "Senior/Principal Product Manager, Video Generation (Roblox Reality) ",
-      "location": "San Mateo, CA, United States",
-      "url": "https://careers.roblox.com/jobs/8180420?gh_jid=8180420",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T14:39:08-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Automation Tools",
-      "location": "San Mateo, CA, United States",
-      "url": "https://careers.roblox.com/jobs/8187491?gh_jid=8187491",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T14:38:45-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Roblox",
-      "title": "Senior Security Software Engineer, Sandbox Platforms",
-      "location": "San Mateo, CA, United States",
-      "url": "https://careers.roblox.com/jobs/8198167?gh_jid=8198167",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T14:38:31-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Developer Tools",
-      "location": "San Mateo, CA, United States",
-      "url": "https://careers.roblox.com/jobs/8211271?gh_jid=8211271",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T14:38:13-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Roblox",
-      "title": "Principal Software Engineer, Engine Systems",
-      "location": "San Mateo, CA, United States",
-      "url": "https://careers.roblox.com/jobs/8227830?gh_jid=8227830",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T14:37:27-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Roblox",
-      "title": "Principal Software Engineer, Core Services",
-      "location": "San Mateo, CA, United States",
-      "url": "https://careers.roblox.com/jobs/8227778?gh_jid=8227778",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T14:37:25-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Roblox",
-      "title": "[2027] Senior Machine Learning Engineer - PhD Early Career",
-      "location": "San Mateo, CA, United States",
-      "url": "https://careers.roblox.com/jobs/8242623?gh_jid=8242623",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T14:36:47-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Test Frameworks & Tools",
-      "location": "San Mateo, CA, United States",
-      "url": "https://careers.roblox.com/jobs/8244812?gh_jid=8244812",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T14:36:31-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 2,
-      "years_max": null
-    },
-    {
-      "company": "Roblox",
-      "title": "Senior Technical Program Manager, Engine",
-      "location": "San Mateo, CA, United States",
-      "url": "https://careers.roblox.com/jobs/8265761?gh_jid=8265761",
-      "source": "Greenhouse",
-      "posted": "2026-10-23T14:35:41-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
       "company": "Elastic",
       "title": "Sr. Solutions Architect - Strategic Central/East (Presales)",
       "location": "United States",
@@ -1091,6 +1135,17 @@
       "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Executive Escalation Lead",
+      "location": "Office ",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8278898",
+      "source": "Greenhouse",
+      "posted": "2026-10-23T13:04:37-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
+      "years_max": 3
     },
     {
       "company": "Gitlab",
@@ -1194,8 +1249,8 @@
     {
       "company": "Mongodb",
       "title": "Account Development Representative",
-      "location": "Gurugram",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7318558",
+      "location": "Kuala Lumpur",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8079914",
       "source": "Greenhouse",
       "posted": "2026-10-23T11:31:54-04:00",
       "h1b_sponsor": "unknown",
@@ -1205,8 +1260,8 @@
     {
       "company": "Mongodb",
       "title": "Account Development Representative",
-      "location": "Kuala Lumpur",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8079914",
+      "location": "Gurugram",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7318558",
       "source": "Greenhouse",
       "posted": "2026-10-23T11:31:54-04:00",
       "h1b_sponsor": "unknown",
@@ -1436,8 +1491,8 @@
     {
       "company": "Mongodb",
       "title": "Lead, Technical Services",
-      "location": "New York City",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8258712",
+      "location": "Toronto",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8263092",
       "source": "Greenhouse",
       "posted": "2026-10-23T11:31:54-04:00",
       "h1b_sponsor": "unknown",
@@ -1447,8 +1502,8 @@
     {
       "company": "Mongodb",
       "title": "Lead, Technical Services",
-      "location": "Toronto",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8263092",
+      "location": "New York City",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8258712",
       "source": "Greenhouse",
       "posted": "2026-10-23T11:31:54-04:00",
       "h1b_sponsor": "unknown",
@@ -1656,8 +1711,8 @@
     {
       "company": "Mongodb",
       "title": "Technical Services Engineer",
-      "location": "Mexico City",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8055356",
+      "location": "Sydney",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8250236",
       "source": "Greenhouse",
       "posted": "2026-10-23T11:31:54-04:00",
       "h1b_sponsor": "unknown",
@@ -1678,8 +1733,8 @@
     {
       "company": "Mongodb",
       "title": "Technical Services Engineer",
-      "location": "Sydney",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8250236",
+      "location": "Mexico City",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8055356",
       "source": "Greenhouse",
       "posted": "2026-10-23T11:31:54-04:00",
       "h1b_sponsor": "unknown",
@@ -2716,6 +2771,28 @@
       "url": "https://jobs.ashbyhq.com/elevenlabs/c4e0d704-c7eb-4d6d-b71b-23bfd86fe463",
       "source": "Ashby",
       "posted": "2026-10-23T04:43:20.825+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Field Sales Representative (based in Brescia or Bergamo)",
+      "location": "Brescia or Bergamo",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8102664",
+      "source": "Greenhouse",
+      "posted": "2026-10-23T04:30:27-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Field Sales Representative - based in Cagliari",
+      "location": "Cagliari",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8256265",
+      "source": "Greenhouse",
+      "posted": "2026-10-23T04:28:22-04:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
@@ -5350,6 +5427,17 @@
       "years_max": null
     },
     {
+      "company": "Tripadvisor",
+      "title": "Field Sales Representative - Edinburgh",
+      "location": "Edinburgh",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8163857",
+      "source": "Greenhouse",
+      "posted": "2026-10-21T11:15:26-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Legora",
       "title": " Senior People Partner | Legal, Operations & People",
       "location": "New York City",
@@ -5493,6 +5581,39 @@
       "years_max": null
     },
     {
+      "company": "Tripadvisor",
+      "title": "Inside Sales Representative | Portuguese Market (Based in Barcelona)",
+      "location": "Barcelona",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8305456",
+      "source": "Greenhouse",
+      "posted": "2026-10-21T05:50:33-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Senior Product Data Scientist",
+      "location": "London",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7946763",
+      "source": "Greenhouse",
+      "posted": "2026-10-21T05:09:58-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Senior Product Data Scientist ",
+      "location": "Poland",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7978723",
+      "source": "Greenhouse",
+      "posted": "2026-10-21T05:09:58-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Airbnb",
       "title": "Quality Insights Lead",
       "location": "Gurugram, India",
@@ -5500,6 +5621,28 @@
       "source": "Greenhouse",
       "posted": "2026-10-21T05:09:27-04:00",
       "h1b_sponsor": "yes",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Senior Manager, Product Data Science & Analytics",
+      "location": "London",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8011063",
+      "source": "Greenhouse",
+      "posted": "2026-10-21T05:09:24-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Senior Manager, Product Data Science & Analytics",
+      "location": "Poland",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8045898",
+      "source": "Greenhouse",
+      "posted": "2026-10-21T05:09:24-04:00",
+      "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
     },
@@ -5537,6 +5680,28 @@
       "years_max": null
     },
     {
+      "company": "Vals Ai",
+      "title": "Member of Technical Staff - Research, AI Safety",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/vals-ai/c39f98f0-8286-4313-9189-a917f5027b7b",
+      "source": "Ashby",
+      "posted": "2026-10-21T01:50:49.702+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Vals Ai",
+      "title": "Member of Technical Staff - Research, Cyber",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/vals-ai/01fd3303-90a1-45a2-8fca-2e7e4e93f3b7",
+      "source": "Ashby",
+      "posted": "2026-10-21T01:42:57.390+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Harvey",
       "title": "Corporate Business Development Manager, Legal Data",
       "location": "San Francisco",
@@ -5556,6 +5721,17 @@
       "posted": "2026-10-21T00:00:50-04:00",
       "h1b_sponsor": "unknown",
       "years_min": 1,
+      "years_max": null
+    },
+    {
+      "company": "Matchgroup",
+      "title": "Sr. Manager, Marketing Analytics",
+      "location": "Los Angeles, California",
+      "url": "https://jobs.lever.co/matchgroup/9fa49f7c-984b-4c4b-9df1-6b6207d96256",
+      "source": "Lever",
+      "posted": "2026-10-21",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
       "years_max": null
     },
     {
@@ -6098,6 +6274,17 @@
       "years_max": null
     },
     {
+      "company": "Tripadvisor",
+      "title": "Supplier Support Advisor/CX Advisor - B2B",
+      "location": "Oxford, United Kingdom",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8265437",
+      "source": "Greenhouse",
+      "posted": "2026-10-20T13:20:56-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Twitch",
       "title": "Sr. Product Manager, Premium Content Experience",
       "location": "New York City",
@@ -6239,6 +6426,17 @@
       "h1b_sponsor": "unknown",
       "years_min": 2,
       "years_max": 4
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Field Sales Representative - Alicante",
+      "location": "Alicante",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8207783",
+      "source": "Greenhouse",
+      "posted": "2026-10-20T10:07:16-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
     },
     {
       "company": "Elastic",
@@ -6424,6 +6622,17 @@
       "source": "Greenhouse",
       "posted": "2026-10-20T02:30:45-04:00",
       "h1b_sponsor": "yes",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Matchgroup",
+      "title": "Business Development Operations Specialist",
+      "location": "Los Angeles, California",
+      "url": "https://jobs.lever.co/matchgroup/230733db-0bff-4381-bb96-ae7320b54411",
+      "source": "Lever",
+      "posted": "2026-10-20",
+      "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
     },
@@ -6837,17 +7046,6 @@
     {
       "company": "Brex",
       "title": "Engineering Manager, Travel",
-      "location": "Vancouver, British Columbia, Canada",
-      "url": "https://www.brex.com/careers/8641195002?gh_jid=8641195002",
-      "source": "Greenhouse",
-      "posted": "2026-10-19T16:22:59-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Brex",
-      "title": "Engineering Manager, Travel",
       "location": "Seattle, Washington, United States",
       "url": "https://www.brex.com/careers/8623291002?gh_jid=8623291002",
       "source": "Greenhouse",
@@ -6861,6 +7059,17 @@
       "title": "Engineering Manager, Travel",
       "location": "San Francisco, California, United States",
       "url": "https://www.brex.com/careers/8641194002?gh_jid=8641194002",
+      "source": "Greenhouse",
+      "posted": "2026-10-19T16:22:59-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Travel",
+      "location": "Vancouver, British Columbia, Canada",
+      "url": "https://www.brex.com/careers/8641195002?gh_jid=8641195002",
       "source": "Greenhouse",
       "posted": "2026-10-19T16:22:59-04:00",
       "h1b_sponsor": "unknown",
@@ -7248,6 +7457,17 @@
       "url": "https://jobs.ashbyhq.com/elevenlabs/38bac641-02de-414d-96f3-d0adb603cb89",
       "source": "Ashby",
       "posted": "2026-10-19T09:45:35.323+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Business Development Representative (DACH Market)",
+      "location": "Barcelona",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8248819",
+      "source": "Greenhouse",
+      "posted": "2026-10-19T09:45:09-04:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
@@ -10784,6 +11004,17 @@
       "years_max": null
     },
     {
+      "company": "Tripadvisor",
+      "title": "Field Sales Representative - North London & Essex",
+      "location": "London",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8284754",
+      "source": "Greenhouse",
+      "posted": "2026-10-15T06:09:22-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Openai",
       "title": "Strategy & Operations Lead \u2014 SEA & ANZ",
       "location": "Singapore",
@@ -12643,6 +12874,17 @@
       "years_max": null
     },
     {
+      "company": "Tripadvisor",
+      "title": " Sales Executive ",
+      "location": "Barcelona",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8255870",
+      "source": "Greenhouse",
+      "posted": "2026-10-13T10:53:34-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Purestorage",
       "title": "Sr. Escalation Engineer",
       "location": "Bangalore, India",
@@ -13952,6 +14194,17 @@
       "years_max": null
     },
     {
+      "company": "Matchgroup",
+      "title": "Manager, Service Delivery Analytics & Planning",
+      "location": "New York, New York",
+      "url": "https://jobs.lever.co/matchgroup/0a5ad123-7c5b-4d88-b498-5a0262beb331",
+      "source": "Lever",
+      "posted": "2026-10-09",
+      "h1b_sponsor": "unknown",
+      "years_min": 1,
+      "years_max": 2
+    },
+    {
       "company": "Palo Alto Networks",
       "title": "Principal Engineer Software (Threat Data Platform)",
       "location": "Santa Clara, California, United States of America San Francisco, California, United States of America San Jose, California, United States of America",
@@ -14480,6 +14733,17 @@
       "years_max": null
     },
     {
+      "company": "Tripadvisor",
+      "title": "Inside Sales Representative - French Market",
+      "location": "Barcelona",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8264176",
+      "source": "Greenhouse",
+      "posted": "2026-10-08T07:00:18-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 1,
+      "years_max": null
+    },
+    {
       "company": "See posting",
       "title": "ICEYE | Platform, DevOps and Observability Engineers (Senior&#x2F;Staff) | Espoo, Finland &#x2F; Berlin, Germany | HYBRID | Full-time (reloc",
       "location": "See posting",
@@ -14675,6 +14939,17 @@
       "posted": "2026-10-07T20:11:51.543+00:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Knowledge AI Quality Lead",
+      "location": "Office ",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8259377",
+      "source": "Greenhouse",
+      "posted": "2026-10-07T19:58:55-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
       "years_max": null
     },
     {
@@ -16394,6 +16669,17 @@
       "years_max": null
     },
     {
+      "company": "Tripadvisor",
+      "title": "Field Sales Representative \u2014 North East & Yorkshire",
+      "location": "Leeds",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8225740",
+      "source": "Greenhouse",
+      "posted": "2026-10-06T02:49:21-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "See posting",
       "title": "CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Join my illustrious te",
       "location": "See posting",
@@ -16924,8 +17210,8 @@
     {
       "company": "Tailscale",
       "title": "Customer Account Executive ",
-      "location": "Hybrid (Vancouver, British Columbia)",
-      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4740468005",
+      "location": "Hybrid (Toronto, Ontario)",
+      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4724118005",
       "source": "Greenhouse",
       "posted": "2026-10-05T12:35:44-04:00",
       "h1b_sponsor": "unknown",
@@ -16935,8 +17221,8 @@
     {
       "company": "Tailscale",
       "title": "Customer Account Executive ",
-      "location": "Hybrid (Toronto, Ontario)",
-      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4724118005",
+      "location": "Hybrid (Vancouver, British Columbia)",
+      "url": "https://job-boards.greenhouse.io/tailscale/jobs/4740468005",
       "source": "Greenhouse",
       "posted": "2026-10-05T12:35:44-04:00",
       "h1b_sponsor": "unknown",
@@ -18820,6 +19106,17 @@
       "url": "https://news.ycombinator.com/item?id=49928997",
       "source": "HN Who's Hiring",
       "posted": "2026-10-02T01:35:26+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Vals Ai",
+      "title": "Technical Content Lead",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/vals-ai/efdce0b1-3e64-4099-9ff6-5f52b6883246",
+      "source": "Ashby",
+      "posted": "2026-10-02T01:27:28.653+00:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
@@ -21641,17 +21938,6 @@
       "years_max": null
     },
     {
-      "company": "Palo Alto Networks",
-      "title": "Senior Technical Support Engineer - Focused Services",
-      "location": "Warszawa, Poland",
-      "url": "https://jobs.paloaltonetworks.com/en/job/bukowno-warszawa/senior-technical-support-engineer-focused-services/47263/96174876784",
-      "source": "Radancy",
-      "posted": "2026-10-01",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
       "company": "Headway",
       "title": "Staff Product Manager, Growth Automation & Enablement",
       "location": "Remote",
@@ -21922,6 +22208,17 @@
       "url": "https://www.okta.com/company/careers/opportunity/8242975?gh_jid=8242975",
       "source": "Greenhouse",
       "posted": "2026-09-30T11:20:32-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Business Development Representative",
+      "location": "Barcelona",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8187976",
+      "source": "Greenhouse",
+      "posted": "2026-09-30T10:09:11-04:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
@@ -22699,8 +22996,8 @@
     {
       "company": "Spacex",
       "title": "Civil Engineer, Land Development (Starship Launch Pad)",
-      "location": "Starbase, TX",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8483977002?gh_jid=8483977002",
+      "location": "Cape Canaveral, FL",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8609445002?gh_jid=8609445002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -22710,8 +23007,8 @@
     {
       "company": "Spacex",
       "title": "Civil Engineer, Land Development (Starship Launch Pad)",
-      "location": "Cape Canaveral, FL",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8609445002?gh_jid=8609445002",
+      "location": "Starbase, TX",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8483977002?gh_jid=8483977002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -22897,8 +23194,8 @@
     {
       "company": "Spacex",
       "title": "Design Verification Engineer (Silicon Engineering)",
-      "location": "Austin, TX",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8632967002?gh_jid=8632967002",
+      "location": "Irvine, CA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8632395002?gh_jid=8632395002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -22908,8 +23205,8 @@
     {
       "company": "Spacex",
       "title": "Design Verification Engineer (Silicon Engineering)",
-      "location": "Irvine, CA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8632395002?gh_jid=8632395002",
+      "location": "Austin, TX",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8632967002?gh_jid=8632967002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -23150,8 +23447,8 @@
     {
       "company": "Spacex",
       "title": "Environmental Health & Safety Technician",
-      "location": "Vandenberg, CA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8756259002?gh_jid=8756259002",
+      "location": "Starbase, TX",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8627488002?gh_jid=8627488002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -23161,8 +23458,8 @@
     {
       "company": "Spacex",
       "title": "Environmental Health & Safety Technician",
-      "location": "Starbase, TX",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8627488002?gh_jid=8627488002",
+      "location": "Vandenberg, CA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8756259002?gh_jid=8756259002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -23227,8 +23524,8 @@
     {
       "company": "Spacex",
       "title": "Food Services Specialist - Temporary",
-      "location": "Cape Canaveral, FL",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8802237002?gh_jid=8802237002",
+      "location": "Bastrop, TX",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8584666002?gh_jid=8584666002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -23238,8 +23535,8 @@
     {
       "company": "Spacex",
       "title": "Food Services Specialist - Temporary",
-      "location": "Bastrop, TX",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8584666002?gh_jid=8584666002",
+      "location": "Cape Canaveral, FL",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8802237002?gh_jid=8802237002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -23810,8 +24107,8 @@
     {
       "company": "Spacex",
       "title": "Mechanical Engineer (Starship Avionics)",
-      "location": "Starbase, TX",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8728568002?gh_jid=8728568002",
+      "location": "Hawthorne, CA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8727087002?gh_jid=8727087002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -23821,8 +24118,8 @@
     {
       "company": "Spacex",
       "title": "Mechanical Engineer (Starship Avionics)",
-      "location": "Hawthorne, CA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8727087002?gh_jid=8727087002",
+      "location": "Starbase, TX",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8728568002?gh_jid=8728568002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -23898,17 +24195,6 @@
     {
       "company": "Spacex",
       "title": "Power Systems Engineer (Starship Avionics) ",
-      "location": "Starbase, TX",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8627222002?gh_jid=8627222002",
-      "source": "Greenhouse",
-      "posted": "2026-09-29T17:52:51-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 1,
-      "years_max": null
-    },
-    {
-      "company": "Spacex",
-      "title": "Power Systems Engineer (Starship Avionics) ",
       "location": "Hawthorne, CA",
       "url": "https://boards.greenhouse.io/spacex/jobs/8627410002?gh_jid=8627410002",
       "source": "Greenhouse",
@@ -23919,9 +24205,20 @@
     },
     {
       "company": "Spacex",
+      "title": "Power Systems Engineer (Starship Avionics) ",
+      "location": "Starbase, TX",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8627222002?gh_jid=8627222002",
+      "source": "Greenhouse",
+      "posted": "2026-09-29T17:52:51-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 1,
+      "years_max": null
+    },
+    {
+      "company": "Spacex",
       "title": "Principal AI Engineer, Special Programs",
-      "location": "Washington, DC",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8572114002?gh_jid=8572114002",
+      "location": "Palo Alto, CA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8572113002?gh_jid=8572113002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -23931,8 +24228,8 @@
     {
       "company": "Spacex",
       "title": "Principal AI Engineer, Special Programs",
-      "location": "Palo Alto, CA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8572113002?gh_jid=8572113002",
+      "location": "Washington, DC",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8572114002?gh_jid=8572114002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24085,8 +24382,8 @@
     {
       "company": "Spacex",
       "title": "RAN Validation Engineer (Starlink Mobile)",
-      "location": "Redmond, WA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8675026002?gh_jid=8675026002",
+      "location": "Palo Alto, CA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8674890002?gh_jid=8674890002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24096,8 +24393,8 @@
     {
       "company": "Spacex",
       "title": "RAN Validation Engineer (Starlink Mobile)",
-      "location": "Palo Alto, CA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8674890002?gh_jid=8674890002",
+      "location": "Redmond, WA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8675026002?gh_jid=8675026002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24173,8 +24470,8 @@
     {
       "company": "Spacex",
       "title": "Shuttle Driver (Starlink)",
-      "location": "Redmond, WA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8675334002?gh_jid=8675334002",
+      "location": "Woodinville, WA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8675331002?gh_jid=8675331002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24184,8 +24481,8 @@
     {
       "company": "Spacex",
       "title": "Shuttle Driver (Starlink)",
-      "location": "Woodinville, WA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8675331002?gh_jid=8675331002",
+      "location": "Redmond, WA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8675334002?gh_jid=8675334002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24415,8 +24712,8 @@
     {
       "company": "Spacex",
       "title": "Sr. Supplier Development Engineer, Data Center (Starlink) ",
-      "location": "Bastrop, TX",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8642976002?gh_jid=8642976002",
+      "location": "Palo Alto, CA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8645827002?gh_jid=8645827002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24426,8 +24723,8 @@
     {
       "company": "Spacex",
       "title": "Sr. Supplier Development Engineer, Data Center (Starlink) ",
-      "location": "Palo Alto, CA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8645827002?gh_jid=8645827002",
+      "location": "Bastrop, TX",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8642976002?gh_jid=8642976002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24470,17 +24767,6 @@
     {
       "company": "Spacex",
       "title": "Sr. Supply Chain Planner, xAI (Starlink)",
-      "location": "Memphis, TN",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8842011002?gh_jid=8842011002",
-      "source": "Greenhouse",
-      "posted": "2026-09-29T17:52:51-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 2,
-      "years_max": null
-    },
-    {
-      "company": "Spacex",
-      "title": "Sr. Supply Chain Planner, xAI (Starlink)",
       "location": "Bastrop, TX",
       "url": "https://boards.greenhouse.io/spacex/jobs/8606899002?gh_jid=8606899002",
       "source": "Greenhouse",
@@ -24491,9 +24777,9 @@
     },
     {
       "company": "Spacex",
-      "title": "Sr. Wireless Software Engineer (Starlink)",
-      "location": "Palo Alto, CA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8637796002?gh_jid=8637796002",
+      "title": "Sr. Supply Chain Planner, xAI (Starlink)",
+      "location": "Memphis, TN",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8842011002?gh_jid=8842011002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24505,6 +24791,17 @@
       "title": "Sr. Wireless Software Engineer (Starlink)",
       "location": "Redmond, WA",
       "url": "https://boards.greenhouse.io/spacex/jobs/8637824002?gh_jid=8637824002",
+      "source": "Greenhouse",
+      "posted": "2026-09-29T17:52:51-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
+      "years_max": null
+    },
+    {
+      "company": "Spacex",
+      "title": "Sr. Wireless Software Engineer (Starlink)",
+      "location": "Palo Alto, CA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8637796002?gh_jid=8637796002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24602,17 +24899,6 @@
     {
       "company": "Spacex",
       "title": "Starlink Growth Lead, US Northeast",
-      "location": "Remote - NY",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8703146002?gh_jid=8703146002",
-      "source": "Greenhouse",
-      "posted": "2026-09-29T17:52:51-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": 2,
-      "years_max": null
-    },
-    {
-      "company": "Spacex",
-      "title": "Starlink Growth Lead, US Northeast",
       "location": "Remote - PA",
       "url": "https://boards.greenhouse.io/spacex/jobs/8703151002?gh_jid=8703151002",
       "source": "Greenhouse",
@@ -24623,9 +24909,9 @@
     },
     {
       "company": "Spacex",
-      "title": "Starlink Growth Lead, US South",
-      "location": "Remote - NC",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8703196002?gh_jid=8703196002",
+      "title": "Starlink Growth Lead, US Northeast",
+      "location": "Remote - NY",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8703146002?gh_jid=8703146002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24637,6 +24923,17 @@
       "title": "Starlink Growth Lead, US South",
       "location": "Remote - TX",
       "url": "https://boards.greenhouse.io/spacex/jobs/8703162002?gh_jid=8703162002",
+      "source": "Greenhouse",
+      "posted": "2026-09-29T17:52:51-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
+      "years_max": null
+    },
+    {
+      "company": "Spacex",
+      "title": "Starlink Growth Lead, US South",
+      "location": "Remote - NC",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8703196002?gh_jid=8703196002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24724,7 +25021,7 @@
       "company": "Spacex",
       "title": "Supervisor, Distribution Center - (Materials Management)",
       "location": "Hawthorne, CA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8635083002?gh_jid=8635083002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8641512002?gh_jid=8641512002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -24735,7 +25032,7 @@
       "company": "Spacex",
       "title": "Supervisor, Distribution Center - (Materials Management)",
       "location": "Hawthorne, CA",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8641512002?gh_jid=8641512002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8635083002?gh_jid=8635083002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
@@ -25196,23 +25493,23 @@
     {
       "company": "Spacex",
       "title": "Thermal Development Technician (Starship)",
-      "location": "Starbase, TX",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8716279002?gh_jid=8716279002",
-      "source": "Greenhouse",
-      "posted": "2026-09-29T17:52:51-04:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "Spacex",
-      "title": "Thermal Development Technician (Starship)",
       "location": "Cape Canaveral, FL",
       "url": "https://boards.greenhouse.io/spacex/jobs/8499098002?gh_jid=8499098002",
       "source": "Greenhouse",
       "posted": "2026-09-29T17:52:51-04:00",
       "h1b_sponsor": "unknown",
       "years_min": 1,
+      "years_max": null
+    },
+    {
+      "company": "Spacex",
+      "title": "Thermal Development Technician (Starship)",
+      "location": "Starbase, TX",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8716279002?gh_jid=8716279002",
+      "source": "Greenhouse",
+      "posted": "2026-09-29T17:52:51-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
       "years_max": null
     },
     {
@@ -26701,6 +26998,17 @@
       "years_max": null
     },
     {
+      "company": "Tripadvisor",
+      "title": "Field Sales Representative - Flanders",
+      "location": "Antwerp, Belgium",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7796336",
+      "source": "Greenhouse",
+      "posted": "2026-09-25T04:21:24-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Snowflake",
       "title": "Enterprise Account Executive",
       "location": "JP-Tokyo",
@@ -26910,17 +27218,6 @@
       "years_max": null
     },
     {
-      "company": "Mercier Consultancy Group",
-      "title": "Danish Speaking Solutions Consultant Work Sofia Bulgaria",
-      "location": "Remote",
-      "url": "https://remoteOK.com/remote-jobs/remote-danish-speaking-solutions-consultant-work-sofia-bulgaria-mercier-consultancy-group-1137431",
-      "source": "RemoteOK",
-      "posted": "2026-09-24T16:00:06+00:00",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
       "company": "Upgrade",
       "title": "D\u00e9veloppeur(-euse) senior en automatisation AQ \u2013 (Plateforme)",
       "location": "Montreal",
@@ -27009,6 +27306,28 @@
       "years_max": null
     },
     {
+      "company": "Tripadvisor",
+      "title": "Senior Data Scientist, Experimentation",
+      "location": "London",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8230405",
+      "source": "Greenhouse",
+      "posted": "2026-09-24T09:50:19-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Principal Data Scientist, Experimentation",
+      "location": "London",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8230383",
+      "source": "Greenhouse",
+      "posted": "2026-09-24T09:45:21-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Legora",
       "title": "Technical Platform Advisor - Stockholm",
       "location": "Stockholm HQ",
@@ -27081,17 +27400,6 @@
       "url": "https://jobs.paloaltonetworks.com/en/job/zurich/senior-manager-channel-sales/47263/101099070784",
       "source": "Radancy",
       "posted": "2026-09-24",
-      "h1b_sponsor": "unknown",
-      "years_min": null,
-      "years_max": null
-    },
-    {
-      "company": "iMerit Technology",
-      "title": "Video Data Annotator",
-      "location": "Remote",
-      "url": "https://remoteOK.com/remote-jobs/remote-video-data-annotator-imerit-technology-1137428",
-      "source": "RemoteOK",
-      "posted": "2026-09-23T21:40:19+00:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
@@ -27759,8 +28067,8 @@
     {
       "company": "Databricks",
       "title": "Business Development Representative",
-      "location": "Chicago, Illinois",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002",
+      "location": "Washington, D.C.",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423167002",
       "source": "Greenhouse",
       "posted": "2026-09-21T13:22:12-04:00",
       "h1b_sponsor": "yes",
@@ -27770,8 +28078,8 @@
     {
       "company": "Databricks",
       "title": "Business Development Representative",
-      "location": "Washington, D.C.",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423167002",
+      "location": "Chicago, Illinois",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002",
       "source": "Greenhouse",
       "posted": "2026-09-21T13:22:12-04:00",
       "h1b_sponsor": "yes",
@@ -30012,6 +30320,17 @@
       "years_max": null
     },
     {
+      "company": "Matchgroup",
+      "title": "Staff, Machine Learning Research Scientist (Azar)",
+      "location": "Seoul, South Korea",
+      "url": "https://jobs.lever.co/matchgroup/78fa5852-c5ae-42f2-b72a-9c791fcfdd1d",
+      "source": "Lever",
+      "posted": "2026-09-10",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Palo Alto Networks",
       "title": "Senior Consultant, Offensive Security, Proactive Security (Unit 42)",
       "location": "Sao Paulo, S\u00e3o Paulo, Brazil Mexico City, Ciudad de Mexico, Mexico",
@@ -31057,6 +31376,28 @@
       "years_max": null
     },
     {
+      "company": "Tripadvisor",
+      "title": "Technical Customer Support Advisor - Spanish Speaker (B\u00f3kun)",
+      "location": "Oxford, England, United Kingdom",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7874077",
+      "source": "Greenhouse",
+      "posted": "2026-09-04T10:42:23-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 1,
+      "years_max": 3
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Technical Customer Service Advisor - Italian Speaking (Bokun)",
+      "location": "Oxford, England, United Kingdom",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7874067",
+      "source": "Greenhouse",
+      "posted": "2026-09-04T09:55:44-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 1,
+      "years_max": 3
+    },
+    {
       "company": "Legora",
       "title": "Value Engineer",
       "location": "London",
@@ -31395,6 +31736,17 @@
       "posted": "2026-09-02T13:46:47.656+00:00",
       "h1b_sponsor": "unknown",
       "years_min": 2,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Sales Development Associate- B\u00f3kun (6 month fixed term contract)",
+      "location": "London, UK",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7757167",
+      "source": "Greenhouse",
+      "posted": "2026-09-02T04:37:20-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
       "years_max": null
     },
     {
@@ -31970,6 +32322,17 @@
       "years_max": null
     },
     {
+      "company": "Tripadvisor",
+      "title": "Android Engineer (mid-level)",
+      "location": "Krakow, Poland",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8161471",
+      "source": "Greenhouse",
+      "posted": "2026-08-27T09:55:04-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": 2,
+      "years_max": 8
+    },
+    {
       "company": "Anthropic",
       "title": "Staff+ Research Engineer, RL Data Platform",
       "location": "San Francisco, CA | New York City, NY",
@@ -32163,6 +32526,50 @@
       "url": "https://jobs.ashbyhq.com/voleon/d732fd5a-ac98-4985-9e60-d1d59f02a66c",
       "source": "Ashby",
       "posted": "2026-08-25T14:20:14.967+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Principal Product Data Scientist",
+      "location": "London",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7950369",
+      "source": "Greenhouse",
+      "posted": "2026-08-25T14:16:54-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Principal Product Data Scientist ",
+      "location": "Poland",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7978732",
+      "source": "Greenhouse",
+      "posted": "2026-08-25T14:16:54-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Sales Executive - Belgium Market (Flemish Dutch speaking) ",
+      "location": "Barcelona",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7796141",
+      "source": "Greenhouse",
+      "posted": "2026-08-25T14:16:54-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Tripadvisor",
+      "title": "Senior Director of Machine Learning (Experiences)",
+      "location": "London, Oxford, Poland, Krakow ",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8083515",
+      "source": "Greenhouse",
+      "posted": "2026-08-25T14:16:54-04:00",
       "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
@@ -33169,6 +33576,17 @@
       "years_max": null
     },
     {
+      "company": "NT Health",
+      "title": "Gardener Handyman Driver",
+      "location": "Alice Springs, ",
+      "url": "https://remoteOK.com/remote-jobs/remote-gardener-handyman-driver-nt-health-1136625",
+      "source": "RemoteOK",
+      "posted": "2026-08-13T20:09:23+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Reducto",
       "title": "Strategic Partnerships Lead",
       "location": "San Francisco Office",
@@ -33895,6 +34313,17 @@
       "years_max": null
     },
     {
+      "company": "Mavenclinic",
+      "title": "Senior Staff Product Designer, Care Delivery",
+      "location": "New York, NY; Remote, US (Hub cities)",
+      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8599242002",
+      "source": "Greenhouse",
+      "posted": "2026-08-04T09:44:20-04:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Duolingo",
       "title": "Senior Product Designer",
       "location": "Beijing, China",
@@ -34200,6 +34629,17 @@
       "posted": "2026-07-31T09:54:53.132+00:00",
       "h1b_sponsor": "unknown",
       "years_min": 2,
+      "years_max": null
+    },
+    {
+      "company": "Matchgroup",
+      "title": "Quality Engineering Lead",
+      "location": "Tokyo",
+      "url": "https://jobs.lever.co/matchgroup/a7ed5a7e-d47a-4c87-80e7-0bfd7a446a59",
+      "source": "Lever",
+      "posted": "2026-07-31",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
       "years_max": null
     },
     {
@@ -35512,6 +35952,39 @@
       "years_max": null
     },
     {
+      "company": "Vals Ai",
+      "title": "Member of Technical Staff - Research",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/vals-ai/7f54d989-4999-4857-b480-e6d113a263aa",
+      "source": "Ashby",
+      "posted": "2026-06-27T00:59:01.495+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Vals Ai",
+      "title": "Member of Technical Staff - Platform",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/vals-ai/de59bff8-d14d-489a-96d9-b0a5cfceea4f",
+      "source": "Ashby",
+      "posted": "2026-06-27T00:57:08.524+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Vals Ai",
+      "title": "Evaluations Engineer",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/vals-ai/13d02313-e987-46ee-8b1c-426ea58e8bd6",
+      "source": "Ashby",
+      "posted": "2026-06-27T00:56:00.955+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
       "company": "Physicalintelligence",
       "title": "Strategic Project Lead",
       "location": "San Francisco",
@@ -35584,6 +36057,17 @@
       "url": "https://jobs.ashbyhq.com/legora/5b15c4aa-effa-4b9c-95bc-c061c70dfca9",
       "source": "Ashby",
       "posted": "2026-06-25T06:20:43.284+00:00",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
+      "years_max": null
+    },
+    {
+      "company": "Matchgroup",
+      "title": "Senior Engineering Manager, Enablement",
+      "location": "New York, New York",
+      "url": "https://jobs.lever.co/matchgroup/2695c869-f0d4-4d61-8522-716338cf9508",
+      "source": "Lever",
+      "posted": "2026-06-25",
       "h1b_sponsor": "unknown",
       "years_min": null,
       "years_max": null
@@ -35817,6 +36301,17 @@
       "posted": "2026-06-11T02:11:13.217+00:00",
       "h1b_sponsor": "unknown",
       "years_min": 2,
+      "years_max": null
+    },
+    {
+      "company": "Matchgroup",
+      "title": "Senior Data & Analytics Engineer (Azar)",
+      "location": "Seoul, South Korea",
+      "url": "https://jobs.lever.co/matchgroup/e413396c-265b-4856-a83a-e217b4072af5",
+      "source": "Lever",
+      "posted": "2026-06-11",
+      "h1b_sponsor": "unknown",
+      "years_min": null,
       "years_max": null
     },
     {
