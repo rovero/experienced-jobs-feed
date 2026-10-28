@@ -184,6 +184,16 @@ lever:
   #   postings confirm brand, 68 jobs)
   - matchgroup
 
+  # --- Added 2026-10-27: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET api.lever.co/v0/postings (non-empty array) by the
+  # watch task AND re-verified by the main agent 2026-10-27 (1 posting).
+  # `far-ai` = FAR.AI (non-profit frontier AI safety research institute, SF;
+  #   JD boilerplate "FAR.AI is a non-profit AI research institute" +
+  #   talent@far.ai confirms brand). NOTE: board is tiny — the only
+  #   posting at verification is Head of Engineering (SF, full-time), not
+  #   an IC SWE role; added so the feed picks up future SWE postings.
+  - far-ai
+
 ashby:
   - ramp
   - linear
@@ -407,6 +417,21 @@ ashby:
   #   Staff - Platform/Research" titles confirm brand, 10 jobs)
   - vals-ai
 
+  # --- Added 2026-10-27: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each verified live via GET api.ashbyhq.com/posting-api (HTTP 200) by the
+  # watch task AND re-verified by the main agent 2026-10-27 (same counts:
+  # 35 / 354).
+  # `replit` = Replit (agentic software-creation platform, Foster City;
+  #   "Senior Software Engineer, Compute Platform", "Staff Software
+  #   Engineer, Agentic Commerce & Payments", "Software Engineer,
+  #   Enterprise" titles confirm brand, 35 jobs)
+  # `crusoe` = Crusoe (AI cloud / neocloud data-center company, SF +
+  #   Denver; "Staff Product Security Engineer", "Senior Network
+  #   Production Engineer, Network Ops" titles confirm brand, 354 jobs —
+  #   includes a Bellevue, WA posting)
+  - replit
+  - crusoe
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -604,6 +629,15 @@ ashby:
 #     (empty/private); GH/Lever 404 — not added
 #   - tsmc            : GH/Lever/Ashby all 404 — no public ATS
 #   - shopify         : GH/Lever/Ashby all 404 — no public ATS
+#
+# Checked 2026-10-27 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - rokt            : GH/Lever/Ashby all 404 — no public ATS
+#     (Rokt e-commerce tech, own careers page rokt.com/company/careers)
+#   - ivo             : Lever board `ivo` exists but returns 0 jobs
+#     (empty/private); GH/Ashby 404 — not added
+#   - analogdevices   : GH/Lever/Ashby all 404 — no public ATS
+#     (Analog Devices own careers page; this round's post was a
+#     hardware/EE role anyway)
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
