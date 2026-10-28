@@ -154,6 +154,15 @@ greenhouse:
   - mavenclinic
   - tripadvisor
 
+  # --- Added 2026-10-28: Canada work-permit-friendly employers (user request) ---
+  # Innovation Stream (Global Hypergrowth Project) employers can hire
+  # foreign nationals from outside Canada on LMIA-exempt work permits.
+  # `alayacare` = AlayaCare (home-healthcare SaaS, Montreal/Toronto;
+  # verified live 2026-10-28 via GET boards-api.greenhouse.io — 23 jobs,
+  # JD boilerplate "About AlayaCare... transforming home healthcare"
+  # confirms brand; includes Fullstack Developer roles in Montreal)
+  - alayacare
+
 lever:
   # notion -> moved to Ashby (slug `notion`, verified live 2026-09-27)
   # netlify -> moved to Greenhouse (slug `netlify`, verified live 2026-09-27)
@@ -432,6 +441,22 @@ ashby:
   - replit
   - crusoe
 
+  # --- Added 2026-10-28: Canada work-permit-friendly employers (user request) ---
+  # Each verified live via GET api.ashbyhq.com/posting-api (HTTP 200) AND
+  # brand cross-checked 2026-10-28.
+  # `lightspeedhq` = Lightspeed Commerce (retail/restaurant SaaS,
+  #   Montreal; Innovation Stream employer — LMIA-exempt work permits for
+  #   out-of-Canada hires; 119 jobs, JD text "offering of our Financial
+  #   services... Lightspeed customers" + Lightspeed Capital roles confirm
+  #   brand). NOTE: Ashby slug `lightspeed` (5 jobs, residential-design /
+  #   robot-learning titles) is a DIFFERENT company — do not use it.
+  # `wealthsimple` = Wealthsimple (Canadian fintech, Toronto; active
+  #   GTS/LMIA user for international tech hires; 41 jobs, JD boilerplate
+  #   "Wealthsimple is Canada's leading financial innovator" confirms
+  #   brand; includes Staff Software Developer, Production Engineering)
+  - lightspeedhq
+  - wealthsimple
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -638,6 +663,28 @@ ashby:
 #   - analogdevices   : GH/Lever/Ashby all 404 — no public ATS
 #     (Analog Devices own careers page; this round's post was a
 #     hardware/EE role anyway)
+#
+# Checked 2026-10-28 (user request: Canada work-permit-friendly employers —
+# the Innovation Stream / GTS list from the EE discussion):
+#   - ada, clio, clarius, cellcarta, duchesnay, vive (Vive Crop
+#     Protection) : the remaining Innovation Stream (Global Hypergrowth
+#     Project) employers — GH/Lever/Ashby/SmartRecruiters all 404 or
+#     empty on every plausible slug variant checked 2026-10-28; own
+#     careers platforms. (AlayaCare + Lightspeed from the same list of 8
+#     WERE addable — see greenhouse/ashby sections above.) Ada is
+#     reported by a third-party aggregator as Greenhouse-hosted but no
+#     working slug was found — recheck later.
+#   - opentext      : GH/Lever/Ashby all 404 — own platform (Waterloo)
+#   - rbc, td, scotiabank, bmo, cibc : Canadian banks — no public ATS on
+#     GH/Lever/Ashby (own platforms / Workday); like the US banks noted
+#     2026-10-07, these belong to a direct-watch lane, not this feed
+#   - sap (SAP Canada) : jobs.sap.com runs on SAP SuccessFactors — see
+#     the SAP note by the workday: section below; no verified public
+#     endpoint
+#   - shopify       : re-confirmed — already noted 2026-10-24 (all 404)
+#   - amazon, google, microsoft, meta, apple (Canada) : already covered —
+#     own platforms, listed in h1b.known_sponsors below and covered by
+#     the daily sweep's company-watch lane
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
