@@ -163,6 +163,85 @@ greenhouse:
   # confirms brand; includes Fullstack Developer roles in Montreal)
   - alayacare
 
+  # --- Added 2026-10-28: cloud-infra expansion (user request — feed users
+  # asked for more cloud infrastructure companies) ---
+  # Each verified live via GET boards-api.greenhouse.io (HTTP 200, non-empty
+  # jobs) AND board name confirmed via the boards API `name` field (rules
+  # out slug collisions). Counts observed 2026-10-28.
+  # `backblaze` = Backblaze (cloud storage/backup, board "Backblaze
+  #   External Website", 33 jobs — 12 infra-titled)
+  # `buildkite` = Buildkite (CI platform, 8 jobs — Cloud Efficiency /
+  #   DevOps / Agents SWE titles)
+  # `circleci` = CircleCI (CI/CD platform, board name "CircleCI", 14 jobs)
+  #   — this is the CI company, NOT Circle the fintech.
+  # `cockroachlabs` = Cockroach Labs (distributed SQL DB, 14 jobs — board
+  #   returned 0 jobs in the 2026-10-03 check, live again; MTS indexing
+  #   SWE role)
+  # `coreweave` = CoreWeave (GPU cloud, 311 jobs — 34 infra-titled)
+  # `fastly` = Fastly (edge cloud/CDN, 53 jobs)
+  # `grafanalabs` = Grafana Labs (observability, 131 jobs)
+  # `harnessinc` = Harness (CI/CD + AppSec platform, 67 jobs)
+  # `launchdarkly` = LaunchDarkly (feature-flag / dev platform, 51 jobs)
+  # `minio` = MinIO (object storage, 31 jobs)
+  # `pulumicorporation` = Pulumi (IaC, board name "Pulumi", 4 jobs)
+  # `rubrik` = Rubrik (cloud data management/backup, 152 jobs)
+  # `singlestore` = SingleStore (distributed SQL DB, 40 jobs — Cloud
+  #   Platform Engineer title)
+  # `tigera` = Tigera (Calico k8s networking/security, 6 jobs)
+  # `togetherai` = Together AI (AI cloud infra, 87 jobs — 31 infra-titled)
+  # `wasabi` = Wasabi Technologies (cloud storage, 12 jobs)
+  # `wizinc` = Wiz (cloud security, board name "Wiz, Inc.", 122 jobs)
+  # `yugabyte` = YugabyteDB (distributed DB, 13 jobs)
+  - backblaze
+  - buildkite
+  - circleci
+  - cockroachlabs
+  - coreweave
+  - fastly
+  - grafanalabs
+  - harnessinc
+  - launchdarkly
+  - minio
+  - pulumicorporation
+  - rubrik
+  - singlestore
+  - tigera
+  - togetherai
+  - wasabi
+  - wizinc
+  - yugabyte
+
+  # --- Added 2026-10-28: data-engineering / data-platform expansion (user
+  # request — feed users asked for companies hiring data engineers) ---
+  # Verified the same way as the cloud-infra block above (boards-API name
+  # field + non-empty jobs, 2026-10-28).
+  # `acryldata` = DataHub (Acryl Data; board name literally "DataHub",
+  #   3 jobs — DevOps + Staff Backend, Catalog)
+  # `celigo` = Celigo (iPaaS / integration platform, 21 jobs — includes a
+  #   "Data Engineer" title)
+  # `collibra` = Collibra (data governance/catalog, 26 jobs)
+  # `dataiku` = Dataiku (data platform, 14 jobs — Infrastructure Engineer
+  #   + Fullstack SWE, Core titles)
+  # `dremio` = Dremio (data lake query engine, 7 jobs — Query Execution
+  #   SWE titles)
+  # `imply` = Imply (Druid real-time analytics DB, 5 jobs)
+  # `samsara` = Samsara (IoT / connected-operations data platform,
+  #   322 jobs — 13 data-engineer-titled, 14 infra-titled)
+  # `sigmacomputing` = Sigma Computing (BI/analytics, 77 jobs)
+  # `starburst` = Starburst (Trino data query engine, 35 jobs)
+  # `workato` = Workato (integration/automation platform, 54 jobs —
+  #   includes an "Analytics Engineer" title)
+  - acryldata
+  - celigo
+  - collibra
+  - dataiku
+  - dremio
+  - imply
+  - samsara
+  - sigmacomputing
+  - starburst
+  - workato
+
 lever:
   # notion -> moved to Ashby (slug `notion`, verified live 2026-09-27)
   # netlify -> moved to Greenhouse (slug `netlify`, verified live 2026-09-27)
@@ -202,6 +281,24 @@ lever:
   #   posting at verification is Head of Engineering (SF, full-time), not
   #   an IC SWE role; added so the feed picks up future SWE postings.
   - far-ai
+
+  # --- Added 2026-10-28: data-platform / integration expansion (user
+  # request — feed users asked for cloud-infra + data-engineer companies) ---
+  # Each verified live via GET api.lever.co/v0/postings (non-empty array)
+  # AND brand cross-checked via the jobs.lever.co page title, 2026-10-28.
+  # `collate` = Collate (OpenMetadata company, 17 jobs — DevOps Platform
+  #   Engineer title)
+  # `keboola` = Keboola (data integration platform, 3 jobs — includes a
+  #   "Data Engineer" title)
+  # `matillion` = Matillion (ELT / data integration, 22 jobs)
+  # `metabase` = Metabase (BI/analytics, 19 jobs — includes an "Analytics
+  #   Engineer" title)
+  # `snaplogic` = SnapLogic (iPaaS / integration platform, 12 jobs)
+  - collate
+  - keboola
+  - matillion
+  - metabase
+  - snaplogic
 
 ashby:
   - ramp
@@ -457,6 +554,76 @@ ashby:
   - lightspeedhq
   - wealthsimple
 
+  # --- Added 2026-10-28: cloud-infra expansion (user request — feed users
+  # asked for more cloud infrastructure companies) ---
+  # Each verified live via GET api.ashbyhq.com/posting-api (HTTP 200,
+  # non-empty jobs) AND brand cross-checked against job titles, 2026-10-28.
+  # `coder` = Coder (cloud dev environments, 27 jobs)
+  # `e2b` = E2B (AI-agent cloud sandboxes, 14 jobs — Platform Engineer
+  #   titles)
+  # `infisical` = Infisical (secrets/dev infra, 12 jobs)
+  # `kong` = Kong (API gateway platform, 101 jobs — SRE / Managed
+  #   Gateways SWE titles)
+  # `lambda` = Lambda (GPU cloud, 94 jobs — 22 infra-titled: Fleet
+  #   Engineering, Infrastructure Storage, HPC Platform)
+  # `livekit` = LiveKit (WebRTC infra, 30 jobs — Infrastructure Security)
+  # `modal` = Modal (serverless AI infra, 43 jobs — MTS Systems titles)
+  # `railway` = Railway (cloud hosting platform, 7 jobs — nearly all
+  #   infra: Platform Storage, Infra Observability, Baremetal
+  #   Orchestration, Datacenter Infra)
+  # `redis` = Redis (database platform, 27 jobs)
+  # `runpod` = RunPod (GPU cloud, 28 jobs)
+  # `signoz` = SigNoz (open-source observability platform, 13 jobs)
+  # `temporal` = Temporal (workflow platform, 73 jobs — 14 infra-titled)
+  # `vultr` = Vultr (cloud hosting provider, 51 jobs — Data Center /
+  #   Linux Systems / Platform titles)
+  # `workos` = WorkOS (auth/SSO infra, 28 jobs — Infrastructure
+  #   Engineer, SRE title)
+  - coder
+  - e2b
+  - infisical
+  - kong
+  - lambda
+  - livekit
+  - modal
+  - railway
+  - redis
+  - runpod
+  - signoz
+  - temporal
+  - vultr
+  - workos
+
+  # --- Added 2026-10-28: data-engineering / data-platform expansion
+  # (user request, same round as the cloud-infra block above) ---
+  # Verified the same way (Ashby GET + title brand check, 2026-10-28).
+  # `astronomer` = Astronomer (Astro / Airflow data platform, 19 jobs —
+  #   Senior SWE, Platform titles)
+  # `atlan` = Atlan (data catalog, 7 jobs — Staff SWE, Infrastructure +
+  #   Principal SWE, Agent & App Platform titles)
+  # `datafold` = Datafold (data observability/diffing, 5 jobs — 3 of them
+  #   literally "Forward Deployed Data Engineer")
+  # `influxdata` = InfluxData (time-series DB, 5 jobs — SWE, Database
+  #   Reliability & Performance title)
+  # `materialize` = Materialize (streaming SQL DB, 4 jobs — Senior/Staff
+  #   SWE, Database title)
+  # `montecarlodata` = Monte Carlo (data observability, 10 jobs)
+  # `motherduck` = MotherDuck (DuckDB cloud warehouse, 4 jobs — SWE,
+  #   Database title)
+  # `omni` = Omni (BI/analytics platform, 35 jobs — SWE, Growth Data
+  #   Platform title)
+  # `tigerdata` = TigerData (ex-Timescale, Postgres data platform,
+  #   8 jobs — Senior Platform Engineer, Postgres Specialist title)
+  - astronomer
+  - atlan
+  - datafold
+  - influxdata
+  - materialize
+  - montecarlodata
+  - motherduck
+  - omni
+  - tigerdata
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -663,6 +830,25 @@ ashby:
 #   - analogdevices   : GH/Lever/Ashby all 404 — no public ATS
 #     (Analog Devices own careers page; this round's post was a
 #     hardware/EE role anyway)
+#
+# Checked 2026-10-28 (cloud-infra + data-platform expansion round):
+#   - digitalocean, hashicorp : GH/Lever/Ashby all 404 — no public ATS
+#     found (own / Workday platforms)
+#   - dbt labs (dbt, dbt-labs, dbtlabs, getdbt), dagster (dagster,
+#     dagsterlabs, dagster-labs), aiven (aiven, aivenoy, aivenio) :
+#     no live board on GH/Lever/Ashby under any tried slug — not added
+#   - axiom (Greenhouse) : board belongs to Axiom the legal-services
+#     company (HR/BI titles), NOT Axiom the log-infra platform — slug
+#     collision, excluded
+#   - cube (Ashby)      : board content (content-capture / data-quality
+#     analyst titles) does not match Cube the semantic-layer company —
+#     identity unverified, excluded
+#   - encore (Greenhouse): board belongs to an events/training company
+#     (Istanbul program titles), NOT Encore the backend framework —
+#     slug collision, excluded
+#   - neon (Lever)      : re-confirmed Brazilian bank, NOT Neon the
+#     database company (already noted 2026-09-27); neon (Ashby) has
+#     only 1 job, identity unverified — not added either way
 #
 # Checked 2026-10-28 (user request: Canada work-permit-friendly employers —
 # the Innovation Stream / GTS list from the EE discussion):
