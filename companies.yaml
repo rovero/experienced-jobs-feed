@@ -242,6 +242,14 @@ greenhouse:
   - starburst
   - workato
 
+  # --- Added 2026-10-30: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET boards-api.greenhouse.io (HTTP 200) by the
+  # watch task AND re-verified by the main agent 2026-10-30 (22 jobs).
+  # `liftoff` = Liftoff (mobile marketing / app growth; board name
+  # "Liftoff" confirms brand; Ashby `liftoff` is an empty board, so
+  # Greenhouse is the correct adapter)
+  - liftoff
+
 lever:
   # notion -> moved to Ashby (slug `notion`, verified live 2026-09-27)
   # netlify -> moved to Greenhouse (slug `netlify`, verified live 2026-09-27)
@@ -299,6 +307,13 @@ lever:
   - matillion
   - metabase
   - snaplogic
+
+  # --- Added 2026-10-30: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET api.lever.co/v0/postings (non-empty array) by
+  # the watch task AND re-verified by the main agent 2026-10-30 (89 jobs).
+  # `spotify` = Spotify (music streaming; "Account Executive -
+  #   Commercial, Spotify Technology" confirms brand)
+  - spotify
 
 ashby:
   - ramp
@@ -624,6 +639,21 @@ ashby:
   - omni
   - tigerdata
 
+  # --- Added 2026-10-30: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each verified live via GET api.ashbyhq.com/posting-api/job-board
+  # (HTTP 200, non-empty jobs) by the watch task AND re-verified by the
+  # main agent 2026-10-30 (same counts). Brand cross-checked via job
+  # titles (collision rule: GH `nooks` is a different company, so
+  # Ashby is the correct adapter for Nooks).
+  # `close` = Close (CRM software; 6 jobs — Senior Backend/Frontend
+  #   Engineer, USA remote, CRM titles confirm brand)
+  # `helm-ai` = Helm.ai (autonomous-vehicle software; 8 jobs —
+  #   Software Engineer, Autonomous Vehicles titles confirm brand)
+  # `nooks` = Nooks (AI sales prospecting platform; 55 jobs)
+  - close
+  - helm-ai
+  - nooks
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -871,6 +901,10 @@ ashby:
 #   - amazon, google, microsoft, meta, apple (Canada) : already covered —
 #     own platforms, listed in h1b.known_sponsors below and covered by
 #     the daily sweep's company-watch lane
+#
+# Checked 2026-10-30 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - nutanix, augment code, box : GH/Lever/Ashby all 404 — no public
+#     ATS (own careers platforms); do not re-verify routinely
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
