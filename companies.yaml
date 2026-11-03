@@ -654,6 +654,17 @@ ashby:
   - helm-ai
   - nooks
 
+  # --- Added 2026-11-02: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET api.ashbyhq.com/posting-api/job-board
+  # (HTTP 200, 39 jobs) by the watch task AND re-verified by the
+  # main agent 2026-11-02 (same count). Brand cross-checked via job
+  # titles and web search: Bobyard = SF AI construction-takeoff
+  # platform (computer vision + NLP on drawings), Series A backed by
+  # 8VC/Primary/Pear; board titles include Fullstack Engineer,
+  # Senior Fullstack Engineer, Forward Deployed Engineer, all SF.
+  # `bobyard` = Bobyard (AI takeoff/estimation for contractors; 39 jobs)
+  - bobyard
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -905,6 +916,11 @@ ashby:
 # Checked 2026-10-30 (discovered via 1point3acres 面经 scan, 72h watch):
 #   - nutanix, augment code, box : GH/Lever/Ashby all 404 — no public
 #     ATS (own careers platforms); do not re-verify routinely
+#
+# Checked 2026-11-02 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - us-bank, compass, instalily, sambanova, infuel-ai : GH/Lever/Ashby
+#     all 404 — no public ATS; do not re-verify routinely. Note: Infuel
+#     AI's 内推帖 explicitly supports H1B but has no addable board.
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
