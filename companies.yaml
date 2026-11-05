@@ -26,6 +26,17 @@ greenhouse:
   - robinhood
   - coinbase
 
+  # --- Added 2026-11-04: user-surfaced (she found a Seattle SWE II role) ---
+  # Verified live against boards-api.greenhouse.io by the main agent
+  # 2026-11-04 (101 jobs; board name/brand is Qualtrics itself).
+  # `qualtrics` = Qualtrics (experience-management platform; Seattle
+  #   HQ presence; SWE II Seattle roles posted 2026-11-02/11-04).
+  # NOTE: qualtrics.com careers runs on Phenom, which serves a FALSE
+  # "job has been filled" template to text fetchers — liveness must be
+  # checked in a live browser (verified 2026-11-04: 3 roles the fetcher
+  # called filled were all live with Apply buttons).
+  - qualtrics
+
   # --- Added 2026-09-27: 30 verified Greenhouse boards ---
   # Each slug verified live against boards-api.greenhouse.io
   # (known H-1B sponsors hiring frontend/full-stack engineers).
