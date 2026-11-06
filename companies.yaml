@@ -37,6 +37,18 @@ greenhouse:
   # called filled were all live with Apply buttons).
   - qualtrics
 
+  # --- Added 2026-11-05: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live by the watch task AND re-verified by the main agent
+  # 2026-11-05: boards-api /jobs endpoint returns 50 jobs (note: the
+  # boards-api root returns metadata only, no jobs key — use /jobs).
+  # `kikoff` = Kikoff (SF consumer fintech unicorn — credit building /
+  # cash advances; 12 SWE-ish roles: Senior Backend/Frontend/Fullstack,
+  # Product Platform, Staff Web Applications, all SF hybrid).
+  # JD EXPLICITLY states H1B sponsorship: "Visa sponsorship available:
+  # Kikoff is willing to provide sponsorship for H1-B visas and U.S.
+  # green cards for exceptional talent".
+  - kikoff
+
   # --- Added 2026-09-27: 30 verified Greenhouse boards ---
   # Each slug verified live against boards-api.greenhouse.io
   # (known H-1B sponsors hiring frontend/full-stack engineers).
@@ -676,6 +688,19 @@ ashby:
   # `bobyard` = Bobyard (AI takeoff/estimation for contractors; 39 jobs)
   - bobyard
 
+  # --- Added 2026-11-05: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET api.ashbyhq.com/posting-api/job-board
+  # (HTTP 200, 19 jobs) by the watch task AND re-verified by the
+  # main agent 2026-11-05 (same count). Brand cross-checked via job
+  # titles: WisdomAI = San Mateo AI data-analytics startup (agentic
+  # data-insights platform, founded 2023, $73M raised); SWE roles:
+  # Backend / Platforms / Frontend-Fullstack, MLE, Research Engineer,
+  # US roles all San Mateo onsite (plus Bengaluru roles).
+  # NOTE: slug is `wisdom-ai` — the Lever board `wisdomai` returns
+  # 0 jobs (empty/private), do not use it.
+  # `wisdom-ai` = WisdomAI (AI data analytics; 19 jobs)
+  - wisdom-ai
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -932,6 +957,21 @@ ashby:
 #   - us-bank, compass, instalily, sambanova, infuel-ai : GH/Lever/Ashby
 #     all 404 — no public ATS; do not re-verify routinely. Note: Infuel
 #     AI's 内推帖 explicitly supports H1B but has no addable board.
+#
+# Checked 2026-11-05 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - verily, mathworks, cvs health : GH/Lever/Ashby all 404 — no public
+#     ATS (own careers platforms); do not re-verify routinely
+#   - siemens         : GH/Lever/Ashby all 404 — own platform (this round
+#     was a Siemens EDA 内推; already noted 2026-10-14, re-confirmed)
+#   - topideal        : GH/Lever/Ashby all 404 — company identity itself
+#     uncertain (seen only as an 内推帖 @tag) — not recorded
+#   - bnsf            : GH/Lever/Ashby all 404 — own platform; matches the
+#     historical note (self-hosted careers site)
+#   - circle          : re-confirmed 2026-11-05 — @circle in this round's
+#     面经 is Circle the fintech, already rejected 2026-09-28 (CircleCI
+#     uses Greenhouse `circleci`, a different company); no change
+#   - ode             : re-confirmed 2026-11-05 — GH/Lever/Ashby all 404,
+#     identity still unverified (already noted 2026-10-14/10-15)
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
