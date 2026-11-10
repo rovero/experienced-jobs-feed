@@ -49,6 +49,15 @@ greenhouse:
   # green cards for exceptional talent".
   - kikoff
 
+  # --- Added 2026-11-08: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live by the watch task AND re-verified by the main agent
+  # 2026-11-08: boards-api /jobs endpoint returns 19 jobs (note: the
+  # boards-api root returns metadata only, no jobs key — use /jobs).
+  # `tabapay` = TabaPay (instant-payments fintech, Palo Alto; 5 SWE-ish
+  # roles: Software Engineer, Senior DevOps Engineer, DevOps Engineer
+  # Associate, Data Engineer, QA Engineer — all Palo Alto).
+  - tabapay
+
   # --- Added 2026-09-27: 30 verified Greenhouse boards ---
   # Each slug verified live against boards-api.greenhouse.io
   # (known H-1B sponsors hiring frontend/full-stack engineers).
@@ -701,6 +710,19 @@ ashby:
   # `wisdom-ai` = WisdomAI (AI data analytics; 19 jobs)
   - wisdom-ai
 
+  # --- Added 2026-11-08: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET api.ashbyhq.com/posting-api/job-board by the
+  # watch task AND re-verified by the main agent 2026-11-08 (same counts).
+  # Brand cross-checked via job titles (departments/titles confirm brand).
+  # `typesafe-ai` = TypeSafe AI (SF AI startup; 17 jobs, 6 engineering:
+  # Model Capabilities, Platform & Infra, SWE Generalist, Full-Stack /
+  # Front-end, Console Engineer (Full-Stack), Data Platform — all SF).
+  # `handshake` = Handshake (career platform for students/early talent;
+  # 78 jobs, 24 SWE-ish incl. Staff/Senior SWE Consumer & Operator
+  # Experience, LLM Platform, MTS AI Engineering — mostly SF, some India).
+  - typesafe-ai
+  - handshake
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -972,6 +994,12 @@ ashby:
 #     uses Greenhouse `circleci`, a different company); no change
 #   - ode             : re-confirmed 2026-11-05 — GH/Lever/Ashby all 404,
 #     identity still unverified (already noted 2026-10-14/10-15)
+#
+# Checked 2026-11-08 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - github, fractal analytics, geico, ibm : GH/Lever/Ashby all 404 —
+#     no public ATS (own careers platforms); do not re-verify routinely.
+#     Note: IBM was mis-grouped in the 2026-10-06 round without a check;
+#     this is its first verified 404.
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
