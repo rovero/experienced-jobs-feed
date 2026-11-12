@@ -723,6 +723,28 @@ ashby:
   - typesafe-ai
   - handshake
 
+  # --- Added 2026-11-11: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each verified live via GET api.ashbyhq.com/posting-api/job-board
+  # (HTTP 200, non-empty jobs) by the watch task AND re-verified by the
+  # main agent 2026-11-11 (same counts). Brand cross-checked via job
+  # titles (titles/departments confirm brand). None of the three boards
+  # mentions H1B sponsorship in its postings (no H1B signal recorded).
+  # `abby-care` = Abby Care (SF AI-native home-care platform,
+  # abbycare.org; 27 jobs — SWE: Senior Mobile Engineer (React Native),
+  # Applied AI Engineer, Senior Applied AI Engineer, all SF hybrid
+  # 4 d/wk; remaining 24 roles are care/ops).
+  # `powertown` = Powertown (Boston battery-storage company; 8 jobs —
+  # SWE: Software Engineer, AI Engineer, Machine Learning Engineer,
+  # Member of Technical Staff, all Boston onsite; plus 2 term-time
+  # intern roles).
+  # `quora` = Quora (Q&A platform; 8 jobs — SWE: Senior SWE
+  # Infrastructure Security, Senior MLE Ads/Ranking/Recommendation,
+  # Full Stack SWE New Grad; all Remote-US; 3 of 8 are new-grad roles,
+  # 5 are experienced roles).
+  - abby-care
+  - powertown
+  - quora
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -1000,6 +1022,18 @@ ashby:
 #     no public ATS (own careers platforms); do not re-verify routinely.
 #     Note: IBM was mis-grouped in the 2026-10-06 round without a check;
 #     this is its first verified 404.
+#
+# Checked 2026-11-11 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - extrahop-networks, stubhub, hsbc, optum : GH/Lever/Ashby all 404 —
+#     no public ATS (own careers platforms); do not re-verify routinely.
+#     Note: ExtraHop's source post is title/tag-inconsistent ("Docker
+#     Senior SWE" title, @extrahop-networks tag) — counted as ExtraHop
+#     per the @tag rule, flagged as uncertain. Optum's source post was an
+#     Applied Scientist role, not SWE.
+#   - cisco : no public ATS (own platform) — already noted 2026-10-03;
+#     re-confirmed this round. Its 内推帖 explicitly says 支持h1b，perm
+#     — H1B signal recorded, but the board is not feed-addable; Cisco
+#     roles stay on the direct-search lane.
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
