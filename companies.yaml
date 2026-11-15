@@ -58,6 +58,18 @@ greenhouse:
   # Associate, Data Engineer, QA Engineer — all Palo Alto).
   - tabapay
 
+  # --- Added 2026-11-14: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live by the watch task AND re-verified by the main agent
+  # 2026-11-14: boards-api /jobs endpoint returns 25 jobs (note: the
+  # boards-api root returns metadata only, no jobs key — use /jobs).
+  # `tubitv` = Tubi (Fox-owned streaming platform, SF/LA/NY; SWE:
+  # Senior SWE Backend, Staff SWE Backend / ML Infra & Distributed
+  # Systems, Senior SWE WebOTT, Senior/Staff SWE iOS — mostly SF
+  # hybrid, plus Toronto Canada roles). No H1B mention recorded.
+  # NOTE: GH `tubi` is a separate 1-job board (College Brand Manager),
+  # likely a stale leftover — use `tubitv`, not `tubi`.
+  - tubitv
+
   # --- Added 2026-09-27: 30 verified Greenhouse boards ---
   # Each slug verified live against boards-api.greenhouse.io
   # (known H-1B sponsors hiring frontend/full-stack engineers).
@@ -745,6 +757,28 @@ ashby:
   - powertown
   - quora
 
+  # --- Added 2026-11-14: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each verified live via GET api.ashbyhq.com/posting-api/job-board
+  # (HTTP 200, non-empty jobs) by the watch task AND re-verified by the
+  # main agent 2026-11-14 (same counts). Brand cross-checked via job
+  # titles (titles/departments confirm brand). No SWE posting on either
+  # board states H1B sponsorship (no H1B signal recorded on SWE roles).
+  # `etched` = Etched (AI inference-chip company, etched.ai, San Jose;
+  # 115 jobs — mostly ASIC/RTL/DV/physical-design hardware roles; SWE:
+  # Infrastructure Software Engineer, Kernel Driver Software Engineer,
+  # Supercomputing Engineer (Fleet Software), MTS Inference Performance
+  # Visibility, all San Jose onsite. Hardware-dominant board: limited
+  # full-stack coverage. One People Ops JD mentions handling H-1B/O-1/
+  # green-card cases, so the company has sponsored before, but no SWE
+  # JD states sponsorship.)
+  # `gimlet` = Gimlet Labs (multi-silicon AI-inference neocloud, SF,
+  # Series B $300M 2026-09; 17 jobs — SWE: Member of Technical Staff
+  # Compiler / Distributed Systems / Kernels / ML Systems & Inference /
+  # Infrastructure, Network Engineer, all SF onsite. Infra/ML-systems
+  # dominant board: limited full-stack coverage.)
+  - etched
+  - gimlet
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -1034,6 +1068,15 @@ ashby:
 #     re-confirmed this round. Its 内推帖 explicitly says 支持h1b，perm
 #     — H1B signal recorded, but the board is not feed-addable; Cisco
 #     roles stay on the direct-search lane.
+#
+# Checked 2026-11-14 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - superhuman : GH/Lever/Ashby all 404 — no public ATS (Superhuman
+#     email-client company, own careers page); do not re-verify routinely.
+#   - 大獭科技 : identity uncertain — no registered-company record found
+#     for the name; "大獭" = otter nickname hypothesis unproven; GH
+#     `otter` (22 jobs) and `otterai` (18 jobs) both exist and cannot be
+#     told apart, so no slug was verified or recorded. Do not re-verify
+#     routinely; revisit only if a later post clarifies the identity.
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
