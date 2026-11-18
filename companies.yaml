@@ -294,6 +294,30 @@ greenhouse:
   # Greenhouse is the correct adapter)
   - liftoff
 
+  # --- Added 2026-11-17: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Each verified live via GET boards-api.greenhouse.io/v1/boards/<slug>/jobs
+  # (HTTP 200, non-empty jobs) by the watch task AND re-verified by the
+  # main agent 2026-11-17 (same counts). Brand cross-checked via job
+  # titles (titles/departments confirm brand). None of the three boards
+  # mentions H1B sponsorship in its postings (no H1B signal recorded).
+  # `crunchyroll` = Crunchyroll (Sony anime streaming; 99 jobs — SWE:
+  # Senior SWE (LA), Senior SWE EDGE Discovery (SF), SWE II Android
+  # (SF), SWE III Apple / Media Delivery (SF), Staff SRE (LA/SF),
+  # Forward Deployed Engineer AI Enablement (LA); US roles 58).
+  # `karat` = Karat (technical-interview platform, karat.com; 12 jobs —
+  # SWE: Senior SWE (Remote US), Principal Product Engineer - Interview
+  # Innovation (Remote US), Community Engineer (SWE3) (Remote US).
+  # NOTE: Karat is also Crunchyroll's interview vendor in the source
+  # 面经 post, but Karat has its own US-remote SWE roles on this board.)
+  # `xantium` = Xantium (quantitative trading firm, London/NYC/SLC/
+  # Abu Dhabi; 10 jobs — Quantitative Developer, Infrastructure
+  # Generalist, Quantitative Researcher. QUANT-ONLY board: no
+  # full-stack/product SWE roles; limited coverage, included on the
+  # Etched/Gimlet precedent — remove on her call if unwanted.)
+  - crunchyroll
+  - karat
+  - xantium
+
 lever:
   # notion -> moved to Ashby (slug `notion`, verified live 2026-09-27)
   # netlify -> moved to Greenhouse (slug `netlify`, verified live 2026-09-27)
@@ -779,6 +803,20 @@ ashby:
   - etched
   - gimlet
 
+  # --- Added 2026-11-17: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET api.ashbyhq.com/posting-api/job-board/plaud
+  # (HTTP 200, non-empty jobs) by the watch task AND re-verified by the
+  # main agent 2026-11-17 (board live, Plaud Inc. jobs confirmed; JD
+  # text "About Plaud Inc. — Plaud is building the real-world AI
+  # interface for professionals…" confirms brand). No SWE posting on
+  # the board states H1B sponsorship (no H1B signal recorded).
+  # `plaud` = Plaud Inc. (AI note-taking hardware, plaud.ai, SF/Palo
+  # Alto; 52 jobs — SWE: Backend Engineer, Full Stack Engineer -
+  # Consumer & Commerce, Senior Full Stack Engineer, Full-Stack
+  # Engineer, SRE Engineer, MLE Speech LLM, Senior Mobile Engineer;
+  # 35 US roles, SF/Palo Alto onsite. Full-stack match is high.)
+  - plaud
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -1077,6 +1115,17 @@ ashby:
 #     `otter` (22 jobs) and `otterai` (18 jobs) both exist and cannot be
 #     told apart, so no slug was verified or recorded. Do not re-verify
 #     routinely; revisit only if a later post clarifies the identity.
+#
+# Checked 2026-11-17 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - balyasny : GH/Lever/Ashby all 404 — no public ATS (Balyasny Asset
+#     Management hedge fund, own careers page; source post was a
+#     Singapore Data Engineer role); do not re-verify routinely.
+#   - bridge-xyz : GH `bridge-xyz`/`bridge`, Lever, Ashby all 404 — no
+#     public ATS (Bridge, Stripe-acquired stablecoin company, own
+#     careers page bridge.xyz/careers); do not re-verify routinely.
+#   - broadcom : GH/Lever/Ashby `broadcom` all 404 — no public ATS
+#     (Broadcom/VMware, own careers platform; source 内推帖 was a
+#     VMware team hiring post); do not re-verify routinely.
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
