@@ -318,6 +318,18 @@ greenhouse:
   - karat
   - xantium
 
+  # --- Added 2026-11-23: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET boards-api.greenhouse.io/v1/boards/canonical/jobs
+  # (HTTP 200, 318 jobs) by the watch task AND re-verified by the main
+  # agent 2026-11-23 (same count). Brand cross-checked via job titles
+  # (Ubuntu/Linux ecosystem: dqlite, Juju, Ubuntu for Next-Gen Silicon).
+  # `canonical` = Canonical (Ubuntu parent; 318 jobs — SWE: 59 SWE-titled
+  # roles, mostly Go/Python/C/C++/Rust system software, distributed
+  # systems, containers/virtualization; 170 roles Americas/Worldwide.
+  # System-software dominant board: limited product full-stack coverage;
+  # Commercial Systems direction is closest. No H1B signal recorded.)
+  - canonical
+
 lever:
   # notion -> moved to Ashby (slug `notion`, verified live 2026-09-27)
   # netlify -> moved to Greenhouse (slug `netlify`, verified live 2026-09-27)
@@ -817,6 +829,21 @@ ashby:
   # 35 US roles, SF/Palo Alto onsite. Full-stack match is high.)
   - plaud
 
+  # --- Added 2026-11-23: discovered via 1point3acres 面经 scan (72h watch) ---
+  # Verified live via GET api.ashbyhq.com/posting-api/job-board/<slug>
+  # (HTTP 200) by the watch task AND re-verified by the main agent
+  # 2026-11-23 (same counts). Brand cross-checked via job titles/JD text.
+  # `cerebras` = Cerebras Systems (AI chip company, Sunnyvale; 135 jobs —
+  # SWE mostly AI infra/chip systems: Inference Platform/Cloud, GPU
+  # Inference, Runtime, ML Systems Performance; sole pure full-stack role
+  # is Full Stack LLM Engineer, Toronto. Infra/AI-chip dominant board:
+  # limited full-stack coverage. No H1B signal recorded.)
+  # `grow-therapy` = Grow Therapy (mental-health platform; 31 jobs — 5
+  # engineering roles, no full-stack role on the board at verification.
+  # Small board: limited coverage. No H1B signal recorded.)
+  - cerebras
+  - grow-therapy
+
 # --------------------------------------------------------------------------
 # Companies requested but NOT addable with the current ATS adapters
 # (checked 2026-09-27 — none resolve on Greenhouse/Lever/Ashby):
@@ -1126,6 +1153,28 @@ ashby:
 #   - broadcom : GH/Lever/Ashby `broadcom` all 404 — no public ATS
 #     (Broadcom/VMware, own careers platform; source 内推帖 was a
 #     VMware team hiring post); do not re-verify routinely.
+#
+# Checked 2026-11-20 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - snorkel-ai : GH `snorkel-ai`/`snorkel`, Lever, Ashby all 404 — no
+#     public ATS (Snorkel AI, own careers page; source was a full
+#     面经 set 2026-11-19); do not re-verify routinely.
+#   - bny-mellon : GH/Lever/Ashby `bnymellon`/`bny-mellon`/`bny` all
+#     404 — no public ATS (BNY Mellon, own careers page; source was a
+#     2027 NG OA post 2026-11-18); do not re-verify routinely.
+#
+# Checked 2026-11-23 (discovered via 1point3acres 面经 scan, 72h watch):
+#   - cleer : GH/Lever/Ashby `cleer` all 404 — no public ATS (identity
+#     uncertain: may be Cleer Audio headphones; source was a screening
+#     call post 2026-11-21); do not re-verify routinely.
+#   - hims-hers : GH/Lever/Ashby `hims`/`hims-hers` all 404 — no public
+#     ATS (Hims & Hers, own careers page; source was a DataEng post
+#     2026-11-22); do not re-verify routinely.
+#   - turo : GH/Lever/Ashby `turo` all 404 — no public ATS (Turo, own
+#     careers page; source was a non-SWE Fleet Ops 内推帖 2026-11-22
+#     mentioning OPT/H1B/green-card support); do not re-verify routinely.
+#   - inception : GH/Lever/Ashby `inception`/`inceptionlabs` all 404 —
+#     no public ATS (source was an 11-20 店面 post,补报 in the 11-23
+#     round); do not re-verify routinely.
 #
 # Checked 2026-09-27 (second user batch: Bloomberg/UiPath/Uber/SpaceX/etc.):
 #   - bloomberg, uber, citadel/citadelsecurities, pramaana/pramaanalabs :
